@@ -30,7 +30,7 @@ export function Toolbar({ onReset, invoiceData, form }: ToolbarProps) {
     }
     const invoicePreviewElement = document.getElementById('invoice-preview');
     if (invoicePreviewElement) {
-      downloadInvoicePDF(invoicePreviewElement, invoiceData.invoice.no || 'invoice');
+      await downloadInvoicePDF(invoicePreviewElement, invoiceData.invoice.no || 'invoice');
     }
   };
 

@@ -1,9 +1,10 @@
 'use client';
 
-import html2pdf from 'html2pdf.js';
-
-export const downloadInvoicePDF = (node: HTMLElement, filename: string) => {
+export const downloadInvoicePDF = async (node: HTMLElement, filename: string) => {
   if (!node) return;
+
+  // Dynamically import html2pdf.js only on the client side
+  const html2pdf = (await import('html2pdf.js')).default;
 
   const options = {
     margin: 0,
