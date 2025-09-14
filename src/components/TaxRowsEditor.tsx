@@ -44,7 +44,7 @@ export function TaxRowsEditor({ form }: TaxRowsEditorProps) {
 
   return (
     <div className="space-y-4">
-      <div className="hidden md:grid md:grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_40px] gap-2 items-center text-sm font-medium">
+      <div className="hidden lg:grid lg:grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_40px] gap-2 items-center text-sm font-medium">
         <FormLabel>HSN</FormLabel>
         <FormLabel>Taxable Value</FormLabel>
         <FormLabel>CGST Rate</FormLabel>
@@ -55,36 +55,95 @@ export function TaxRowsEditor({ form }: TaxRowsEditorProps) {
       </div>
 
       {fields.map((field, index) => (
-        <div key={field.id} className="grid grid-cols-2 md:grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_40px] gap-2 items-start p-2 border rounded-lg bg-background">
-          <FormField control={control} name={`tax_rows.${index}.hsn`} render={({ field }) => (
-            <FormItem><FormLabel className="md:hidden">HSN</FormLabel><FormControl><Input placeholder="HSN/SAC" {...field} /></FormControl></FormItem>
-          )} />
-          <FormField control={control} name={`tax_rows.${index}.taxable`} render={({ field }) => (
-            <FormItem><FormLabel className="md:hidden">Taxable</FormLabel><FormControl><Input type="number" placeholder="0.00" {...field} /></FormControl></FormItem>
-          )} />
-          <FormField control={control} name={`tax_rows.${index}.cgst_rate`} render={({ field }) => (
-            <FormItem><FormLabel className="md:hidden">CGST %</FormLabel><FormControl><Input type="number" placeholder="%" {...field} /></FormControl></FormItem>
-          )} />
-          <FormField control={control} name={`tax_rows.${index}.cgst_amt`} render={({ field }) => (
-            <FormItem><FormLabel className="md:hidden">CGST Amt</FormLabel><FormControl><Input type="number" readOnly placeholder="0.00" {...field} className="font-semibold bg-muted"/></FormControl></FormItem>
-          )} />
-          <FormField control={control} name={`tax_rows.${index}.sgst_rate`} render={({ field }) => (
-            <FormItem><FormLabel className="md:hidden">SGST %</FormLabel><FormControl><Input type="number" placeholder="%" {...field} /></FormControl></FormItem>
-          )} />
-          <FormField control={control} name={`tax_rows.${index}.sgst_amt`} render={({ field }) => (
-            <FormItem><FormLabel className="md:hidden">SGST Amt</FormLabel><FormControl><Input type="number" readOnly placeholder="0.00" {...field} className="font-semibold bg-muted"/></FormControl></FormItem>
-          )} />
-          <div className="flex items-end h-full">
-            <Button
-              type="button"
-              variant="ghost"
-              size="icon"
-              onClick={() => remove(index)}
-              className="text-destructive hover:text-destructive"
-              aria-label="Remove tax row"
-            >
-              <Trash2 className="h-4 w-4" />
-            </Button>
+        <div key={field.id} className="space-y-3 p-3 border rounded-lg bg-background">
+          {/* Mobile Layout */}
+          <div className="lg:hidden space-y-3">
+            <FormField control={control} name={`tax_rows.${index}.hsn`} render={({ field }) => (
+              <FormItem>
+                <FormLabel>HSN/SAC</FormLabel>
+                <FormControl><Input placeholder="HSN/SAC" {...field} /></FormControl>
+              </FormItem>
+            )} />
+            <FormField control={control} name={`tax_rows.${index}.taxable`} render={({ field }) => (
+              <FormItem>
+                <FormLabel>Taxable Value</FormLabel>
+                <FormControl><Input type="number" placeholder="0.00" {...field} /></FormControl>
+              </FormItem>
+            )} />
+            <div className="grid grid-cols-2 gap-3">
+              <FormField control={control} name={`tax_rows.${index}.cgst_rate`} render={({ field }) => (
+                <FormItem>
+                  <FormLabel>CGST %</FormLabel>
+                  <FormControl><Input type="number" placeholder="%" {...field} /></FormControl>
+                </FormItem>
+              )} />
+              <FormField control={control} name={`tax_rows.${index}.cgst_amt`} render={({ field }) => (
+                <FormItem>
+                  <FormLabel>CGST Amt</FormLabel>
+                  <FormControl><Input type="number" readOnly placeholder="0.00" {...field} className="font-semibold bg-muted"/></FormControl>
+                </FormItem>
+              )} />
+            </div>
+            <div className="grid grid-cols-2 gap-3">
+              <FormField control={control} name={`tax_rows.${index}.sgst_rate`} render={({ field }) => (
+                <FormItem>
+                  <FormLabel>SGST %</FormLabel>
+                  <FormControl><Input type="number" placeholder="%" {...field} /></FormControl>
+                </FormItem>
+              )} />
+              <FormField control={control} name={`tax_rows.${index}.sgst_amt`} render={({ field }) => (
+                <FormItem>
+                  <FormLabel>SGST Amt</FormLabel>
+                  <FormControl><Input type="number" readOnly placeholder="0.00" {...field} className="font-semibold bg-muted"/></FormControl>
+                </FormItem>
+              )} />
+            </div>
+            <div className="flex justify-end">
+              <Button
+                type="button"
+                variant="ghost"
+                size="sm"
+                onClick={() => remove(index)}
+                className="text-destructive hover:text-destructive"
+                aria-label="Remove tax row"
+              >
+                <Trash2 className="h-4 w-4 mr-2" /> Remove Tax Row
+              </Button>
+            </div>
+          </div>
+
+          {/* Desktop Layout */}
+          <div className="hidden lg:grid lg:grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_40px] gap-2 items-start">
+            <FormField control={control} name={`tax_rows.${index}.hsn`} render={({ field }) => (
+              <FormItem><FormControl><Input placeholder="HSN/SAC" {...field} /></FormControl></FormItem>
+            )} />
+            <FormField control={control} name={`tax_rows.${index}.taxable`} render={({ field }) => (
+              <FormItem><FormControl><Input type="number" placeholder="0.00" {...field} /></FormControl></FormItem>
+            )} />
+            <FormField control={control} name={`tax_rows.${index}.cgst_rate`} render={({ field }) => (
+              <FormItem><FormControl><Input type="number" placeholder="%" {...field} /></FormControl></FormItem>
+            )} />
+            <FormField control={control} name={`tax_rows.${index}.cgst_amt`} render={({ field }) => (
+              <FormItem><FormControl><Input type="number" readOnly placeholder="0.00" {...field} className="font-semibold bg-muted"/></FormControl></FormItem>
+            )} />
+            <FormField control={control} name={`tax_rows.${index}.sgst_rate`} render={({ field }) => (
+              <FormItem><FormControl><Input type="number" placeholder="%" {...field} /></FormControl></FormItem>
+            )} />
+            <FormField control={control} name={`tax_rows.${index}.sgst_amt`} render={({ field }) => (
+              <FormItem><FormControl><Input type="number" readOnly placeholder="0.00" {...field} className="font-semibold bg-muted"/></FormControl></FormItem>
+            )} />
+            <div className="flex items-end h-full">
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon"
+                onClick={() => remove(index)}
+                className="text-destructive hover:text-destructive"
+                aria-label="Remove tax row"
+              >
+                <Trash2 className="h-4 w-4" />
+              </Button>
+            </div>
           </div>
         </div>
       ))}
@@ -92,6 +151,7 @@ export function TaxRowsEditor({ form }: TaxRowsEditorProps) {
         type="button"
         variant="outline"
         onClick={() => append({ hsn: '', taxable: '', cgst_rate: 9, cgst_amt: '', sgst_rate: 9, sgst_amt: '' })}
+        className="w-full sm:w-auto"
       >
         <PlusCircle className="mr-2 h-4 w-4" /> Add Tax Row
       </Button>

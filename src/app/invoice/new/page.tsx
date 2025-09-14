@@ -9,11 +9,14 @@ import { useToast } from '@/hooks/use-toast';
 import { InvoiceForm } from '@/components/InvoiceForm';
 import { InvoicePreview } from '@/components/InvoicePreview';
 import { Toolbar } from '@/components/Toolbar';
+import { Button } from '@/components/ui/button';
+import { Eye, EyeOff } from 'lucide-react';
 
 const SAVE_KEY = 'pb.invoice.draft';
 
 export default function InvoiceBuilderPage() {
   const [isClient, setIsClient] = useState(false);
+  const [showPreview, setShowPreview] = useState(false);
   const { toast } = useToast();
 
   const form = useForm<InvoiceData>({
@@ -100,17 +103,30 @@ export default function InvoiceBuilderPage() {
 
   return (
     <div className="flex h-screen flex-col bg-muted/40 no-print">
-      <Toolbar onReset={handleReset} invoiceData={watchedData} form={form} />
+      <Toolbar onReset={handleReset} invoiceData={watchedData} form={form} showPreview={showPreview} setShowPreview={setShowPreview} />
       <main className="flex-1 overflow-hidden pt-16">
-        <div className="grid h-full md:grid-cols-2">
+        <div className="flex h-full flex-col lg:grid lg:grid-cols-2">
           <div className="h-full overflow-y-auto p-4 md:p-6 lg:p-8">
             <InvoiceForm form={form} recalculateTotals={recalculateTotals} />
           </div>
-          <div className="hidden h-full flex-col items-center justify-center overflow-y-auto bg-gray-200 p-8 md:flex">
-            <div className="scale-[0.8] lg:scale-90 origin-top">
-              <InvoicePreview data={watchedData} />
+          <div className={`h-full flex-col items-center justify-center overflow-y-auto bg-gray-200 p-4 md:p-8 lg:flex ${showPreview ? 'flex' : 'hidden lg:flex'}`}>
+            <div className="w-full max-w-2xl mx-auto">
+              <div className="scale-[0.7] sm:scale-[0.8] lg:scale-90 origin-top">
+                <InvoicePreview data={watchedData} />
+              </div>
             </div>
           </div>
+        </div>
+        
+        {/* Mobile Preview Toggle FAB */}
+        <div className="fixed bottom-4 right-4 z-50 lg:hidden">
+          <Button
+            size="lg"
+            onClick={() => setShowPreview(!showPreview)}
+            className="rounded-full shadow-lg"
+          >
+            {showPreview ? <EyeOff className="h-5 w-5" /> : <Eye className="h-5 w-5" />}
+          </Button>
         </div>
       </main>
     </div>

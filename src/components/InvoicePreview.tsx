@@ -29,10 +29,18 @@ export function InvoicePreview({ data }: InvoicePreviewProps) {
             transform: scale(1);
           }
         }
+        @media (max-width: 768px) {
+          .invoice-page {
+            width: 100%;
+            min-height: auto;
+            font-size: 8pt;
+            padding: 8px;
+          }
+        }
       `}</style>
-      <div id="invoice-preview" className="invoice-page bg-white text-gray-800 shadow-lg p-[10mm] border border-gray-300 text-[9pt] leading-normal">
-        <header className="flex items-start justify-between pb-2 border-b-2 border-gray-800">
-          <div className="w-1/2">
+      <div id="invoice-preview" className="invoice-page bg-white text-gray-800 shadow-lg p-[10mm] border border-gray-300 text-[9pt] leading-normal overflow-x-auto">
+        <header className="flex flex-col sm:flex-row items-start justify-between pb-2 border-b-2 border-gray-800 gap-4">
+          <div className="w-full sm:w-1/2">
             {seller.logoUrl ? (
                 <Image src={seller.logoUrl} alt="Seller Logo" width={120} height={60} className="object-contain"/>
             ) : (
@@ -44,8 +52,8 @@ export function InvoicePreview({ data }: InvoicePreviewProps) {
             <p data-field="seller.addr1">{seller.addr1}</p>
             <p data-field="seller.addr2">{seller.addr2}</p>
           </div>
-          <div className="w-1/2 text-right">
-            <h1 className="font-bold text-3xl text-gray-800">TAX INVOICE</h1>
+          <div className="w-full sm:w-1/2 sm:text-right">
+            <h1 className="font-bold text-2xl sm:text-3xl text-gray-800">TAX INVOICE</h1>
             <table className="w-full mt-2">
               <tbody>
                 <tr>
@@ -61,7 +69,7 @@ export function InvoicePreview({ data }: InvoicePreviewProps) {
           </div>
         </header>
 
-        <section className="grid grid-cols-2 gap-4 py-2 border-b border-gray-300">
+        <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-2 border-b border-gray-300">
           <div>
             <h3 className="font-bold">SELLER:</h3>
             <p>GSTIN: <span data-field="seller.gstin" className="font-mono">{seller.gstin}</span></p>
@@ -78,7 +86,7 @@ export function InvoicePreview({ data }: InvoicePreviewProps) {
           </div>
         </section>
 
-        <section className="grid grid-cols-2 gap-4 py-2 border-b border-gray-300">
+        <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-2 border-b border-gray-300">
           <div>
             <p>Order No: <span data-field="invoice.order_no" className="font-mono">{invoice.order_no}</span></p>
             <p>Order Date: <span data-field="invoice.order_date" className="font-mono">{invoice.order_date}</span></p>
@@ -93,17 +101,18 @@ export function InvoicePreview({ data }: InvoicePreviewProps) {
 
 
         <section className="flex-grow py-2">
-          <table className="w-full text-left" cellPadding="2">
-            <thead className="border-b-2 border-t-2 border-gray-800">
-              <tr>
-                <th className="w-[5%]">S.No.</th>
-                <th className="w-[45%]">Particulars of Goods / Services</th>
-                <th className="w-[10%]">HSN/SAC</th>
-                <th className="w-[10%] text-right">Qty</th>
-                <th className="w-[15%] text-right">Rate</th>
-                <th className="w-[15%] text-right">Amount (INR)</th>
-              </tr>
-            </thead>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left min-w-[600px]" cellPadding="2">
+              <thead className="border-b-2 border-t-2 border-gray-800">
+                <tr>
+                  <th className="w-[5%]">S.No.</th>
+                  <th className="w-[45%]">Particulars of Goods / Services</th>
+                  <th className="w-[10%]">HSN/SAC</th>
+                  <th className="w-[10%] text-right">Qty</th>
+                  <th className="w-[15%] text-right">Rate</th>
+                  <th className="w-[15%] text-right">Amount (INR)</th>
+                </tr>
+              </thead>
             <tbody id="items-body">
               {items?.map((item, index) => (
                 <tr key={index} className="border-b border-gray-200 align-top">
@@ -134,7 +143,8 @@ export function InvoicePreview({ data }: InvoicePreviewProps) {
                 <td className="text-right">{fmt(grandTotal)}</td>
               </tr>
             </tfoot>
-          </table>
+            </table>
+          </div>
         </section>
 
         <section className="py-2 space-y-2">
@@ -150,7 +160,8 @@ export function InvoicePreview({ data }: InvoicePreviewProps) {
 
         <section className="py-2 border-t border-gray-300">
           <h3 className="font-bold text-center">TAX SUMMARY</h3>
-          <table className="w-full text-left mt-1" cellPadding="2">
+          <div className="overflow-x-auto">
+            <table className="w-full text-left mt-1 min-w-[500px]" cellPadding="2">
             <thead className="border-b border-t border-gray-300">
               <tr>
                 <th className="w-1/4">HSN/SAC</th>
@@ -189,11 +200,12 @@ export function InvoicePreview({ data }: InvoicePreviewProps) {
                 <td data-field="totals.sgst_total" className="text-right">{fmt(totals?.sgst_total)}</td>
               </tr>
             </tfoot>
-          </table>
+            </table>
+          </div>
         </section>
         
         <footer className="mt-auto pt-4 text-xs absolute bottom-[10mm] w-[calc(210mm-20mm)]">
-          <div className="grid grid-cols-2 gap-4 border-t-2 border-gray-800 pt-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 border-t-2 border-gray-800 pt-2">
             <div>
               <p className="font-bold">Bank Details:</p>
               <p>Bank Name: <span data-field="bank.name">{bank?.name}</span></p>
@@ -201,7 +213,7 @@ export function InvoicePreview({ data }: InvoicePreviewProps) {
               <p>Branch & IFSC: <span data-field="bank.branch_ifsc">{bank?.branch_ifsc}</span></p>
               <p data-field="remarks" className="mt-2 italic">{remarks}</p>
             </div>
-            <div className="text-right">
+            <div className="text-left sm:text-right">
               <p className="font-bold">For {seller.name}</p>
               <div className="h-16"></div>
               <p>Authorised Signatory</p>

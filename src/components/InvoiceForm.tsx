@@ -122,7 +122,7 @@ export function InvoiceForm({ form, recalculateTotals }: InvoiceFormProps) {
 
           <AccordionItem value="invoice">
             <AccordionTrigger className="text-lg font-semibold">Invoice Meta</AccordionTrigger>
-            <AccordionContent className="grid gap-4 md:grid-cols-3">
+            <AccordionContent className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               <FormField name="invoice.no" control={form.control} render={({ field }) => (
                 <FormItem>
                   <FormLabel>Invoice No.</FormLabel>
@@ -167,7 +167,7 @@ export function InvoiceForm({ form, recalculateTotals }: InvoiceFormProps) {
                 </FormItem>
               )} />
                <FormField name="invoice.delivery_terms" control={form.control} render={({ field }) => (
-                <FormItem className="md:col-span-2">
+                <FormItem className="sm:col-span-2 lg:col-span-2">
                   <FormLabel>Delivery Terms</FormLabel>
                   <FormControl><Input {...field} /></FormControl>
                 </FormItem>
