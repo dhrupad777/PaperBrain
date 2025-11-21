@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 813, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 452541",
+    "gstin": "27HUSNY6604Y1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts58@nexolindustries.com",
+    "pan": "DWWDC9836A"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 167, Sector 19, Mumbai - 410153",
+    "gstin": "27JJSST9056J1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-521",
+    "date": "14-Jul-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2174",
+    "order_date": "12-Jul-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 2546,
+      "amount": 5092
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 2957,
+      "amount": 2957
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 4320,
+      "amount": 43200
+    }
+  ],
+  "totals": {
+    "subtotal": 51249,
+    "taxable_total": 51249,
+    "cgst_total": 7174.86,
+    "sgst_total": 7174.86,
+    "tax_total": 14349.72
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 51249,
+      "cgst_rate": 14.0,
+      "cgst_amt": 7174.86,
+      "sgst_rate": 14.0,
+      "sgst_amt": 7174.86
+    }
+  ],
+  "amount_in_words": "INR Sixty-Five Thousand, Five Hundred And Ninety-Nine Only",
+  "tax_amount_in_words": "INR Fourteen Thousand, Three Hundred And Fifty Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "32833232406",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 228
+  }
+}

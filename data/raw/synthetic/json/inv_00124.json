@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 153, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 421394",
+    "gstin": "27MXOXZ7834E1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts2@nexolindustries.com",
+    "pan": "FTYFF9386Z"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 318, Sector 27, Mumbai - 499816",
+    "gstin": "27CXONY2362H1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-433",
+    "date": "05-Nov-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2820",
+    "order_date": "05-Nov-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 3280,
+      "amount": 6560
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 3212,
+      "amount": 32120
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 484,
+      "amount": 2420
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 568,
+      "amount": 5680
+    }
+  ],
+  "totals": {
+    "subtotal": 46780,
+    "taxable_total": 46780,
+    "cgst_total": 1169.5,
+    "sgst_total": 1169.5,
+    "tax_total": 2339.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 46780,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1169.5,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1169.5
+    }
+  ],
+  "amount_in_words": "INR Forty-Nine Thousand, One Hundred And Nineteen Only",
+  "tax_amount_in_words": "INR Two Thousand, Three Hundred And Thirty-Nine Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "73347843532",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 124
+  }
+}

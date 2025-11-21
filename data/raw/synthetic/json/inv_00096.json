@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 893, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 448744",
+    "gstin": "27SIVZI4732Z1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts53@labstech.com",
+    "pan": "EZQNP7589A"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 734, Sector 5, Mumbai - 458813",
+    "gstin": "27BEUFP8856Z1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-121",
+    "date": "27-Aug-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1976",
+    "order_date": "20-Aug-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 240,
+      "amount": 1200
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 600,
+      "amount": 1200
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 3367,
+      "amount": 3367
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 3471,
+      "amount": 6942
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 3835,
+      "amount": 3835
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 1403,
+      "amount": 7015
+    }
+  ],
+  "totals": {
+    "subtotal": 23559,
+    "taxable_total": 23559,
+    "cgst_total": 588.98,
+    "sgst_total": 588.98,
+    "tax_total": 1177.95
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 23559,
+      "cgst_rate": 2.5,
+      "cgst_amt": 588.98,
+      "sgst_rate": 2.5,
+      "sgst_amt": 588.98
+    }
+  ],
+  "amount_in_words": "INR Twenty-Four Thousand, Seven Hundred And Thirty-Seven Only",
+  "tax_amount_in_words": "INR One Thousand, One Hundred And Seventy-Eight Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "92823591322",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 96
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 394, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 487938",
+    "gstin": "27ASLWB4548G1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts37@kanteenfoods.com",
+    "pan": "BSRMP4922D"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 760, Sector 15, Mumbai - 407123",
+    "gstin": "27SRVBG3824I1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-772",
+    "date": "10-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8685",
+    "order_date": "03-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 2863,
+      "amount": 14315
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 3771,
+      "amount": 11313
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 4438,
+      "amount": 4438
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 2383,
+      "amount": 11915
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 1831,
+      "amount": 3662
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 2282,
+      "amount": 6846
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 873,
+      "amount": 4365
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 4249,
+      "amount": 21245
+    }
+  ],
+  "totals": {
+    "subtotal": 78099,
+    "taxable_total": 78099,
+    "cgst_total": 10933.86,
+    "sgst_total": 10933.86,
+    "tax_total": 21867.72
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 78099,
+      "cgst_rate": 14.0,
+      "cgst_amt": 10933.86,
+      "sgst_rate": 14.0,
+      "sgst_amt": 10933.86
+    }
+  ],
+  "amount_in_words": "INR Ninety-Nine Thousand, Nine Hundred And Sixty-Seven Only",
+  "tax_amount_in_words": "INR Twenty-One Thousand, Eight Hundred And Sixty-Eight Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "52295718995",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 102
+  }
+}

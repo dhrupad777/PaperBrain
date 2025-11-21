@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 310, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 431243",
+    "gstin": "27IFWZE7235T1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts81@labstech.com",
+    "pan": "GWXPD6527I"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 275, Sector 33, Mumbai - 430958",
+    "gstin": "27LEYYB4054K1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-927",
+    "date": "16-Jul-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9317",
+    "order_date": "14-Jul-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 4638,
+      "amount": 4638
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 4793,
+      "amount": 4793
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 2963,
+      "amount": 2963
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 300,
+      "amount": 600
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 3928,
+      "amount": 3928
+    }
+  ],
+  "totals": {
+    "subtotal": 16922,
+    "taxable_total": 16922,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 16922,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Sixteen Thousand, Nine Hundred And Twenty-Two Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "41205399589",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 90
+  }
+}

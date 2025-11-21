@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 633, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 406031",
+    "gstin": "27VPIMX3068W1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts10@labstech.com",
+    "pan": "JHOYB3459W"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 577, Sector 26, Mumbai - 483892",
+    "gstin": "27ITVTP7724X1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-536",
+    "date": "24-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9468",
+    "order_date": "15-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 1608,
+      "amount": 3216
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 2443,
+      "amount": 24430
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 487,
+      "amount": 974
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 4723,
+      "amount": 14169
+    }
+  ],
+  "totals": {
+    "subtotal": 42789,
+    "taxable_total": 42789,
+    "cgst_total": 1069.73,
+    "sgst_total": 1069.73,
+    "tax_total": 2139.45
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 42789,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1069.73,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1069.73
+    }
+  ],
+  "amount_in_words": "INR Forty-Four Thousand, Nine Hundred And Twenty-Eight Only",
+  "tax_amount_in_words": "INR Two Thousand, One Hundred And Thirty-Nine Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "36372004410",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 110
+  }
+}

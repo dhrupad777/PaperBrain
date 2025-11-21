@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 905, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 473308",
+    "gstin": "27ZSUAR3058G1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts42@vistarealty.com",
+    "pan": "VURUL9517G"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 900, Sector 16, Mumbai - 400136",
+    "gstin": "27COSYA8283L1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-906",
+    "date": "09-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6019",
+    "order_date": "09-Aug-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 4825,
+      "amount": 9650
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 841,
+      "amount": 841
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 3796,
+      "amount": 3796
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 4667,
+      "amount": 4667
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 480,
+      "amount": 2400
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 2074,
+      "amount": 2074
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 4935,
+      "amount": 14805
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 4432,
+      "amount": 13296
+    }
+  ],
+  "totals": {
+    "subtotal": 51529,
+    "taxable_total": 51529,
+    "cgst_total": 1288.23,
+    "sgst_total": 1288.23,
+    "tax_total": 2576.45
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 51529,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1288.23,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1288.23
+    }
+  ],
+  "amount_in_words": "INR Fifty-Four Thousand, One Hundred And Five Only",
+  "tax_amount_in_words": "INR Two Thousand, Five Hundred And Seventy-Six Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "79813388515",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 179
+  }
+}

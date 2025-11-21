@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 78, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 462310",
+    "gstin": "27TUIKR9083G1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts77@talojamfgassn.com",
+    "pan": "BGUUU1114U"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 225, Sector 25, Mumbai - 484014",
+    "gstin": "27SQRAU1410A1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-869",
+    "date": "19-Mar-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6233",
+    "order_date": "13-Mar-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 2708,
+      "amount": 27080
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 1102,
+      "amount": 5510
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 526,
+      "amount": 1052
+    }
+  ],
+  "totals": {
+    "subtotal": 33642,
+    "taxable_total": 33642,
+    "cgst_total": 3027.78,
+    "sgst_total": 3027.78,
+    "tax_total": 6055.56
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 33642,
+      "cgst_rate": 9.0,
+      "cgst_amt": 3027.78,
+      "sgst_rate": 9.0,
+      "sgst_amt": 3027.78
+    }
+  ],
+  "amount_in_words": "INR Thirty-Nine Thousand, Six Hundred And Ninety-Eight Only",
+  "tax_amount_in_words": "INR Six Thousand And Fifty-Six Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "74097291974",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 154
+  }
+}

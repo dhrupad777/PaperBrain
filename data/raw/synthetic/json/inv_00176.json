@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 726, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 480325",
+    "gstin": "27WDNBD8249T1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts10@vistarealty.com",
+    "pan": "OHHLE5199K"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 619, Sector 9, Mumbai - 440126",
+    "gstin": "27HPVOI8508H1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-001",
+    "date": "26-May-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1678",
+    "order_date": "20-May-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 1421,
+      "amount": 7105
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 2877,
+      "amount": 28770
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 592,
+      "amount": 5920
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 3618,
+      "amount": 7236
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 1094,
+      "amount": 10940
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 1576,
+      "amount": 15760
+    }
+  ],
+  "totals": {
+    "subtotal": 75731,
+    "taxable_total": 75731,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 75731,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Seventy-Five Thousand, Seven Hundred And Thirty-One Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "66402685194",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 176
+  }
+}

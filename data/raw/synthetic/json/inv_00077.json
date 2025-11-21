@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 869, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 426338",
+    "gstin": "27XEAYA5773A1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts89@labstech.com",
+    "pan": "HFRIG4130U"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 661, Sector 42, Mumbai - 468378",
+    "gstin": "27UPPMP7056Y1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-139",
+    "date": "19-Mar-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5891",
+    "order_date": "19-Mar-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 4380,
+      "amount": 43800
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 757,
+      "amount": 757
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 3209,
+      "amount": 6418
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 4278,
+      "amount": 21390
+    }
+  ],
+  "totals": {
+    "subtotal": 72365,
+    "taxable_total": 72365,
+    "cgst_total": 1809.12,
+    "sgst_total": 1809.12,
+    "tax_total": 3618.25
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 72365,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1809.12,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1809.12
+    }
+  ],
+  "amount_in_words": "INR Seventy-Five Thousand, Nine Hundred And Eighty-Three Only",
+  "tax_amount_in_words": "INR Three Thousand, Six Hundred And Eighteen Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "92252904007",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 77
+  }
+}

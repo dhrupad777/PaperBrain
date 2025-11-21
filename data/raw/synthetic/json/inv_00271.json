@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 123, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 450431",
+    "gstin": "27WAVME8487R1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts20@talojamfgassn.com",
+    "pan": "SEBGH8530L"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 963, Sector 23, Mumbai - 415791",
+    "gstin": "27GFRAD6588A1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-103",
+    "date": "22-Jul-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4791",
+    "order_date": "18-Jul-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 711,
+      "amount": 711
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 4575,
+      "amount": 13725
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 4163,
+      "amount": 12489
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 2453,
+      "amount": 2453
+    }
+  ],
+  "totals": {
+    "subtotal": 29378,
+    "taxable_total": 29378,
+    "cgst_total": 4112.92,
+    "sgst_total": 4112.92,
+    "tax_total": 8225.84
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 29378,
+      "cgst_rate": 14.0,
+      "cgst_amt": 4112.92,
+      "sgst_rate": 14.0,
+      "sgst_amt": 4112.92
+    }
+  ],
+  "amount_in_words": "INR Thirty-Seven Thousand, Six Hundred And Four Only",
+  "tax_amount_in_words": "INR Eight Thousand, Two Hundred And Twenty-Six Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "35129095537",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 271
+  }
+}

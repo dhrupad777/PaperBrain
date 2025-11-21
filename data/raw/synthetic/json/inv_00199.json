@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 485, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 485459",
+    "gstin": "27UYMMC4179F1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts5@kanteenfoods.com",
+    "pan": "TRJGI9313N"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 312, Sector 7, Mumbai - 433543",
+    "gstin": "27RILDX7366U1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-383",
+    "date": "20-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4145",
+    "order_date": "11-Aug-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 4726,
+      "amount": 4726
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 3245,
+      "amount": 32450
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 2540,
+      "amount": 12700
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 1752,
+      "amount": 17520
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 786,
+      "amount": 1572
+    }
+  ],
+  "totals": {
+    "subtotal": 68968,
+    "taxable_total": 68968,
+    "cgst_total": 1724.2,
+    "sgst_total": 1724.2,
+    "tax_total": 3448.4
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 68968,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1724.2,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1724.2
+    }
+  ],
+  "amount_in_words": "INR Seventy-Two Thousand, Four Hundred And Sixteen Only",
+  "tax_amount_in_words": "INR Three Thousand, Four Hundred And Forty-Eight Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "27880555492",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 199
+  }
+}

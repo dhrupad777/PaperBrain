@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 34, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 425211",
+    "gstin": "27DRVHD6652A1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts88@nexolindustries.com",
+    "pan": "JRCXR5100E"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 998, Sector 25, Mumbai - 499360",
+    "gstin": "27HXPSM3016D1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-556",
+    "date": "18-Jun-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6950",
+    "order_date": "12-Jun-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 2921,
+      "amount": 5842
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 782,
+      "amount": 7820
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 3828,
+      "amount": 19140
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 1337,
+      "amount": 4011
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 2608,
+      "amount": 7824
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 4367,
+      "amount": 8734
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 738,
+      "amount": 2214
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 1693,
+      "amount": 8465
+    }
+  ],
+  "totals": {
+    "subtotal": 64050,
+    "taxable_total": 64050,
+    "cgst_total": 1601.25,
+    "sgst_total": 1601.25,
+    "tax_total": 3202.5
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 64050,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1601.25,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1601.25
+    }
+  ],
+  "amount_in_words": "INR Sixty-Seven Thousand, Two Hundred And Fifty-Two Only",
+  "tax_amount_in_words": "INR Three Thousand, Two Hundred And Two Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "81647438719",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 39
+  }
+}

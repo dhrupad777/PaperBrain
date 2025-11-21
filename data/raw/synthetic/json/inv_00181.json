@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 471, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 467035",
+    "gstin": "27KUQTF2515G1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts2@talojamfgassn.com",
+    "pan": "ZNTDG5902A"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 220, Sector 15, Mumbai - 485600",
+    "gstin": "27XOFHP1448O1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-453",
+    "date": "01-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8731",
+    "order_date": "29-Sep-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 1585,
+      "amount": 4755
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 3413,
+      "amount": 3413
+    }
+  ],
+  "totals": {
+    "subtotal": 8168,
+    "taxable_total": 8168,
+    "cgst_total": 204.2,
+    "sgst_total": 204.2,
+    "tax_total": 408.4
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 8168,
+      "cgst_rate": 2.5,
+      "cgst_amt": 204.2,
+      "sgst_rate": 2.5,
+      "sgst_amt": 204.2
+    }
+  ],
+  "amount_in_words": "INR Eight Thousand, Five Hundred And Seventy-Six Only",
+  "tax_amount_in_words": "INR Four Hundred And Eight Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "94201914010",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 181
+  }
+}

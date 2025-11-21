@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 546, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 431084",
+    "gstin": "27PFYMX4325E1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts95@kanteenfoods.com",
+    "pan": "OPHKI4481C"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 131, Sector 17, Mumbai - 426090",
+    "gstin": "27NJQLD6529D1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-925",
+    "date": "04-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7953",
+    "order_date": "03-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 2144,
+      "amount": 4288
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 1179,
+      "amount": 11790
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 626,
+      "amount": 1878
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 4828,
+      "amount": 4828
+    }
+  ],
+  "totals": {
+    "subtotal": 22784,
+    "taxable_total": 22784,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 22784,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Twenty-Two Thousand, Seven Hundred And Eighty-Four Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "15750073533",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 97
+  }
+}

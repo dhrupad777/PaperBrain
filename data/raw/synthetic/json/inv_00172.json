@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 943, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 404545",
+    "gstin": "27WCGAC5772T1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts76@nexolindustries.com",
+    "pan": "WWAMM6649V"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 749, Sector 5, Mumbai - 459901",
+    "gstin": "27RLPPK1640F1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-775",
+    "date": "21-Apr-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7534",
+    "order_date": "16-Apr-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 3313,
+      "amount": 16565
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 2176,
+      "amount": 6528
+    }
+  ],
+  "totals": {
+    "subtotal": 23093,
+    "taxable_total": 23093,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 23093,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Twenty-Three Thousand And Ninety-Three Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "90028415017",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 172
+  }
+}

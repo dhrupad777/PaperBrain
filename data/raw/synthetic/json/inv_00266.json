@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 7, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 495296",
+    "gstin": "27UCLUR4833A1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts56@kanteenfoods.com",
+    "pan": "GAWRJ9378M"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 510, Sector 3, Mumbai - 435092",
+    "gstin": "27DNDMA9154Z1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-707",
+    "date": "12-Jun-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5320",
+    "order_date": "05-Jun-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 1016,
+      "amount": 1016
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 465,
+      "amount": 1395
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 333,
+      "amount": 666
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 3824,
+      "amount": 7648
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 3145,
+      "amount": 3145
+    }
+  ],
+  "totals": {
+    "subtotal": 13870,
+    "taxable_total": 13870,
+    "cgst_total": 346.75,
+    "sgst_total": 346.75,
+    "tax_total": 693.5
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 13870,
+      "cgst_rate": 2.5,
+      "cgst_amt": 346.75,
+      "sgst_rate": 2.5,
+      "sgst_amt": 346.75
+    }
+  ],
+  "amount_in_words": "INR Fourteen Thousand, Five Hundred And Sixty-Four Only",
+  "tax_amount_in_words": "INR Six Hundred And Ninety-Four Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "20163686816",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 266
+  }
+}

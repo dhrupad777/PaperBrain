@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 85, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 403912",
+    "gstin": "27GPXVE2970M1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts12@labstech.com",
+    "pan": "SAJMY5733X"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 480, Sector 14, Mumbai - 463488",
+    "gstin": "27ZYMEK4509H1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-702",
+    "date": "20-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3811",
+    "order_date": "14-Sep-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 1761,
+      "amount": 17610
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 2348,
+      "amount": 23480
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 1796,
+      "amount": 17960
+    }
+  ],
+  "totals": {
+    "subtotal": 59050,
+    "taxable_total": 59050,
+    "cgst_total": 5314.5,
+    "sgst_total": 5314.5,
+    "tax_total": 10629.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 59050,
+      "cgst_rate": 9.0,
+      "cgst_amt": 5314.5,
+      "sgst_rate": 9.0,
+      "sgst_amt": 5314.5
+    }
+  ],
+  "amount_in_words": "INR Sixty-Nine Thousand, Six Hundred And Seventy-Nine Only",
+  "tax_amount_in_words": "INR Ten Thousand, Six Hundred And Twenty-Nine Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "38286089769",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 298
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 64, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 459791",
+    "gstin": "27ERQKK6547C1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts88@labstech.com",
+    "pan": "KUZLG7640G"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 888, Sector 5, Mumbai - 460194",
+    "gstin": "27LIENU6305L1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-444",
+    "date": "19-Jan-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8687",
+    "order_date": "12-Jan-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 635,
+      "amount": 3175
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 4602,
+      "amount": 13806
+    }
+  ],
+  "totals": {
+    "subtotal": 16981,
+    "taxable_total": 16981,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 16981,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Sixteen Thousand, Nine Hundred And Eighty-One Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "78638861491",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 98
+  }
+}

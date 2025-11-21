@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 708, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 471225",
+    "gstin": "27LBCZR6044W1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts39@vistarealty.com",
+    "pan": "XSZSO8991E"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 992, Sector 3, Mumbai - 460616",
+    "gstin": "27ORRJW1542Z1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-672",
+    "date": "26-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3837",
+    "order_date": "21-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 2533,
+      "amount": 7599
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 1511,
+      "amount": 3022
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 1863,
+      "amount": 18630
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 283,
+      "amount": 849
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 1106,
+      "amount": 2212
+    }
+  ],
+  "totals": {
+    "subtotal": 32312,
+    "taxable_total": 32312,
+    "cgst_total": 2908.08,
+    "sgst_total": 2908.08,
+    "tax_total": 5816.16
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 32312,
+      "cgst_rate": 9.0,
+      "cgst_amt": 2908.08,
+      "sgst_rate": 9.0,
+      "sgst_amt": 2908.08
+    }
+  ],
+  "amount_in_words": "INR Thirty-Eight Thousand, One Hundred And Twenty-Eight Only",
+  "tax_amount_in_words": "INR Five Thousand, Eight Hundred And Sixteen Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "41789859323",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 232
+  }
+}

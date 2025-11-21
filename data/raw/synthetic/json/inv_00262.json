@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 367, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 410091",
+    "gstin": "27USGGT8199F1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts78@talojamfgassn.com",
+    "pan": "RCKZE7588F"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 440, Sector 38, Mumbai - 415726",
+    "gstin": "27RYPVX8946D1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-270",
+    "date": "30-Apr-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1757",
+    "order_date": "26-Apr-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 356,
+      "amount": 1780
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 3560,
+      "amount": 7120
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 3195,
+      "amount": 9585
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 2743,
+      "amount": 5486
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 502,
+      "amount": 5020
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 3464,
+      "amount": 10392
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 878,
+      "amount": 878
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 2561,
+      "amount": 5122
+    }
+  ],
+  "totals": {
+    "subtotal": 45383,
+    "taxable_total": 45383,
+    "cgst_total": 2722.98,
+    "sgst_total": 2722.98,
+    "tax_total": 5445.96
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 45383,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2722.98,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2722.98
+    }
+  ],
+  "amount_in_words": "INR Fifty Thousand, Eight Hundred And Twenty-Nine Only",
+  "tax_amount_in_words": "INR Five Thousand, Four Hundred And Forty-Six Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "54334271527",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 262
+  }
+}

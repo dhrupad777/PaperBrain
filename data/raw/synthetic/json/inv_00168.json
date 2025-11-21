@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 974, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 449248",
+    "gstin": "27QGPJD1177N1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts37@labstech.com",
+    "pan": "NOSIW7757I"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 557, Sector 33, Mumbai - 456446",
+    "gstin": "27TQSIX5460X1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-085",
+    "date": "21-Nov-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3976",
+    "order_date": "17-Nov-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 2032,
+      "amount": 6096
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 1480,
+      "amount": 7400
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 4032,
+      "amount": 40320
+    }
+  ],
+  "totals": {
+    "subtotal": 53816,
+    "taxable_total": 53816,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 53816,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Fifty-Three Thousand, Eight Hundred And Sixteen Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "24226650071",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 168
+  }
+}

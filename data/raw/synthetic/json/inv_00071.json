@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 15, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 420083",
+    "gstin": "27AJUWA5603A1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts72@vistarealty.com",
+    "pan": "UULDJ4651C"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 216, Sector 38, Mumbai - 474223",
+    "gstin": "27DAFUM5561X1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-860",
+    "date": "29-Nov-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4234",
+    "order_date": "24-Nov-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 1075,
+      "amount": 10750
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 4294,
+      "amount": 4294
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 842,
+      "amount": 842
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 2946,
+      "amount": 2946
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 2326,
+      "amount": 11630
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 4272,
+      "amount": 8544
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 1785,
+      "amount": 1785
+    }
+  ],
+  "totals": {
+    "subtotal": 40791,
+    "taxable_total": 40791,
+    "cgst_total": 5710.74,
+    "sgst_total": 5710.74,
+    "tax_total": 11421.48
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 40791,
+      "cgst_rate": 14.0,
+      "cgst_amt": 5710.74,
+      "sgst_rate": 14.0,
+      "sgst_amt": 5710.74
+    }
+  ],
+  "amount_in_words": "INR Fifty-Two Thousand, Two Hundred And Twelve Only",
+  "tax_amount_in_words": "INR Eleven Thousand, Four Hundred And Twenty-One Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "76106831817",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 71
+  }
+}

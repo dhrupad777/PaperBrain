@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 702, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 491731",
+    "gstin": "27ESYHH1831K1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts83@nexolindustries.com",
+    "pan": "SWAXE3270R"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 552, Sector 20, Mumbai - 459084",
+    "gstin": "27FIEUL6351W1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-766",
+    "date": "06-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7271",
+    "order_date": "05-Sep-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 1099,
+      "amount": 2198
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 444,
+      "amount": 4440
+    }
+  ],
+  "totals": {
+    "subtotal": 6638,
+    "taxable_total": 6638,
+    "cgst_total": 165.95,
+    "sgst_total": 165.95,
+    "tax_total": 331.9
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 6638,
+      "cgst_rate": 2.5,
+      "cgst_amt": 165.95,
+      "sgst_rate": 2.5,
+      "sgst_amt": 165.95
+    }
+  ],
+  "amount_in_words": "INR Six Thousand, Nine Hundred And Seventy Only",
+  "tax_amount_in_words": "INR Three Hundred And Thirty-Two Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "68547758782",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 45
+  }
+}

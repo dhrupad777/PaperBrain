@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 644, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 497515",
+    "gstin": "27RQDMS8456M1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts52@kanteenfoods.com",
+    "pan": "UAVXH6819S"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 362, Sector 18, Mumbai - 411490",
+    "gstin": "27IIFDL4483L1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-715",
+    "date": "13-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1186",
+    "order_date": "09-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 1344,
+      "amount": 1344
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 638,
+      "amount": 1276
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 248,
+      "amount": 2480
+    }
+  ],
+  "totals": {
+    "subtotal": 5100,
+    "taxable_total": 5100,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 5100,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Five Thousand, One Hundred Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "78818423455",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 80
+  }
+}

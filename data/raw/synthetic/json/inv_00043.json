@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 689, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 409562",
+    "gstin": "27IXVTK2748D1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts65@vistarealty.com",
+    "pan": "GTXQX6827M"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 105, Sector 17, Mumbai - 485569",
+    "gstin": "27EHDVH9329I1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-759",
+    "date": "26-Jan-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9184",
+    "order_date": "22-Jan-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 575,
+      "amount": 2875
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 1653,
+      "amount": 3306
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 4545,
+      "amount": 45450
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 1082,
+      "amount": 2164
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 429,
+      "amount": 429
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 3990,
+      "amount": 19950
+    }
+  ],
+  "totals": {
+    "subtotal": 74174,
+    "taxable_total": 74174,
+    "cgst_total": 1854.35,
+    "sgst_total": 1854.35,
+    "tax_total": 3708.7
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 74174,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1854.35,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1854.35
+    }
+  ],
+  "amount_in_words": "INR Seventy-Seven Thousand, Eight Hundred And Eighty-Three Only",
+  "tax_amount_in_words": "INR Three Thousand, Seven Hundred And Nine Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "45844301140",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 43
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 238, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 481137",
+    "gstin": "27CWNFP7493E1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts59@talojamfgassn.com",
+    "pan": "PZAHC4845M"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 754, Sector 9, Mumbai - 422236",
+    "gstin": "27IMBTZ4959J1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-505",
+    "date": "25-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7553",
+    "order_date": "18-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 1282,
+      "amount": 1282
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 836,
+      "amount": 2508
+    }
+  ],
+  "totals": {
+    "subtotal": 3790,
+    "taxable_total": 3790,
+    "cgst_total": 530.6,
+    "sgst_total": 530.6,
+    "tax_total": 1061.2
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 3790,
+      "cgst_rate": 14.0,
+      "cgst_amt": 530.6,
+      "sgst_rate": 14.0,
+      "sgst_amt": 530.6
+    }
+  ],
+  "amount_in_words": "INR Four Thousand, Eight Hundred And Fifty-One Only",
+  "tax_amount_in_words": "INR One Thousand And Sixty-One Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "83634669268",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 61
+  }
+}

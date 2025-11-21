@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 792, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 459535",
+    "gstin": "27XQZSY9424Y1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts41@vistarealty.com",
+    "pan": "TRXUR9572G"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 168, Sector 43, Mumbai - 473261",
+    "gstin": "27WHJAP3290N1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-934",
+    "date": "23-Jun-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4150",
+    "order_date": "15-Jun-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 3636,
+      "amount": 10908
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 3857,
+      "amount": 11571
+    }
+  ],
+  "totals": {
+    "subtotal": 22479,
+    "taxable_total": 22479,
+    "cgst_total": 3147.06,
+    "sgst_total": 3147.06,
+    "tax_total": 6294.12
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 22479,
+      "cgst_rate": 14.0,
+      "cgst_amt": 3147.06,
+      "sgst_rate": 14.0,
+      "sgst_amt": 3147.06
+    }
+  ],
+  "amount_in_words": "INR Twenty-Eight Thousand, Seven Hundred And Seventy-Three Only",
+  "tax_amount_in_words": "INR Six Thousand, Two Hundred And Ninety-Four Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "20218246898",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 273
+  }
+}

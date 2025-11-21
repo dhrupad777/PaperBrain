@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 939, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 421741",
+    "gstin": "27QMUUW8831Z1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts65@nexolindustries.com",
+    "pan": "AVZOA3349C"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 133, Sector 13, Mumbai - 446450",
+    "gstin": "27JMRGR7107R1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-640",
+    "date": "19-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2149",
+    "order_date": "16-Aug-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 3372,
+      "amount": 16860
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 1727,
+      "amount": 3454
+    }
+  ],
+  "totals": {
+    "subtotal": 20314,
+    "taxable_total": 20314,
+    "cgst_total": 2843.96,
+    "sgst_total": 2843.96,
+    "tax_total": 5687.92
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 20314,
+      "cgst_rate": 14.0,
+      "cgst_amt": 2843.96,
+      "sgst_rate": 14.0,
+      "sgst_amt": 2843.96
+    }
+  ],
+  "amount_in_words": "INR Twenty-Six Thousand And Two Only",
+  "tax_amount_in_words": "INR Five Thousand, Six Hundred And Eighty-Eight Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "68554295350",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 141
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 537, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 471551",
+    "gstin": "27ELOHC6743N1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts28@vistarealty.com",
+    "pan": "ZMLKS2676U"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 946, Sector 48, Mumbai - 402956",
+    "gstin": "27TASLL6417F1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-095",
+    "date": "25-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9915",
+    "order_date": "23-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 3908,
+      "amount": 39080
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1602,
+      "amount": 4806
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 2709,
+      "amount": 8127
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 2744,
+      "amount": 8232
+    }
+  ],
+  "totals": {
+    "subtotal": 60245,
+    "taxable_total": 60245,
+    "cgst_total": 8434.3,
+    "sgst_total": 8434.3,
+    "tax_total": 16868.6
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 60245,
+      "cgst_rate": 14.0,
+      "cgst_amt": 8434.3,
+      "sgst_rate": 14.0,
+      "sgst_amt": 8434.3
+    }
+  ],
+  "amount_in_words": "INR Seventy-Seven Thousand, One Hundred And Fourteen Only",
+  "tax_amount_in_words": "INR Sixteen Thousand, Eight Hundred And Sixty-Nine Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "67753073716",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 14
+  }
+}

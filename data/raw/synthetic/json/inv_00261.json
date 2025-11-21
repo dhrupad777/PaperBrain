@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 691, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 430847",
+    "gstin": "27QNWAZ4248F1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts38@nexolindustries.com",
+    "pan": "VTGDN8909X"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 599, Sector 45, Mumbai - 450978",
+    "gstin": "27RVYNB7813O1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-121",
+    "date": "26-May-24",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3747",
+    "order_date": "18-May-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 3320,
+      "amount": 9960
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 2532,
+      "amount": 25320
+    }
+  ],
+  "totals": {
+    "subtotal": 35280,
+    "taxable_total": 35280,
+    "cgst_total": 2116.8,
+    "sgst_total": 2116.8,
+    "tax_total": 4233.6
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 35280,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2116.8,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2116.8
+    }
+  ],
+  "amount_in_words": "INR Thirty-Nine Thousand, Five Hundred And Fourteen Only",
+  "tax_amount_in_words": "INR Four Thousand, Two Hundred And Thirty-Four Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "79818712414",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 261
+  }
+}

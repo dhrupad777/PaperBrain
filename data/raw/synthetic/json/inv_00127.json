@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 632, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 473911",
+    "gstin": "27PTZQV5119C1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts84@talojamfgassn.com",
+    "pan": "DIUGZ6298Y"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 335, Sector 39, Mumbai - 478510",
+    "gstin": "27JMJPF4988N1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-620",
+    "date": "26-Sep-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4704",
+    "order_date": "23-Sep-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 2600,
+      "amount": 2600
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 4139,
+      "amount": 12417
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 1557,
+      "amount": 1557
+    }
+  ],
+  "totals": {
+    "subtotal": 16574,
+    "taxable_total": 16574,
+    "cgst_total": 994.44,
+    "sgst_total": 994.44,
+    "tax_total": 1988.88
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 16574,
+      "cgst_rate": 6.0,
+      "cgst_amt": 994.44,
+      "sgst_rate": 6.0,
+      "sgst_amt": 994.44
+    }
+  ],
+  "amount_in_words": "INR Eighteen Thousand, Five Hundred And Sixty-Three Only",
+  "tax_amount_in_words": "INR One Thousand, Nine Hundred And Eighty-Nine Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "75629041578",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 127
+  }
+}

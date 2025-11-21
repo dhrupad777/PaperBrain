@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 503, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 425210",
+    "gstin": "27CLVCH4704C1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts4@labstech.com",
+    "pan": "RXOMU9359A"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 686, Sector 16, Mumbai - 467246",
+    "gstin": "27ZTEQD8691N1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-455",
+    "date": "24-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7898",
+    "order_date": "24-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 3244,
+      "amount": 9732
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 3456,
+      "amount": 6912
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 4510,
+      "amount": 45100
+    }
+  ],
+  "totals": {
+    "subtotal": 61744,
+    "taxable_total": 61744,
+    "cgst_total": 1543.6,
+    "sgst_total": 1543.6,
+    "tax_total": 3087.2
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 61744,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1543.6,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1543.6
+    }
+  ],
+  "amount_in_words": "INR Sixty-Four Thousand, Eight Hundred And Thirty-One Only",
+  "tax_amount_in_words": "INR Three Thousand And Eighty-Seven Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "19392915204",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 84
+  }
+}

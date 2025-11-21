@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 698, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 488764",
+    "gstin": "27PXRIH2540F1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts82@vistarealty.com",
+    "pan": "HCSNU8246U"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 923, Sector 47, Mumbai - 404335",
+    "gstin": "27QVEOB1079R1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-692",
+    "date": "22-Nov-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8024",
+    "order_date": "20-Nov-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 2832,
+      "amount": 28320
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 4719,
+      "amount": 23595
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 309,
+      "amount": 3090
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 682,
+      "amount": 6820
+    }
+  ],
+  "totals": {
+    "subtotal": 61825,
+    "taxable_total": 61825,
+    "cgst_total": 8655.5,
+    "sgst_total": 8655.5,
+    "tax_total": 17311.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 61825,
+      "cgst_rate": 14.0,
+      "cgst_amt": 8655.5,
+      "sgst_rate": 14.0,
+      "sgst_amt": 8655.5
+    }
+  ],
+  "amount_in_words": "INR Seventy-Nine Thousand, One Hundred And Thirty-Six Only",
+  "tax_amount_in_words": "INR Seventeen Thousand, Three Hundred And Eleven Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "48654435090",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 46
+  }
+}

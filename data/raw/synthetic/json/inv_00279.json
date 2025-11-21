@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 121, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 422727",
+    "gstin": "27YQGTO2493S1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts46@nexolindustries.com",
+    "pan": "FFDRU3328O"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 221, Sector 25, Mumbai - 480182",
+    "gstin": "27ORSXF5087A1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-164",
+    "date": "16-Feb-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3222",
+    "order_date": "12-Feb-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 2510,
+      "amount": 5020
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 3908,
+      "amount": 19540
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 339,
+      "amount": 678
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 2318,
+      "amount": 2318
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 448,
+      "amount": 896
+    }
+  ],
+  "totals": {
+    "subtotal": 28452,
+    "taxable_total": 28452,
+    "cgst_total": 3983.28,
+    "sgst_total": 3983.28,
+    "tax_total": 7966.56
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 28452,
+      "cgst_rate": 14.0,
+      "cgst_amt": 3983.28,
+      "sgst_rate": 14.0,
+      "sgst_amt": 3983.28
+    }
+  ],
+  "amount_in_words": "INR Thirty-Six Thousand, Four Hundred And Nineteen Only",
+  "tax_amount_in_words": "INR Seven Thousand, Nine Hundred And Sixty-Seven Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "92014825467",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 279
+  }
+}

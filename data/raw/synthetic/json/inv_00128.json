@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 408, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 474671",
+    "gstin": "27PBIWK8803L1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts89@nexolindustries.com",
+    "pan": "PSZHJ5630C"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 332, Sector 49, Mumbai - 474315",
+    "gstin": "27FLPXH3801I1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-785",
+    "date": "27-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6711",
+    "order_date": "26-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 992,
+      "amount": 2976
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 614,
+      "amount": 6140
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 1747,
+      "amount": 1747
+    }
+  ],
+  "totals": {
+    "subtotal": 10863,
+    "taxable_total": 10863,
+    "cgst_total": 977.67,
+    "sgst_total": 977.67,
+    "tax_total": 1955.34
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 10863,
+      "cgst_rate": 9.0,
+      "cgst_amt": 977.67,
+      "sgst_rate": 9.0,
+      "sgst_amt": 977.67
+    }
+  ],
+  "amount_in_words": "INR Twelve Thousand, Eight Hundred And Eighteen Only",
+  "tax_amount_in_words": "INR One Thousand, Nine Hundred And Fifty-Five Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "38821664347",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 128
+  }
+}

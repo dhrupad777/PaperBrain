@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 354, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 454476",
+    "gstin": "27TGFKH7674D1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts62@talojamfgassn.com",
+    "pan": "FKSTH7279F"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 888, Sector 1, Mumbai - 430624",
+    "gstin": "27ACPYM8604K1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-316",
+    "date": "27-Feb-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4246",
+    "order_date": "18-Feb-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 4196,
+      "amount": 8392
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 3219,
+      "amount": 32190
+    }
+  ],
+  "totals": {
+    "subtotal": 40582,
+    "taxable_total": 40582,
+    "cgst_total": 2434.92,
+    "sgst_total": 2434.92,
+    "tax_total": 4869.84
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 40582,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2434.92,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2434.92
+    }
+  ],
+  "amount_in_words": "INR Forty-Five Thousand, Four Hundred And Fifty-Two Only",
+  "tax_amount_in_words": "INR Four Thousand, Eight Hundred And Seventy Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "89846489471",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 264
+  }
+}

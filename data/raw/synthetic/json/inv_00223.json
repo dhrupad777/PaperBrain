@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 547, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 413710",
+    "gstin": "27KGXOF1563U1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts90@labstech.com",
+    "pan": "ORTDW4735U"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 63, Sector 50, Mumbai - 463146",
+    "gstin": "27SNNWN3951H1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-872",
+    "date": "01-Mar-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8734",
+    "order_date": "28-Feb-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 1427,
+      "amount": 1427
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 2433,
+      "amount": 12165
+    }
+  ],
+  "totals": {
+    "subtotal": 13592,
+    "taxable_total": 13592,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 13592,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Thirteen Thousand, Five Hundred And Ninety-Two Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "74768137010",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 223
+  }
+}

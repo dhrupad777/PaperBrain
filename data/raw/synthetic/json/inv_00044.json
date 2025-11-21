@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 367, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 478963",
+    "gstin": "27QJPRQ4114D1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts55@labstech.com",
+    "pan": "BCAVF2415S"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 352, Sector 21, Mumbai - 453377",
+    "gstin": "27EZJYJ3881W1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-804",
+    "date": "18-Jul-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2635",
+    "order_date": "16-Jul-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 1583,
+      "amount": 3166
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 4988,
+      "amount": 4988
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 4455,
+      "amount": 4455
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 2701,
+      "amount": 8103
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 3715,
+      "amount": 7430
+    }
+  ],
+  "totals": {
+    "subtotal": 28142,
+    "taxable_total": 28142,
+    "cgst_total": 2532.78,
+    "sgst_total": 2532.78,
+    "tax_total": 5065.56
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 28142,
+      "cgst_rate": 9.0,
+      "cgst_amt": 2532.78,
+      "sgst_rate": 9.0,
+      "sgst_amt": 2532.78
+    }
+  ],
+  "amount_in_words": "INR Thirty-Three Thousand, Two Hundred And Eight Only",
+  "tax_amount_in_words": "INR Five Thousand And Sixty-Six Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "86884340759",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 44
+  }
+}

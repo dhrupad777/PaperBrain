@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 796, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 436865",
+    "gstin": "27RAPBQ3772C1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts86@nexolindustries.com",
+    "pan": "NKLWD9908E"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 280, Sector 20, Mumbai - 439831",
+    "gstin": "27CHGPM6888I1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-088",
+    "date": "27-Jun-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1914",
+    "order_date": "26-Jun-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 2339,
+      "amount": 2339
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 204,
+      "amount": 408
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 1333,
+      "amount": 6665
+    }
+  ],
+  "totals": {
+    "subtotal": 9412,
+    "taxable_total": 9412,
+    "cgst_total": 1317.68,
+    "sgst_total": 1317.68,
+    "tax_total": 2635.36
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 9412,
+      "cgst_rate": 14.0,
+      "cgst_amt": 1317.68,
+      "sgst_rate": 14.0,
+      "sgst_amt": 1317.68
+    }
+  ],
+  "amount_in_words": "INR Twelve Thousand And Forty-Seven Only",
+  "tax_amount_in_words": "INR Two Thousand, Six Hundred And Thirty-Five Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "17222593405",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 203
+  }
+}

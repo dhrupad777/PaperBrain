@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 283, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 488513",
+    "gstin": "27KJKUW1018O1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts61@talojamfgassn.com",
+    "pan": "SBUUU9389B"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 184, Sector 42, Mumbai - 438557",
+    "gstin": "27UQLFY4655X1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-630",
+    "date": "31-Mar-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3320",
+    "order_date": "24-Mar-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 435,
+      "amount": 4350
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 250,
+      "amount": 250
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 3017,
+      "amount": 6034
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 4220,
+      "amount": 12660
+    }
+  ],
+  "totals": {
+    "subtotal": 23294,
+    "taxable_total": 23294,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 23294,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Twenty-Three Thousand, Two Hundred And Ninety-Four Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "51819517838",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 12
+  }
+}

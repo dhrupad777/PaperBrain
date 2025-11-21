@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 766, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 414976",
+    "gstin": "27FHKOK9284D1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts58@kanteenfoods.com",
+    "pan": "IKDSK9354J"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 397, Sector 46, Mumbai - 478299",
+    "gstin": "27PDJII7681C1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-398",
+    "date": "01-Jan-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8557",
+    "order_date": "31-Dec-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 4443,
+      "amount": 8886
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 3540,
+      "amount": 35400
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 1090,
+      "amount": 10900
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 1787,
+      "amount": 17870
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 2996,
+      "amount": 5992
+    }
+  ],
+  "totals": {
+    "subtotal": 79048,
+    "taxable_total": 79048,
+    "cgst_total": 4742.88,
+    "sgst_total": 4742.88,
+    "tax_total": 9485.76
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 79048,
+      "cgst_rate": 6.0,
+      "cgst_amt": 4742.88,
+      "sgst_rate": 6.0,
+      "sgst_amt": 4742.88
+    }
+  ],
+  "amount_in_words": "INR Eighty-Eight Thousand, Five Hundred And Thirty-Four Only",
+  "tax_amount_in_words": "INR Nine Thousand, Four Hundred And Eighty-Six Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "14841256266",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 171
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 212, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 499513",
+    "gstin": "27QJNWT9388E1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts54@kanteenfoods.com",
+    "pan": "MMYAY9861D"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 144, Sector 48, Mumbai - 424918",
+    "gstin": "27PQMIO7394R1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-195",
+    "date": "05-Apr-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8753",
+    "order_date": "26-Mar-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 825,
+      "amount": 4125
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 4562,
+      "amount": 9124
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 2135,
+      "amount": 2135
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 2320,
+      "amount": 11600
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 518,
+      "amount": 518
+    }
+  ],
+  "totals": {
+    "subtotal": 27502,
+    "taxable_total": 27502,
+    "cgst_total": 3850.28,
+    "sgst_total": 3850.28,
+    "tax_total": 7700.56
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 27502,
+      "cgst_rate": 14.0,
+      "cgst_amt": 3850.28,
+      "sgst_rate": 14.0,
+      "sgst_amt": 3850.28
+    }
+  ],
+  "amount_in_words": "INR Thirty-Five Thousand, Two Hundred And Three Only",
+  "tax_amount_in_words": "INR Seven Thousand, Seven Hundred And One Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "65781286541",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 10
+  }
+}

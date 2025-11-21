@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 938, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 450725",
+    "gstin": "27IOPIR7619Q1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts57@kanteenfoods.com",
+    "pan": "BGKPN8218R"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 273, Sector 9, Mumbai - 422465",
+    "gstin": "27UPBUO8386X1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-958",
+    "date": "25-Apr-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3818",
+    "order_date": "17-Apr-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 2981,
+      "amount": 14905
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 2938,
+      "amount": 14690
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 3301,
+      "amount": 9903
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 4514,
+      "amount": 4514
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 1294,
+      "amount": 6470
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 4630,
+      "amount": 46300
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 3592,
+      "amount": 17960
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 1609,
+      "amount": 8045
+    }
+  ],
+  "totals": {
+    "subtotal": 122787,
+    "taxable_total": 122787,
+    "cgst_total": 17190.18,
+    "sgst_total": 17190.18,
+    "tax_total": 34380.36
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 122787,
+      "cgst_rate": 14.0,
+      "cgst_amt": 17190.18,
+      "sgst_rate": 14.0,
+      "sgst_amt": 17190.18
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Fifty-Seven Thousand, One Hundred And Sixty-Seven Only",
+  "tax_amount_in_words": "INR Thirty-Four Thousand, Three Hundred And Eighty Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "14603528604",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 78
+  }
+}

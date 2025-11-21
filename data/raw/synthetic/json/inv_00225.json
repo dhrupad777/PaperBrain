@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 391, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 488195",
+    "gstin": "27HYHYB6146T1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts90@nexolindustries.com",
+    "pan": "RWECD3802U"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 581, Sector 7, Mumbai - 467470",
+    "gstin": "27ZETTV8243O1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-812",
+    "date": "31-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6459",
+    "order_date": "23-Aug-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 206,
+      "amount": 206
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 3182,
+      "amount": 3182
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 1349,
+      "amount": 4047
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 1076,
+      "amount": 10760
+    }
+  ],
+  "totals": {
+    "subtotal": 18195,
+    "taxable_total": 18195,
+    "cgst_total": 1091.7,
+    "sgst_total": 1091.7,
+    "tax_total": 2183.4
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 18195,
+      "cgst_rate": 6.0,
+      "cgst_amt": 1091.7,
+      "sgst_rate": 6.0,
+      "sgst_amt": 1091.7
+    }
+  ],
+  "amount_in_words": "INR Twenty Thousand, Three Hundred And Seventy-Eight Only",
+  "tax_amount_in_words": "INR Two Thousand, One Hundred And Eighty-Three Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "57996257330",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 225
+  }
+}

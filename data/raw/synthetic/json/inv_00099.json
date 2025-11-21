@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 709, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 473401",
+    "gstin": "27BFPLY7613Z1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts27@talojamfgassn.com",
+    "pan": "JVJGF2007P"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 81, Sector 48, Mumbai - 444119",
+    "gstin": "27DTKSF9845I1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-215",
+    "date": "18-Jun-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2414",
+    "order_date": "10-Jun-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 4563,
+      "amount": 22815
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 458,
+      "amount": 4580
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 346,
+      "amount": 1038
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 2179,
+      "amount": 4358
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 2631,
+      "amount": 13155
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 795,
+      "amount": 7950
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 4605,
+      "amount": 13815
+    }
+  ],
+  "totals": {
+    "subtotal": 67711,
+    "taxable_total": 67711,
+    "cgst_total": 1692.78,
+    "sgst_total": 1692.78,
+    "tax_total": 3385.55
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 67711,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1692.78,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1692.78
+    }
+  ],
+  "amount_in_words": "INR Seventy-One Thousand And Ninety-Seven Only",
+  "tax_amount_in_words": "INR Three Thousand, Three Hundred And Eighty-Six Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "23138116775",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 99
+  }
+}

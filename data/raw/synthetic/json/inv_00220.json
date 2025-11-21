@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 482, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 458545",
+    "gstin": "27IVCVD9371Y1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts85@labstech.com",
+    "pan": "AWGHP3024E"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 890, Sector 5, Mumbai - 487881",
+    "gstin": "27AYGAE8340N1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-695",
+    "date": "08-Sep-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9365",
+    "order_date": "31-Aug-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 2253,
+      "amount": 22530
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 284,
+      "amount": 568
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 1866,
+      "amount": 1866
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 3925,
+      "amount": 19625
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 2373,
+      "amount": 2373
+    }
+  ],
+  "totals": {
+    "subtotal": 46962,
+    "taxable_total": 46962,
+    "cgst_total": 4226.58,
+    "sgst_total": 4226.58,
+    "tax_total": 8453.16
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 46962,
+      "cgst_rate": 9.0,
+      "cgst_amt": 4226.58,
+      "sgst_rate": 9.0,
+      "sgst_amt": 4226.58
+    }
+  ],
+  "amount_in_words": "INR Fifty-Five Thousand, Four Hundred And Fifteen Only",
+  "tax_amount_in_words": "INR Eight Thousand, Four Hundred And Fifty-Three Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "14681218503",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 220
+  }
+}

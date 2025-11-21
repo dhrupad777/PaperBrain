@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 400, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 419254",
+    "gstin": "27OXJZH1074V1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts59@kanteenfoods.com",
+    "pan": "FODKQ9953E"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 565, Sector 22, Mumbai - 465322",
+    "gstin": "27NFOEJ2347Q1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-706",
+    "date": "31-May-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4126",
+    "order_date": "24-May-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 3861,
+      "amount": 38610
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 1855,
+      "amount": 9275
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 1034,
+      "amount": 5170
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 4372,
+      "amount": 4372
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 4015,
+      "amount": 40150
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 3279,
+      "amount": 16395
+    }
+  ],
+  "totals": {
+    "subtotal": 113972,
+    "taxable_total": 113972,
+    "cgst_total": 10257.48,
+    "sgst_total": 10257.48,
+    "tax_total": 20514.96
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 113972,
+      "cgst_rate": 9.0,
+      "cgst_amt": 10257.48,
+      "sgst_rate": 9.0,
+      "sgst_amt": 10257.48
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Thirty-Four Thousand, Four Hundred And Eighty-Seven Only",
+  "tax_amount_in_words": "INR Twenty Thousand, Five Hundred And Fifteen Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "51507226832",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 31
+  }
+}

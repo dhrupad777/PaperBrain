@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 472, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 487050",
+    "gstin": "27CSPVR4914P1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts76@vistarealty.com",
+    "pan": "DBKFI2337I"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 619, Sector 29, Mumbai - 408820",
+    "gstin": "27ICSKX3571X1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-127",
+    "date": "27-Jan-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6563",
+    "order_date": "23-Jan-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 3038,
+      "amount": 30380
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 2657,
+      "amount": 5314
+    }
+  ],
+  "totals": {
+    "subtotal": 35694,
+    "taxable_total": 35694,
+    "cgst_total": 892.35,
+    "sgst_total": 892.35,
+    "tax_total": 1784.7
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 35694,
+      "cgst_rate": 2.5,
+      "cgst_amt": 892.35,
+      "sgst_rate": 2.5,
+      "sgst_amt": 892.35
+    }
+  ],
+  "amount_in_words": "INR Thirty-Seven Thousand, Four Hundred And Seventy-Nine Only",
+  "tax_amount_in_words": "INR One Thousand, Seven Hundred And Eighty-Five Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "14209213910",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 75
+  }
+}

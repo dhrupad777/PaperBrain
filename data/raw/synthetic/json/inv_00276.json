@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 913, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 404968",
+    "gstin": "27KVPGD3855O1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts51@labstech.com",
+    "pan": "AHGHD3763A"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 733, Sector 26, Mumbai - 420871",
+    "gstin": "27GOXUC2409J1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-527",
+    "date": "25-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6070",
+    "order_date": "20-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 4864,
+      "amount": 48640
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 1350,
+      "amount": 6750
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 4457,
+      "amount": 8914
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 3941,
+      "amount": 7882
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 3579,
+      "amount": 3579
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 3008,
+      "amount": 30080
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 1656,
+      "amount": 4968
+    }
+  ],
+  "totals": {
+    "subtotal": 110813,
+    "taxable_total": 110813,
+    "cgst_total": 6648.78,
+    "sgst_total": 6648.78,
+    "tax_total": 13297.56
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 110813,
+      "cgst_rate": 6.0,
+      "cgst_amt": 6648.78,
+      "sgst_rate": 6.0,
+      "sgst_amt": 6648.78
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Twenty-Four Thousand, One Hundred And Eleven Only",
+  "tax_amount_in_words": "INR Thirteen Thousand, Two Hundred And Ninety-Eight Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "68761871468",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 276
+  }
+}

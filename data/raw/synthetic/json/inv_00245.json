@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 195, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 491506",
+    "gstin": "27LIVNE7123W1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts59@vistarealty.com",
+    "pan": "NVJZX4004K"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 699, Sector 45, Mumbai - 483691",
+    "gstin": "27PPVAZ5551M1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-116",
+    "date": "19-Jan-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7042",
+    "order_date": "17-Jan-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 222,
+      "amount": 1110
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 2774,
+      "amount": 5548
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 4009,
+      "amount": 8018
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 486,
+      "amount": 486
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 352,
+      "amount": 352
+    }
+  ],
+  "totals": {
+    "subtotal": 15514,
+    "taxable_total": 15514,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 15514,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Fifteen Thousand, Five Hundred And Fourteen Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "26828856276",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 245
+  }
+}

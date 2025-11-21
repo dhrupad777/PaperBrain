@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 604, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 471402",
+    "gstin": "27TGHJV8125R1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts96@talojamfgassn.com",
+    "pan": "QIGBQ1640P"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 212, Sector 39, Mumbai - 479070",
+    "gstin": "27OLUCK1320C1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-061",
+    "date": "14-Feb-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5120",
+    "order_date": "14-Feb-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 2996,
+      "amount": 8988
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 748,
+      "amount": 748
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 2458,
+      "amount": 24580
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 1513,
+      "amount": 7565
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 909,
+      "amount": 1818
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 1312,
+      "amount": 6560
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 1557,
+      "amount": 15570
+    }
+  ],
+  "totals": {
+    "subtotal": 65829,
+    "taxable_total": 65829,
+    "cgst_total": 3949.74,
+    "sgst_total": 3949.74,
+    "tax_total": 7899.48
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 65829,
+      "cgst_rate": 6.0,
+      "cgst_amt": 3949.74,
+      "sgst_rate": 6.0,
+      "sgst_amt": 3949.74
+    }
+  ],
+  "amount_in_words": "INR Seventy-Three Thousand, Seven Hundred And Twenty-Eight Only",
+  "tax_amount_in_words": "INR Seven Thousand, Eight Hundred And Ninety-Nine Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "12876581462",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 231
+  }
+}

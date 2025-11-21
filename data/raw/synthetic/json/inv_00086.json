@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 426, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 438038",
+    "gstin": "27EGTGJ9777J1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts16@vistarealty.com",
+    "pan": "SKXCB4628K"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 622, Sector 21, Mumbai - 466455",
+    "gstin": "27QIJMN6927K1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-742",
+    "date": "22-Apr-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6086",
+    "order_date": "12-Apr-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 425,
+      "amount": 850
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 905,
+      "amount": 1810
+    }
+  ],
+  "totals": {
+    "subtotal": 2660,
+    "taxable_total": 2660,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 2660,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Two Thousand, Six Hundred And Sixty Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "27114328836",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 86
+  }
+}

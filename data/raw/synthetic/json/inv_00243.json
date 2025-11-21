@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 120, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 455007",
+    "gstin": "27YGZIB7569M1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts12@nexolindustries.com",
+    "pan": "NNRVA6621B"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 409, Sector 37, Mumbai - 475259",
+    "gstin": "27VBABH7201S1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-898",
+    "date": "25-Aug-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7547",
+    "order_date": "25-Aug-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 4875,
+      "amount": 4875
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 4837,
+      "amount": 48370
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 4586,
+      "amount": 9172
+    }
+  ],
+  "totals": {
+    "subtotal": 62417,
+    "taxable_total": 62417,
+    "cgst_total": 1560.43,
+    "sgst_total": 1560.43,
+    "tax_total": 3120.85
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 62417,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1560.43,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1560.43
+    }
+  ],
+  "amount_in_words": "INR Sixty-Five Thousand, Five Hundred And Thirty-Eight Only",
+  "tax_amount_in_words": "INR Three Thousand, One Hundred And Twenty-One Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "19823997404",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 243
+  }
+}

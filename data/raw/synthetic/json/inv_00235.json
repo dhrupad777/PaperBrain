@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 125, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 453793",
+    "gstin": "27JDCRK7353K1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts95@vistarealty.com",
+    "pan": "NEGMS3402U"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 887, Sector 33, Mumbai - 423863",
+    "gstin": "27RVATZ3749R1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-258",
+    "date": "08-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5912",
+    "order_date": "07-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 532,
+      "amount": 5320
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 2395,
+      "amount": 4790
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 4042,
+      "amount": 8084
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 4566,
+      "amount": 9132
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 4125,
+      "amount": 8250
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 3575,
+      "amount": 10725
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 936,
+      "amount": 936
+    }
+  ],
+  "totals": {
+    "subtotal": 47237,
+    "taxable_total": 47237,
+    "cgst_total": 1180.92,
+    "sgst_total": 1180.92,
+    "tax_total": 2361.85
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 47237,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1180.92,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1180.92
+    }
+  ],
+  "amount_in_words": "INR Forty-Nine Thousand, Five Hundred And Ninety-Nine Only",
+  "tax_amount_in_words": "INR Two Thousand, Three Hundred And Sixty-Two Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "95440792932",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 235
+  }
+}

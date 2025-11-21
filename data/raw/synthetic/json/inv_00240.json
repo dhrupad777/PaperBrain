@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 151, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 467748",
+    "gstin": "27IJSKK2940W1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts48@labstech.com",
+    "pan": "VQLLO8298G"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 201, Sector 8, Mumbai - 468728",
+    "gstin": "27QAENP2580T1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-424",
+    "date": "07-Dec-24",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4079",
+    "order_date": "06-Dec-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 1676,
+      "amount": 8380
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 4759,
+      "amount": 14277
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 4337,
+      "amount": 13011
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 4388,
+      "amount": 8776
+    }
+  ],
+  "totals": {
+    "subtotal": 44444,
+    "taxable_total": 44444,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 44444,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Forty-Four Thousand, Four Hundred And Forty-Four Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "32873028548",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 240
+  }
+}

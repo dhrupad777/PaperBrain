@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 971, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 425921",
+    "gstin": "27OTRLW4075A1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts30@kanteenfoods.com",
+    "pan": "TACQU1987J"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 310, Sector 14, Mumbai - 490291",
+    "gstin": "27IOBRH5788E1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-274",
+    "date": "16-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3084",
+    "order_date": "16-Aug-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 2625,
+      "amount": 2625
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 716,
+      "amount": 716
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 3884,
+      "amount": 19420
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 3773,
+      "amount": 3773
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 4947,
+      "amount": 9894
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 3758,
+      "amount": 7516
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 751,
+      "amount": 751
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 1340,
+      "amount": 6700
+    }
+  ],
+  "totals": {
+    "subtotal": 51395,
+    "taxable_total": 51395,
+    "cgst_total": 3083.7,
+    "sgst_total": 3083.7,
+    "tax_total": 6167.4
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 51395,
+      "cgst_rate": 6.0,
+      "cgst_amt": 3083.7,
+      "sgst_rate": 6.0,
+      "sgst_amt": 3083.7
+    }
+  ],
+  "amount_in_words": "INR Fifty-Seven Thousand, Five Hundred And Sixty-Two Only",
+  "tax_amount_in_words": "INR Six Thousand, One Hundred And Sixty-Seven Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "67784381916",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 108
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 541, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 465395",
+    "gstin": "27CIVGD8645O1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts54@talojamfgassn.com",
+    "pan": "KYPHN3788O"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 654, Sector 4, Mumbai - 480310",
+    "gstin": "27WKIIY2957N1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-484",
+    "date": "11-Jul-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7927",
+    "order_date": "09-Jul-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 1317,
+      "amount": 2634
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 2548,
+      "amount": 5096
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 4838,
+      "amount": 9676
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 1960,
+      "amount": 3920
+    }
+  ],
+  "totals": {
+    "subtotal": 21326,
+    "taxable_total": 21326,
+    "cgst_total": 533.15,
+    "sgst_total": 533.15,
+    "tax_total": 1066.3
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 21326,
+      "cgst_rate": 2.5,
+      "cgst_amt": 533.15,
+      "sgst_rate": 2.5,
+      "sgst_amt": 533.15
+    }
+  ],
+  "amount_in_words": "INR Twenty-Two Thousand, Three Hundred And Ninety-Two Only",
+  "tax_amount_in_words": "INR One Thousand And Sixty-Six Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "34220232771",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 191
+  }
+}

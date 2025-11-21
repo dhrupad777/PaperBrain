@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 191, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 495691",
+    "gstin": "27YPXZB7380X1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts80@vistarealty.com",
+    "pan": "YCKTQ6144C"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 658, Sector 45, Mumbai - 446531",
+    "gstin": "27SQQIS9744U1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-632",
+    "date": "03-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7610",
+    "order_date": "31-Jul-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 4356,
+      "amount": 4356
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 3247,
+      "amount": 32470
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 1516,
+      "amount": 3032
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 3122,
+      "amount": 31220
+    }
+  ],
+  "totals": {
+    "subtotal": 71078,
+    "taxable_total": 71078,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 71078,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Seventy-One Thousand And Seventy-Eight Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "20707252055",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 5
+  }
+}

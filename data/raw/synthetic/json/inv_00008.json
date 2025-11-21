@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 636, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 408204",
+    "gstin": "27FPRSO2949X1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts16@labstech.com",
+    "pan": "DQEZB9599Z"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 533, Sector 35, Mumbai - 432632",
+    "gstin": "27BFFHZ4479H1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-380",
+    "date": "18-Jun-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3530",
+    "order_date": "18-Jun-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 1564,
+      "amount": 4692
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 963,
+      "amount": 2889
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 2901,
+      "amount": 14505
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 1565,
+      "amount": 15650
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 4383,
+      "amount": 13149
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 2111,
+      "amount": 4222
+    }
+  ],
+  "totals": {
+    "subtotal": 55107,
+    "taxable_total": 55107,
+    "cgst_total": 4959.63,
+    "sgst_total": 4959.63,
+    "tax_total": 9919.26
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 55107,
+      "cgst_rate": 9.0,
+      "cgst_amt": 4959.63,
+      "sgst_rate": 9.0,
+      "sgst_amt": 4959.63
+    }
+  ],
+  "amount_in_words": "INR Sixty-Five Thousand And Twenty-Six Only",
+  "tax_amount_in_words": "INR Nine Thousand, Nine Hundred And Nineteen Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "81823024394",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 8
+  }
+}

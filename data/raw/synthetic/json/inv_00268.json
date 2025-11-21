@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 551, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 402355",
+    "gstin": "27WZBCL3499V1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts57@nexolindustries.com",
+    "pan": "HPZJU5109N"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 145, Sector 5, Mumbai - 419790",
+    "gstin": "27DMDUE5645P1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-417",
+    "date": "19-May-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5998",
+    "order_date": "12-May-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 4028,
+      "amount": 8056
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 4899,
+      "amount": 24495
+    }
+  ],
+  "totals": {
+    "subtotal": 32551,
+    "taxable_total": 32551,
+    "cgst_total": 1953.06,
+    "sgst_total": 1953.06,
+    "tax_total": 3906.12
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 32551,
+      "cgst_rate": 6.0,
+      "cgst_amt": 1953.06,
+      "sgst_rate": 6.0,
+      "sgst_amt": 1953.06
+    }
+  ],
+  "amount_in_words": "INR Thirty-Six Thousand, Four Hundred And Fifty-Seven Only",
+  "tax_amount_in_words": "INR Three Thousand, Nine Hundred And Six Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "35244017036",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 268
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 654, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 483724",
+    "gstin": "27DEIVO1752A1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts94@kanteenfoods.com",
+    "pan": "QSNDQ6637O"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 174, Sector 26, Mumbai - 425619",
+    "gstin": "27DPNKY4272R1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-108",
+    "date": "29-May-24",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6354",
+    "order_date": "28-May-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 4242,
+      "amount": 8484
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 4418,
+      "amount": 8836
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 2155,
+      "amount": 21550
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 752,
+      "amount": 3760
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 3058,
+      "amount": 30580
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 2543,
+      "amount": 25430
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 1512,
+      "amount": 15120
+    }
+  ],
+  "totals": {
+    "subtotal": 113760,
+    "taxable_total": 113760,
+    "cgst_total": 15926.4,
+    "sgst_total": 15926.4,
+    "tax_total": 31852.8
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 113760,
+      "cgst_rate": 14.0,
+      "cgst_amt": 15926.4,
+      "sgst_rate": 14.0,
+      "sgst_amt": 15926.4
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Forty-Five Thousand, Six Hundred And Thirteen Only",
+  "tax_amount_in_words": "INR Thirty-One Thousand, Eight Hundred And Fifty-Three Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "57437080599",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 173
+  }
+}

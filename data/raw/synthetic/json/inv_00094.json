@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 867, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 470998",
+    "gstin": "27KOXMY9327K1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts73@nexolindustries.com",
+    "pan": "MTIMF4982T"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 155, Sector 28, Mumbai - 431369",
+    "gstin": "27NARBU4660M1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-388",
+    "date": "06-Jul-24",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9629",
+    "order_date": "26-Jun-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 4774,
+      "amount": 47740
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1329,
+      "amount": 3987
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 1709,
+      "amount": 17090
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 3704,
+      "amount": 7408
+    }
+  ],
+  "totals": {
+    "subtotal": 76225,
+    "taxable_total": 76225,
+    "cgst_total": 4573.5,
+    "sgst_total": 4573.5,
+    "tax_total": 9147.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 76225,
+      "cgst_rate": 6.0,
+      "cgst_amt": 4573.5,
+      "sgst_rate": 6.0,
+      "sgst_amt": 4573.5
+    }
+  ],
+  "amount_in_words": "INR Eighty-Five Thousand, Three Hundred And Seventy-Two Only",
+  "tax_amount_in_words": "INR Nine Thousand, One Hundred And Forty-Seven Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "33348516514",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 94
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 171, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 490337",
+    "gstin": "27LBZUL7536C1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts93@nexolindustries.com",
+    "pan": "AJDES6684P"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 315, Sector 19, Mumbai - 490905",
+    "gstin": "27RFEUM2296Y1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-609",
+    "date": "22-May-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2887",
+    "order_date": "13-May-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 3218,
+      "amount": 6436
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 4734,
+      "amount": 14202
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 3624,
+      "amount": 36240
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 3000,
+      "amount": 15000
+    }
+  ],
+  "totals": {
+    "subtotal": 71878,
+    "taxable_total": 71878,
+    "cgst_total": 4312.68,
+    "sgst_total": 4312.68,
+    "tax_total": 8625.36
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 71878,
+      "cgst_rate": 6.0,
+      "cgst_amt": 4312.68,
+      "sgst_rate": 6.0,
+      "sgst_amt": 4312.68
+    }
+  ],
+  "amount_in_words": "INR Eighty Thousand, Five Hundred And Three Only",
+  "tax_amount_in_words": "INR Eight Thousand, Six Hundred And Twenty-Five Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "16097930174",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 144
+  }
+}

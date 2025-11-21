@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 701, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 423179",
+    "gstin": "27PDOOL7614L1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts15@vistarealty.com",
+    "pan": "RFQZC9279K"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 257, Sector 19, Mumbai - 427832",
+    "gstin": "27YRPFG3454K1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-968",
+    "date": "20-Jun-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5588",
+    "order_date": "15-Jun-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 2832,
+      "amount": 5664
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 4123,
+      "amount": 4123
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 991,
+      "amount": 4955
+    }
+  ],
+  "totals": {
+    "subtotal": 14742,
+    "taxable_total": 14742,
+    "cgst_total": 368.55,
+    "sgst_total": 368.55,
+    "tax_total": 737.1
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 14742,
+      "cgst_rate": 2.5,
+      "cgst_amt": 368.55,
+      "sgst_rate": 2.5,
+      "sgst_amt": 368.55
+    }
+  ],
+  "amount_in_words": "INR Fifteen Thousand, Four Hundred And Seventy-Nine Only",
+  "tax_amount_in_words": "INR Seven Hundred And Thirty-Seven Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "60495928990",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 205
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 911, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 457206",
+    "gstin": "27AAXAW5909H1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts70@kanteenfoods.com",
+    "pan": "MCDWY8114Q"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 284, Sector 27, Mumbai - 464110",
+    "gstin": "27DSCQX5328R1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-672",
+    "date": "23-Apr-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4060",
+    "order_date": "22-Apr-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 735,
+      "amount": 735
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 1017,
+      "amount": 10170
+    }
+  ],
+  "totals": {
+    "subtotal": 10905,
+    "taxable_total": 10905,
+    "cgst_total": 272.62,
+    "sgst_total": 272.62,
+    "tax_total": 545.25
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 10905,
+      "cgst_rate": 2.5,
+      "cgst_amt": 272.62,
+      "sgst_rate": 2.5,
+      "sgst_amt": 272.62
+    }
+  ],
+  "amount_in_words": "INR Eleven Thousand, Four Hundred And Fifty Only",
+  "tax_amount_in_words": "INR Five Hundred And Forty-Five Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "70330192287",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 157
+  }
+}

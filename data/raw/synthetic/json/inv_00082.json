@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 142, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 414975",
+    "gstin": "27CYRHM3298N1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts72@labstech.com",
+    "pan": "AHTRA6862Z"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 285, Sector 24, Mumbai - 406696",
+    "gstin": "27MXMDI4194U1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-698",
+    "date": "24-May-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2237",
+    "order_date": "23-May-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 1576,
+      "amount": 1576
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 1783,
+      "amount": 1783
+    }
+  ],
+  "totals": {
+    "subtotal": 3359,
+    "taxable_total": 3359,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 3359,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Three Thousand, Three Hundred And Fifty-Nine Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "72686536944",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 82
+  }
+}

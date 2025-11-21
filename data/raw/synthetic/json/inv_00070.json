@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 705, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 422806",
+    "gstin": "27LXAYW1360F1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts58@kanteenfoods.com",
+    "pan": "WDWUK5299M"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 44, Sector 34, Mumbai - 459395",
+    "gstin": "27GSEMK6390S1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-351",
+    "date": "07-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7715",
+    "order_date": "07-Sep-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 3098,
+      "amount": 15490
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 308,
+      "amount": 308
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 596,
+      "amount": 2980
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 3234,
+      "amount": 16170
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 1599,
+      "amount": 1599
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 602,
+      "amount": 1806
+    }
+  ],
+  "totals": {
+    "subtotal": 38353,
+    "taxable_total": 38353,
+    "cgst_total": 3451.77,
+    "sgst_total": 3451.77,
+    "tax_total": 6903.54
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 38353,
+      "cgst_rate": 9.0,
+      "cgst_amt": 3451.77,
+      "sgst_rate": 9.0,
+      "sgst_amt": 3451.77
+    }
+  ],
+  "amount_in_words": "INR Forty-Five Thousand, Two Hundred And Fifty-Seven Only",
+  "tax_amount_in_words": "INR Six Thousand, Nine Hundred And Four Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "83185913271",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 70
+  }
+}

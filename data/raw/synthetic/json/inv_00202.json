@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 296, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 410423",
+    "gstin": "27NUPGR1212T1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts19@talojamfgassn.com",
+    "pan": "ICFHJ7511H"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 199, Sector 21, Mumbai - 415198",
+    "gstin": "27RFDAM3030S1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-217",
+    "date": "16-Jul-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2083",
+    "order_date": "07-Jul-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 2459,
+      "amount": 24590
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 2139,
+      "amount": 2139
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 3578,
+      "amount": 10734
+    }
+  ],
+  "totals": {
+    "subtotal": 37463,
+    "taxable_total": 37463,
+    "cgst_total": 5244.82,
+    "sgst_total": 5244.82,
+    "tax_total": 10489.64
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 37463,
+      "cgst_rate": 14.0,
+      "cgst_amt": 5244.82,
+      "sgst_rate": 14.0,
+      "sgst_amt": 5244.82
+    }
+  ],
+  "amount_in_words": "INR Forty-Seven Thousand, Nine Hundred And Fifty-Three Only",
+  "tax_amount_in_words": "INR Ten Thousand, Four Hundred And Ninety Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "39295827004",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 202
+  }
+}

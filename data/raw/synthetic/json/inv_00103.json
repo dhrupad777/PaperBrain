@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 376, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 407539",
+    "gstin": "27IVYOK1921H1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts6@nexolindustries.com",
+    "pan": "ZVRKP2350D"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 191, Sector 18, Mumbai - 480741",
+    "gstin": "27ZLJAF6934E1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-956",
+    "date": "03-Dec-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3388",
+    "order_date": "28-Nov-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 2253,
+      "amount": 2253
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 3553,
+      "amount": 7106
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 2781,
+      "amount": 5562
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 889,
+      "amount": 889
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 3928,
+      "amount": 7856
+    }
+  ],
+  "totals": {
+    "subtotal": 23666,
+    "taxable_total": 23666,
+    "cgst_total": 3313.24,
+    "sgst_total": 3313.24,
+    "tax_total": 6626.48
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 23666,
+      "cgst_rate": 14.0,
+      "cgst_amt": 3313.24,
+      "sgst_rate": 14.0,
+      "sgst_amt": 3313.24
+    }
+  ],
+  "amount_in_words": "INR Thirty Thousand, Two Hundred And Ninety-Two Only",
+  "tax_amount_in_words": "INR Six Thousand, Six Hundred And Twenty-Six Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "50215046946",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 103
+  }
+}

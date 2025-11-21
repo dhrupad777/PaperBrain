@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 276, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 400931",
+    "gstin": "27YDIWJ8646S1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts62@labstech.com",
+    "pan": "KYOOJ4296M"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 651, Sector 48, Mumbai - 428709",
+    "gstin": "27CJTXL1460D1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-469",
+    "date": "11-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5097",
+    "order_date": "05-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 1771,
+      "amount": 8855
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 2742,
+      "amount": 13710
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 1576,
+      "amount": 4728
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 4554,
+      "amount": 13662
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 2748,
+      "amount": 8244
+    }
+  ],
+  "totals": {
+    "subtotal": 49199,
+    "taxable_total": 49199,
+    "cgst_total": 2951.94,
+    "sgst_total": 2951.94,
+    "tax_total": 5903.88
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 49199,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2951.94,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2951.94
+    }
+  ],
+  "amount_in_words": "INR Fifty-Five Thousand, One Hundred And Three Only",
+  "tax_amount_in_words": "INR Five Thousand, Nine Hundred And Four Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "53099969081",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 153
+  }
+}

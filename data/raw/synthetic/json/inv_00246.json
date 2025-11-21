@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 186, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 401025",
+    "gstin": "27GEEOI2269Z1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts59@talojamfgassn.com",
+    "pan": "KQERM7838B"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 930, Sector 20, Mumbai - 499257",
+    "gstin": "27DGUHC2938V1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-013",
+    "date": "13-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3821",
+    "order_date": "09-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 1682,
+      "amount": 3364
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 2392,
+      "amount": 4784
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 3583,
+      "amount": 17915
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 4574,
+      "amount": 13722
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 1353,
+      "amount": 13530
+    }
+  ],
+  "totals": {
+    "subtotal": 53315,
+    "taxable_total": 53315,
+    "cgst_total": 1332.88,
+    "sgst_total": 1332.88,
+    "tax_total": 2665.75
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 53315,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1332.88,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1332.88
+    }
+  ],
+  "amount_in_words": "INR Fifty-Five Thousand, Nine Hundred And Eighty-One Only",
+  "tax_amount_in_words": "INR Two Thousand, Six Hundred And Sixty-Six Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "43896044684",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 246
+  }
+}

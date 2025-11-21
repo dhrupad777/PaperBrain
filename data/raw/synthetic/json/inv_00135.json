@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 955, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 446958",
+    "gstin": "27TCNTP7612P1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts15@kanteenfoods.com",
+    "pan": "IJNWW5202U"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 701, Sector 15, Mumbai - 411482",
+    "gstin": "27SOCYV6192N1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-195",
+    "date": "18-Nov-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1284",
+    "order_date": "15-Nov-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 2885,
+      "amount": 5770
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 3991,
+      "amount": 19955
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 742,
+      "amount": 2226
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 1200,
+      "amount": 6000
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 1409,
+      "amount": 1409
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 924,
+      "amount": 9240
+    }
+  ],
+  "totals": {
+    "subtotal": 44600,
+    "taxable_total": 44600,
+    "cgst_total": 2676.0,
+    "sgst_total": 2676.0,
+    "tax_total": 5352.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 44600,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2676.0,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2676.0
+    }
+  ],
+  "amount_in_words": "INR Forty-Nine Thousand, Nine Hundred And Fifty-Two Only",
+  "tax_amount_in_words": "INR Five Thousand, Three Hundred And Fifty-Two Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "28294799342",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 135
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 250, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 476627",
+    "gstin": "27RORNI2401J1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts52@labstech.com",
+    "pan": "EDZDY7896W"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 377, Sector 15, Mumbai - 430480",
+    "gstin": "27WJYUE6705F1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-026",
+    "date": "22-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5205",
+    "order_date": "15-Aug-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 2996,
+      "amount": 14980
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 1243,
+      "amount": 1243
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 1521,
+      "amount": 4563
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 3529,
+      "amount": 10587
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 1263,
+      "amount": 12630
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 1984,
+      "amount": 9920
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 4904,
+      "amount": 4904
+    }
+  ],
+  "totals": {
+    "subtotal": 58827,
+    "taxable_total": 58827,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 58827,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Fifty-Eight Thousand, Eight Hundred And Twenty-Seven Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "70720372387",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 208
+  }
+}

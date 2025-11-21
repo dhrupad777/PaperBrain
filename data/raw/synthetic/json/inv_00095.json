@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 133, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 434520",
+    "gstin": "27HAVCU3992V1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts94@vistarealty.com",
+    "pan": "QIBBU9048P"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 883, Sector 43, Mumbai - 414614",
+    "gstin": "27PZZET7482X1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-437",
+    "date": "29-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5397",
+    "order_date": "25-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 3414,
+      "amount": 34140
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 1265,
+      "amount": 12650
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 4099,
+      "amount": 12297
+    }
+  ],
+  "totals": {
+    "subtotal": 59087,
+    "taxable_total": 59087,
+    "cgst_total": 1477.18,
+    "sgst_total": 1477.18,
+    "tax_total": 2954.35
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 59087,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1477.18,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1477.18
+    }
+  ],
+  "amount_in_words": "INR Sixty-Two Thousand And Forty-One Only",
+  "tax_amount_in_words": "INR Two Thousand, Nine Hundred And Fifty-Four Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "35958437824",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 95
+  }
+}

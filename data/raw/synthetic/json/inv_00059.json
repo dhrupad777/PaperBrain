@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 788, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 427953",
+    "gstin": "27ACTJM2446H1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts23@nexolindustries.com",
+    "pan": "QUYTU6945Q"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 308, Sector 1, Mumbai - 403792",
+    "gstin": "27HNAEK8935V1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-287",
+    "date": "02-Jun-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7393",
+    "order_date": "24-May-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 3152,
+      "amount": 15760
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 4148,
+      "amount": 4148
+    }
+  ],
+  "totals": {
+    "subtotal": 19908,
+    "taxable_total": 19908,
+    "cgst_total": 497.7,
+    "sgst_total": 497.7,
+    "tax_total": 995.4
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 19908,
+      "cgst_rate": 2.5,
+      "cgst_amt": 497.7,
+      "sgst_rate": 2.5,
+      "sgst_amt": 497.7
+    }
+  ],
+  "amount_in_words": "INR Twenty Thousand, Nine Hundred And Three Only",
+  "tax_amount_in_words": "INR Nine Hundred And Ninety-Five Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "53328041880",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 59
+  }
+}

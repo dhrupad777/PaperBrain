@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 166, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 495405",
+    "gstin": "27KXPXQ4016I1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts24@vistarealty.com",
+    "pan": "OOLTN6580I"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 862, Sector 12, Mumbai - 451206",
+    "gstin": "27CTKSI5310W1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-206",
+    "date": "29-Jun-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7978",
+    "order_date": "22-Jun-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 374,
+      "amount": 3740
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 1054,
+      "amount": 1054
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 2612,
+      "amount": 2612
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 2973,
+      "amount": 2973
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 3184,
+      "amount": 15920
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 4922,
+      "amount": 14766
+    }
+  ],
+  "totals": {
+    "subtotal": 41065,
+    "taxable_total": 41065,
+    "cgst_total": 2463.9,
+    "sgst_total": 2463.9,
+    "tax_total": 4927.8
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 41065,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2463.9,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2463.9
+    }
+  ],
+  "amount_in_words": "INR Forty-Five Thousand, Nine Hundred And Ninety-Three Only",
+  "tax_amount_in_words": "INR Four Thousand, Nine Hundred And Twenty-Eight Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "20502200239",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 252
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 519, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 425398",
+    "gstin": "27KKHAW3113J1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts30@talojamfgassn.com",
+    "pan": "OEBZJ6071X"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 888, Sector 43, Mumbai - 413416",
+    "gstin": "27YQFWN2483F1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-521",
+    "date": "17-Dec-24",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1494",
+    "order_date": "13-Dec-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 3417,
+      "amount": 3417
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 2261,
+      "amount": 11305
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 1953,
+      "amount": 3906
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 3240,
+      "amount": 3240
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 2961,
+      "amount": 5922
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 1829,
+      "amount": 5487
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 3275,
+      "amount": 32750
+    }
+  ],
+  "totals": {
+    "subtotal": 66027,
+    "taxable_total": 66027,
+    "cgst_total": 5942.43,
+    "sgst_total": 5942.43,
+    "tax_total": 11884.86
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 66027,
+      "cgst_rate": 9.0,
+      "cgst_amt": 5942.43,
+      "sgst_rate": 9.0,
+      "sgst_amt": 5942.43
+    }
+  ],
+  "amount_in_words": "INR Seventy-Seven Thousand, Nine Hundred And Twelve Only",
+  "tax_amount_in_words": "INR Eleven Thousand, Eight Hundred And Eighty-Five Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "17085878897",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 126
+  }
+}

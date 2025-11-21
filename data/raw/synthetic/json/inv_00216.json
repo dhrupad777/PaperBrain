@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 455, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 410046",
+    "gstin": "27OTOGA1359J1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts6@talojamfgassn.com",
+    "pan": "SDBQP5254O"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 834, Sector 17, Mumbai - 442795",
+    "gstin": "27GSKQS6029C1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-662",
+    "date": "18-Feb-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6730",
+    "order_date": "11-Feb-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 3973,
+      "amount": 3973
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 2463,
+      "amount": 2463
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 3466,
+      "amount": 34660
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 4335,
+      "amount": 4335
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 3530,
+      "amount": 3530
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 903,
+      "amount": 903
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 3048,
+      "amount": 30480
+    }
+  ],
+  "totals": {
+    "subtotal": 80344,
+    "taxable_total": 80344,
+    "cgst_total": 11248.16,
+    "sgst_total": 11248.16,
+    "tax_total": 22496.32
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 80344,
+      "cgst_rate": 14.0,
+      "cgst_amt": 11248.16,
+      "sgst_rate": 14.0,
+      "sgst_amt": 11248.16
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Two Thousand, Eight Hundred And Forty Only",
+  "tax_amount_in_words": "INR Twenty-Two Thousand, Four Hundred And Ninety-Six Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "57211510587",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 216
+  }
+}

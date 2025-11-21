@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 472, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 417733",
+    "gstin": "27VPHJD1400E1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts43@nexolindustries.com",
+    "pan": "ODXTE9715W"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 625, Sector 21, Mumbai - 441454",
+    "gstin": "27ZNZOZ1095D1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-593",
+    "date": "28-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1255",
+    "order_date": "23-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 3092,
+      "amount": 15460
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 1371,
+      "amount": 6855
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 1970,
+      "amount": 19700
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 3013,
+      "amount": 30130
+    }
+  ],
+  "totals": {
+    "subtotal": 72145,
+    "taxable_total": 72145,
+    "cgst_total": 1803.62,
+    "sgst_total": 1803.62,
+    "tax_total": 3607.25
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 72145,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1803.62,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1803.62
+    }
+  ],
+  "amount_in_words": "INR Seventy-Five Thousand, Seven Hundred And Fifty-Two Only",
+  "tax_amount_in_words": "INR Three Thousand, Six Hundred And Seven Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "22760646316",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 27
+  }
+}

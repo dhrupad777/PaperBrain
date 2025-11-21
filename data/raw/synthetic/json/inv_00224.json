@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 515, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 432102",
+    "gstin": "27MDSPI9720Z1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts81@kanteenfoods.com",
+    "pan": "IHZFW5374A"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 572, Sector 29, Mumbai - 493284",
+    "gstin": "27GTMYZ9118T1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-492",
+    "date": "13-Jun-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8679",
+    "order_date": "06-Jun-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 2866,
+      "amount": 14330
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 4029,
+      "amount": 4029
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 209,
+      "amount": 418
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 3646,
+      "amount": 3646
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 949,
+      "amount": 4745
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 427,
+      "amount": 427
+    }
+  ],
+  "totals": {
+    "subtotal": 27595,
+    "taxable_total": 27595,
+    "cgst_total": 2483.55,
+    "sgst_total": 2483.55,
+    "tax_total": 4967.1
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 27595,
+      "cgst_rate": 9.0,
+      "cgst_amt": 2483.55,
+      "sgst_rate": 9.0,
+      "sgst_amt": 2483.55
+    }
+  ],
+  "amount_in_words": "INR Thirty-Two Thousand, Five Hundred And Sixty-Two Only",
+  "tax_amount_in_words": "INR Four Thousand, Nine Hundred And Sixty-Seven Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "35904142417",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 224
+  }
+}

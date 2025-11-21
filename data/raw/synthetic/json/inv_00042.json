@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 180, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 464763",
+    "gstin": "27VRNBW8601X1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts19@labstech.com",
+    "pan": "LYLJL4398K"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 672, Sector 26, Mumbai - 405686",
+    "gstin": "27UFKYP1458O1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-736",
+    "date": "01-Nov-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4618",
+    "order_date": "27-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 1329,
+      "amount": 13290
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 2381,
+      "amount": 11905
+    }
+  ],
+  "totals": {
+    "subtotal": 25195,
+    "taxable_total": 25195,
+    "cgst_total": 3527.3,
+    "sgst_total": 3527.3,
+    "tax_total": 7054.6
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 25195,
+      "cgst_rate": 14.0,
+      "cgst_amt": 3527.3,
+      "sgst_rate": 14.0,
+      "sgst_amt": 3527.3
+    }
+  ],
+  "amount_in_words": "INR Thirty-Two Thousand, Two Hundred And Fifty Only",
+  "tax_amount_in_words": "INR Seven Thousand And Fifty-Five Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "38326094736",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 42
+  }
+}

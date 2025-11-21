@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 707, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 484490",
+    "gstin": "27PEFCF7447F1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts37@nexolindustries.com",
+    "pan": "OFTRE9578F"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 360, Sector 34, Mumbai - 452475",
+    "gstin": "27IMXON4858C1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-244",
+    "date": "21-Jan-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3967",
+    "order_date": "21-Jan-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 3526,
+      "amount": 3526
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 697,
+      "amount": 1394
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 490,
+      "amount": 2450
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 1311,
+      "amount": 13110
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 4383,
+      "amount": 8766
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 1403,
+      "amount": 4209
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 3238,
+      "amount": 9714
+    }
+  ],
+  "totals": {
+    "subtotal": 43169,
+    "taxable_total": 43169,
+    "cgst_total": 2590.14,
+    "sgst_total": 2590.14,
+    "tax_total": 5180.28
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 43169,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2590.14,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2590.14
+    }
+  ],
+  "amount_in_words": "INR Forty-Eight Thousand, Three Hundred And Forty-Nine Only",
+  "tax_amount_in_words": "INR Five Thousand, One Hundred And Eighty Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "78518095656",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 213
+  }
+}

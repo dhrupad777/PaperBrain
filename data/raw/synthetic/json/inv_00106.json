@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 631, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 477445",
+    "gstin": "27GAWSM6911B1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts75@labstech.com",
+    "pan": "MNVSH6530W"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 970, Sector 8, Mumbai - 485275",
+    "gstin": "27HFMHB8739T1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-327",
+    "date": "05-Jan-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1362",
+    "order_date": "01-Jan-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 614,
+      "amount": 1842
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 3690,
+      "amount": 18450
+    }
+  ],
+  "totals": {
+    "subtotal": 20292,
+    "taxable_total": 20292,
+    "cgst_total": 1217.52,
+    "sgst_total": 1217.52,
+    "tax_total": 2435.04
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 20292,
+      "cgst_rate": 6.0,
+      "cgst_amt": 1217.52,
+      "sgst_rate": 6.0,
+      "sgst_amt": 1217.52
+    }
+  ],
+  "amount_in_words": "INR Twenty-Two Thousand, Seven Hundred And Twenty-Seven Only",
+  "tax_amount_in_words": "INR Two Thousand, Four Hundred And Thirty-Five Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "70100016310",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 106
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 234, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 484909",
+    "gstin": "27QBSZL6572X1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts71@labstech.com",
+    "pan": "UIAKF9977W"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 970, Sector 49, Mumbai - 451001",
+    "gstin": "27SCFTJ5218V1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-712",
+    "date": "27-Dec-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9364",
+    "order_date": "17-Dec-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 2201,
+      "amount": 22010
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 1601,
+      "amount": 3202
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 3378,
+      "amount": 3378
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 1069,
+      "amount": 3207
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 3323,
+      "amount": 6646
+    }
+  ],
+  "totals": {
+    "subtotal": 38443,
+    "taxable_total": 38443,
+    "cgst_total": 2306.58,
+    "sgst_total": 2306.58,
+    "tax_total": 4613.16
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 38443,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2306.58,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2306.58
+    }
+  ],
+  "amount_in_words": "INR Forty-Three Thousand And Fifty-Six Only",
+  "tax_amount_in_words": "INR Four Thousand, Six Hundred And Thirteen Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "38777347446",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 242
+  }
+}

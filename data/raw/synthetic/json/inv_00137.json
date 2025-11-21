@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 627, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 466580",
+    "gstin": "27RDDXZ6592W1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts72@vistarealty.com",
+    "pan": "HOVCD7935U"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 302, Sector 36, Mumbai - 499365",
+    "gstin": "27AHQFJ7550R1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-342",
+    "date": "19-May-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4830",
+    "order_date": "18-May-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 4944,
+      "amount": 4944
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 3572,
+      "amount": 35720
+    }
+  ],
+  "totals": {
+    "subtotal": 40664,
+    "taxable_total": 40664,
+    "cgst_total": 2439.84,
+    "sgst_total": 2439.84,
+    "tax_total": 4879.68
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 40664,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2439.84,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2439.84
+    }
+  ],
+  "amount_in_words": "INR Forty-Five Thousand, Five Hundred And Forty-Four Only",
+  "tax_amount_in_words": "INR Four Thousand, Eight Hundred And Eighty Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "22552477095",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 137
+  }
+}

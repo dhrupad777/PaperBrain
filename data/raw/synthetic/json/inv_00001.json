@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 20, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 412117",
+    "gstin": "27JSRBE2952B1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts96@kanteenfoods.com",
+    "pan": "YNHEU3591V"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 281, Sector 25, Mumbai - 481083",
+    "gstin": "27LZCML8040R1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-334",
+    "date": "11-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9521",
+    "order_date": "07-Sep-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 1356,
+      "amount": 13560
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 2855,
+      "amount": 8565
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 2059,
+      "amount": 20590
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 2437,
+      "amount": 12185
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 1944,
+      "amount": 1944
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 3678,
+      "amount": 3678
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 3208,
+      "amount": 6416
+    }
+  ],
+  "totals": {
+    "subtotal": 66938,
+    "taxable_total": 66938,
+    "cgst_total": 9371.32,
+    "sgst_total": 9371.32,
+    "tax_total": 18742.64
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 66938,
+      "cgst_rate": 14.0,
+      "cgst_amt": 9371.32,
+      "sgst_rate": 14.0,
+      "sgst_amt": 9371.32
+    }
+  ],
+  "amount_in_words": "INR Eighty-Five Thousand, Six Hundred And Eighty-One Only",
+  "tax_amount_in_words": "INR Eighteen Thousand, Seven Hundred And Forty-Three Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "41442930388",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 1
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 174, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 444196",
+    "gstin": "27REKZF8556Q1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts40@vistarealty.com",
+    "pan": "PBGGW7046T"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 195, Sector 33, Mumbai - 417267",
+    "gstin": "27IMOIN1815Q1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-620",
+    "date": "27-Mar-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2364",
+    "order_date": "26-Mar-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 3915,
+      "amount": 11745
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 2911,
+      "amount": 29110
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 2327,
+      "amount": 11635
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 4648,
+      "amount": 23240
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 3582,
+      "amount": 17910
+    }
+  ],
+  "totals": {
+    "subtotal": 93640,
+    "taxable_total": 93640,
+    "cgst_total": 5618.4,
+    "sgst_total": 5618.4,
+    "tax_total": 11236.8
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 93640,
+      "cgst_rate": 6.0,
+      "cgst_amt": 5618.4,
+      "sgst_rate": 6.0,
+      "sgst_amt": 5618.4
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Four Thousand, Eight Hundred And Seventy-Seven Only",
+  "tax_amount_in_words": "INR Eleven Thousand, Two Hundred And Thirty-Seven Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "89327215276",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 287
+  }
+}

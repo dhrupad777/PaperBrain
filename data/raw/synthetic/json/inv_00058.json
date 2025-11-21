@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 572, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 445142",
+    "gstin": "27DFTBO9897Q1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts49@nexolindustries.com",
+    "pan": "XOBED8907J"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 544, Sector 6, Mumbai - 418304",
+    "gstin": "27NKJPQ8557L1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-840",
+    "date": "20-Jun-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9807",
+    "order_date": "19-Jun-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 1425,
+      "amount": 1425
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1595,
+      "amount": 4785
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 2214,
+      "amount": 11070
+    }
+  ],
+  "totals": {
+    "subtotal": 17280,
+    "taxable_total": 17280,
+    "cgst_total": 432.0,
+    "sgst_total": 432.0,
+    "tax_total": 864.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 17280,
+      "cgst_rate": 2.5,
+      "cgst_amt": 432.0,
+      "sgst_rate": 2.5,
+      "sgst_amt": 432.0
+    }
+  ],
+  "amount_in_words": "INR Eighteen Thousand, One Hundred And Forty-Four Only",
+  "tax_amount_in_words": "INR Eight Hundred And Sixty-Four Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "64526374473",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 58
+  }
+}

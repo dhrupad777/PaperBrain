@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 711, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 436783",
+    "gstin": "27WEBQU7748Z1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts58@labstech.com",
+    "pan": "FCBIE5604I"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 830, Sector 18, Mumbai - 473476",
+    "gstin": "27UIAXZ5526W1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-688",
+    "date": "16-Dec-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3319",
+    "order_date": "10-Dec-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 759,
+      "amount": 7590
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 3286,
+      "amount": 16430
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 2192,
+      "amount": 10960
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 3896,
+      "amount": 19480
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 2533,
+      "amount": 5066
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 564,
+      "amount": 5640
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 423,
+      "amount": 4230
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 483,
+      "amount": 1449
+    }
+  ],
+  "totals": {
+    "subtotal": 70845,
+    "taxable_total": 70845,
+    "cgst_total": 1771.12,
+    "sgst_total": 1771.12,
+    "tax_total": 3542.25
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 70845,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1771.12,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1771.12
+    }
+  ],
+  "amount_in_words": "INR Seventy-Four Thousand, Three Hundred And Eighty-Seven Only",
+  "tax_amount_in_words": "INR Three Thousand, Five Hundred And Forty-Two Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "55166877408",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 4
+  }
+}

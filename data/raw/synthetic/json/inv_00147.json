@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 833, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 448551",
+    "gstin": "27AZXXK3631I1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts75@talojamfgassn.com",
+    "pan": "JOKKJ1616F"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 92, Sector 14, Mumbai - 402971",
+    "gstin": "27QYAKL4782H1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-723",
+    "date": "24-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4705",
+    "order_date": "22-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 313,
+      "amount": 1565
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 2979,
+      "amount": 5958
+    }
+  ],
+  "totals": {
+    "subtotal": 7523,
+    "taxable_total": 7523,
+    "cgst_total": 451.38,
+    "sgst_total": 451.38,
+    "tax_total": 902.76
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 7523,
+      "cgst_rate": 6.0,
+      "cgst_amt": 451.38,
+      "sgst_rate": 6.0,
+      "sgst_amt": 451.38
+    }
+  ],
+  "amount_in_words": "INR Eight Thousand, Four Hundred And Twenty-Six Only",
+  "tax_amount_in_words": "INR Nine Hundred And Three Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "64089040124",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 147
+  }
+}

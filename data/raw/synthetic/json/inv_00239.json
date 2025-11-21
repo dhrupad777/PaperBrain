@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 323, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 432141",
+    "gstin": "27WLAAA9284O1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts15@nexolindustries.com",
+    "pan": "ALIUB1556F"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 63, Sector 26, Mumbai - 423849",
+    "gstin": "27ZRAIV4559S1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-369",
+    "date": "16-Nov-24",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5357",
+    "order_date": "13-Nov-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1066,
+      "amount": 3198
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 1683,
+      "amount": 3366
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 1594,
+      "amount": 4782
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 1277,
+      "amount": 12770
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 640,
+      "amount": 1280
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 4270,
+      "amount": 4270
+    }
+  ],
+  "totals": {
+    "subtotal": 29666,
+    "taxable_total": 29666,
+    "cgst_total": 2669.94,
+    "sgst_total": 2669.94,
+    "tax_total": 5339.88
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 29666,
+      "cgst_rate": 9.0,
+      "cgst_amt": 2669.94,
+      "sgst_rate": 9.0,
+      "sgst_amt": 2669.94
+    }
+  ],
+  "amount_in_words": "INR Thirty-Five Thousand And Six Only",
+  "tax_amount_in_words": "INR Five Thousand, Three Hundred And Forty Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "24806898059",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 239
+  }
+}

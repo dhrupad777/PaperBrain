@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 583, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 496406",
+    "gstin": "27VEAVH6182T1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts2@vistarealty.com",
+    "pan": "KEKLI9497H"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 234, Sector 24, Mumbai - 405916",
+    "gstin": "27TBNMF9864H1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-807",
+    "date": "01-Jul-24",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9988",
+    "order_date": "22-Jun-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 507,
+      "amount": 2535
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 804,
+      "amount": 1608
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 1370,
+      "amount": 4110
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 3898,
+      "amount": 38980
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 267,
+      "amount": 2670
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 2553,
+      "amount": 2553
+    }
+  ],
+  "totals": {
+    "subtotal": 52456,
+    "taxable_total": 52456,
+    "cgst_total": 3147.36,
+    "sgst_total": 3147.36,
+    "tax_total": 6294.72
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 52456,
+      "cgst_rate": 6.0,
+      "cgst_amt": 3147.36,
+      "sgst_rate": 6.0,
+      "sgst_amt": 3147.36
+    }
+  ],
+  "amount_in_words": "INR Fifty-Eight Thousand, Seven Hundred And Fifty-One Only",
+  "tax_amount_in_words": "INR Six Thousand, Two Hundred And Ninety-Five Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "81637335753",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 37
+  }
+}

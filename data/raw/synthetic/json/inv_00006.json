@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 228, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 433552",
+    "gstin": "27ROTQE3157R1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts47@talojamfgassn.com",
+    "pan": "IFLYZ3223U"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 901, Sector 42, Mumbai - 438903",
+    "gstin": "27OZCPL6592N1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-586",
+    "date": "05-Mar-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5141",
+    "order_date": "01-Mar-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 727,
+      "amount": 727
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 3346,
+      "amount": 10038
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 2601,
+      "amount": 7803
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 1541,
+      "amount": 4623
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 1111,
+      "amount": 2222
+    }
+  ],
+  "totals": {
+    "subtotal": 25413,
+    "taxable_total": 25413,
+    "cgst_total": 3557.82,
+    "sgst_total": 3557.82,
+    "tax_total": 7115.64
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 25413,
+      "cgst_rate": 14.0,
+      "cgst_amt": 3557.82,
+      "sgst_rate": 14.0,
+      "sgst_amt": 3557.82
+    }
+  ],
+  "amount_in_words": "INR Thirty-Two Thousand, Five Hundred And Twenty-Nine Only",
+  "tax_amount_in_words": "INR Seven Thousand, One Hundred And Sixteen Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "36129717049",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 6
+  }
+}

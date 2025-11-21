@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 86, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 422276",
+    "gstin": "27IKEAN5214Z1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts31@labstech.com",
+    "pan": "BDGYT9865V"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 698, Sector 11, Mumbai - 437059",
+    "gstin": "27WUHMT9505R1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-515",
+    "date": "16-Jul-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8004",
+    "order_date": "09-Jul-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 4342,
+      "amount": 13026
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 3112,
+      "amount": 6224
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 4814,
+      "amount": 24070
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 4065,
+      "amount": 4065
+    }
+  ],
+  "totals": {
+    "subtotal": 47385,
+    "taxable_total": 47385,
+    "cgst_total": 1184.62,
+    "sgst_total": 1184.62,
+    "tax_total": 2369.25
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 47385,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1184.62,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1184.62
+    }
+  ],
+  "amount_in_words": "INR Forty-Nine Thousand, Seven Hundred And Fifty-Four Only",
+  "tax_amount_in_words": "INR Two Thousand, Three Hundred And Sixty-Nine Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "84717475733",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 186
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 472, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 485755",
+    "gstin": "27QDMVP1637M1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts11@vistarealty.com",
+    "pan": "POIOI9969N"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 708, Sector 15, Mumbai - 457181",
+    "gstin": "27STIFP2858B1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-212",
+    "date": "10-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6891",
+    "order_date": "04-Aug-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 4111,
+      "amount": 4111
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 1422,
+      "amount": 7110
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 4261,
+      "amount": 12783
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 256,
+      "amount": 512
+    }
+  ],
+  "totals": {
+    "subtotal": 24516,
+    "taxable_total": 24516,
+    "cgst_total": 2206.44,
+    "sgst_total": 2206.44,
+    "tax_total": 4412.88
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 24516,
+      "cgst_rate": 9.0,
+      "cgst_amt": 2206.44,
+      "sgst_rate": 9.0,
+      "sgst_amt": 2206.44
+    }
+  ],
+  "amount_in_words": "INR Twenty-Eight Thousand, Nine Hundred And Twenty-Nine Only",
+  "tax_amount_in_words": "INR Four Thousand, Four Hundred And Thirteen Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "32398644780",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 115
+  }
+}

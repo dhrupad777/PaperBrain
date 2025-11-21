@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 994, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 484700",
+    "gstin": "27HTELX9454A1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts67@kanteenfoods.com",
+    "pan": "DEJLF7693X"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 997, Sector 49, Mumbai - 497176",
+    "gstin": "27HWIYR9635D1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-842",
+    "date": "12-Nov-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1772",
+    "order_date": "05-Nov-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 4284,
+      "amount": 12852
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 3886,
+      "amount": 19430
+    }
+  ],
+  "totals": {
+    "subtotal": 32282,
+    "taxable_total": 32282,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 32282,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Thirty-Two Thousand, Two Hundred And Eighty-Two Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "31355107160",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 285
+  }
+}

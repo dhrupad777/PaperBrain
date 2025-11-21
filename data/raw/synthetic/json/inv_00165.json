@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 392, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 468382",
+    "gstin": "27WGBFQ8000L1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts96@kanteenfoods.com",
+    "pan": "NGSTT2583L"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 734, Sector 6, Mumbai - 489286",
+    "gstin": "27JJIGF8484X1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-284",
+    "date": "21-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6316",
+    "order_date": "12-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 4410,
+      "amount": 4410
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 3129,
+      "amount": 6258
+    }
+  ],
+  "totals": {
+    "subtotal": 10668,
+    "taxable_total": 10668,
+    "cgst_total": 1493.52,
+    "sgst_total": 1493.52,
+    "tax_total": 2987.04
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 10668,
+      "cgst_rate": 14.0,
+      "cgst_amt": 1493.52,
+      "sgst_rate": 14.0,
+      "sgst_amt": 1493.52
+    }
+  ],
+  "amount_in_words": "INR Thirteen Thousand, Six Hundred And Fifty-Five Only",
+  "tax_amount_in_words": "INR Two Thousand, Nine Hundred And Eighty-Seven Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "73833427971",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 165
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 151, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 419561",
+    "gstin": "27PLLIE3252O1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts79@nexolindustries.com",
+    "pan": "ICNRK8551H"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 217, Sector 11, Mumbai - 448366",
+    "gstin": "27QFFCM9562K1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-312",
+    "date": "26-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8696",
+    "order_date": "17-Sep-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 3480,
+      "amount": 10440
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 2324,
+      "amount": 2324
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 4467,
+      "amount": 8934
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 4932,
+      "amount": 9864
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 3736,
+      "amount": 3736
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 1428,
+      "amount": 4284
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 2220,
+      "amount": 6660
+    }
+  ],
+  "totals": {
+    "subtotal": 46242,
+    "taxable_total": 46242,
+    "cgst_total": 4161.78,
+    "sgst_total": 4161.78,
+    "tax_total": 8323.56
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 46242,
+      "cgst_rate": 9.0,
+      "cgst_amt": 4161.78,
+      "sgst_rate": 9.0,
+      "sgst_amt": 4161.78
+    }
+  ],
+  "amount_in_words": "INR Fifty-Four Thousand, Five Hundred And Sixty-Six Only",
+  "tax_amount_in_words": "INR Eight Thousand, Three Hundred And Twenty-Four Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "71664697295",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 294
+  }
+}

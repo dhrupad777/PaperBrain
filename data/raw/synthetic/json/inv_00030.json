@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 952, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 457655",
+    "gstin": "27LNUNJ6161H1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts48@nexolindustries.com",
+    "pan": "SUFWQ8810C"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 928, Sector 11, Mumbai - 453266",
+    "gstin": "27OVFZN3048C1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-582",
+    "date": "08-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1867",
+    "order_date": "03-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 4248,
+      "amount": 12744
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 1166,
+      "amount": 11660
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 479,
+      "amount": 479
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 4501,
+      "amount": 22505
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 2968,
+      "amount": 2968
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 3517,
+      "amount": 35170
+    }
+  ],
+  "totals": {
+    "subtotal": 85526,
+    "taxable_total": 85526,
+    "cgst_total": 2138.15,
+    "sgst_total": 2138.15,
+    "tax_total": 4276.3
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 85526,
+      "cgst_rate": 2.5,
+      "cgst_amt": 2138.15,
+      "sgst_rate": 2.5,
+      "sgst_amt": 2138.15
+    }
+  ],
+  "amount_in_words": "INR Eighty-Nine Thousand, Eight Hundred And Two Only",
+  "tax_amount_in_words": "INR Four Thousand, Two Hundred And Seventy-Six Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "88095625148",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 30
+  }
+}

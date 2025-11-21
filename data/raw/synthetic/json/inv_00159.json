@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 242, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 400785",
+    "gstin": "27CHIZH5074S1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts1@kanteenfoods.com",
+    "pan": "CJMRL8034W"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 235, Sector 50, Mumbai - 444405",
+    "gstin": "27JQLJC7250J1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-342",
+    "date": "12-Dec-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9928",
+    "order_date": "08-Dec-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 3873,
+      "amount": 38730
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 3279,
+      "amount": 3279
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 670,
+      "amount": 670
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 824,
+      "amount": 4120
+    }
+  ],
+  "totals": {
+    "subtotal": 46799,
+    "taxable_total": 46799,
+    "cgst_total": 6551.86,
+    "sgst_total": 6551.86,
+    "tax_total": 13103.72
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 46799,
+      "cgst_rate": 14.0,
+      "cgst_amt": 6551.86,
+      "sgst_rate": 14.0,
+      "sgst_amt": 6551.86
+    }
+  ],
+  "amount_in_words": "INR Fifty-Nine Thousand, Nine Hundred And Three Only",
+  "tax_amount_in_words": "INR Thirteen Thousand, One Hundred And Four Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "17918529121",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 159
+  }
+}

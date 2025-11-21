@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 872, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 449864",
+    "gstin": "27LKHYK3503G1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts37@labstech.com",
+    "pan": "XBTGK4849K"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 349, Sector 31, Mumbai - 496198",
+    "gstin": "27FPFOH1246U1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-759",
+    "date": "31-May-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8880",
+    "order_date": "26-May-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 1962,
+      "amount": 1962
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 1700,
+      "amount": 17000
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 3751,
+      "amount": 37510
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 1061,
+      "amount": 2122
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 4705,
+      "amount": 9410
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 2451,
+      "amount": 12255
+    }
+  ],
+  "totals": {
+    "subtotal": 80259,
+    "taxable_total": 80259,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 80259,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Eighty Thousand, Two Hundred And Fifty-Nine Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "45752841534",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 152
+  }
+}

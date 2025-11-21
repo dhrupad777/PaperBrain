@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 167, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 458142",
+    "gstin": "27UQCTH5658J1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts21@nexolindustries.com",
+    "pan": "NCKGV5874A"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 997, Sector 28, Mumbai - 422903",
+    "gstin": "27XCFFR6164Z1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-496",
+    "date": "01-Jul-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1356",
+    "order_date": "26-Jun-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 979,
+      "amount": 9790
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 2154,
+      "amount": 2154
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 2104,
+      "amount": 4208
+    }
+  ],
+  "totals": {
+    "subtotal": 16152,
+    "taxable_total": 16152,
+    "cgst_total": 2261.28,
+    "sgst_total": 2261.28,
+    "tax_total": 4522.56
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 16152,
+      "cgst_rate": 14.0,
+      "cgst_amt": 2261.28,
+      "sgst_rate": 14.0,
+      "sgst_amt": 2261.28
+    }
+  ],
+  "amount_in_words": "INR Twenty Thousand, Six Hundred And Seventy-Five Only",
+  "tax_amount_in_words": "INR Four Thousand, Five Hundred And Twenty-Three Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "45351925499",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 250
+  }
+}

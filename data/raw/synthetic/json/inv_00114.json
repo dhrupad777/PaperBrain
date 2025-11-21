@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 890, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 442561",
+    "gstin": "27UAKYS5197Y1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts9@nexolindustries.com",
+    "pan": "QHUWW8776V"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 22, Sector 37, Mumbai - 444627",
+    "gstin": "27QFKIY9178A1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-450",
+    "date": "22-Apr-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1164",
+    "order_date": "16-Apr-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 1916,
+      "amount": 9580
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 1376,
+      "amount": 2752
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 3838,
+      "amount": 38380
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 2720,
+      "amount": 8160
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 3227,
+      "amount": 9681
+    }
+  ],
+  "totals": {
+    "subtotal": 68553,
+    "taxable_total": 68553,
+    "cgst_total": 4113.18,
+    "sgst_total": 4113.18,
+    "tax_total": 8226.36
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 68553,
+      "cgst_rate": 6.0,
+      "cgst_amt": 4113.18,
+      "sgst_rate": 6.0,
+      "sgst_amt": 4113.18
+    }
+  ],
+  "amount_in_words": "INR Seventy-Six Thousand, Seven Hundred And Seventy-Nine Only",
+  "tax_amount_in_words": "INR Eight Thousand, Two Hundred And Twenty-Six Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "34859504515",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 114
+  }
+}

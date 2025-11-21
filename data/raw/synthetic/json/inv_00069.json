@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 988, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 481596",
+    "gstin": "27MREIY3247R1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts39@nexolindustries.com",
+    "pan": "BVIVJ1712M"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 390, Sector 31, Mumbai - 447562",
+    "gstin": "27GXRBB1325A1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-714",
+    "date": "01-Aug-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6968",
+    "order_date": "29-Jul-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 2761,
+      "amount": 27610
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 775,
+      "amount": 3875
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 3172,
+      "amount": 15860
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 4789,
+      "amount": 14367
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 4828,
+      "amount": 9656
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 2194,
+      "amount": 4388
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 1844,
+      "amount": 3688
+    }
+  ],
+  "totals": {
+    "subtotal": 79444,
+    "taxable_total": 79444,
+    "cgst_total": 7149.96,
+    "sgst_total": 7149.96,
+    "tax_total": 14299.92
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 79444,
+      "cgst_rate": 9.0,
+      "cgst_amt": 7149.96,
+      "sgst_rate": 9.0,
+      "sgst_amt": 7149.96
+    }
+  ],
+  "amount_in_words": "INR Ninety-Three Thousand, Seven Hundred And Forty-Four Only",
+  "tax_amount_in_words": "INR Fourteen Thousand, Three Hundred Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "54514266287",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 69
+  }
+}

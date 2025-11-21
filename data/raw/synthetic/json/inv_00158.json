@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 145, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 456731",
+    "gstin": "27UFVQE4232V1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts25@kanteenfoods.com",
+    "pan": "EJKCZ8400F"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 417, Sector 3, Mumbai - 429332",
+    "gstin": "27UGBDB6657X1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-483",
+    "date": "04-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9306",
+    "order_date": "29-Jul-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 366,
+      "amount": 1830
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 302,
+      "amount": 906
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 3793,
+      "amount": 11379
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 1610,
+      "amount": 1610
+    }
+  ],
+  "totals": {
+    "subtotal": 15725,
+    "taxable_total": 15725,
+    "cgst_total": 1415.25,
+    "sgst_total": 1415.25,
+    "tax_total": 2830.5
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 15725,
+      "cgst_rate": 9.0,
+      "cgst_amt": 1415.25,
+      "sgst_rate": 9.0,
+      "sgst_amt": 1415.25
+    }
+  ],
+  "amount_in_words": "INR Eighteen Thousand, Five Hundred And Fifty-Six Only",
+  "tax_amount_in_words": "INR Two Thousand, Eight Hundred And Thirty Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "56168591695",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 158
+  }
+}

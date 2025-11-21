@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 690, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 424839",
+    "gstin": "27MZLBQ7149Z1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts80@nexolindustries.com",
+    "pan": "UZVPD7911Y"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 992, Sector 16, Mumbai - 457925",
+    "gstin": "27XCNEJ2443V1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-353",
+    "date": "15-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9871",
+    "order_date": "06-Aug-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 4910,
+      "amount": 9820
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 996,
+      "amount": 4980
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 3215,
+      "amount": 6430
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 670,
+      "amount": 6700
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 726,
+      "amount": 1452
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 2453,
+      "amount": 4906
+    }
+  ],
+  "totals": {
+    "subtotal": 34288,
+    "taxable_total": 34288,
+    "cgst_total": 3085.92,
+    "sgst_total": 3085.92,
+    "tax_total": 6171.84
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 34288,
+      "cgst_rate": 9.0,
+      "cgst_amt": 3085.92,
+      "sgst_rate": 9.0,
+      "sgst_amt": 3085.92
+    }
+  ],
+  "amount_in_words": "INR Forty Thousand, Four Hundred And Sixty Only",
+  "tax_amount_in_words": "INR Six Thousand, One Hundred And Seventy-Two Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "27390487290",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 164
+  }
+}

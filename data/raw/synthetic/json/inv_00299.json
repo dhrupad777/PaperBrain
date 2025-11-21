@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 219, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 414141",
+    "gstin": "27ZDFBK3990V1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts38@kanteenfoods.com",
+    "pan": "QGDJW1480S"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 576, Sector 28, Mumbai - 405934",
+    "gstin": "27WFMZI6557Z1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-239",
+    "date": "28-Mar-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4536",
+    "order_date": "23-Mar-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 3542,
+      "amount": 3542
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 3701,
+      "amount": 3701
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 3823,
+      "amount": 11469
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 3052,
+      "amount": 30520
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 3195,
+      "amount": 6390
+    }
+  ],
+  "totals": {
+    "subtotal": 55622,
+    "taxable_total": 55622,
+    "cgst_total": 7787.08,
+    "sgst_total": 7787.08,
+    "tax_total": 15574.16
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 55622,
+      "cgst_rate": 14.0,
+      "cgst_amt": 7787.08,
+      "sgst_rate": 14.0,
+      "sgst_amt": 7787.08
+    }
+  ],
+  "amount_in_words": "INR Seventy-One Thousand, One Hundred And Ninety-Six Only",
+  "tax_amount_in_words": "INR Fifteen Thousand, Five Hundred And Seventy-Four Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "72204464580",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 299
+  }
+}

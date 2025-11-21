@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 285, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 476463",
+    "gstin": "27VMWCI7463Q1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts87@kanteenfoods.com",
+    "pan": "KFUAL2795K"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 932, Sector 11, Mumbai - 421917",
+    "gstin": "27VIGHV8765A1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-074",
+    "date": "26-Jun-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4911",
+    "order_date": "26-Jun-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 4657,
+      "amount": 23285
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 489,
+      "amount": 978
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 2719,
+      "amount": 5438
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 3517,
+      "amount": 35170
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 4825,
+      "amount": 4825
+    }
+  ],
+  "totals": {
+    "subtotal": 69696,
+    "taxable_total": 69696,
+    "cgst_total": 4181.76,
+    "sgst_total": 4181.76,
+    "tax_total": 8363.52
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 69696,
+      "cgst_rate": 6.0,
+      "cgst_amt": 4181.76,
+      "sgst_rate": 6.0,
+      "sgst_amt": 4181.76
+    }
+  ],
+  "amount_in_words": "INR Seventy-Eight Thousand And Sixty Only",
+  "tax_amount_in_words": "INR Eight Thousand, Three Hundred And Sixty-Four Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "80834651277",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 218
+  }
+}

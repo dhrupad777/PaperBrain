@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 229, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 438949",
+    "gstin": "27LHZVB6368Q1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts23@kanteenfoods.com",
+    "pan": "OGGEI4255C"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 568, Sector 41, Mumbai - 428545",
+    "gstin": "27SQGQX1055O1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-600",
+    "date": "28-Apr-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1441",
+    "order_date": "28-Apr-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 4816,
+      "amount": 14448
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 2242,
+      "amount": 22420
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 2134,
+      "amount": 10670
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 3389,
+      "amount": 33890
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 3281,
+      "amount": 16405
+    }
+  ],
+  "totals": {
+    "subtotal": 97833,
+    "taxable_total": 97833,
+    "cgst_total": 8804.97,
+    "sgst_total": 8804.97,
+    "tax_total": 17609.94
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 97833,
+      "cgst_rate": 9.0,
+      "cgst_amt": 8804.97,
+      "sgst_rate": 9.0,
+      "sgst_amt": 8804.97
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Fifteen Thousand, Four Hundred And Forty-Three Only",
+  "tax_amount_in_words": "INR Seventeen Thousand, Six Hundred And Ten Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "77023875136",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 254
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 545, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 423924",
+    "gstin": "27WVOML4031Q1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts99@labstech.com",
+    "pan": "GEEYX4715H"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 301, Sector 1, Mumbai - 443609",
+    "gstin": "27KZRSQ7353E1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-522",
+    "date": "02-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5689",
+    "order_date": "28-Sep-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 4357,
+      "amount": 21785
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 2231,
+      "amount": 6693
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 1194,
+      "amount": 2388
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 2440,
+      "amount": 12200
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 4267,
+      "amount": 12801
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 3833,
+      "amount": 38330
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 896,
+      "amount": 8960
+    }
+  ],
+  "totals": {
+    "subtotal": 103157,
+    "taxable_total": 103157,
+    "cgst_total": 9284.13,
+    "sgst_total": 9284.13,
+    "tax_total": 18568.26
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 103157,
+      "cgst_rate": 9.0,
+      "cgst_amt": 9284.13,
+      "sgst_rate": 9.0,
+      "sgst_amt": 9284.13
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Twenty-One Thousand, Seven Hundred And Twenty-Five Only",
+  "tax_amount_in_words": "INR Eighteen Thousand, Five Hundred And Sixty-Eight Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "37394312627",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 175
+  }
+}

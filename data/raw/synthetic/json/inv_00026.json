@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 546, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 457808",
+    "gstin": "27YFSBO6681Y1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts45@kanteenfoods.com",
+    "pan": "JLPEY5638J"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 453, Sector 48, Mumbai - 472050",
+    "gstin": "27EFOKZ8011A1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-877",
+    "date": "11-May-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6451",
+    "order_date": "05-May-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 2301,
+      "amount": 23010
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 3305,
+      "amount": 6610
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 4841,
+      "amount": 24205
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 2930,
+      "amount": 14650
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 1632,
+      "amount": 3264
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 4162,
+      "amount": 12486
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 1401,
+      "amount": 14010
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 4445,
+      "amount": 4445
+    }
+  ],
+  "totals": {
+    "subtotal": 102680,
+    "taxable_total": 102680,
+    "cgst_total": 2567.0,
+    "sgst_total": 2567.0,
+    "tax_total": 5134.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 102680,
+      "cgst_rate": 2.5,
+      "cgst_amt": 2567.0,
+      "sgst_rate": 2.5,
+      "sgst_amt": 2567.0
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Seven Thousand, Eight Hundred And Fourteen Only",
+  "tax_amount_in_words": "INR Five Thousand, One Hundred And Thirty-Four Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "10186197458",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 26
+  }
+}

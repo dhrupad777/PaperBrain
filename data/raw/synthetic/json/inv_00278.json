@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 972, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 453732",
+    "gstin": "27TENPN8603E1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts13@labstech.com",
+    "pan": "MPFKC2423X"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 778, Sector 32, Mumbai - 428041",
+    "gstin": "27CJTOS4925A1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-427",
+    "date": "30-Jan-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9070",
+    "order_date": "28-Jan-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1665,
+      "amount": 4995
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 1045,
+      "amount": 2090
+    }
+  ],
+  "totals": {
+    "subtotal": 7085,
+    "taxable_total": 7085,
+    "cgst_total": 637.65,
+    "sgst_total": 637.65,
+    "tax_total": 1275.3
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 7085,
+      "cgst_rate": 9.0,
+      "cgst_amt": 637.65,
+      "sgst_rate": 9.0,
+      "sgst_amt": 637.65
+    }
+  ],
+  "amount_in_words": "INR Eight Thousand, Three Hundred And Sixty Only",
+  "tax_amount_in_words": "INR One Thousand, Two Hundred And Seventy-Five Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "62671408216",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 278
+  }
+}

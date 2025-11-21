@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 169, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 496309",
+    "gstin": "27FPCHW3724E1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts51@vistarealty.com",
+    "pan": "PZKNT1040V"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 153, Sector 6, Mumbai - 450737",
+    "gstin": "27YLAHV7442L1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-608",
+    "date": "29-Jun-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8860",
+    "order_date": "24-Jun-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 2032,
+      "amount": 2032
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 2278,
+      "amount": 22780
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 2742,
+      "amount": 27420
+    }
+  ],
+  "totals": {
+    "subtotal": 52232,
+    "taxable_total": 52232,
+    "cgst_total": 3133.92,
+    "sgst_total": 3133.92,
+    "tax_total": 6267.84
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 52232,
+      "cgst_rate": 6.0,
+      "cgst_amt": 3133.92,
+      "sgst_rate": 6.0,
+      "sgst_amt": 3133.92
+    }
+  ],
+  "amount_in_words": "INR Fifty-Eight Thousand, Five Hundred Only",
+  "tax_amount_in_words": "INR Six Thousand, Two Hundred And Sixty-Eight Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "16307190072",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 236
+  }
+}

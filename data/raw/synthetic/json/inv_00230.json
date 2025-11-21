@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 300, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 420726",
+    "gstin": "27MWDHM9244T1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts91@labstech.com",
+    "pan": "FMJWU8247K"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 429, Sector 31, Mumbai - 428270",
+    "gstin": "27VAHNH5371D1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-716",
+    "date": "14-Aug-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9095",
+    "order_date": "06-Aug-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 4047,
+      "amount": 12141
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 1303,
+      "amount": 3909
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 299,
+      "amount": 1495
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 4719,
+      "amount": 23595
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 4079,
+      "amount": 20395
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 750,
+      "amount": 3750
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 672,
+      "amount": 3360
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 4312,
+      "amount": 8624
+    }
+  ],
+  "totals": {
+    "subtotal": 77269,
+    "taxable_total": 77269,
+    "cgst_total": 1931.73,
+    "sgst_total": 1931.73,
+    "tax_total": 3863.45
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 77269,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1931.73,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1931.73
+    }
+  ],
+  "amount_in_words": "INR Eighty-One Thousand, One Hundred And Thirty-Two Only",
+  "tax_amount_in_words": "INR Three Thousand, Eight Hundred And Sixty-Three Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "40985328694",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 230
+  }
+}

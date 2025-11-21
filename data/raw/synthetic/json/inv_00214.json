@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 514, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 420967",
+    "gstin": "27HUJJU8150N1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts15@vistarealty.com",
+    "pan": "MPUSV8856G"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 625, Sector 34, Mumbai - 418753",
+    "gstin": "27XYNAI2612W1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-172",
+    "date": "23-Jul-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2119",
+    "order_date": "13-Jul-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 2347,
+      "amount": 23470
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 2882,
+      "amount": 14410
+    }
+  ],
+  "totals": {
+    "subtotal": 37880,
+    "taxable_total": 37880,
+    "cgst_total": 947.0,
+    "sgst_total": 947.0,
+    "tax_total": 1894.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 37880,
+      "cgst_rate": 2.5,
+      "cgst_amt": 947.0,
+      "sgst_rate": 2.5,
+      "sgst_amt": 947.0
+    }
+  ],
+  "amount_in_words": "INR Thirty-Nine Thousand, Seven Hundred And Seventy-Four Only",
+  "tax_amount_in_words": "INR One Thousand, Eight Hundred And Ninety-Four Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "25729441749",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 214
+  }
+}

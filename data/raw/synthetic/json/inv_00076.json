@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 143, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 471414",
+    "gstin": "27BBEXU5110W1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts63@kanteenfoods.com",
+    "pan": "VKLFC4856S"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 841, Sector 30, Mumbai - 432567",
+    "gstin": "27NZRPC3010Z1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-159",
+    "date": "02-Dec-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3731",
+    "order_date": "22-Nov-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 2396,
+      "amount": 23960
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 255,
+      "amount": 765
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 820,
+      "amount": 1640
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 2089,
+      "amount": 6267
+    }
+  ],
+  "totals": {
+    "subtotal": 32632,
+    "taxable_total": 32632,
+    "cgst_total": 1957.92,
+    "sgst_total": 1957.92,
+    "tax_total": 3915.84
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 32632,
+      "cgst_rate": 6.0,
+      "cgst_amt": 1957.92,
+      "sgst_rate": 6.0,
+      "sgst_amt": 1957.92
+    }
+  ],
+  "amount_in_words": "INR Thirty-Six Thousand, Five Hundred And Forty-Eight Only",
+  "tax_amount_in_words": "INR Three Thousand, Nine Hundred And Sixteen Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "50676263171",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 76
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 69, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 421618",
+    "gstin": "27DCGMJ5064S1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts79@kanteenfoods.com",
+    "pan": "RLWVK1714S"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 470, Sector 5, Mumbai - 482208",
+    "gstin": "27NUMKU6620J1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-325",
+    "date": "26-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4672",
+    "order_date": "20-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 4035,
+      "amount": 40350
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 4333,
+      "amount": 4333
+    }
+  ],
+  "totals": {
+    "subtotal": 44683,
+    "taxable_total": 44683,
+    "cgst_total": 1117.08,
+    "sgst_total": 1117.08,
+    "tax_total": 2234.15
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 44683,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1117.08,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1117.08
+    }
+  ],
+  "amount_in_words": "INR Forty-Six Thousand, Nine Hundred And Seventeen Only",
+  "tax_amount_in_words": "INR Two Thousand, Two Hundred And Thirty-Four Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "62686551779",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 267
+  }
+}

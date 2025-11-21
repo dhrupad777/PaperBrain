@@ -1,0 +1,32 @@
+# Core dependencies
+streamlit
+Pillow==10.4.0
+numpy
+pandas
+
+# OCR and PDF processing
+pytesseract
+pdf2image
+PyMuPDF  # pymupdf (imported as fitz)
+
+# Machine Learning
+scikit-learn
+
+# Deep Learning frameworks (prototype only - choose one based on your needs)
+torch
+torchvision
+tensorflow
+
+# Forecasting (optional)
+prophet
+
+# Google Cloud services
+google-cloud-documentai
+google-cloud-storage
+
+# Synthetic data generation
+playwright==1.48.0
+python-dateutil==2.9.0.post0
+num2words==0.5.13
+
+

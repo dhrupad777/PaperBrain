@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 271, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 481173",
+    "gstin": "27LQCKF1872Z1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts76@labstech.com",
+    "pan": "CDTGR8277S"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 840, Sector 32, Mumbai - 459523",
+    "gstin": "27RTHZK6649S1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-701",
+    "date": "25-Jul-24",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9100",
+    "order_date": "15-Jul-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1290,
+      "amount": 3870
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 3711,
+      "amount": 18555
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 3823,
+      "amount": 38230
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 3748,
+      "amount": 3748
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 2450,
+      "amount": 4900
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 1592,
+      "amount": 15920
+    }
+  ],
+  "totals": {
+    "subtotal": 85223,
+    "taxable_total": 85223,
+    "cgst_total": 2130.58,
+    "sgst_total": 2130.58,
+    "tax_total": 4261.15
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 85223,
+      "cgst_rate": 2.5,
+      "cgst_amt": 2130.58,
+      "sgst_rate": 2.5,
+      "sgst_amt": 2130.58
+    }
+  ],
+  "amount_in_words": "INR Eighty-Nine Thousand, Four Hundred And Eighty-Four Only",
+  "tax_amount_in_words": "INR Four Thousand, Two Hundred And Sixty-One Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "94835854174",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 22
+  }
+}

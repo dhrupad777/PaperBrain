@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 212, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 461448",
+    "gstin": "27LXZIF3942A1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts54@nexolindustries.com",
+    "pan": "TLRCF6312G"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 860, Sector 44, Mumbai - 430351",
+    "gstin": "27HEMQI4768P1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-614",
+    "date": "07-Feb-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6909",
+    "order_date": "28-Jan-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 3330,
+      "amount": 33300
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 3631,
+      "amount": 3631
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 2264,
+      "amount": 11320
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 4750,
+      "amount": 14250
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 788,
+      "amount": 3940
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 3501,
+      "amount": 3501
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 3317,
+      "amount": 6634
+    }
+  ],
+  "totals": {
+    "subtotal": 76576,
+    "taxable_total": 76576,
+    "cgst_total": 4594.56,
+    "sgst_total": 4594.56,
+    "tax_total": 9189.12
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 76576,
+      "cgst_rate": 6.0,
+      "cgst_amt": 4594.56,
+      "sgst_rate": 6.0,
+      "sgst_amt": 4594.56
+    }
+  ],
+  "amount_in_words": "INR Eighty-Five Thousand, Seven Hundred And Sixty-Five Only",
+  "tax_amount_in_words": "INR Nine Thousand, One Hundred And Eighty-Nine Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "25052450087",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 296
+  }
+}

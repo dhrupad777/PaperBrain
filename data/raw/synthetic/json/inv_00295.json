@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 550, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 413735",
+    "gstin": "27DJZNT1382L1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts1@talojamfgassn.com",
+    "pan": "YXCOS1557S"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 588, Sector 12, Mumbai - 470368",
+    "gstin": "27WUJLH4086F1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-975",
+    "date": "07-Nov-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7480",
+    "order_date": "07-Nov-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 3461,
+      "amount": 6922
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 403,
+      "amount": 2015
+    }
+  ],
+  "totals": {
+    "subtotal": 8937,
+    "taxable_total": 8937,
+    "cgst_total": 223.43,
+    "sgst_total": 223.43,
+    "tax_total": 446.85
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 8937,
+      "cgst_rate": 2.5,
+      "cgst_amt": 223.43,
+      "sgst_rate": 2.5,
+      "sgst_amt": 223.43
+    }
+  ],
+  "amount_in_words": "INR Nine Thousand, Three Hundred And Eighty-Four Only",
+  "tax_amount_in_words": "INR Four Hundred And Forty-Seven Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "97328947235",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 295
+  }
+}

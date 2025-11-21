@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 378, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 476474",
+    "gstin": "27CKTKK1540T1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts71@talojamfgassn.com",
+    "pan": "BGNAC8464U"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 249, Sector 41, Mumbai - 430456",
+    "gstin": "27PLSKB1044Q1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-283",
+    "date": "14-Jul-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4678",
+    "order_date": "10-Jul-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 2203,
+      "amount": 6609
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 3348,
+      "amount": 10044
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 215,
+      "amount": 430
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 2449,
+      "amount": 4898
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 2778,
+      "amount": 27780
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 1333,
+      "amount": 2666
+    }
+  ],
+  "totals": {
+    "subtotal": 52427,
+    "taxable_total": 52427,
+    "cgst_total": 7339.78,
+    "sgst_total": 7339.78,
+    "tax_total": 14679.56
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 52427,
+      "cgst_rate": 14.0,
+      "cgst_amt": 7339.78,
+      "sgst_rate": 14.0,
+      "sgst_amt": 7339.78
+    }
+  ],
+  "amount_in_words": "INR Sixty-Seven Thousand, One Hundred And Seven Only",
+  "tax_amount_in_words": "INR Fourteen Thousand, Six Hundred And Eighty Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "81876097963",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 194
+  }
+}

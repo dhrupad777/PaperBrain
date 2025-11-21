@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 725, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 465564",
+    "gstin": "27KAUOE2161L1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts77@nexolindustries.com",
+    "pan": "UCEDY7204M"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 169, Sector 50, Mumbai - 462648",
+    "gstin": "27LNLLY9880Z1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-617",
+    "date": "22-Jul-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6935",
+    "order_date": "19-Jul-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 3465,
+      "amount": 10395
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 4832,
+      "amount": 48320
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 2652,
+      "amount": 26520
+    }
+  ],
+  "totals": {
+    "subtotal": 85235,
+    "taxable_total": 85235,
+    "cgst_total": 7671.15,
+    "sgst_total": 7671.15,
+    "tax_total": 15342.3
+  },
+  "tax_rows": [
+    {
+      "hsn": "998361",
+      "taxable": 85235,
+      "cgst_rate": 9.0,
+      "cgst_amt": 7671.15,
+      "sgst_rate": 9.0,
+      "sgst_amt": 7671.15
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Five Hundred And Seventy-Seven Only",
+  "tax_amount_in_words": "INR Fifteen Thousand, Three Hundred And Forty-Two Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "11271507072",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 20
+  }
+}

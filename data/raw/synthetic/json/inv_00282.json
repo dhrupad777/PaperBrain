@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 5, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 467124",
+    "gstin": "27FUJJZ5563R1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts10@labstech.com",
+    "pan": "DMBFD1934N"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 227, Sector 49, Mumbai - 468499",
+    "gstin": "27YZXDN3384X1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-618",
+    "date": "27-Jul-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9432",
+    "order_date": "23-Jul-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 627,
+      "amount": 3135
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 3243,
+      "amount": 16215
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 3396,
+      "amount": 6792
+    }
+  ],
+  "totals": {
+    "subtotal": 26142,
+    "taxable_total": 26142,
+    "cgst_total": 1568.52,
+    "sgst_total": 1568.52,
+    "tax_total": 3137.04
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 26142,
+      "cgst_rate": 6.0,
+      "cgst_amt": 1568.52,
+      "sgst_rate": 6.0,
+      "sgst_amt": 1568.52
+    }
+  ],
+  "amount_in_words": "INR Twenty-Nine Thousand, Two Hundred And Seventy-Nine Only",
+  "tax_amount_in_words": "INR Three Thousand, One Hundred And Thirty-Seven Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "93875466238",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 282
+  }
+}

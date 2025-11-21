@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 216, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 451011",
+    "gstin": "27YQYMF7836T1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts6@vistarealty.com",
+    "pan": "VJWJC9042I"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 991, Sector 35, Mumbai - 421807",
+    "gstin": "27DWRDB5763Y1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-096",
+    "date": "08-May-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8877",
+    "order_date": "30-Apr-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 1123,
+      "amount": 5615
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 901,
+      "amount": 901
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 3267,
+      "amount": 3267
+    }
+  ],
+  "totals": {
+    "subtotal": 9783,
+    "taxable_total": 9783,
+    "cgst_total": 1369.62,
+    "sgst_total": 1369.62,
+    "tax_total": 2739.24
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 9783,
+      "cgst_rate": 14.0,
+      "cgst_amt": 1369.62,
+      "sgst_rate": 14.0,
+      "sgst_amt": 1369.62
+    }
+  ],
+  "amount_in_words": "INR Twelve Thousand, Five Hundred And Twenty-Two Only",
+  "tax_amount_in_words": "INR Two Thousand, Seven Hundred And Thirty-Nine Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "54498711835",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 259
+  }
+}

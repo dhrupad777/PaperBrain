@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 377, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 442795",
+    "gstin": "27AAKVM3446M1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts26@labstech.com",
+    "pan": "SFYIZ7231T"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 995, Sector 48, Mumbai - 481017",
+    "gstin": "27FIJDJ4159W1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-650",
+    "date": "02-Sep-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6705",
+    "order_date": "27-Aug-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 951,
+      "amount": 2853
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 4734,
+      "amount": 4734
+    }
+  ],
+  "totals": {
+    "subtotal": 7587,
+    "taxable_total": 7587,
+    "cgst_total": 189.68,
+    "sgst_total": 189.68,
+    "tax_total": 379.35
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 7587,
+      "cgst_rate": 2.5,
+      "cgst_amt": 189.68,
+      "sgst_rate": 2.5,
+      "sgst_amt": 189.68
+    }
+  ],
+  "amount_in_words": "INR Seven Thousand, Nine Hundred And Sixty-Six Only",
+  "tax_amount_in_words": "INR Three Hundred And Seventy-Nine Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "32159934504",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 133
+  }
+}

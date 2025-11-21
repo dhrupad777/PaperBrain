@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 935, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 496376",
+    "gstin": "27JNCAJ5910I1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts8@talojamfgassn.com",
+    "pan": "LCMUO9547X"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 655, Sector 15, Mumbai - 455093",
+    "gstin": "27JIEIR6648K1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-324",
+    "date": "17-Dec-24",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9151",
+    "order_date": "13-Dec-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 1094,
+      "amount": 2188
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 3817,
+      "amount": 19085
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 2702,
+      "amount": 8106
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 2277,
+      "amount": 11385
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 1871,
+      "amount": 3742
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 3790,
+      "amount": 18950
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 2648,
+      "amount": 2648
+    }
+  ],
+  "totals": {
+    "subtotal": 66104,
+    "taxable_total": 66104,
+    "cgst_total": 3966.24,
+    "sgst_total": 3966.24,
+    "tax_total": 7932.48
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 66104,
+      "cgst_rate": 6.0,
+      "cgst_amt": 3966.24,
+      "sgst_rate": 6.0,
+      "sgst_amt": 3966.24
+    }
+  ],
+  "amount_in_words": "INR Seventy-Four Thousand And Thirty-Six Only",
+  "tax_amount_in_words": "INR Seven Thousand, Nine Hundred And Thirty-Two Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "95539737150",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 178
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 511, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 448683",
+    "gstin": "27OLZKF5719J1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts22@vistarealty.com",
+    "pan": "YRZWA4292Z"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 986, Sector 12, Mumbai - 481578",
+    "gstin": "27HFUFP5971J1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-183",
+    "date": "20-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3218",
+    "order_date": "19-Sep-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 1417,
+      "amount": 7085
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 4788,
+      "amount": 47880
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 3608,
+      "amount": 3608
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 407,
+      "amount": 1221
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 1647,
+      "amount": 4941
+    }
+  ],
+  "totals": {
+    "subtotal": 64735,
+    "taxable_total": 64735,
+    "cgst_total": 9062.9,
+    "sgst_total": 9062.9,
+    "tax_total": 18125.8
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 64735,
+      "cgst_rate": 14.0,
+      "cgst_amt": 9062.9,
+      "sgst_rate": 14.0,
+      "sgst_amt": 9062.9
+    }
+  ],
+  "amount_in_words": "INR Eighty-Two Thousand, Eight Hundred And Sixty-One Only",
+  "tax_amount_in_words": "INR Eighteen Thousand, One Hundred And Twenty-Six Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "25395603685",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 184
+  }
+}

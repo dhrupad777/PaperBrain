@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 948, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 496346",
+    "gstin": "27NNRHD8675P1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts24@talojamfgassn.com",
+    "pan": "VDXBE8303R"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 538, Sector 14, Mumbai - 447981",
+    "gstin": "27UEZGO2658O1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-969",
+    "date": "07-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1909",
+    "order_date": "28-Aug-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 1235,
+      "amount": 3705
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 2090,
+      "amount": 20900
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1817,
+      "amount": 5451
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 4452,
+      "amount": 4452
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 886,
+      "amount": 4430
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 2404,
+      "amount": 12020
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 2277,
+      "amount": 2277
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 328,
+      "amount": 984
+    }
+  ],
+  "totals": {
+    "subtotal": 54219,
+    "taxable_total": 54219,
+    "cgst_total": 3253.14,
+    "sgst_total": 3253.14,
+    "tax_total": 6506.28
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 54219,
+      "cgst_rate": 6.0,
+      "cgst_amt": 3253.14,
+      "sgst_rate": 6.0,
+      "sgst_amt": 3253.14
+    }
+  ],
+  "amount_in_words": "INR Sixty Thousand, Seven Hundred And Twenty-Five Only",
+  "tax_amount_in_words": "INR Six Thousand, Five Hundred And Six Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "68258449052",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 234
+  }
+}

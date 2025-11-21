@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 50, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 444808",
+    "gstin": "27VLFRI1595B1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts38@kanteenfoods.com",
+    "pan": "UXZKQ1410P"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 255, Sector 23, Mumbai - 446160",
+    "gstin": "27PTMUT8322A1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-906",
+    "date": "20-May-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4273",
+    "order_date": "11-May-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 3518,
+      "amount": 3518
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 2922,
+      "amount": 2922
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 1446,
+      "amount": 7230
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 1167,
+      "amount": 2334
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 2206,
+      "amount": 6618
+    }
+  ],
+  "totals": {
+    "subtotal": 22622,
+    "taxable_total": 22622,
+    "cgst_total": 3167.08,
+    "sgst_total": 3167.08,
+    "tax_total": 6334.16
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 22622,
+      "cgst_rate": 14.0,
+      "cgst_amt": 3167.08,
+      "sgst_rate": 14.0,
+      "sgst_amt": 3167.08
+    }
+  ],
+  "amount_in_words": "INR Twenty-Eight Thousand, Nine Hundred And Fifty-Six Only",
+  "tax_amount_in_words": "INR Six Thousand, Three Hundred And Thirty-Four Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "88817060092",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 215
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 294, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 425934",
+    "gstin": "27CALEC3930T1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts83@nexolindustries.com",
+    "pan": "RPHQM7521M"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 49, Sector 50, Mumbai - 496323",
+    "gstin": "27YACFN1958K1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-274",
+    "date": "16-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3047",
+    "order_date": "14-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 2144,
+      "amount": 6432
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 4895,
+      "amount": 24475
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 1671,
+      "amount": 1671
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 3205,
+      "amount": 9615
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 4097,
+      "amount": 8194
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 567,
+      "amount": 5670
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 2176,
+      "amount": 4352
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 1279,
+      "amount": 1279
+    }
+  ],
+  "totals": {
+    "subtotal": 61688,
+    "taxable_total": 61688,
+    "cgst_total": 3701.28,
+    "sgst_total": 3701.28,
+    "tax_total": 7402.56
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 61688,
+      "cgst_rate": 6.0,
+      "cgst_amt": 3701.28,
+      "sgst_rate": 6.0,
+      "sgst_amt": 3701.28
+    }
+  ],
+  "amount_in_words": "INR Sixty-Nine Thousand And Ninety-One Only",
+  "tax_amount_in_words": "INR Seven Thousand, Four Hundred And Three Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "76546380924",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 188
+  }
+}

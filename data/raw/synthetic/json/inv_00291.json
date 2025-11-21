@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 282, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 463977",
+    "gstin": "27DNDIW8434X1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts80@kanteenfoods.com",
+    "pan": "PXQMM4845J"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 836, Sector 42, Mumbai - 416172",
+    "gstin": "27CBRTH4477O1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-897",
+    "date": "13-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4112",
+    "order_date": "08-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 2443,
+      "amount": 12215
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 1055,
+      "amount": 10550
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 1963,
+      "amount": 9815
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 3006,
+      "amount": 30060
+    }
+  ],
+  "totals": {
+    "subtotal": 62640,
+    "taxable_total": 62640,
+    "cgst_total": 3758.4,
+    "sgst_total": 3758.4,
+    "tax_total": 7516.8
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 62640,
+      "cgst_rate": 6.0,
+      "cgst_amt": 3758.4,
+      "sgst_rate": 6.0,
+      "sgst_amt": 3758.4
+    }
+  ],
+  "amount_in_words": "INR Seventy Thousand, One Hundred And Fifty-Seven Only",
+  "tax_amount_in_words": "INR Seven Thousand, Five Hundred And Seventeen Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "84182930673",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 291
+  }
+}

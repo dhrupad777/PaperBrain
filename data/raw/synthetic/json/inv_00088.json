@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 759, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 440469",
+    "gstin": "27BCKLN3898M1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts72@nexolindustries.com",
+    "pan": "SPOJL9342Q"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 440, Sector 23, Mumbai - 443221",
+    "gstin": "27JMISO9836R1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-175",
+    "date": "26-Nov-24",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4629",
+    "order_date": "16-Nov-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 1998,
+      "amount": 1998
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 1769,
+      "amount": 8845
+    }
+  ],
+  "totals": {
+    "subtotal": 10843,
+    "taxable_total": 10843,
+    "cgst_total": 1518.02,
+    "sgst_total": 1518.02,
+    "tax_total": 3036.04
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 10843,
+      "cgst_rate": 14.0,
+      "cgst_amt": 1518.02,
+      "sgst_rate": 14.0,
+      "sgst_amt": 1518.02
+    }
+  ],
+  "amount_in_words": "INR Thirteen Thousand, Eight Hundred And Seventy-Nine Only",
+  "tax_amount_in_words": "INR Three Thousand And Thirty-Six Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "22683336108",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 88
+  }
+}

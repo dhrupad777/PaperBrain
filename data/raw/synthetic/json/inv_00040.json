@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 965, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 484683",
+    "gstin": "27VAPLU5037S1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts10@labstech.com",
+    "pan": "XDDGW7105Y"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 113, Sector 42, Mumbai - 446215",
+    "gstin": "27CDZVM5350S1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-697",
+    "date": "27-Mar-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7779",
+    "order_date": "22-Mar-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 4821,
+      "amount": 4821
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 4356,
+      "amount": 4356
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 3738,
+      "amount": 3738
+    }
+  ],
+  "totals": {
+    "subtotal": 12915,
+    "taxable_total": 12915,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 12915,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
+    }
+  ],
+  "amount_in_words": "INR Twelve Thousand, Nine Hundred And Fifteen Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "63285013817",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 0,
+    "generated_id": 40
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 907, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 468581",
+    "gstin": "27HAJRW4952O1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts99@talojamfgassn.com",
+    "pan": "OEJAR1051J"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 955, Sector 9, Mumbai - 486798",
+    "gstin": "27MIHIO7243C1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-733",
+    "date": "12-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9278",
+    "order_date": "08-Aug-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 497,
+      "amount": 994
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 3820,
+      "amount": 19100
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 979,
+      "amount": 979
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 3751,
+      "amount": 3751
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 4398,
+      "amount": 8796
+    }
+  ],
+  "totals": {
+    "subtotal": 33620,
+    "taxable_total": 33620,
+    "cgst_total": 3025.8,
+    "sgst_total": 3025.8,
+    "tax_total": 6051.6
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 33620,
+      "cgst_rate": 9.0,
+      "cgst_amt": 3025.8,
+      "sgst_rate": 9.0,
+      "sgst_amt": 3025.8
+    }
+  ],
+  "amount_in_words": "INR Thirty-Nine Thousand, Six Hundred And Seventy-Two Only",
+  "tax_amount_in_words": "INR Six Thousand And Fifty-Two Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "87431805939",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 130
+  }
+}

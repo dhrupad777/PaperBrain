@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 626, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 488868",
+    "gstin": "27ZREMR5973Z1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts10@kanteenfoods.com",
+    "pan": "IMXYL9313D"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 568, Sector 11, Mumbai - 400194",
+    "gstin": "27GSOKC4809I1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-384",
+    "date": "31-Mar-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5517",
+    "order_date": "26-Mar-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 2790,
+      "amount": 8370
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 2690,
+      "amount": 2690
+    }
+  ],
+  "totals": {
+    "subtotal": 11060,
+    "taxable_total": 11060,
+    "cgst_total": 663.6,
+    "sgst_total": 663.6,
+    "tax_total": 1327.2
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 11060,
+      "cgst_rate": 6.0,
+      "cgst_amt": 663.6,
+      "sgst_rate": 6.0,
+      "sgst_amt": 663.6
+    }
+  ],
+  "amount_in_words": "INR Twelve Thousand, Three Hundred And Eighty-Seven Only",
+  "tax_amount_in_words": "INR One Thousand, Three Hundred And Twenty-Seven Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "73308792617",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 263
+  }
+}

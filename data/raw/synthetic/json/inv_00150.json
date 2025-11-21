@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 936, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 418270",
+    "gstin": "27HURZL2580H1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts5@labstech.com",
+    "pan": "DYCZQ5583Q"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 338, Sector 41, Mumbai - 414079",
+    "gstin": "27PIXSI5105Q1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-405",
+    "date": "18-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1750",
+    "order_date": "16-Sep-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 3791,
+      "amount": 18955
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 3970,
+      "amount": 3970
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 3898,
+      "amount": 11694
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 2837,
+      "amount": 8511
+    }
+  ],
+  "totals": {
+    "subtotal": 43130,
+    "taxable_total": 43130,
+    "cgst_total": 3881.7,
+    "sgst_total": 3881.7,
+    "tax_total": 7763.4
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 43130,
+      "cgst_rate": 9.0,
+      "cgst_amt": 3881.7,
+      "sgst_rate": 9.0,
+      "sgst_amt": 3881.7
+    }
+  ],
+  "amount_in_words": "INR Fifty Thousand, Eight Hundred And Ninety-Three Only",
+  "tax_amount_in_words": "INR Seven Thousand, Seven Hundred And Sixty-Three Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "61685039787",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 150
+  }
+}

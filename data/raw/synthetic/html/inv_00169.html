@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Invoice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            font-size: 11px;
+            line-height: 1.4;
+            color: #000;
+            background: #fff;
+            padding: 20px;
+        }
+        
+        .invoice-container {
+            max-width: 794px;
+            margin: 0 auto;
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .header p {
+            font-size: 12px;
+        }
+        
+        .company-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        
+        .seller-info, .buyer-info {
+            width: 48%;
+        }
+        
+        .section-title {
+            font-weight: bold;
+            font-size: 12px;
+            margin-bottom: 5px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+        }
+        
+        .info-row {
+            margin-bottom: 3px;
+        }
+        
+        .invoice-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .detail-group {
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            gap: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .detail-label {
+            font-weight: bold;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+        
+        table th, table td {
+            border: 1px solid #000;
+            padding: 6px;
+            text-align: left;
+        }
+        
+        table th {
+            background: #f0f0f0;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        table td {
+            text-align: right;
+        }
+        
+        table td:first-child {
+            text-align: left;
+        }
+        
+        .totals {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 15px;
+        }
+        
+        .totals-table {
+            width: 300px;
+        }
+        
+        .totals-table td {
+            padding: 5px 10px;
+            border: 1px solid #000;
+        }
+        
+        .totals-table td:first-child {
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        .totals-table td:last-child {
+            text-align: right;
+        }
+        
+        .amount-words {
+            margin: 10px 0;
+            padding: 8px;
+            background: #f9f9f9;
+            border: 1px solid #000;
+            font-weight: bold;
+        }
+        
+        .bank-details {
+            margin-top: 15px;
+            padding-top: 10px;
+            border-top: 1px solid #000;
+        }
+        
+        .footer {
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #000;
+            text-align: center;
+            font-size: 10px;
+        }
+        
+        .remarks {
+            margin: 10px 0;
+            padding: 5px;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="header">
+            <h1>TAX INVOICE</h1>
+            <p>(Original for Recipient)</p>
+        </div>
+        
+        <div class="company-info">
+            <div class="seller-info">
+                <div class="section-title">Sold By:</div>
+                <div class="info-row" id="seller-name"></div>
+                <div class="info-row" id="seller-addr1"></div>
+                <div class="info-row" id="seller-addr2"></div>
+                <div class="info-row">GSTIN: <span id="seller-gstin"></span></div>
+                <div class="info-row">State: <span id="seller-state"></span> (Code: <span id="seller-state-code"></span>)</div>
+                <div class="info-row">PAN: <span id="seller-pan"></span></div>
+                <div class="info-row">Email: <span id="seller-email"></span></div>
+            </div>
+            
+            <div class="buyer-info">
+                <div class="section-title">Bill To:</div>
+                <div class="info-row" id="buyer-name"></div>
+                <div class="info-row" id="buyer-address"></div>
+                <div class="info-row">GSTIN: <span id="buyer-gstin"></span></div>
+                <div class="info-row">State: <span id="buyer-state"></span> (Code: <span id="buyer-state-code"></span>)</div>
+            </div>
+        </div>
+        
+        <div class="invoice-details">
+            <div class="detail-group">
+                <span class="detail-label">Invoice No:</span>
+                <span id="inv-no"></span>
+            </div>
+            <div class="detail-group">
+                <span class="detail-label">Invoice Date:</span>
+                <span id="inv-date"></span>
+            </div>
+            <div class="detail-group">
+                <span class="detail-label">Order No:</span>
+                <span id="order-no"></span>
+            </div>
+            <div class="detail-group">
+                <span class="detail-label">Order Date:</span>
+                <span id="order-date"></span>
+            </div>
+            <div class="detail-group">
+                <span class="detail-label">Payment Terms:</span>
+                <span id="payment-terms"></span>
+            </div>
+            <div class="detail-group">
+                <span class="detail-label">Dispatch Through:</span>
+                <span id="dispatch-through"></span>
+            </div>
+            <div class="detail-group">
+                <span class="detail-label">Destination:</span>
+                <span id="destination"></span>
+            </div>
+            <div class="detail-group">
+                <span class="detail-label">Delivery Terms:</span>
+                <span id="delivery-terms"></span>
+            </div>
+        </div>
+        
+        <table id="items-table">
+            <thead>
+                <tr>
+                    <th>Sr.</th>
+                    <th>Particulars</th>
+                    <th>HSN</th>
+                    <th>Qty</th>
+                    <th>Rate</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody id="items-tbody">
+            </tbody>
+        </table>
+        
+        <div class="totals">
+            <table class="totals-table">
+                <tr>
+                    <td>Subtotal:</td>
+                    <td id="subtotal">0.00</td>
+                </tr>
+                <tr>
+                    <td>CGST:</td>
+                    <td id="cgst-total">0.00</td>
+                </tr>
+                <tr>
+                    <td>SGST:</td>
+                    <td id="sgst-total">0.00</td>
+                </tr>
+                <tr style="font-weight: bold; background: #f0f0f0;">
+                    <td>Total:</td>
+                    <td id="grand-total">0.00</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="amount-words">
+            Amount in Words: <span id="amount-words"></span>
+        </div>
+        
+        <div class="bank-details">
+            <div class="section-title">Bank Details:</div>
+            <div class="info-row">Bank Name: <span id="bank-name"></span></div>
+            <div class="info-row">Account No: <span id="bank-acno"></span></div>
+            <div class="info-row">IFSC: <span id="bank-ifsc"></span></div>
+            <div class="info-row">SWIFT: <span id="bank-swift"></span></div>
+        </div>
+        
+        <div class="remarks">
+            <strong>Remarks:</strong> <span id="remarks"></span>
+        </div>
+        
+        <div class="footer">
+            <p>This is a computer generated invoice.</p>
+            <p>Thank you for your business!</p>
+        </div>
+    </div>
+    
+    <script>
+        // This const demo will be replaced by the generator script
+        const demo = {
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 801, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 412480",
+    "gstin": "27RKXPG3276B1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts54@labstech.com",
+    "pan": "ETRUO5880U"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 754, Sector 9, Mumbai - 412694",
+    "gstin": "27WAORI5269C1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-508",
+    "date": "15-Nov-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-9024",
+    "order_date": "06-Nov-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 3323,
+      "amount": 9969
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 3240,
+      "amount": 32400
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 4092,
+      "amount": 40920
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 3985,
+      "amount": 19925
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 3900,
+      "amount": 39000
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 2668,
+      "amount": 5336
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 4285,
+      "amount": 42850
+    }
+  ],
+  "totals": {
+    "subtotal": 190400,
+    "taxable_total": 190400,
+    "cgst_total": 4760.0,
+    "sgst_total": 4760.0,
+    "tax_total": 9520.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 190400,
+      "cgst_rate": 2.5,
+      "cgst_amt": 4760.0,
+      "sgst_rate": 2.5,
+      "sgst_amt": 4760.0
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Ninety-Nine Thousand, Nine Hundred And Twenty Only",
+  "tax_amount_in_words": "INR Nine Thousand, Five Hundred And Twenty Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "26280488591",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 169
+  }
+};
+        
+        function formatCurrency(amount) {
+            return new Intl.NumberFormat('en-IN', {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            }).format(amount);
+        }
+        
+        function updateInvoice(data) {
+            // Seller info
+            document.getElementById('seller-name').textContent = data.seller.name;
+            document.getElementById('seller-addr1').textContent = data.seller.addr1;
+            document.getElementById('seller-addr2').textContent = data.seller.addr2;
+            document.getElementById('seller-gstin').textContent = data.seller.gstin;
+            document.getElementById('seller-state').textContent = data.seller.state_name;
+            document.getElementById('seller-state-code').textContent = data.seller.state_code;
+            document.getElementById('seller-pan').textContent = data.seller.pan;
+            document.getElementById('seller-email').textContent = data.seller.email;
+            
+            // Buyer info
+            document.getElementById('buyer-name').textContent = data.buyer.name;
+            document.getElementById('buyer-address').textContent = data.buyer.address;
+            document.getElementById('buyer-gstin').textContent = data.buyer.gstin;
+            document.getElementById('buyer-state').textContent = data.buyer.state_name;
+            document.getElementById('buyer-state-code').textContent = data.buyer.state_code;
+            
+            // Invoice details
+            document.getElementById('inv-no').textContent = data.invoice.no;
+            document.getElementById('inv-date').textContent = data.invoice.date;
+            document.getElementById('order-no').textContent = data.invoice.order_no || '';
+            document.getElementById('order-date').textContent = data.invoice.order_date || '';
+            document.getElementById('payment-terms').textContent = data.invoice.payment_terms || '';
+            document.getElementById('dispatch-through').textContent = data.invoice.dispatch_through || '';
+            document.getElementById('destination').textContent = data.invoice.destination || '';
+            document.getElementById('delivery-terms').textContent = data.invoice.delivery_terms || '';
+            
+            // Items table
+            const tbody = document.getElementById('items-tbody');
+            tbody.innerHTML = '';
+            data.items.forEach((item, index) => {
+                const row = tbody.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = item.particulars;
+                row.insertCell(2).textContent = item.hsn;
+                row.insertCell(3).textContent = item.qty;
+                row.insertCell(4).textContent = formatCurrency(item.rate);
+                row.insertCell(5).textContent = formatCurrency(item.amount);
+            });
+            
+            // Totals
+            document.getElementById('subtotal').textContent = formatCurrency(data.totals.subtotal);
+            document.getElementById('cgst-total').textContent = formatCurrency(data.totals.cgst_total);
+            document.getElementById('sgst-total').textContent = formatCurrency(data.totals.sgst_total);
+            const grandTotal = data.totals.subtotal + data.totals.tax_total;
+            document.getElementById('grand-total').textContent = formatCurrency(grandTotal);
+            
+            // Amount in words
+            document.getElementById('amount-words').textContent = data.amount_in_words;
+            
+            // Bank details
+            document.getElementById('bank-name').textContent = data.bank.name;
+            document.getElementById('bank-acno').textContent = data.bank.acno;
+            document.getElementById('bank-ifsc').textContent = data.bank.branch_ifsc;
+            document.getElementById('bank-swift').textContent = data.bank.swift;
+            
+            // Remarks
+            document.getElementById('remarks').textContent = data.remarks || '';
+        }
+        
+        // Initialize invoice with demo data
+        updateInvoice(demo);
+    </script>
+</body>
+</html>
+

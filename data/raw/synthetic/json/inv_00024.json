@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 382, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 413051",
+    "gstin": "27XMGYK5329O1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts6@talojamfgassn.com",
+    "pan": "ZYYIR6699V"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 245, Sector 14, Mumbai - 470504",
+    "gstin": "27LXAJK5011B1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-786",
+    "date": "07-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3927",
+    "order_date": "28-Sep-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1988,
+      "amount": 5964
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 2621,
+      "amount": 26210
+    }
+  ],
+  "totals": {
+    "subtotal": 32174,
+    "taxable_total": 32174,
+    "cgst_total": 1930.44,
+    "sgst_total": 1930.44,
+    "tax_total": 3860.88
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 32174,
+      "cgst_rate": 6.0,
+      "cgst_amt": 1930.44,
+      "sgst_rate": 6.0,
+      "sgst_amt": 1930.44
+    }
+  ],
+  "amount_in_words": "INR Thirty-Six Thousand And Thirty-Five Only",
+  "tax_amount_in_words": "INR Three Thousand, Eight Hundred And Sixty-One Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "23333011220",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 24
+  }
+}

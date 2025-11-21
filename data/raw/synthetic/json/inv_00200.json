@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 482, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 401190",
+    "gstin": "27TBWHD7121A1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts27@kanteenfoods.com",
+    "pan": "RJNSZ1237Z"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 245, Sector 19, Mumbai - 433606",
+    "gstin": "27SOLBY1647L1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-913",
+    "date": "15-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6939",
+    "order_date": "13-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 989,
+      "amount": 2967
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 2587,
+      "amount": 7761
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 1182,
+      "amount": 11820
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 3346,
+      "amount": 10038
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 210,
+      "amount": 1050
+    }
+  ],
+  "totals": {
+    "subtotal": 33636,
+    "taxable_total": 33636,
+    "cgst_total": 2018.16,
+    "sgst_total": 2018.16,
+    "tax_total": 4036.32
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 33636,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2018.16,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2018.16
+    }
+  ],
+  "amount_in_words": "INR Thirty-Seven Thousand, Six Hundred And Seventy-Two Only",
+  "tax_amount_in_words": "INR Four Thousand And Thirty-Six Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "79635044074",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 200
+  }
+}

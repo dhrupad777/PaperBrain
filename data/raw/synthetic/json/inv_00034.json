@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 87, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 407501",
+    "gstin": "27LPPIS4714E1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts50@vistarealty.com",
+    "pan": "VBRTD2340A"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 916, Sector 46, Mumbai - 431019",
+    "gstin": "27SPOCD1886Y1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-323",
+    "date": "03-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7686",
+    "order_date": "31-Aug-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 3999,
+      "amount": 19995
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 2746,
+      "amount": 27460
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 2273,
+      "amount": 22730
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 4949,
+      "amount": 4949
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 1694,
+      "amount": 16940
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 553,
+      "amount": 1659
+    }
+  ],
+  "totals": {
+    "subtotal": 93733,
+    "taxable_total": 93733,
+    "cgst_total": 8435.97,
+    "sgst_total": 8435.97,
+    "tax_total": 16871.94
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 93733,
+      "cgst_rate": 9.0,
+      "cgst_amt": 8435.97,
+      "sgst_rate": 9.0,
+      "sgst_amt": 8435.97
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Ten Thousand, Six Hundred And Five Only",
+  "tax_amount_in_words": "INR Sixteen Thousand, Eight Hundred And Seventy-Two Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "38831631023",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 34
+  }
+}

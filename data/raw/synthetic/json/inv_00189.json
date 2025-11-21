@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 690, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 408610",
+    "gstin": "27JTNJY6978Q1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts25@talojamfgassn.com",
+    "pan": "XHSTF4675I"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 909, Sector 44, Mumbai - 461386",
+    "gstin": "27UJKRQ2195K1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-662",
+    "date": "16-Jan-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1624",
+    "order_date": "13-Jan-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 4486,
+      "amount": 8972
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 1013,
+      "amount": 3039
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 4006,
+      "amount": 20030
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 4273,
+      "amount": 42730
+    }
+  ],
+  "totals": {
+    "subtotal": 74771,
+    "taxable_total": 74771,
+    "cgst_total": 1869.28,
+    "sgst_total": 1869.28,
+    "tax_total": 3738.55
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 74771,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1869.28,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1869.28
+    }
+  ],
+  "amount_in_words": "INR Seventy-Eight Thousand, Five Hundred And Ten Only",
+  "tax_amount_in_words": "INR Three Thousand, Seven Hundred And Thirty-Nine Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "92589828691",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 189
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 275, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 425671",
+    "gstin": "27COUCH9634T1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts88@kanteenfoods.com",
+    "pan": "IURTN5170Y"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 524, Sector 35, Mumbai - 487942",
+    "gstin": "27BGBYF4524T1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-511",
+    "date": "28-Aug-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6435",
+    "order_date": "27-Aug-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 687,
+      "amount": 3435
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 1890,
+      "amount": 3780
+    }
+  ],
+  "totals": {
+    "subtotal": 7215,
+    "taxable_total": 7215,
+    "cgst_total": 432.9,
+    "sgst_total": 432.9,
+    "tax_total": 865.8
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 7215,
+      "cgst_rate": 6.0,
+      "cgst_amt": 432.9,
+      "sgst_rate": 6.0,
+      "sgst_amt": 432.9
+    }
+  ],
+  "amount_in_words": "INR Eight Thousand And Eighty-One Only",
+  "tax_amount_in_words": "INR Eight Hundred And Sixty-Six Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "31442994237",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 101
+  }
+}

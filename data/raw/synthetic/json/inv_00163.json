@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 479, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 482978",
+    "gstin": "27VCZZM5962M1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts63@labstech.com",
+    "pan": "ZQDFN2903W"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 254, Sector 4, Mumbai - 432780",
+    "gstin": "27BWFFA9513Y1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-968",
+    "date": "04-Jul-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4072",
+    "order_date": "24-Jun-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 1733,
+      "amount": 3466
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 2582,
+      "amount": 12910
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 3767,
+      "amount": 37670
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 4682,
+      "amount": 9364
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 3568,
+      "amount": 3568
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 3299,
+      "amount": 16495
+    }
+  ],
+  "totals": {
+    "subtotal": 83473,
+    "taxable_total": 83473,
+    "cgst_total": 7512.57,
+    "sgst_total": 7512.57,
+    "tax_total": 15025.14
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 83473,
+      "cgst_rate": 9.0,
+      "cgst_amt": 7512.57,
+      "sgst_rate": 9.0,
+      "sgst_amt": 7512.57
+    }
+  ],
+  "amount_in_words": "INR Ninety-Eight Thousand, Four Hundred And Ninety-Eight Only",
+  "tax_amount_in_words": "INR Fifteen Thousand And Twenty-Five Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "64644179051",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 163
+  }
+}

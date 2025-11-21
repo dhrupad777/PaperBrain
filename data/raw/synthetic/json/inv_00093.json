@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 870, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 456244",
+    "gstin": "27OMROG4152W1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts1@talojamfgassn.com",
+    "pan": "TXDEZ5523W"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 284, Sector 43, Mumbai - 433282",
+    "gstin": "27SLZCE9039Z1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-386",
+    "date": "14-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2006",
+    "order_date": "12-Sep-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 4488,
+      "amount": 44880
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 2983,
+      "amount": 29830
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 1558,
+      "amount": 4674
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 1432,
+      "amount": 1432
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 2603,
+      "amount": 7809
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 1361,
+      "amount": 6805
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 558,
+      "amount": 1116
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 1763,
+      "amount": 5289
+    }
+  ],
+  "totals": {
+    "subtotal": 101835,
+    "taxable_total": 101835,
+    "cgst_total": 6110.1,
+    "sgst_total": 6110.1,
+    "tax_total": 12220.2
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 101835,
+      "cgst_rate": 6.0,
+      "cgst_amt": 6110.1,
+      "sgst_rate": 6.0,
+      "sgst_amt": 6110.1
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Fourteen Thousand And Fifty-Five Only",
+  "tax_amount_in_words": "INR Twelve Thousand, Two Hundred And Twenty Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "95927167409",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 93
+  }
+}

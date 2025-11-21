@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 959, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 416309",
+    "gstin": "27WFHAB4242C1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts77@labstech.com",
+    "pan": "DEVLX6026I"
+  },
+  "buyer": {
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 793, Sector 49, Mumbai - 415858",
+    "gstin": "27HPHZX3287L1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-568",
+    "date": "26-Mar-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1397",
+    "order_date": "17-Mar-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 415,
+      "amount": 415
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 4633,
+      "amount": 4633
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 298,
+      "amount": 1490
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 3335,
+      "amount": 6670
+    }
+  ],
+  "totals": {
+    "subtotal": 13208,
+    "taxable_total": 13208,
+    "cgst_total": 1849.12,
+    "sgst_total": 1849.12,
+    "tax_total": 3698.24
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 13208,
+      "cgst_rate": 14.0,
+      "cgst_amt": 1849.12,
+      "sgst_rate": 14.0,
+      "sgst_amt": 1849.12
+    }
+  ],
+  "amount_in_words": "INR Sixteen Thousand, Nine Hundred And Six Only",
+  "tax_amount_in_words": "INR Three Thousand, Six Hundred And Ninety-Eight Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "97441182668",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 116
+  }
+}

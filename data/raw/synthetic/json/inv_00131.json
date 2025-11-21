@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 937, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 498868",
+    "gstin": "27HNAEJ7422O1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts31@kanteenfoods.com",
+    "pan": "BSOMQ4815G"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 786, Sector 27, Mumbai - 493022",
+    "gstin": "27TTBZZ3430T1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-153",
+    "date": "02-Aug-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4603",
+    "order_date": "27-Jul-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 3198,
+      "amount": 6396
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 2588,
+      "amount": 12940
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 4770,
+      "amount": 9540
+    }
+  ],
+  "totals": {
+    "subtotal": 28876,
+    "taxable_total": 28876,
+    "cgst_total": 2598.84,
+    "sgst_total": 2598.84,
+    "tax_total": 5197.68
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 28876,
+      "cgst_rate": 9.0,
+      "cgst_amt": 2598.84,
+      "sgst_rate": 9.0,
+      "sgst_amt": 2598.84
+    }
+  ],
+  "amount_in_words": "INR Thirty-Four Thousand And Seventy-Four Only",
+  "tax_amount_in_words": "INR Five Thousand, One Hundred And Ninety-Eight Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "40964668363",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 131
+  }
+}

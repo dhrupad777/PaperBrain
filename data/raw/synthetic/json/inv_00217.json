@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 372, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 452697",
+    "gstin": "27GWCCJ5129L1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts96@labstech.com",
+    "pan": "LTBAW7810H"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 958, Sector 29, Mumbai - 480179",
+    "gstin": "27ZATVI2462O1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-373",
+    "date": "12-Jun-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8607",
+    "order_date": "11-Jun-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 1562,
+      "amount": 1562
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 4072,
+      "amount": 8144
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 304,
+      "amount": 1520
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 2428,
+      "amount": 2428
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 1752,
+      "amount": 1752
+    }
+  ],
+  "totals": {
+    "subtotal": 15406,
+    "taxable_total": 15406,
+    "cgst_total": 385.15,
+    "sgst_total": 385.15,
+    "tax_total": 770.3
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 15406,
+      "cgst_rate": 2.5,
+      "cgst_amt": 385.15,
+      "sgst_rate": 2.5,
+      "sgst_amt": 385.15
+    }
+  ],
+  "amount_in_words": "INR Sixteen Thousand, One Hundred And Seventy-Six Only",
+  "tax_amount_in_words": "INR Seven Hundred And Seventy Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "66039154462",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 217
+  }
+}

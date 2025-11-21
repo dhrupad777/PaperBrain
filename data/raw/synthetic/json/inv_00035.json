@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 515, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 480843",
+    "gstin": "27XSBBY1167D1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts94@nexolindustries.com",
+    "pan": "HMLYI5776N"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 818, Sector 49, Mumbai - 478925",
+    "gstin": "27YAYVR6997P1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-465",
+    "date": "07-Apr-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4356",
+    "order_date": "01-Apr-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 3771,
+      "amount": 18855
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 4440,
+      "amount": 22200
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 1440,
+      "amount": 1440
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 1974,
+      "amount": 3948
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 2921,
+      "amount": 5842
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 3500,
+      "amount": 35000
+    }
+  ],
+  "totals": {
+    "subtotal": 87285,
+    "taxable_total": 87285,
+    "cgst_total": 2182.12,
+    "sgst_total": 2182.12,
+    "tax_total": 4364.25
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 87285,
+      "cgst_rate": 2.5,
+      "cgst_amt": 2182.12,
+      "sgst_rate": 2.5,
+      "sgst_amt": 2182.12
+    }
+  ],
+  "amount_in_words": "INR Ninety-One Thousand, Six Hundred And Forty-Nine Only",
+  "tax_amount_in_words": "INR Four Thousand, Three Hundred And Sixty-Four Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "42258020784",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 35
+  }
+}

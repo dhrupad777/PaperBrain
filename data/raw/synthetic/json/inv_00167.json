@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 967, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 483382",
+    "gstin": "27DGOHB2291T1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts57@vistarealty.com",
+    "pan": "WXPVI4156H"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 37, Sector 10, Mumbai - 400494",
+    "gstin": "27WITNG2054D1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-140",
+    "date": "02-Feb-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1043",
+    "order_date": "23-Jan-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 979,
+      "amount": 1958
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 3149,
+      "amount": 3149
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 4681,
+      "amount": 14043
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 1776,
+      "amount": 8880
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 3568,
+      "amount": 17840
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 4046,
+      "amount": 40460
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 2838,
+      "amount": 28380
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 1366,
+      "amount": 13660
+    }
+  ],
+  "totals": {
+    "subtotal": 128370,
+    "taxable_total": 128370,
+    "cgst_total": 7702.2,
+    "sgst_total": 7702.2,
+    "tax_total": 15404.4
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 128370,
+      "cgst_rate": 6.0,
+      "cgst_amt": 7702.2,
+      "sgst_rate": 6.0,
+      "sgst_amt": 7702.2
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Forty-Three Thousand, Seven Hundred And Seventy-Four Only",
+  "tax_amount_in_words": "INR Fifteen Thousand, Four Hundred And Four Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "45791367925",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 167
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 186, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 458750",
+    "gstin": "27LQAVE6344G1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts9@kanteenfoods.com",
+    "pan": "KDXHB5801L"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 772, Sector 28, Mumbai - 452072",
+    "gstin": "27QEVUE6580I1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-816",
+    "date": "24-Sep-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1650",
+    "order_date": "15-Sep-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 2401,
+      "amount": 24010
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 702,
+      "amount": 1404
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 1148,
+      "amount": 5740
+    }
+  ],
+  "totals": {
+    "subtotal": 31154,
+    "taxable_total": 31154,
+    "cgst_total": 4361.56,
+    "sgst_total": 4361.56,
+    "tax_total": 8723.12
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 31154,
+      "cgst_rate": 14.0,
+      "cgst_amt": 4361.56,
+      "sgst_rate": 14.0,
+      "sgst_amt": 4361.56
+    }
+  ],
+  "amount_in_words": "INR Thirty-Nine Thousand, Eight Hundred And Seventy-Seven Only",
+  "tax_amount_in_words": "INR Eight Thousand, Seven Hundred And Twenty-Three Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "19859232971",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 196
+  }
+}

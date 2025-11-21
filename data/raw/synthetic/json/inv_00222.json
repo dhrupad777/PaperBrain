@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 82, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 479582",
+    "gstin": "27BMASL9687A1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts16@nexolindustries.com",
+    "pan": "QDJYP6433N"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 170, Sector 20, Mumbai - 465579",
+    "gstin": "27UOTUN6480S1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-859",
+    "date": "04-Feb-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3740",
+    "order_date": "04-Feb-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 1161,
+      "amount": 2322
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 620,
+      "amount": 620
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 2751,
+      "amount": 13755
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 3260,
+      "amount": 6520
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 4303,
+      "amount": 4303
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 4439,
+      "amount": 44390
+    }
+  ],
+  "totals": {
+    "subtotal": 71910,
+    "taxable_total": 71910,
+    "cgst_total": 10067.4,
+    "sgst_total": 10067.4,
+    "tax_total": 20134.8
+  },
+  "tax_rows": [
+    {
+      "hsn": "853690",
+      "taxable": 71910,
+      "cgst_rate": 14.0,
+      "cgst_amt": 10067.4,
+      "sgst_rate": 14.0,
+      "sgst_amt": 10067.4
+    }
+  ],
+  "amount_in_words": "INR Ninety-Two Thousand And Forty-Five Only",
+  "tax_amount_in_words": "INR Twenty Thousand, One Hundred And Thirty-Five Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "84666632728",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 222
+  }
+}

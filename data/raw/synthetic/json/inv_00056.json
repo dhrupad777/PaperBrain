@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 408, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 453143",
+    "gstin": "27XJHFM9976J1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts18@vistarealty.com",
+    "pan": "EZZNH5060J"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 838, Sector 28, Mumbai - 481313",
+    "gstin": "27DSWCH3006C1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-702",
+    "date": "30-Jan-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-2010",
+    "order_date": "29-Jan-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 2260,
+      "amount": 6780
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 4806,
+      "amount": 4806
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 4580,
+      "amount": 4580
+    }
+  ],
+  "totals": {
+    "subtotal": 16166,
+    "taxable_total": 16166,
+    "cgst_total": 969.96,
+    "sgst_total": 969.96,
+    "tax_total": 1939.92
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 16166,
+      "cgst_rate": 6.0,
+      "cgst_amt": 969.96,
+      "sgst_rate": 6.0,
+      "sgst_amt": 969.96
+    }
+  ],
+  "amount_in_words": "INR Eighteen Thousand, One Hundred And Six Only",
+  "tax_amount_in_words": "INR One Thousand, Nine Hundred And Forty Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "34300140122",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 56
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 401, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 414206",
+    "gstin": "27UBPQH1493T1Z6",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts60@vistarealty.com",
+    "pan": "HFLJJ5360O"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 684, Sector 45, Mumbai - 440744",
+    "gstin": "27NYDGT4738H1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-026",
+    "date": "13-Oct-25",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7038",
+    "order_date": "06-Oct-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 4579,
+      "amount": 22895
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1895,
+      "amount": 5685
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 3829,
+      "amount": 19145
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 415,
+      "amount": 4150
+    }
+  ],
+  "totals": {
+    "subtotal": 51875,
+    "taxable_total": 51875,
+    "cgst_total": 3112.5,
+    "sgst_total": 3112.5,
+    "tax_total": 6225.0
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 51875,
+      "cgst_rate": 6.0,
+      "cgst_amt": 3112.5,
+      "sgst_rate": 6.0,
+      "sgst_amt": 3112.5
+    }
+  ],
+  "amount_in_words": "INR Fifty-Eight Thousand, One Hundred Only",
+  "tax_amount_in_words": "INR Six Thousand, Two Hundred And Twenty-Five Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "98847234925",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 290
+  }
+}

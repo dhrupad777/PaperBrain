@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 311, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 453487",
+    "gstin": "27RPUUN9603W1Z1",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts44@nexolindustries.com",
+    "pan": "QSHQN8570J"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 352, Sector 25, Mumbai - 462923",
+    "gstin": "27IRVGP6196Y1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-441",
+    "date": "05-Jan-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-4509",
+    "order_date": "28-Dec-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 598,
+      "amount": 1794
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 4387,
+      "amount": 13161
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 3510,
+      "amount": 10530
+    }
+  ],
+  "totals": {
+    "subtotal": 25485,
+    "taxable_total": 25485,
+    "cgst_total": 637.12,
+    "sgst_total": 637.12,
+    "tax_total": 1274.25
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 25485,
+      "cgst_rate": 2.5,
+      "cgst_amt": 637.12,
+      "sgst_rate": 2.5,
+      "sgst_amt": 637.12
+    }
+  ],
+  "amount_in_words": "INR Twenty-Six Thousand, Seven Hundred And Fifty-Nine Only",
+  "tax_amount_in_words": "INR One Thousand, Two Hundred And Seventy-Four Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "57256675149",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 81
+  }
+}

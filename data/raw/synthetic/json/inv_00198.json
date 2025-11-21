@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 394, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 442900",
+    "gstin": "27NNPQF2444L1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts65@kanteenfoods.com",
+    "pan": "GCEVC8579H"
+  },
+  "buyer": {
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 158, Sector 37, Mumbai - 469453",
+    "gstin": "27YUZPF8648W1Z7",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-578",
+    "date": "11-Oct-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7435",
+    "order_date": "10-Oct-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 1549,
+      "amount": 4647
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 3316,
+      "amount": 9948
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 1154,
+      "amount": 5770
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 2108,
+      "amount": 4216
+    }
+  ],
+  "totals": {
+    "subtotal": 24581,
+    "taxable_total": 24581,
+    "cgst_total": 614.53,
+    "sgst_total": 614.53,
+    "tax_total": 1229.05
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 24581,
+      "cgst_rate": 2.5,
+      "cgst_amt": 614.53,
+      "sgst_rate": 2.5,
+      "sgst_amt": 614.53
+    }
+  ],
+  "amount_in_words": "INR Twenty-Five Thousand, Eight Hundred And Ten Only",
+  "tax_amount_in_words": "INR One Thousand, Two Hundred And Twenty-Nine Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "28463679110",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 198
+  }
+}

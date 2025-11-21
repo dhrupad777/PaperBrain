@@ -1,0 +1,116 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 610, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 427734",
+    "gstin": "27TZKKH6083P1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts13@vistarealty.com",
+    "pan": "BXNVI2236E"
+  },
+  "buyer": {
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 397, Sector 12, Mumbai - 488669",
+    "gstin": "27GXVJW8642C1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-510",
+    "date": "14-Jun-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3088",
+    "order_date": "14-Jun-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 1395,
+      "amount": 2790
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 2673,
+      "amount": 13365
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 2202,
+      "amount": 22020
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 711,
+      "amount": 7110
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 933,
+      "amount": 1866
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 471,
+      "amount": 1413
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 3839,
+      "amount": 11517
+    }
+  ],
+  "totals": {
+    "subtotal": 60081,
+    "taxable_total": 60081,
+    "cgst_total": 8411.34,
+    "sgst_total": 8411.34,
+    "tax_total": 16822.68
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 60081,
+      "cgst_rate": 14.0,
+      "cgst_amt": 8411.34,
+      "sgst_rate": 14.0,
+      "sgst_amt": 8411.34
+    }
+  ],
+  "amount_in_words": "INR Seventy-Six Thousand, Nine Hundred And Four Only",
+  "tax_amount_in_words": "INR Sixteen Thousand, Eight Hundred And Twenty-Three Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "37484979242",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 28,
+    "generated_id": 166
+  }
+}

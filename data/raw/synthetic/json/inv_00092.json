@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 582, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 473753",
+    "gstin": "27JUMYK2683X1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts87@nexolindustries.com",
+    "pan": "MEONJ3963D"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 992, Sector 28, Mumbai - 430119",
+    "gstin": "27UZNOU7881K1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "GST-458",
+    "date": "28-Mar-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6710",
+    "order_date": "27-Mar-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 610,
+      "amount": 610
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 1874,
+      "amount": 9370
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 2919,
+      "amount": 2919
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 3685,
+      "amount": 11055
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 1976,
+      "amount": 3952
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 1111,
+      "amount": 1111
+    }
+  ],
+  "totals": {
+    "subtotal": 29017,
+    "taxable_total": 29017,
+    "cgst_total": 2611.53,
+    "sgst_total": 2611.53,
+    "tax_total": 5223.06
+  },
+  "tax_rows": [
+    {
+      "hsn": "996331",
+      "taxable": 29017,
+      "cgst_rate": 9.0,
+      "cgst_amt": 2611.53,
+      "sgst_rate": 9.0,
+      "sgst_amt": 2611.53
+    }
+  ],
+  "amount_in_words": "INR Thirty-Four Thousand, Two Hundred And Forty Only",
+  "tax_amount_in_words": "INR Five Thousand, Two Hundred And Twenty-Three Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "48736679129",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 92
+  }
+}

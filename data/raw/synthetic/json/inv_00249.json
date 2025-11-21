@@ -1,0 +1,95 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 601, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 449781",
+    "gstin": "27UKSEL1461C1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts98@talojamfgassn.com",
+    "pan": "LGXPC3232V"
+  },
+  "buyer": {
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 390, Sector 23, Mumbai - 469762",
+    "gstin": "27XRHDA9801X1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-092",
+    "date": "16-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "15 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-8931",
+    "order_date": "12-Sep-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 3012,
+      "amount": 9036
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 1423,
+      "amount": 4269
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 1108,
+      "amount": 2216
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 2969,
+      "amount": 2969
+    }
+  ],
+  "totals": {
+    "subtotal": 18490,
+    "taxable_total": 18490,
+    "cgst_total": 1664.1,
+    "sgst_total": 1664.1,
+    "tax_total": 3328.2
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 18490,
+      "cgst_rate": 9.0,
+      "cgst_amt": 1664.1,
+      "sgst_rate": 9.0,
+      "sgst_amt": 1664.1
+    }
+  ],
+  "amount_in_words": "INR Twenty-One Thousand, Eight Hundred And Eighteen Only",
+  "tax_amount_in_words": "INR Three Thousand, Three Hundred And Twenty-Eight Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "14398121353",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 249
+  }
+}

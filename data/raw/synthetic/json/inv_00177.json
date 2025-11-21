@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 658, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 408544",
+    "gstin": "27HIWPW3545F1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts4@kanteenfoods.com",
+    "pan": "DEPVH3006V"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 861, Sector 32, Mumbai - 410343",
+    "gstin": "27ARKDH4801F1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-605",
+    "date": "25-Jun-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6149",
+    "order_date": "21-Jun-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 314,
+      "amount": 628
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1528,
+      "amount": 4584
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 4657,
+      "amount": 46570
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 4909,
+      "amount": 24545
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 3521,
+      "amount": 7042
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 4902,
+      "amount": 24510
+    }
+  ],
+  "totals": {
+    "subtotal": 107879,
+    "taxable_total": 107879,
+    "cgst_total": 6472.74,
+    "sgst_total": 6472.74,
+    "tax_total": 12945.48
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 107879,
+      "cgst_rate": 6.0,
+      "cgst_amt": 6472.74,
+      "sgst_rate": 6.0,
+      "sgst_amt": 6472.74
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Twenty Thousand, Eight Hundred And Twenty-Four Only",
+  "tax_amount_in_words": "INR Twelve Thousand, Nine Hundred And Forty-Five Only",
+  "remarks": "Goods supplied as per order.",
+  "bank": {
+    "name": "ICICI BANK",
+    "acno": "40741335776",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 177
+  }
+}

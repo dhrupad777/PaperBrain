@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 164, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 482831",
+    "gstin": "27TRHIB3138J1Z2",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts24@vistarealty.com",
+    "pan": "SVCWN2595C"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 707, Sector 2, Mumbai - 423131",
+    "gstin": "27VXMVE3865B1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "INV-161",
+    "date": "09-May-25",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-1096",
+    "order_date": "05-May-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
+  },
+  "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 2575,
+      "amount": 25750
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 4156,
+      "amount": 41560
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 3496,
+      "amount": 34960
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 2559,
+      "amount": 25590
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 4091,
+      "amount": 8182
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 310,
+      "amount": 930
+    }
+  ],
+  "totals": {
+    "subtotal": 136972,
+    "taxable_total": 136972,
+    "cgst_total": 3424.3,
+    "sgst_total": 3424.3,
+    "tax_total": 6848.6
+  },
+  "tax_rows": [
+    {
+      "hsn": "997331",
+      "taxable": 136972,
+      "cgst_rate": 2.5,
+      "cgst_amt": 3424.3,
+      "sgst_rate": 2.5,
+      "sgst_amt": 3424.3
+    }
+  ],
+  "amount_in_words": "INR One Lakh, Forty-Three Thousand, Eight Hundred And Twenty-One Only",
+  "tax_amount_in_words": "INR Six Thousand, Eight Hundred And Forty-Nine Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "99700994299",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 65
+  }
+}

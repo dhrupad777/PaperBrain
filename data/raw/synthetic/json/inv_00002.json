@@ -1,0 +1,102 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 949, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 437925",
+    "gstin": "27ZDNIR1175C1Z4",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts95@kanteenfoods.com",
+    "pan": "PZBFB3970B"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 283, Sector 40, Mumbai - 434894",
+    "gstin": "27NVHXI9216T1Z5",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-385",
+    "date": "15-Apr-25",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-5368",
+    "order_date": "11-Apr-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 1646,
+      "amount": 4938
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 2095,
+      "amount": 6285
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 3587,
+      "amount": 3587
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 2314,
+      "amount": 23140
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 3217,
+      "amount": 3217
+    }
+  ],
+  "totals": {
+    "subtotal": 41167,
+    "taxable_total": 41167,
+    "cgst_total": 2470.02,
+    "sgst_total": 2470.02,
+    "tax_total": 4940.04
+  },
+  "tax_rows": [
+    {
+      "hsn": "940330",
+      "taxable": 41167,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2470.02,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2470.02
+    }
+  ],
+  "amount_in_words": "INR Forty-Six Thousand, One Hundred And Seven Only",
+  "tax_amount_in_words": "INR Four Thousand, Nine Hundred And Forty Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "59320305122",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 12,
+    "generated_id": 2
+  }
+}

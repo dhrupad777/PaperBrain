@@ -1,0 +1,123 @@
+{
+  "seller": {
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 142, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 406209",
+    "gstin": "27AESNR9060W1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts94@talojamfgassn.com",
+    "pan": "IIYHT4267U"
+  },
+  "buyer": {
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 239, Sector 3, Mumbai - 410785",
+    "gstin": "27UOWVV2837P1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "T-581",
+    "date": "30-May-24",
+    "delivery_note": "",
+    "payment_terms": "Immediate",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-7191",
+    "order_date": "28-May-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 1770,
+      "amount": 1770
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 1450,
+      "amount": 2900
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 4266,
+      "amount": 21330
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 4416,
+      "amount": 8832
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 780,
+      "amount": 3900
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 2483,
+      "amount": 2483
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 3688,
+      "amount": 7376
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 3880,
+      "amount": 38800
+    }
+  ],
+  "totals": {
+    "subtotal": 87391,
+    "taxable_total": 87391,
+    "cgst_total": 2184.78,
+    "sgst_total": 2184.78,
+    "tax_total": 4369.55
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 87391,
+      "cgst_rate": 2.5,
+      "cgst_amt": 2184.78,
+      "sgst_rate": 2.5,
+      "sgst_amt": 2184.78
+    }
+  ],
+  "amount_in_words": "INR Ninety-One Thousand, Seven Hundred And Sixty-One Only",
+  "tax_amount_in_words": "INR Four Thousand, Three Hundred And Seventy Only",
+  "remarks": "Lease compensation for premises.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "30505917468",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 3
+  }
+}

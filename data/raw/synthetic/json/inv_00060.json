@@ -1,0 +1,88 @@
+{
+  "seller": {
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 833, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 459562",
+    "gstin": "27QTEAS5353O1Z9",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts49@nexolindustries.com",
+    "pan": "YKWPN6389M"
+  },
+  "buyer": {
+    "name": "OMKAR TRADERS",
+    "address": "Flat 782, Sector 24, Mumbai - 497527",
+    "gstin": "27HJRLJ3407W1Z8",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-437",
+    "date": "19-Nov-25",
+    "delivery_note": "",
+    "payment_terms": "Credit",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-3931",
+    "order_date": "09-Nov-25",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 621,
+      "amount": 1863
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 3015,
+      "amount": 15075
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 4832,
+      "amount": 14496
+    }
+  ],
+  "totals": {
+    "subtotal": 31434,
+    "taxable_total": 31434,
+    "cgst_total": 785.85,
+    "sgst_total": 785.85,
+    "tax_total": 1571.7
+  },
+  "tax_rows": [
+    {
+      "hsn": "999599",
+      "taxable": 31434,
+      "cgst_rate": 2.5,
+      "cgst_amt": 785.85,
+      "sgst_rate": 2.5,
+      "sgst_amt": 785.85
+    }
+  ],
+  "amount_in_words": "INR Thirty-Three Thousand And Six Only",
+  "tax_amount_in_words": "INR One Thousand, Five Hundred And Seventy-Two Only",
+  "remarks": "Monthly service billing.",
+  "bank": {
+    "name": "HDFC BANK",
+    "acno": "72833942339",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 5,
+    "generated_id": 60
+  }
+}

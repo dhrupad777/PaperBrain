@@ -1,0 +1,109 @@
+{
+  "seller": {
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 35, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 495287",
+    "gstin": "27QRYMK4375T1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27",
+    "email": "accounts68@kanteenfoods.com",
+    "pan": "OCVEY9657L"
+  },
+  "buyer": {
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 619, Sector 16, Mumbai - 471463",
+    "gstin": "27BUEHP6615N1Z3",
+    "state_name": "Maharashtra",
+    "state_code": "27"
+  },
+  "invoice": {
+    "no": "PB-396",
+    "date": "21-Sep-24",
+    "delivery_note": "",
+    "payment_terms": "30 Days",
+    "supplier_ref": "",
+    "other_ref": "",
+    "order_no": "PO-6448",
+    "order_date": "20-Sep-24",
+    "dispatch_doc": "",
+    "delivery_note_date": "",
+    "dispatch_through": "Email",
+    "destination": "Thane",
+    "delivery_terms": "CIF"
+  },
+  "items": [
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 675,
+      "amount": 3375
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 738,
+      "amount": 2214
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 4063,
+      "amount": 8126
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 3318,
+      "amount": 9954
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 4994,
+      "amount": 14982
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 4905,
+      "amount": 9810
+    }
+  ],
+  "totals": {
+    "subtotal": 48461,
+    "taxable_total": 48461,
+    "cgst_total": 4361.49,
+    "sgst_total": 4361.49,
+    "tax_total": 8722.98
+  },
+  "tax_rows": [
+    {
+      "hsn": "998312",
+      "taxable": 48461,
+      "cgst_rate": 9.0,
+      "cgst_amt": 4361.49,
+      "sgst_rate": 9.0,
+      "sgst_amt": 4361.49
+    }
+  ],
+  "amount_in_words": "INR Fifty-Seven Thousand, One Hundred And Eighty-Four Only",
+  "tax_amount_in_words": "INR Eight Thousand, Seven Hundred And Twenty-Three Only",
+  "remarks": "Subscription renewal invoice.",
+  "bank": {
+    "name": "STATE BANK OF INDIA",
+    "acno": "61982076913",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
+  },
+  "_meta": {
+    "gst_slab": 18,
+    "generated_id": 256
+  }
+}
