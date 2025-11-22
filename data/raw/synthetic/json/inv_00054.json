@@ -1,88 +1,102 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 728, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 484853",
-    "gstin": "27BQGWC4420C1Z3",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 72, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 468689",
+    "gstin": "27BSZIP3638Q1Z1",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts45@labstech.com",
-    "pan": "BATJD3863V"
+    "email": "accounts38@vistarealty.com",
+    "pan": "VDBUK5416V"
   },
   "buyer": {
-    "name": "UNITY CONSTRUCTIONS",
-    "address": "Flat 726, Sector 49, Mumbai - 457670",
-    "gstin": "27TUEKO1017W1Z6",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 766, Sector 27, Mumbai - 415284",
+    "gstin": "27HAXRX3422F1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-337",
-    "date": "17-Aug-24",
+    "no": "INV-089",
+    "date": "13-Jun-24",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-5349",
-    "order_date": "13-Aug-24",
+    "order_no": "PO-6926",
+    "order_date": "07-Jun-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
-    "destination": "Pune",
-    "delivery_terms": "Ex-Works"
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "2",
-      "rate": 2846,
-      "amount": 5692
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 599,
+      "amount": 5990
     },
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "5",
-      "rate": 1446,
-      "amount": 7230
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 1879,
+      "amount": 18790
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
       "qty": "5",
-      "rate": 3897,
-      "amount": 19485
+      "rate": 855,
+      "amount": 4275
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 3115,
+      "amount": 3115
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 2886,
+      "amount": 5772
     }
   ],
   "totals": {
-    "subtotal": 32407,
-    "taxable_total": 32407,
-    "cgst_total": 0.0,
-    "sgst_total": 0.0,
-    "tax_total": 0.0
+    "subtotal": 37942,
+    "taxable_total": 37942,
+    "cgst_total": 5311.88,
+    "sgst_total": 5311.88,
+    "tax_total": 10623.76
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 32407,
-      "cgst_rate": 0.0,
-      "cgst_amt": 0.0,
-      "sgst_rate": 0.0,
-      "sgst_amt": 0.0
+      "hsn": "853690",
+      "taxable": 37942,
+      "cgst_rate": 14.0,
+      "cgst_amt": 5311.88,
+      "sgst_rate": 14.0,
+      "sgst_amt": 5311.88
     }
   ],
-  "amount_in_words": "INR Thirty-Two Thousand, Four Hundred And Seven Only",
-  "tax_amount_in_words": "INR Zero Only",
+  "amount_in_words": "INR Forty-Eight Thousand, Five Hundred And Sixty-Six Only",
+  "tax_amount_in_words": "INR Ten Thousand, Six Hundred And Twenty-Four Only",
   "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "28294993649",
+    "acno": "24258494628",
     "branch_ifsc": "PUNE – SBIN0012984",
     "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 0,
+    "gst_slab": 28,
     "generated_id": 54
   }
 }

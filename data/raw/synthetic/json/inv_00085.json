@@ -1,88 +1,102 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 187, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 465595",
-    "gstin": "27ZMCFJ1868X1Z8",
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 694, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 456661",
+    "gstin": "27KAAZU4284I1Z4",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts42@kanteenfoods.com",
-    "pan": "CLNJW9691A"
+    "email": "accounts35@nexolindustries.com",
+    "pan": "CYTYQ7161J"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 337, Sector 31, Mumbai - 439258",
-    "gstin": "27WAMLB7369Y1Z4",
+    "name": "OMKAR TRADERS",
+    "address": "Flat 530, Sector 29, Mumbai - 438179",
+    "gstin": "27YJSRN9785I1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-313",
-    "date": "30-Oct-24",
+    "no": "T-481",
+    "date": "02-Nov-25",
     "delivery_note": "",
     "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-6470",
-    "order_date": "28-Oct-24",
+    "order_no": "PO-4402",
+    "order_date": "29-Oct-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Email",
-    "destination": "Mumbai",
-    "delivery_terms": ""
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "3",
-      "rate": 3207,
-      "amount": 9621
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 3621,
+      "amount": 7242
     },
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "1",
-      "rate": 2243,
-      "amount": 2243
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 1752,
+      "amount": 17520
     },
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "3",
-      "rate": 328,
-      "amount": 984
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 3236,
+      "amount": 16180
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 2443,
+      "amount": 12215
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 1829,
+      "amount": 3658
     }
   ],
   "totals": {
-    "subtotal": 12848,
-    "taxable_total": 12848,
-    "cgst_total": 321.2,
-    "sgst_total": 321.2,
-    "tax_total": 642.4
+    "subtotal": 56815,
+    "taxable_total": 56815,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "998361",
-      "taxable": 12848,
-      "cgst_rate": 2.5,
-      "cgst_amt": 321.2,
-      "sgst_rate": 2.5,
-      "sgst_amt": 321.2
+      "hsn": "997331",
+      "taxable": 56815,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Thirteen Thousand, Four Hundred And Ninety Only",
-  "tax_amount_in_words": "INR Six Hundred And Forty-Two Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR Fifty-Six Thousand, Eight Hundred And Fifteen Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "44369184639",
-    "branch_ifsc": "PUNE – SBIN0012984",
+    "acno": "11108124463",
+    "branch_ifsc": "TALOJA – SBIN0012984",
     "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 0,
     "generated_id": 85
   }
 }

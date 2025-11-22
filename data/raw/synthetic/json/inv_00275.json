@@ -2,108 +2,87 @@
   "seller": {
     "name": "KANTEEN FOODS LLP",
     "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 262, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 487220",
-    "gstin": "27RWCKZ1331C1Z6",
+    "addr1": "Plot 489, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 455747",
+    "gstin": "27HFIQG8659L1Z6",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts38@kanteenfoods.com",
-    "pan": "PQXME4537T"
+    "email": "accounts7@kanteenfoods.com",
+    "pan": "DPMKU4288J"
   },
   "buyer": {
-    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
-    "address": "Flat 35, Sector 30, Mumbai - 458400",
-    "gstin": "27QALAE3959E1Z4",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 955, Sector 12, Mumbai - 403189",
+    "gstin": "27KSZPK2090C1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-041",
-    "date": "28-Feb-25",
+    "no": "INV-592",
+    "date": "13-Aug-24",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-7766",
-    "order_date": "23-Feb-25",
+    "order_no": "PO-3116",
+    "order_date": "10-Aug-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "CIF"
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "3",
-      "rate": 3147,
-      "amount": 9441
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "3",
-      "rate": 2302,
-      "amount": 6906
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "3",
-      "rate": 4547,
-      "amount": 13641
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "1",
-      "rate": 4526,
-      "amount": 4526
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "2",
-      "rate": 4728,
-      "amount": 9456
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 990,
+      "amount": 4950
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
       "qty": "1",
-      "rate": 2998,
-      "amount": 2998
+      "rate": 4210,
+      "amount": 4210
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 3479,
+      "amount": 10437
     }
   ],
   "totals": {
-    "subtotal": 46968,
-    "taxable_total": 46968,
-    "cgst_total": 0.0,
-    "sgst_total": 0.0,
-    "tax_total": 0.0
+    "subtotal": 19597,
+    "taxable_total": 19597,
+    "cgst_total": 1175.82,
+    "sgst_total": 1175.82,
+    "tax_total": 2351.64
   },
   "tax_rows": [
     {
-      "hsn": "998361",
-      "taxable": 46968,
-      "cgst_rate": 0.0,
-      "cgst_amt": 0.0,
-      "sgst_rate": 0.0,
-      "sgst_amt": 0.0
+      "hsn": "999599",
+      "taxable": 19597,
+      "cgst_rate": 6.0,
+      "cgst_amt": 1175.82,
+      "sgst_rate": 6.0,
+      "sgst_amt": 1175.82
     }
   ],
-  "amount_in_words": "INR Forty-Six Thousand, Nine Hundred And Sixty-Eight Only",
-  "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR Twenty-One Thousand, Nine Hundred And Forty-Nine Only",
+  "tax_amount_in_words": "INR Two Thousand, Three Hundred And Fifty-Two Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "32602833259",
-    "branch_ifsc": "MUMBAI – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "HDFC BANK",
+    "acno": "76279362122",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 0,
+    "gst_slab": 12,
     "generated_id": 275
   }
 }

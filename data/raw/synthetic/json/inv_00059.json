@@ -1,81 +1,123 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 788, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 427953",
-    "gstin": "27ACTJM2446H1Z1",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 531, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 456636",
+    "gstin": "27ZESRM8036K1Z7",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts23@nexolindustries.com",
-    "pan": "QUYTU6945Q"
+    "email": "accounts95@talojamfgassn.com",
+    "pan": "AFHUH1572D"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 308, Sector 1, Mumbai - 403792",
-    "gstin": "27HNAEK8935V1Z8",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 401, Sector 40, Mumbai - 419406",
+    "gstin": "27VKFMT8017M1Z8",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-287",
-    "date": "02-Jun-25",
+    "no": "GST-443",
+    "date": "15-Jul-25",
     "delivery_note": "",
     "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-7393",
-    "order_date": "24-May-25",
+    "order_no": "PO-6204",
+    "order_date": "13-Jul-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Thane",
-    "delivery_terms": "Ex-Works"
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "5",
-      "rate": 3152,
-      "amount": 15760
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 4846,
+      "amount": 14538
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
+      "qty": "2",
+      "rate": 1312,
+      "amount": 2624
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 2040,
+      "amount": 20400
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
       "qty": "1",
-      "rate": 4148,
-      "amount": 4148
+      "rate": 3082,
+      "amount": 3082
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 4296,
+      "amount": 4296
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 812,
+      "amount": 1624
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 575,
+      "amount": 5750
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 4606,
+      "amount": 23030
     }
   ],
   "totals": {
-    "subtotal": 19908,
-    "taxable_total": 19908,
-    "cgst_total": 497.7,
-    "sgst_total": 497.7,
-    "tax_total": 995.4
+    "subtotal": 75344,
+    "taxable_total": 75344,
+    "cgst_total": 4520.64,
+    "sgst_total": 4520.64,
+    "tax_total": 9041.28
   },
   "tax_rows": [
     {
-      "hsn": "999599",
-      "taxable": 19908,
-      "cgst_rate": 2.5,
-      "cgst_amt": 497.7,
-      "sgst_rate": 2.5,
-      "sgst_amt": 497.7
+      "hsn": "940330",
+      "taxable": 75344,
+      "cgst_rate": 6.0,
+      "cgst_amt": 4520.64,
+      "sgst_rate": 6.0,
+      "sgst_amt": 4520.64
     }
   ],
-  "amount_in_words": "INR Twenty Thousand, Nine Hundred And Three Only",
-  "tax_amount_in_words": "INR Nine Hundred And Ninety-Five Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Eighty-Four Thousand, Three Hundred And Eighty-Five Only",
+  "tax_amount_in_words": "INR Nine Thousand And Forty-One Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "53328041880",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "10416995547",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 12,
     "generated_id": 59
   }
 }

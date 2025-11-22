@@ -1,116 +1,102 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 801, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 412480",
-    "gstin": "27RKXPG3276B1Z3",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 998, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 419695",
+    "gstin": "27MODWV4294R1Z4",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts54@labstech.com",
-    "pan": "ETRUO5880U"
+    "email": "accounts98@kanteenfoods.com",
+    "pan": "TRSLO5485K"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 754, Sector 9, Mumbai - 412694",
-    "gstin": "27WAORI5269C1Z8",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 784, Sector 49, Mumbai - 419197",
+    "gstin": "27LUVTN7153Y1Z6",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-508",
-    "date": "15-Nov-25",
+    "no": "PB-444",
+    "date": "16-Jul-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-9024",
-    "order_date": "06-Nov-25",
+    "order_no": "PO-4673",
+    "order_date": "14-Jul-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
-    "destination": "Thane",
+    "destination": "Mumbai",
     "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "3",
-      "rate": 3323,
-      "amount": 9969
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 3240,
-      "amount": 32400
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 4092,
-      "amount": 40920
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
+      "particulars": "Consulting Services",
+      "hsn": "998312",
       "qty": "5",
-      "rate": 3985,
-      "amount": 19925
+      "rate": 2057,
+      "amount": 10285
     },
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
       "qty": "10",
-      "rate": 3900,
-      "amount": 39000
+      "rate": 2071,
+      "amount": 20710
     },
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "2",
-      "rate": 2668,
-      "amount": 5336
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 3752,
+      "amount": 11256
     },
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "10",
-      "rate": 4285,
-      "amount": 42850
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 3200,
+      "amount": 9600
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 3410,
+      "amount": 17050
     }
   ],
   "totals": {
-    "subtotal": 190400,
-    "taxable_total": 190400,
-    "cgst_total": 4760.0,
-    "sgst_total": 4760.0,
-    "tax_total": 9520.0
+    "subtotal": 68901,
+    "taxable_total": 68901,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 190400,
-      "cgst_rate": 2.5,
-      "cgst_amt": 4760.0,
-      "sgst_rate": 2.5,
-      "sgst_amt": 4760.0
+      "hsn": "998312",
+      "taxable": 68901,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR One Lakh, Ninety-Nine Thousand, Nine Hundred And Twenty Only",
-  "tax_amount_in_words": "INR Nine Thousand, Five Hundred And Twenty Only",
+  "amount_in_words": "INR Sixty-Eight Thousand, Nine Hundred And One Only",
+  "tax_amount_in_words": "INR Zero Only",
   "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "26280488591",
-    "branch_ifsc": "TALOJA – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "HDFC BANK",
+    "acno": "32199045512",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 0,
     "generated_id": 169
   }
 }

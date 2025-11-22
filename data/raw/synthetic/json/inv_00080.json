@@ -1,88 +1,81 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 644, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 497515",
-    "gstin": "27RQDMS8456M1Z1",
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 533, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 449109",
+    "gstin": "27CNISO2773T1Z1",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts52@kanteenfoods.com",
-    "pan": "UAVXH6819S"
+    "email": "accounts37@labstech.com",
+    "pan": "CRHBM2905J"
   },
   "buyer": {
-    "name": "UNITY CONSTRUCTIONS",
-    "address": "Flat 362, Sector 18, Mumbai - 411490",
-    "gstin": "27IIFDL4483L1Z1",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 443, Sector 4, Mumbai - 490259",
+    "gstin": "27ZMQBR4596R1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-715",
-    "date": "13-Oct-25",
+    "no": "T-262",
+    "date": "14-Aug-25",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-1186",
-    "order_date": "09-Oct-25",
+    "order_no": "PO-5439",
+    "order_date": "09-Aug-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Thane",
-    "delivery_terms": "Ex-Works"
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "1",
-      "rate": 1344,
-      "amount": 1344
+      "rate": 2092,
+      "amount": 2092
     },
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "2",
-      "rate": 638,
-      "amount": 1276
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "10",
-      "rate": 248,
-      "amount": 2480
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 4084,
+      "amount": 20420
     }
   ],
   "totals": {
-    "subtotal": 5100,
-    "taxable_total": 5100,
-    "cgst_total": 0.0,
-    "sgst_total": 0.0,
-    "tax_total": 0.0
+    "subtotal": 22512,
+    "taxable_total": 22512,
+    "cgst_total": 3151.68,
+    "sgst_total": 3151.68,
+    "tax_total": 6303.36
   },
   "tax_rows": [
     {
-      "hsn": "998361",
-      "taxable": 5100,
-      "cgst_rate": 0.0,
-      "cgst_amt": 0.0,
-      "sgst_rate": 0.0,
-      "sgst_amt": 0.0
+      "hsn": "996331",
+      "taxable": 22512,
+      "cgst_rate": 14.0,
+      "cgst_amt": 3151.68,
+      "sgst_rate": 14.0,
+      "sgst_amt": 3151.68
     }
   ],
-  "amount_in_words": "INR Five Thousand, One Hundred Only",
-  "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Twenty-Eight Thousand, Eight Hundred And Fifteen Only",
+  "tax_amount_in_words": "INR Six Thousand, Three Hundred And Three Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "78818423455",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "47592540164",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 0,
+    "gst_slab": 28,
     "generated_id": 80
   }
 }

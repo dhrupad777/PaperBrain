@@ -83,42 +83,40 @@ class CRF(nn.Module):
     def decode(self, emissions, mask):
         batch_size, seq_len, num_tags = emissions.size()
 
-        viterbi = torch.full((batch_size, num_tags), -1e4, device=emissions.device)
-        viterbi[:, 0] = 0.0
-
+        # INIT from START -> tag transition + first emission
+        alpha = self.transitions[self.start_tag, :num_tags].unsqueeze(0) + emissions[:, 0]
         backpointers = []
 
-        for t in range(seq_len):
-            emit_t = emissions[:, t]
-            next_v = []
-            bp_t = []
-            for next_tag in range(num_tags):
-                scores = viterbi + self.transitions[:num_tags, next_tag].unsqueeze(0)
-                best_scores, best_tags = scores.max(dim=1)
-                next_v.append(best_scores + emit_t[:, next_tag])
-                bp_t.append(best_tags)
+        for t in range(1, seq_len):
+            emit_t = emissions[:, t]  # (B, num_tags)
 
-            viterbi = torch.stack(next_v, dim=1)
-            backpointers.append(torch.stack(bp_t, dim=1))
+            # (B, prev_tag, next_tag)
+            scores = alpha.unsqueeze(2) + self.transitions[:num_tags, :num_tags].unsqueeze(0)
+            best_scores, best_tags = scores.max(dim=1)  # max over prev_tag
 
+            alpha = best_scores + emit_t
+            backpointers.append(best_tags)
+
+            # apply mask
             mask_t = mask[:, t].unsqueeze(1)
-            viterbi = viterbi * mask_t + viterbi * (1 - mask_t)
+            alpha = alpha * mask_t + alpha * (1 - mask_t)
 
-        # transition to END
-        viterbi = viterbi + self.transitions[:num_tags, self.end_tag].unsqueeze(0)
-        best_scores, best_last_tags = viterbi.max(dim=1)
+        # END transition
+        alpha = alpha + self.transitions[:num_tags, self.end_tag].unsqueeze(0)
+        best_scores, best_last_tags = alpha.max(dim=1)
 
-        # backtrace
+        # BACKTRACE
         best_paths = []
         for b in range(batch_size):
             seq_end = int(mask[b].sum().item()) - 1
-            best_tag = best_last_tags[b].item()
-            path = [best_tag]
-            for bp_t in reversed(backpointers[:seq_end + 1]):
-                best_tag = bp_t[b, best_tag].item()
-                path.append(best_tag)
-            path.reverse()
+            last_tag = best_last_tags[b].item()
+            path = [last_tag]
 
+            for bp_t in reversed(backpointers[:seq_end]):
+                last_tag = bp_t[b, last_tag].item()
+                path.append(last_tag)
+
+            path.reverse()
             best_paths.append(path)
 
         return best_paths

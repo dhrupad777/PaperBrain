@@ -1,95 +1,123 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 143, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 471414",
-    "gstin": "27BBEXU5110W1Z8",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 308, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 482471",
+    "gstin": "27BGEWU7019Q1Z6",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts63@kanteenfoods.com",
-    "pan": "VKLFC4856S"
+    "email": "accounts12@vistarealty.com",
+    "pan": "LXESU5240C"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 841, Sector 30, Mumbai - 432567",
-    "gstin": "27NZRPC3010Z1Z3",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 898, Sector 27, Mumbai - 460644",
+    "gstin": "27IGIDH4204C1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-159",
-    "date": "02-Dec-24",
+    "no": "GST-920",
+    "date": "14-Dec-24",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3731",
-    "order_date": "22-Nov-24",
+    "order_no": "PO-3068",
+    "order_date": "11-Dec-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
-    "destination": "Thane",
-    "delivery_terms": "FOB"
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "10",
-      "rate": 2396,
-      "amount": 23960
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 2998,
+      "amount": 8994
     },
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "3",
-      "rate": 255,
-      "amount": 765
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 2395,
+      "amount": 2395
     },
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
       "qty": "2",
-      "rate": 820,
-      "amount": 1640
+      "rate": 4099,
+      "amount": 8198
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
-      "qty": "3",
-      "rate": 2089,
-      "amount": 6267
+      "qty": "2",
+      "rate": 1099,
+      "amount": 2198
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 3061,
+      "amount": 3061
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 410,
+      "amount": 4100
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 2518,
+      "amount": 2518
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 4963,
+      "amount": 9926
     }
   ],
   "totals": {
-    "subtotal": 32632,
-    "taxable_total": 32632,
-    "cgst_total": 1957.92,
-    "sgst_total": 1957.92,
-    "tax_total": 3915.84
+    "subtotal": 41390,
+    "taxable_total": 41390,
+    "cgst_total": 5794.6,
+    "sgst_total": 5794.6,
+    "tax_total": 11589.2
   },
   "tax_rows": [
     {
-      "hsn": "998361",
-      "taxable": 32632,
-      "cgst_rate": 6.0,
-      "cgst_amt": 1957.92,
-      "sgst_rate": 6.0,
-      "sgst_amt": 1957.92
+      "hsn": "999599",
+      "taxable": 41390,
+      "cgst_rate": 14.0,
+      "cgst_amt": 5794.6,
+      "sgst_rate": 14.0,
+      "sgst_amt": 5794.6
     }
   ],
-  "amount_in_words": "INR Thirty-Six Thousand, Five Hundred And Forty-Eight Only",
-  "tax_amount_in_words": "INR Three Thousand, Nine Hundred And Sixteen Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Fifty-Two Thousand, Nine Hundred And Seventy-Nine Only",
+  "tax_amount_in_words": "INR Eleven Thousand, Five Hundred And Eighty-Nine Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "50676263171",
-    "branch_ifsc": "MUMBAI – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "ICICI BANK",
+    "acno": "63070681324",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 28,
     "generated_id": 76
   }
 }

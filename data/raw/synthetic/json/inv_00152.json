@@ -1,106 +1,106 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 872, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 449864",
-    "gstin": "27LKHYK3503G1Z3",
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 54, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 417492",
+    "gstin": "27ZPKVV3392T1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts37@labstech.com",
-    "pan": "XBTGK4849K"
+    "email": "accounts32@nexolindustries.com",
+    "pan": "POEAU9029F"
   },
   "buyer": {
-    "name": "OMKAR TRADERS",
-    "address": "Flat 349, Sector 31, Mumbai - 496198",
-    "gstin": "27FPFOH1246U1Z2",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 894, Sector 30, Mumbai - 458865",
+    "gstin": "27BDMGG4993N1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-759",
-    "date": "31-May-25",
+    "no": "GST-916",
+    "date": "29-Jul-24",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-8880",
-    "order_date": "26-May-25",
+    "order_no": "PO-9432",
+    "order_date": "27-Jul-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Email",
-    "destination": "Pune",
-    "delivery_terms": ""
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
+      "particulars": "Software Subscription",
+      "hsn": "997331",
       "qty": "1",
-      "rate": 1962,
-      "amount": 1962
+      "rate": 1458,
+      "amount": 1458
     },
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 1763,
+      "amount": 1763
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 1685,
+      "amount": 1685
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
       "qty": "10",
-      "rate": 1700,
-      "amount": 17000
+      "rate": 4116,
+      "amount": 41160
     },
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
       "qty": "10",
-      "rate": 3751,
-      "amount": 37510
+      "rate": 4575,
+      "amount": 45750
     },
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "2",
-      "rate": 1061,
-      "amount": 2122
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "2",
-      "rate": 4705,
-      "amount": 9410
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "5",
-      "rate": 2451,
-      "amount": 12255
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 993,
+      "amount": 9930
     }
   ],
   "totals": {
-    "subtotal": 80259,
-    "taxable_total": 80259,
+    "subtotal": 101746,
+    "taxable_total": 101746,
     "cgst_total": 0.0,
     "sgst_total": 0.0,
     "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "996331",
-      "taxable": 80259,
+      "hsn": "997331",
+      "taxable": 101746,
       "cgst_rate": 0.0,
       "cgst_amt": 0.0,
       "sgst_rate": 0.0,
       "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Eighty Thousand, Two Hundred And Fifty-Nine Only",
+  "amount_in_words": "INR One Lakh, One Thousand, Seven Hundred And Forty-Six Only",
   "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Monthly service billing.",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "45752841534",
-    "branch_ifsc": "MUMBAI – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "29919240480",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
     "gst_slab": 0,

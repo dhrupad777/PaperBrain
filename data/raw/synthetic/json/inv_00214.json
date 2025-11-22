@@ -1,81 +1,116 @@
 {
   "seller": {
-    "name": "VISTA REALTY SERVICES",
-    "name_short": "VISTA REALTY",
-    "addr1": "Plot 514, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 420967",
-    "gstin": "27HUJJU8150N1Z2",
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 880, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 430977",
+    "gstin": "27SMYID2278X1Z5",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts15@vistarealty.com",
-    "pan": "MPUSV8856G"
+    "email": "accounts44@nexolindustries.com",
+    "pan": "KEESK3278I"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 625, Sector 34, Mumbai - 418753",
-    "gstin": "27XYNAI2612W1Z2",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 511, Sector 43, Mumbai - 467087",
+    "gstin": "27ISCGQ9881A1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-172",
-    "date": "23-Jul-24",
+    "no": "INV-480",
+    "date": "01-Dec-24",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-2119",
-    "order_date": "13-Jul-24",
+    "order_no": "PO-3213",
+    "order_date": "21-Nov-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
     "destination": "Navi Mumbai",
-    "delivery_terms": ""
+    "delivery_terms": "Ex-Works"
   },
   "items": [
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 2610,
+      "amount": 13050
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 319,
+      "amount": 319
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 1185,
+      "amount": 5925
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 463,
+      "amount": 4630
+    },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
       "qty": "10",
-      "rate": 2347,
-      "amount": 23470
+      "rate": 3659,
+      "amount": 36590
     },
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 3064,
+      "amount": 9192
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "5",
-      "rate": 2882,
-      "amount": 14410
+      "rate": 3958,
+      "amount": 19790
     }
   ],
   "totals": {
-    "subtotal": 37880,
-    "taxable_total": 37880,
-    "cgst_total": 947.0,
-    "sgst_total": 947.0,
-    "tax_total": 1894.0
+    "subtotal": 89496,
+    "taxable_total": 89496,
+    "cgst_total": 8054.64,
+    "sgst_total": 8054.64,
+    "tax_total": 16109.28
   },
   "tax_rows": [
     {
-      "hsn": "998361",
-      "taxable": 37880,
-      "cgst_rate": 2.5,
-      "cgst_amt": 947.0,
-      "sgst_rate": 2.5,
-      "sgst_amt": 947.0
+      "hsn": "996331",
+      "taxable": 89496,
+      "cgst_rate": 9.0,
+      "cgst_amt": 8054.64,
+      "sgst_rate": 9.0,
+      "sgst_amt": 8054.64
     }
   ],
-  "amount_in_words": "INR Thirty-Nine Thousand, Seven Hundred And Seventy-Four Only",
-  "tax_amount_in_words": "INR One Thousand, Eight Hundred And Ninety-Four Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR One Lakh, Five Thousand, Six Hundred And Five Only",
+  "tax_amount_in_words": "INR Sixteen Thousand, One Hundred And Nine Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "25729441749",
-    "branch_ifsc": "PUNE – HDFC0000123",
+    "acno": "98076429345",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 18,
     "generated_id": 214
   }
 }

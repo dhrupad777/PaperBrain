@@ -64,7 +64,7 @@ def find_spans(tokens: List[str], field_value: str) -> List[Tuple[int,int]]:
         for n in range(min(6, len(fv_tokens)), 1, -1):
             for i in range(len(tokens)-n+1):
                 chunk = norm(" ".join(tokens[i:i+n]))
-                if fuzzy_equal(chunk, fv, thr=0.82):
+                if fuzzy_equal(chunk, fv, thr=0.78):
                     return [(i, i+n)]
 
     return []
@@ -120,7 +120,8 @@ def build_bio_for_one(json_path: Path):
 
     spans = {}
     spans["VENDOR"] = find_spans(tokens, fields["VENDOR"])
-    spans["INVOICE_NO"] = find_spans(tokens, fields["INVOICE_NO"])
+    # Temporarily drop INVOICE_NO to reduce noise and focus on key fields
+    # spans["INVOICE_NO"] = find_spans(tokens, fields["INVOICE_NO"])
     spans["TOTAL"] = find_spans(tokens, fields["TOTAL"]) or find_spans(tokens, fields["SUBTOTAL"])
     spans["DATE"] = find_spans(tokens, fields["DATE"]) or find_spans(tokens, fields["DATE_ALT"])
 

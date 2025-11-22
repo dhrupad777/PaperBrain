@@ -1,116 +1,123 @@
 {
   "seller": {
-    "name": "VISTA REALTY SERVICES",
-    "name_short": "VISTA REALTY",
-    "addr1": "Plot 164, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 428113",
-    "gstin": "27GFDTY4158I1Z1",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 525, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 436100",
+    "gstin": "27YCJCI1537I1Z9",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts66@vistarealty.com",
-    "pan": "CSBYN1853C"
+    "email": "accounts37@kanteenfoods.com",
+    "pan": "CUNGH6735I"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 265, Sector 11, Mumbai - 458700",
-    "gstin": "27VJAPT8855F1Z2",
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 782, Sector 1, Mumbai - 488412",
+    "gstin": "27SXIPD8209O1Z8",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-153",
-    "date": "23-May-24",
+    "no": "GST-448",
+    "date": "13-May-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-4329",
-    "order_date": "13-May-24",
+    "order_no": "PO-7196",
+    "order_date": "10-May-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Email",
-    "destination": "Mumbai",
-    "delivery_terms": "CIF"
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 1644,
+      "amount": 16440
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 754,
+      "amount": 2262
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "2",
-      "rate": 644,
-      "amount": 1288
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "2",
-      "rate": 3137,
-      "amount": 6274
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "1",
-      "rate": 4403,
-      "amount": 4403
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "1",
-      "rate": 3175,
-      "amount": 3175
+      "rate": 1382,
+      "amount": 2764
     },
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
-      "qty": "1",
-      "rate": 1335,
-      "amount": 1335
+      "qty": "2",
+      "rate": 966,
+      "amount": 1932
     },
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "3",
-      "rate": 2091,
-      "amount": 6273
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
+      "particulars": "Consulting Services",
+      "hsn": "998312",
       "qty": "5",
-      "rate": 501,
-      "amount": 2505
+      "rate": 4121,
+      "amount": 20605
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 3471,
+      "amount": 17355
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 4754,
+      "amount": 14262
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 4011,
+      "amount": 8022
     }
   ],
   "totals": {
-    "subtotal": 25253,
-    "taxable_total": 25253,
-    "cgst_total": 3535.42,
-    "sgst_total": 3535.42,
-    "tax_total": 7070.84
+    "subtotal": 83642,
+    "taxable_total": 83642,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "853690",
-      "taxable": 25253,
-      "cgst_rate": 14.0,
-      "cgst_amt": 3535.42,
-      "sgst_rate": 14.0,
-      "sgst_amt": 3535.42
+      "hsn": "996331",
+      "taxable": 83642,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Thirty-Two Thousand, Three Hundred And Twenty-Four Only",
-  "tax_amount_in_words": "INR Seven Thousand And Seventy-One Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Eighty-Three Thousand, Six Hundred And Forty-Two Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "30152704778",
-    "branch_ifsc": "MUMBAI – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "HDFC BANK",
+    "acno": "82569413518",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 0,
     "generated_id": 91
   }
 }

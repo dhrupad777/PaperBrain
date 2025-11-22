@@ -2,101 +2,94 @@
   "seller": {
     "name": "TALOJA MANUFACTURERS' ASSOCIATION",
     "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 544, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 487512",
-    "gstin": "27ZIEHI6819K1Z2",
+    "addr1": "Plot 682, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 430197",
+    "gstin": "27QTIUT6926K1Z5",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts53@talojamfgassn.com",
-    "pan": "DRIYJ7811T"
+    "email": "accounts8@talojamfgassn.com",
+    "pan": "FLVWJ7921B"
   },
   "buyer": {
-    "name": "SUNRISE ELECTRONICS",
-    "address": "Flat 779, Sector 24, Mumbai - 478998",
-    "gstin": "27KVXRI8758Z1Z9",
+    "name": "OMKAR TRADERS",
+    "address": "Flat 1, Sector 32, Mumbai - 437378",
+    "gstin": "27TCAZK3007H1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-555",
-    "date": "01-Nov-24",
+    "no": "INV-043",
+    "date": "07-Feb-25",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-8433",
-    "order_date": "22-Oct-24",
+    "order_no": "PO-1499",
+    "order_date": "06-Feb-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Thane",
-    "delivery_terms": ""
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "1",
-      "rate": 323,
-      "amount": 323
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 674,
-      "amount": 674
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "2",
-      "rate": 2274,
-      "amount": 4548
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "1",
-      "rate": 389,
-      "amount": 389
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "3",
-      "rate": 4652,
-      "amount": 13956
+      "rate": 2255,
+      "amount": 6765
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 3320,
+      "amount": 3320
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 3026,
+      "amount": 15130
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 511,
+      "amount": 2555
     }
   ],
   "totals": {
-    "subtotal": 19890,
-    "taxable_total": 19890,
-    "cgst_total": 1193.4,
-    "sgst_total": 1193.4,
-    "tax_total": 2386.8
+    "subtotal": 27770,
+    "taxable_total": 27770,
+    "cgst_total": 3887.8,
+    "sgst_total": 3887.8,
+    "tax_total": 7775.6
   },
   "tax_rows": [
     {
-      "hsn": "998312",
-      "taxable": 19890,
-      "cgst_rate": 6.0,
-      "cgst_amt": 1193.4,
-      "sgst_rate": 6.0,
-      "sgst_amt": 1193.4
+      "hsn": "996331",
+      "taxable": 27770,
+      "cgst_rate": 14.0,
+      "cgst_amt": 3887.8,
+      "sgst_rate": 14.0,
+      "sgst_amt": 3887.8
     }
   ],
-  "amount_in_words": "INR Twenty-Two Thousand, Two Hundred And Seventy-Seven Only",
-  "tax_amount_in_words": "INR Two Thousand, Three Hundred And Eighty-Seven Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Thirty-Five Thousand, Five Hundred And Forty-Six Only",
+  "tax_amount_in_words": "INR Seven Thousand, Seven Hundred And Seventy-Six Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "99739625881",
+    "acno": "46928734854",
     "branch_ifsc": "PUNE – ICIC0000456",
     "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 28,
     "generated_id": 286
   }
 }

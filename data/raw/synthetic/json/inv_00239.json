@@ -1,109 +1,81 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 323, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 432141",
-    "gstin": "27WLAAA9284O1Z7",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 574, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 406615",
+    "gstin": "27GANWC2765I1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts15@nexolindustries.com",
-    "pan": "ALIUB1556F"
+    "email": "accounts86@talojamfgassn.com",
+    "pan": "SABWX8024L"
   },
   "buyer": {
-    "name": "OMKAR TRADERS",
-    "address": "Flat 63, Sector 26, Mumbai - 423849",
-    "gstin": "27ZRAIV4559S1Z7",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 972, Sector 20, Mumbai - 457549",
+    "gstin": "27RHWOO1563Q1Z1",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-369",
-    "date": "16-Nov-24",
+    "no": "PB-250",
+    "date": "08-Mar-25",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-5357",
-    "order_date": "13-Nov-24",
+    "order_no": "PO-7806",
+    "order_date": "06-Mar-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
-    "destination": "Pune",
-    "delivery_terms": "CIF"
+    "destination": "Mumbai",
+    "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "3",
-      "rate": 1066,
-      "amount": 3198
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "2",
-      "rate": 1683,
-      "amount": 3366
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "3",
-      "rate": 1594,
-      "amount": 4782
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 1277,
-      "amount": 12770
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "2",
-      "rate": 640,
-      "amount": 1280
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
+      "particulars": "Office Rent",
+      "hsn": "999599",
       "qty": "1",
-      "rate": 4270,
-      "amount": 4270
+      "rate": 3298,
+      "amount": 3298
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 4805,
+      "amount": 14415
     }
   ],
   "totals": {
-    "subtotal": 29666,
-    "taxable_total": 29666,
-    "cgst_total": 2669.94,
-    "sgst_total": 2669.94,
-    "tax_total": 5339.88
+    "subtotal": 17713,
+    "taxable_total": 17713,
+    "cgst_total": 442.83,
+    "sgst_total": 442.83,
+    "tax_total": 885.65
   },
   "tax_rows": [
     {
-      "hsn": "998312",
-      "taxable": 29666,
-      "cgst_rate": 9.0,
-      "cgst_amt": 2669.94,
-      "sgst_rate": 9.0,
-      "sgst_amt": 2669.94
+      "hsn": "999599",
+      "taxable": 17713,
+      "cgst_rate": 2.5,
+      "cgst_amt": 442.83,
+      "sgst_rate": 2.5,
+      "sgst_amt": 442.83
     }
   ],
-  "amount_in_words": "INR Thirty-Five Thousand And Six Only",
-  "tax_amount_in_words": "INR Five Thousand, Three Hundred And Forty Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Eighteen Thousand, Five Hundred And Ninety-Nine Only",
+  "tax_amount_in_words": "INR Eight Hundred And Eighty-Six Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "24806898059",
-    "branch_ifsc": "MUMBAI – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "ICICI BANK",
+    "acno": "45854938962",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 18,
+    "gst_slab": 5,
     "generated_id": 239
   }
 }

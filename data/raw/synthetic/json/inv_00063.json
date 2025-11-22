@@ -1,120 +1,99 @@
 {
   "seller": {
-    "name": "VISTA REALTY SERVICES",
-    "name_short": "VISTA REALTY",
-    "addr1": "Plot 117, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 416381",
-    "gstin": "27RQSFW2990Q1Z8",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 819, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 409819",
+    "gstin": "27AVYMG6408D1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts37@vistarealty.com",
-    "pan": "XAQVL3609D"
+    "email": "accounts86@kanteenfoods.com",
+    "pan": "BPGXV5485C"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 50, Sector 50, Mumbai - 462217",
-    "gstin": "27NMWBO1080J1Z3",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 277, Sector 41, Mumbai - 477874",
+    "gstin": "27MLCZL2184R1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-824",
-    "date": "10-Apr-25",
+    "no": "GST-595",
+    "date": "22-Sep-25",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-4529",
-    "order_date": "08-Apr-25",
+    "order_no": "PO-7871",
+    "order_date": "14-Sep-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "FOB"
+    "destination": "Thane",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
-      "qty": "1",
-      "rate": 2924,
-      "amount": 2924
+      "qty": "2",
+      "rate": 3599,
+      "amount": 7198
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 4769,
+      "amount": 9538
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "3",
-      "rate": 1746,
-      "amount": 5238
+      "qty": "1",
+      "rate": 1380,
+      "amount": 1380
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
-      "qty": "10",
-      "rate": 4098,
-      "amount": 40980
+      "qty": "3",
+      "rate": 4495,
+      "amount": 13485
     },
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
       "qty": "10",
-      "rate": 4843,
-      "amount": 48430
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "3",
-      "rate": 1845,
-      "amount": 5535
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "5",
-      "rate": 4046,
-      "amount": 20230
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "3",
-      "rate": 2544,
-      "amount": 7632
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "3",
-      "rate": 3031,
-      "amount": 9093
+      "rate": 1216,
+      "amount": 12160
     }
   ],
   "totals": {
-    "subtotal": 140062,
-    "taxable_total": 140062,
-    "cgst_total": 19608.68,
-    "sgst_total": 19608.68,
-    "tax_total": 39217.36
+    "subtotal": 43761,
+    "taxable_total": 43761,
+    "cgst_total": 6126.54,
+    "sgst_total": 6126.54,
+    "tax_total": 12253.08
   },
   "tax_rows": [
     {
       "hsn": "998312",
-      "taxable": 140062,
+      "taxable": 43761,
       "cgst_rate": 14.0,
-      "cgst_amt": 19608.68,
+      "cgst_amt": 6126.54,
       "sgst_rate": 14.0,
-      "sgst_amt": 19608.68
+      "sgst_amt": 6126.54
     }
   ],
-  "amount_in_words": "INR One Lakh, Seventy-Nine Thousand, Two Hundred And Seventy-Nine Only",
-  "tax_amount_in_words": "INR Thirty-Nine Thousand, Two Hundred And Seventeen Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Fifty-Six Thousand And Fourteen Only",
+  "tax_amount_in_words": "INR Twelve Thousand, Two Hundred And Fifty-Three Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "91621367429",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "ICICI BANK",
+    "acno": "62017755866",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
     "gst_slab": 28,

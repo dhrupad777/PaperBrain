@@ -1,123 +1,95 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 294, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 425934",
-    "gstin": "27CALEC3930T1Z7",
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 889, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 406826",
+    "gstin": "27FYXSI7519C1Z1",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts83@nexolindustries.com",
-    "pan": "RPHQM7521M"
+    "email": "accounts72@labstech.com",
+    "pan": "NMZTH9329W"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 49, Sector 50, Mumbai - 496323",
-    "gstin": "27YACFN1958K1Z8",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 16, Sector 8, Mumbai - 453401",
+    "gstin": "27PRJCU2862Z1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-274",
-    "date": "16-Oct-24",
+    "no": "PB-191",
+    "date": "21-Oct-24",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3047",
+    "order_no": "PO-7976",
     "order_date": "14-Oct-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "FOB"
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "3",
-      "rate": 2144,
-      "amount": 6432
-    },
-    {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "5",
-      "rate": 4895,
-      "amount": 24475
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 1671,
-      "amount": 1671
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
       "qty": "3",
-      "rate": 3205,
-      "amount": 9615
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "2",
-      "rate": 4097,
-      "amount": 8194
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 567,
-      "amount": 5670
+      "rate": 4009,
+      "amount": 12027
     },
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
-      "qty": "2",
-      "rate": 2176,
-      "amount": 4352
+      "qty": "3",
+      "rate": 3525,
+      "amount": 10575
     },
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "1",
-      "rate": 1279,
-      "amount": 1279
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 906,
+      "amount": 2718
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 629,
+      "amount": 6290
     }
   ],
   "totals": {
-    "subtotal": 61688,
-    "taxable_total": 61688,
-    "cgst_total": 3701.28,
-    "sgst_total": 3701.28,
-    "tax_total": 7402.56
+    "subtotal": 31610,
+    "taxable_total": 31610,
+    "cgst_total": 790.25,
+    "sgst_total": 790.25,
+    "tax_total": 1580.5
   },
   "tax_rows": [
     {
-      "hsn": "996331",
-      "taxable": 61688,
-      "cgst_rate": 6.0,
-      "cgst_amt": 3701.28,
-      "sgst_rate": 6.0,
-      "sgst_amt": 3701.28
+      "hsn": "998361",
+      "taxable": 31610,
+      "cgst_rate": 2.5,
+      "cgst_amt": 790.25,
+      "sgst_rate": 2.5,
+      "sgst_amt": 790.25
     }
   ],
-  "amount_in_words": "INR Sixty-Nine Thousand And Ninety-One Only",
-  "tax_amount_in_words": "INR Seven Thousand, Four Hundred And Three Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Thirty-Three Thousand, One Hundred And Ninety Only",
+  "tax_amount_in_words": "INR One Thousand, Five Hundred And Eighty Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "76546380924",
-    "branch_ifsc": "TALOJA – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "45547654596",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 5,
     "generated_id": 188
   }
 }

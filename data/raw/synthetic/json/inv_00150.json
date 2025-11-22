@@ -1,95 +1,109 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 936, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 418270",
-    "gstin": "27HURZL2580H1Z8",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 265, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 434458",
+    "gstin": "27OLIKC1678E1Z8",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts5@labstech.com",
-    "pan": "DYCZQ5583Q"
+    "email": "accounts74@talojamfgassn.com",
+    "pan": "YYTME2238K"
   },
   "buyer": {
-    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
-    "address": "Flat 338, Sector 41, Mumbai - 414079",
-    "gstin": "27PIXSI5105Q1Z3",
+    "name": "OMKAR TRADERS",
+    "address": "Flat 446, Sector 20, Mumbai - 438688",
+    "gstin": "27IBNKO4210T1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-405",
-    "date": "18-Sep-24",
+    "no": "PB-163",
+    "date": "11-Nov-24",
     "delivery_note": "",
     "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-1750",
-    "order_date": "16-Sep-24",
+    "order_no": "PO-6127",
+    "order_date": "03-Nov-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
-    "destination": "Pune",
-    "delivery_terms": ""
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
-      "qty": "5",
-      "rate": 3791,
-      "amount": 18955
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "1",
-      "rate": 3970,
-      "amount": 3970
+      "qty": "3",
+      "rate": 4094,
+      "amount": 12282
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
-      "qty": "3",
-      "rate": 3898,
-      "amount": 11694
+      "qty": "1",
+      "rate": 2551,
+      "amount": 2551
     },
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "3",
-      "rate": 2837,
-      "amount": 8511
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 2309,
+      "amount": 11545
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 3268,
+      "amount": 6536
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 4969,
+      "amount": 4969
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 4239,
+      "amount": 42390
     }
   ],
   "totals": {
-    "subtotal": 43130,
-    "taxable_total": 43130,
-    "cgst_total": 3881.7,
-    "sgst_total": 3881.7,
-    "tax_total": 7763.4
+    "subtotal": 80273,
+    "taxable_total": 80273,
+    "cgst_total": 11238.22,
+    "sgst_total": 11238.22,
+    "tax_total": 22476.44
   },
   "tax_rows": [
     {
       "hsn": "853690",
-      "taxable": 43130,
-      "cgst_rate": 9.0,
-      "cgst_amt": 3881.7,
-      "sgst_rate": 9.0,
-      "sgst_amt": 3881.7
+      "taxable": 80273,
+      "cgst_rate": 14.0,
+      "cgst_amt": 11238.22,
+      "sgst_rate": 14.0,
+      "sgst_amt": 11238.22
     }
   ],
-  "amount_in_words": "INR Fifty Thousand, Eight Hundred And Ninety-Three Only",
-  "tax_amount_in_words": "INR Seven Thousand, Seven Hundred And Sixty-Three Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR One Lakh, Two Thousand, Seven Hundred And Forty-Nine Only",
+  "tax_amount_in_words": "INR Twenty-Two Thousand, Four Hundred And Seventy-Six Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "61685039787",
-    "branch_ifsc": "TALOJA – HDFC0000123",
+    "acno": "82410974782",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 18,
+    "gst_slab": 28,
     "generated_id": 150
   }
 }

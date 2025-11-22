@@ -1,31 +1,31 @@
 {
   "seller": {
-    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
-    "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 899, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 498864",
-    "gstin": "27LOFBC7107Q1Z4",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 976, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 453860",
+    "gstin": "27HCXBR7853R1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts60@talojamfgassn.com",
-    "pan": "MFQFH9866X"
+    "email": "accounts89@kanteenfoods.com",
+    "pan": "WLJOY9117C"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 900, Sector 27, Mumbai - 453895",
-    "gstin": "27DYTIF1636V1Z9",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 14, Sector 40, Mumbai - 411601",
+    "gstin": "27WVLLD4379T1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-059",
-    "date": "23-Aug-24",
+    "no": "PB-498",
+    "date": "02-Apr-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-5629",
-    "order_date": "17-Aug-24",
+    "order_no": "PO-7829",
+    "order_date": "27-Mar-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Email",
@@ -34,62 +34,83 @@
   },
   "items": [
     {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 4023,
+      "amount": 12069
+    },
+    {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
       "qty": "5",
-      "rate": 2318,
-      "amount": 11590
+      "rate": 1862,
+      "amount": 9310
     },
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "1",
-      "rate": 4065,
-      "amount": 4065
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 2106,
+      "amount": 6318
     },
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 3601,
-      "amount": 36010
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 1101,
+      "amount": 5505
     },
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
       "qty": "2",
-      "rate": 3588,
-      "amount": 7176
+      "rate": 3362,
+      "amount": 6724
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 4717,
+      "amount": 47170
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 3000,
+      "amount": 15000
     }
   ],
   "totals": {
-    "subtotal": 58841,
-    "taxable_total": 58841,
-    "cgst_total": 8237.74,
-    "sgst_total": 8237.74,
-    "tax_total": 16475.48
+    "subtotal": 102096,
+    "taxable_total": 102096,
+    "cgst_total": 2552.4,
+    "sgst_total": 2552.4,
+    "tax_total": 5104.8
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 58841,
-      "cgst_rate": 14.0,
-      "cgst_amt": 8237.74,
-      "sgst_rate": 14.0,
-      "sgst_amt": 8237.74
+      "hsn": "999599",
+      "taxable": 102096,
+      "cgst_rate": 2.5,
+      "cgst_amt": 2552.4,
+      "sgst_rate": 2.5,
+      "sgst_amt": 2552.4
     }
   ],
-  "amount_in_words": "INR Seventy-Five Thousand, Three Hundred And Sixteen Only",
-  "tax_amount_in_words": "INR Sixteen Thousand, Four Hundred And Seventy-Five Only",
+  "amount_in_words": "INR One Lakh, Seven Thousand, Two Hundred And One Only",
+  "tax_amount_in_words": "INR Five Thousand, One Hundred And Five Only",
   "remarks": "Monthly service billing.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "76168845640",
-    "branch_ifsc": "MUMBAI – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "30914792840",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 5,
     "generated_id": 89
   }
 }

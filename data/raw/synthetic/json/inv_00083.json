@@ -1,95 +1,109 @@
 {
   "seller": {
-    "name": "VISTA REALTY SERVICES",
-    "name_short": "VISTA REALTY",
-    "addr1": "Plot 701, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 441759",
-    "gstin": "27RXXVD1124L1Z5",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 85, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 491679",
+    "gstin": "27ORGSP6302D1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts86@vistarealty.com",
-    "pan": "EDQAO1650L"
+    "email": "accounts93@kanteenfoods.com",
+    "pan": "RNWDD5300H"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 958, Sector 33, Mumbai - 495136",
-    "gstin": "27TMZLD5938N1Z6",
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 86, Sector 9, Mumbai - 402380",
+    "gstin": "27RIGIT1917B1Z9",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-530",
-    "date": "26-Jun-25",
+    "no": "INV-402",
+    "date": "14-Oct-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-9244",
-    "order_date": "20-Jun-25",
+    "order_no": "PO-9499",
+    "order_date": "14-Oct-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
-    "destination": "Navi Mumbai",
-    "delivery_terms": ""
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "3",
-      "rate": 2525,
-      "amount": 7575
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 2378,
+      "amount": 4756
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 2432,
+      "amount": 2432
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
-      "qty": "3",
-      "rate": 1393,
-      "amount": 4179
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "5",
-      "rate": 1553,
-      "amount": 7765
+      "qty": "1",
+      "rate": 2164,
+      "amount": 2164
     },
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
-      "qty": "10",
-      "rate": 3743,
-      "amount": 37430
+      "qty": "2",
+      "rate": 680,
+      "amount": 1360
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 659,
+      "amount": 3295
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 1000,
+      "amount": 5000
     }
   ],
   "totals": {
-    "subtotal": 56949,
-    "taxable_total": 56949,
-    "cgst_total": 0.0,
-    "sgst_total": 0.0,
-    "tax_total": 0.0
+    "subtotal": 19007,
+    "taxable_total": 19007,
+    "cgst_total": 1140.42,
+    "sgst_total": 1140.42,
+    "tax_total": 2280.84
   },
   "tax_rows": [
     {
-      "hsn": "999599",
-      "taxable": 56949,
-      "cgst_rate": 0.0,
-      "cgst_amt": 0.0,
-      "sgst_rate": 0.0,
-      "sgst_amt": 0.0
+      "hsn": "853690",
+      "taxable": 19007,
+      "cgst_rate": 6.0,
+      "cgst_amt": 1140.42,
+      "sgst_rate": 6.0,
+      "sgst_amt": 1140.42
     }
   ],
-  "amount_in_words": "INR Fifty-Six Thousand, Nine Hundred And Forty-Nine Only",
-  "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Twenty-One Thousand, Two Hundred And Eighty-Eight Only",
+  "tax_amount_in_words": "INR Two Thousand, Two Hundred And Eighty-One Only",
+  "remarks": "Monthly service billing.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "83456834140",
-    "branch_ifsc": "MUMBAI – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "ICICI BANK",
+    "acno": "62089169476",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 0,
+    "gst_slab": 12,
     "generated_id": 83
   }
 }

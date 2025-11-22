@@ -1,90 +1,118 @@
 {
   "seller": {
-    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
-    "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 601, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 449781",
-    "gstin": "27UKSEL1461C1Z2",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 515, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 415361",
+    "gstin": "27DJRZG2903N1Z4",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts98@talojamfgassn.com",
-    "pan": "LGXPC3232V"
+    "email": "accounts97@vistarealty.com",
+    "pan": "EEJUP4225A"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 390, Sector 23, Mumbai - 469762",
-    "gstin": "27XRHDA9801X1Z2",
+    "name": "OMKAR TRADERS",
+    "address": "Flat 674, Sector 45, Mumbai - 460308",
+    "gstin": "27CUIQE1856Y1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-092",
-    "date": "16-Sep-24",
+    "no": "PB-187",
+    "date": "09-Jul-24",
     "delivery_note": "",
     "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-8931",
-    "order_date": "12-Sep-24",
+    "order_no": "PO-3017",
+    "order_date": "06-Jul-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
     "destination": "Pune",
-    "delivery_terms": "CIF"
+    "delivery_terms": ""
   },
   "items": [
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 2867,
+      "amount": 5734
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 1194,
+      "amount": 3582
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 4455,
+      "amount": 22275
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 3901,
+      "amount": 3901
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 1686,
+      "amount": 1686
+    },
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
       "qty": "3",
-      "rate": 3012,
-      "amount": 9036
+      "rate": 3020,
+      "amount": 9060
     },
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "3",
-      "rate": 1423,
-      "amount": 4269
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
+      "particulars": "Office Rent",
+      "hsn": "999599",
       "qty": "2",
-      "rate": 1108,
-      "amount": 2216
+      "rate": 1804,
+      "amount": 3608
     },
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
+      "particulars": "Office Rent",
+      "hsn": "999599",
       "qty": "1",
-      "rate": 2969,
-      "amount": 2969
+      "rate": 4973,
+      "amount": 4973
     }
   ],
   "totals": {
-    "subtotal": 18490,
-    "taxable_total": 18490,
-    "cgst_total": 1664.1,
-    "sgst_total": 1664.1,
-    "tax_total": 3328.2
+    "subtotal": 54819,
+    "taxable_total": 54819,
+    "cgst_total": 4933.71,
+    "sgst_total": 4933.71,
+    "tax_total": 9867.42
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 18490,
+      "hsn": "997331",
+      "taxable": 54819,
       "cgst_rate": 9.0,
-      "cgst_amt": 1664.1,
+      "cgst_amt": 4933.71,
       "sgst_rate": 9.0,
-      "sgst_amt": 1664.1
+      "sgst_amt": 4933.71
     }
   ],
-  "amount_in_words": "INR Twenty-One Thousand, Eight Hundred And Eighteen Only",
-  "tax_amount_in_words": "INR Three Thousand, Three Hundred And Twenty-Eight Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR Sixty-Four Thousand, Six Hundred And Eighty-Six Only",
+  "tax_amount_in_words": "INR Nine Thousand, Eight Hundred And Sixty-Seven Only",
+  "remarks": "Monthly service billing.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "14398121353",
+    "acno": "84411791366",
     "branch_ifsc": "MUMBAI – SBIN0012984",
     "swift": "SBININBBXXX"
   },

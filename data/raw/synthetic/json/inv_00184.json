@@ -2,101 +2,108 @@
   "seller": {
     "name": "VISTA REALTY SERVICES",
     "name_short": "VISTA REALTY",
-    "addr1": "Plot 511, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 448683",
-    "gstin": "27OLZKF5719J1Z2",
+    "addr1": "Plot 267, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 405042",
+    "gstin": "27JXEAU5862F1Z9",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts22@vistarealty.com",
-    "pan": "YRZWA4292Z"
+    "email": "accounts97@vistarealty.com",
+    "pan": "TLQCB8679V"
   },
   "buyer": {
-    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
-    "address": "Flat 986, Sector 12, Mumbai - 481578",
-    "gstin": "27HFUFP5971J1Z6",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 844, Sector 24, Mumbai - 432108",
+    "gstin": "27FPYOP1559R1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-183",
-    "date": "20-Sep-24",
+    "no": "INV-821",
+    "date": "09-Sep-25",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3218",
-    "order_date": "19-Sep-24",
+    "order_no": "PO-8373",
+    "order_date": "06-Sep-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Pune",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
     "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "5",
-      "rate": 1417,
-      "amount": 7085
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 214,
+      "amount": 642
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
-      "qty": "10",
-      "rate": 4788,
-      "amount": 47880
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 3608,
-      "amount": 3608
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
       "qty": "3",
-      "rate": 407,
-      "amount": 1221
+      "rate": 1753,
+      "amount": 5259
     },
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 2546,
+      "amount": 5092
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "3",
-      "rate": 1647,
-      "amount": 4941
+      "rate": 4482,
+      "amount": 13446
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 1908,
+      "amount": 3816
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 869,
+      "amount": 2607
     }
   ],
   "totals": {
-    "subtotal": 64735,
-    "taxable_total": 64735,
-    "cgst_total": 9062.9,
-    "sgst_total": 9062.9,
-    "tax_total": 18125.8
+    "subtotal": 30862,
+    "taxable_total": 30862,
+    "cgst_total": 2777.58,
+    "sgst_total": 2777.58,
+    "tax_total": 5555.16
   },
   "tax_rows": [
     {
-      "hsn": "996331",
-      "taxable": 64735,
-      "cgst_rate": 14.0,
-      "cgst_amt": 9062.9,
-      "sgst_rate": 14.0,
-      "sgst_amt": 9062.9
+      "hsn": "997331",
+      "taxable": 30862,
+      "cgst_rate": 9.0,
+      "cgst_amt": 2777.58,
+      "sgst_rate": 9.0,
+      "sgst_amt": 2777.58
     }
   ],
-  "amount_in_words": "INR Eighty-Two Thousand, Eight Hundred And Sixty-One Only",
-  "tax_amount_in_words": "INR Eighteen Thousand, One Hundred And Twenty-Six Only",
+  "amount_in_words": "INR Thirty-Six Thousand, Four Hundred And Seventeen Only",
+  "tax_amount_in_words": "INR Five Thousand, Five Hundred And Fifty-Five Only",
   "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "25395603685",
-    "branch_ifsc": "PUNE – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "ICICI BANK",
+    "acno": "47570320688",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 18,
     "generated_id": 184
   }
 }

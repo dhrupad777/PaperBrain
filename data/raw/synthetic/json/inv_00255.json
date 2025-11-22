@@ -1,95 +1,88 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 150, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 489145",
-    "gstin": "27KFIIP3177I1Z9",
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 400, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 406024",
+    "gstin": "27KHYPQ1888Y1Z8",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts30@kanteenfoods.com",
-    "pan": "MHKHN3439P"
+    "email": "accounts20@labstech.com",
+    "pan": "ETDRN2542T"
   },
   "buyer": {
     "name": "BLUEWAVE RETAILS",
-    "address": "Flat 386, Sector 29, Mumbai - 475294",
-    "gstin": "27XNOBP3447Y1Z3",
+    "address": "Flat 536, Sector 2, Mumbai - 489349",
+    "gstin": "27BEZVZ8416E1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-251",
-    "date": "12-Apr-25",
+    "no": "GST-238",
+    "date": "05-Sep-24",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-5163",
-    "order_date": "07-Apr-25",
+    "order_no": "PO-4850",
+    "order_date": "29-Aug-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Mumbai",
-    "delivery_terms": ""
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "5",
-      "rate": 1411,
-      "amount": 7055
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 1321,
+      "amount": 2642
     },
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 4683,
+      "amount": 9366
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "10",
-      "rate": 1317,
-      "amount": 13170
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "1",
-      "rate": 4205,
-      "amount": 4205
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "10",
-      "rate": 3970,
-      "amount": 39700
+      "rate": 2772,
+      "amount": 27720
     }
   ],
   "totals": {
-    "subtotal": 64130,
-    "taxable_total": 64130,
-    "cgst_total": 1603.25,
-    "sgst_total": 1603.25,
-    "tax_total": 3206.5
+    "subtotal": 39728,
+    "taxable_total": 39728,
+    "cgst_total": 2383.68,
+    "sgst_total": 2383.68,
+    "tax_total": 4767.36
   },
   "tax_rows": [
     {
-      "hsn": "999599",
-      "taxable": 64130,
-      "cgst_rate": 2.5,
-      "cgst_amt": 1603.25,
-      "sgst_rate": 2.5,
-      "sgst_amt": 1603.25
+      "hsn": "998361",
+      "taxable": 39728,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2383.68,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2383.68
     }
   ],
-  "amount_in_words": "INR Sixty-Seven Thousand, Three Hundred And Thirty-Six Only",
-  "tax_amount_in_words": "INR Three Thousand, Two Hundred And Six Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR Forty-Four Thousand, Four Hundred And Ninety-Five Only",
+  "tax_amount_in_words": "INR Four Thousand, Seven Hundred And Sixty-Seven Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "17885150778",
-    "branch_ifsc": "TALOJA – ICIC0000456",
+    "acno": "56036762138",
+    "branch_ifsc": "PUNE – ICIC0000456",
     "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 12,
     "generated_id": 255
   }
 }

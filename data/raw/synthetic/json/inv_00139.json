@@ -1,95 +1,123 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 440, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 413862",
-    "gstin": "27YSTZQ5941S1Z3",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 278, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 487524",
+    "gstin": "27DTQTK7485L1Z1",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts54@labstech.com",
-    "pan": "FPVIL3106B"
+    "email": "accounts15@kanteenfoods.com",
+    "pan": "CIQWI9444S"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 529, Sector 44, Mumbai - 470105",
-    "gstin": "27ZBFTY7215D1Z4",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 695, Sector 33, Mumbai - 468252",
+    "gstin": "27TDUXJ5292G1Z6",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-829",
-    "date": "08-Apr-25",
+    "no": "T-215",
+    "date": "09-Aug-24",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3225",
-    "order_date": "06-Apr-25",
+    "order_no": "PO-3553",
+    "order_date": "04-Aug-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Pune",
-    "delivery_terms": "FOB"
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "10",
-      "rate": 4027,
-      "amount": 40270
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 2907,
+      "amount": 2907
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 1573,
+      "amount": 3146
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 4831,
+      "amount": 14493
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 4699,
+      "amount": 14097
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
       "qty": "5",
-      "rate": 4805,
-      "amount": 24025
+      "rate": 4540,
+      "amount": 22700
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
+      "qty": "3",
+      "rate": 894,
+      "amount": 2682
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
       "qty": "2",
-      "rate": 2035,
-      "amount": 4070
+      "rate": 3650,
+      "amount": 7300
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "10",
-      "rate": 3313,
-      "amount": 33130
+      "qty": "5",
+      "rate": 4083,
+      "amount": 20415
     }
   ],
   "totals": {
-    "subtotal": 101495,
-    "taxable_total": 101495,
-    "cgst_total": 14209.3,
-    "sgst_total": 14209.3,
-    "tax_total": 28418.6
+    "subtotal": 87740,
+    "taxable_total": 87740,
+    "cgst_total": 2193.5,
+    "sgst_total": 2193.5,
+    "tax_total": 4387.0
   },
   "tax_rows": [
     {
-      "hsn": "997331",
-      "taxable": 101495,
-      "cgst_rate": 14.0,
-      "cgst_amt": 14209.3,
-      "sgst_rate": 14.0,
-      "sgst_amt": 14209.3
+      "hsn": "853690",
+      "taxable": 87740,
+      "cgst_rate": 2.5,
+      "cgst_amt": 2193.5,
+      "sgst_rate": 2.5,
+      "sgst_amt": 2193.5
     }
   ],
-  "amount_in_words": "INR One Lakh, Twenty-Nine Thousand, Nine Hundred And Fourteen Only",
-  "tax_amount_in_words": "INR Twenty-Eight Thousand, Four Hundred And Nineteen Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR Ninety-Two Thousand, One Hundred And Twenty-Seven Only",
+  "tax_amount_in_words": "INR Four Thousand, Three Hundred And Eighty-Seven Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "13232817143",
+    "acno": "29638075940",
     "branch_ifsc": "TALOJA – SBIN0012984",
     "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 5,
     "generated_id": 139
   }
 }

@@ -1,116 +1,88 @@
 {
   "seller": {
-    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
-    "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 696, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 449982",
-    "gstin": "27QAEOF7193W1Z9",
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 693, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 436511",
+    "gstin": "27HCIDH3715Z1Z4",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts52@talojamfgassn.com",
-    "pan": "WDEEP5255Z"
+    "email": "accounts22@nexolindustries.com",
+    "pan": "XLOMA1560A"
   },
   "buyer": {
-    "name": "OMKAR TRADERS",
-    "address": "Flat 793, Sector 1, Mumbai - 473196",
-    "gstin": "27RLYZO3484M1Z9",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 872, Sector 4, Mumbai - 491129",
+    "gstin": "27NVJTA6290C1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-389",
-    "date": "16-Jun-24",
+    "no": "GST-784",
+    "date": "04-Feb-25",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3289",
-    "order_date": "08-Jun-24",
+    "order_no": "PO-5840",
+    "order_date": "26-Jan-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Pune",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
     "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "10",
-      "rate": 3173,
-      "amount": 31730
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "5",
-      "rate": 1488,
-      "amount": 7440
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "2",
-      "rate": 1367,
-      "amount": 2734
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 3342,
-      "amount": 3342
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "2",
-      "rate": 4565,
-      "amount": 9130
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "1",
-      "rate": 1903,
-      "amount": 1903
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
+      "particulars": "Consulting Services",
+      "hsn": "998312",
       "qty": "3",
-      "rate": 3241,
-      "amount": 9723
+      "rate": 633,
+      "amount": 1899
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 1607,
+      "amount": 8035
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 500,
+      "amount": 1500
     }
   ],
   "totals": {
-    "subtotal": 66002,
-    "taxable_total": 66002,
-    "cgst_total": 3960.12,
-    "sgst_total": 3960.12,
-    "tax_total": 7920.24
+    "subtotal": 11434,
+    "taxable_total": 11434,
+    "cgst_total": 1600.76,
+    "sgst_total": 1600.76,
+    "tax_total": 3201.52
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 66002,
-      "cgst_rate": 6.0,
-      "cgst_amt": 3960.12,
-      "sgst_rate": 6.0,
-      "sgst_amt": 3960.12
+      "hsn": "998312",
+      "taxable": 11434,
+      "cgst_rate": 14.0,
+      "cgst_amt": 1600.76,
+      "sgst_rate": 14.0,
+      "sgst_amt": 1600.76
     }
   ],
-  "amount_in_words": "INR Seventy-Three Thousand, Nine Hundred And Twenty-Two Only",
-  "tax_amount_in_words": "INR Seven Thousand, Nine Hundred And Twenty Only",
+  "amount_in_words": "INR Fourteen Thousand, Six Hundred And Thirty-Six Only",
+  "tax_amount_in_words": "INR Three Thousand, Two Hundred And Two Only",
   "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "66510620172",
-    "branch_ifsc": "PUNE – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "54561480932",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 28,
     "generated_id": 149
   }
 }

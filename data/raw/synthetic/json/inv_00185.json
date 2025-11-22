@@ -2,87 +2,108 @@
   "seller": {
     "name": "VISTA REALTY SERVICES",
     "name_short": "VISTA REALTY",
-    "addr1": "Plot 799, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 447131",
-    "gstin": "27LHKRG2776X1Z3",
+    "addr1": "Plot 803, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 461938",
+    "gstin": "27EFZZC8670G1Z7",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts23@vistarealty.com",
-    "pan": "OEYRE8276X"
+    "email": "accounts73@vistarealty.com",
+    "pan": "LDQTU2030L"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 191, Sector 40, Mumbai - 411059",
-    "gstin": "27EYIEX2757G1Z8",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 84, Sector 11, Mumbai - 454947",
+    "gstin": "27XHVBY7239F1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-647",
-    "date": "03-Jun-25",
+    "no": "T-244",
+    "date": "02-Dec-24",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-2350",
-    "order_date": "02-Jun-25",
+    "order_no": "PO-6781",
+    "order_date": "22-Nov-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
+    "dispatch_through": "Hand Delivery",
     "destination": "Pune",
-    "delivery_terms": "CIF"
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 468,
+      "amount": 936
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 1984,
+      "amount": 3968
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 4146,
+      "amount": 41460
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 1495,
+      "amount": 2990
+    },
+    {
       "particulars": "Office Rent",
       "hsn": "999599",
       "qty": "2",
-      "rate": 2579,
-      "amount": 5158
+      "rate": 4611,
+      "amount": 9222
     },
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "3",
-      "rate": 3011,
-      "amount": 9033
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
+      "particulars": "Advertising Services",
+      "hsn": "998361",
       "qty": "2",
-      "rate": 775,
-      "amount": 1550
+      "rate": 4488,
+      "amount": 8976
     }
   ],
   "totals": {
-    "subtotal": 15741,
-    "taxable_total": 15741,
-    "cgst_total": 393.53,
-    "sgst_total": 393.53,
-    "tax_total": 787.05
+    "subtotal": 67552,
+    "taxable_total": 67552,
+    "cgst_total": 6079.68,
+    "sgst_total": 6079.68,
+    "tax_total": 12159.36
   },
   "tax_rows": [
     {
-      "hsn": "999599",
-      "taxable": 15741,
-      "cgst_rate": 2.5,
-      "cgst_amt": 393.53,
-      "sgst_rate": 2.5,
-      "sgst_amt": 393.53
+      "hsn": "998312",
+      "taxable": 67552,
+      "cgst_rate": 9.0,
+      "cgst_amt": 6079.68,
+      "sgst_rate": 9.0,
+      "sgst_amt": 6079.68
     }
   ],
-  "amount_in_words": "INR Sixteen Thousand, Five Hundred And Twenty-Eight Only",
-  "tax_amount_in_words": "INR Seven Hundred And Eighty-Seven Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Seventy-Nine Thousand, Seven Hundred And Eleven Only",
+  "tax_amount_in_words": "INR Twelve Thousand, One Hundred And Fifty-Nine Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "24037776246",
-    "branch_ifsc": "MUMBAI – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "43793785732",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 18,
     "generated_id": 185
   }
 }

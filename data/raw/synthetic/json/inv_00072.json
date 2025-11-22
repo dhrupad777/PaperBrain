@@ -2,87 +2,80 @@
   "seller": {
     "name": "TALOJA MANUFACTURERS' ASSOCIATION",
     "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 18, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 462332",
-    "gstin": "27PSNGM8315O1Z5",
+    "addr1": "Plot 79, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 424459",
+    "gstin": "27MNFJH3163F1Z2",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts76@talojamfgassn.com",
-    "pan": "GUHUP4685V"
+    "email": "accounts61@talojamfgassn.com",
+    "pan": "YIMXI1989J"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 471, Sector 28, Mumbai - 404900",
-    "gstin": "27PNAFX7391B1Z7",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 480, Sector 50, Mumbai - 473774",
+    "gstin": "27RONOZ9399J1Z6",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-810",
-    "date": "06-May-25",
+    "no": "T-531",
+    "date": "30-Mar-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-8779",
-    "order_date": "02-May-25",
+    "order_no": "PO-8802",
+    "order_date": "29-Mar-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Thane",
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
     "delivery_terms": "FOB"
   },
   "items": [
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
-      "qty": "5",
-      "rate": 1296,
-      "amount": 6480
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "3",
-      "rate": 4524,
-      "amount": 13572
+      "qty": "2",
+      "rate": 3377,
+      "amount": 6754
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
-      "qty": "5",
-      "rate": 3354,
-      "amount": 16770
+      "qty": "1",
+      "rate": 1422,
+      "amount": 1422
     }
   ],
   "totals": {
-    "subtotal": 36822,
-    "taxable_total": 36822,
-    "cgst_total": 5155.08,
-    "sgst_total": 5155.08,
-    "tax_total": 10310.16
+    "subtotal": 8176,
+    "taxable_total": 8176,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
       "hsn": "940330",
-      "taxable": 36822,
-      "cgst_rate": 14.0,
-      "cgst_amt": 5155.08,
-      "sgst_rate": 14.0,
-      "sgst_amt": 5155.08
+      "taxable": 8176,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Forty-Seven Thousand, One Hundred And Thirty-Two Only",
-  "tax_amount_in_words": "INR Ten Thousand, Three Hundred And Ten Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Eight Thousand, One Hundred And Seventy-Six Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "75014493330",
-    "branch_ifsc": "TALOJA – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "HDFC BANK",
+    "acno": "25441703396",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 0,
     "generated_id": 72
   }
 }

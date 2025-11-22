@@ -1,99 +1,113 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 482, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 458545",
-    "gstin": "27IVCVD9371Y1Z2",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 311, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 403239",
+    "gstin": "27FWEXN7213A1Z1",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts85@labstech.com",
-    "pan": "AWGHP3024E"
+    "email": "accounts63@vistarealty.com",
+    "pan": "FEBTC6831V"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 890, Sector 5, Mumbai - 487881",
-    "gstin": "27AYGAE8340N1Z1",
+    "name": "OMKAR TRADERS",
+    "address": "Flat 368, Sector 10, Mumbai - 421688",
+    "gstin": "27HAGJN5440Y1Z8",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-695",
-    "date": "08-Sep-25",
+    "no": "T-553",
+    "date": "02-Nov-25",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-9365",
-    "order_date": "31-Aug-25",
+    "order_no": "PO-1041",
+    "order_date": "24-Oct-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "FOB"
+    "destination": "Thane",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 2253,
-      "amount": 22530
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 3146,
+      "amount": 9438
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 2588,
+      "amount": 7764
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
+      "qty": "1",
+      "rate": 4636,
+      "amount": 4636
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 834,
+      "amount": 834
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
       "qty": "2",
-      "rate": 284,
-      "amount": 568
+      "rate": 1225,
+      "amount": 2450
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
-      "qty": "1",
-      "rate": 1866,
-      "amount": 1866
+      "qty": "2",
+      "rate": 1133,
+      "amount": 2266
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
       "qty": "5",
-      "rate": 3925,
-      "amount": 19625
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "1",
-      "rate": 2373,
-      "amount": 2373
+      "rate": 1339,
+      "amount": 6695
     }
   ],
   "totals": {
-    "subtotal": 46962,
-    "taxable_total": 46962,
-    "cgst_total": 4226.58,
-    "sgst_total": 4226.58,
-    "tax_total": 8453.16
+    "subtotal": 34083,
+    "taxable_total": 34083,
+    "cgst_total": 3067.47,
+    "sgst_total": 3067.47,
+    "tax_total": 6134.94
   },
   "tax_rows": [
     {
-      "hsn": "853690",
-      "taxable": 46962,
+      "hsn": "940330",
+      "taxable": 34083,
       "cgst_rate": 9.0,
-      "cgst_amt": 4226.58,
+      "cgst_amt": 3067.47,
       "sgst_rate": 9.0,
-      "sgst_amt": 4226.58
+      "sgst_amt": 3067.47
     }
   ],
-  "amount_in_words": "INR Fifty-Five Thousand, Four Hundred And Fifteen Only",
-  "tax_amount_in_words": "INR Eight Thousand, Four Hundred And Fifty-Three Only",
+  "amount_in_words": "INR Forty Thousand, Two Hundred And Eighteen Only",
+  "tax_amount_in_words": "INR Six Thousand, One Hundred And Thirty-Five Only",
   "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "14681218503",
-    "branch_ifsc": "MUMBAI – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "HDFC BANK",
+    "acno": "42142312361",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
     "gst_slab": 18,

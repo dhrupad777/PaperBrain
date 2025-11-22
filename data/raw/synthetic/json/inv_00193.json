@@ -1,81 +1,95 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 535, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 420875",
-    "gstin": "27CDYXU7616A1Z1",
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 985, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 457979",
+    "gstin": "27OERAO6599T1Z1",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts91@kanteenfoods.com",
-    "pan": "RVTUK2814R"
+    "email": "accounts36@labstech.com",
+    "pan": "EAHLW6184X"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 178, Sector 20, Mumbai - 431787",
-    "gstin": "27XDOXA2761E1Z5",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 11, Sector 9, Mumbai - 463237",
+    "gstin": "27ZHWYM5514B1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-750",
-    "date": "13-Jul-25",
+    "no": "GST-256",
+    "date": "02-Sep-25",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-6429",
-    "order_date": "07-Jul-25",
+    "order_no": "PO-8397",
+    "order_date": "23-Aug-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Mumbai",
-    "delivery_terms": "CIF"
+    "dispatch_through": "Hand Delivery",
+    "destination": "Navi Mumbai",
+    "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "3",
-      "rate": 1387,
-      "amount": 4161
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 4932,
+      "amount": 49320
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
+      "qty": "3",
+      "rate": 2566,
+      "amount": 7698
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "1",
-      "rate": 2379,
-      "amount": 2379
+      "rate": 4701,
+      "amount": 4701
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 915,
+      "amount": 4575
     }
   ],
   "totals": {
-    "subtotal": 6540,
-    "taxable_total": 6540,
-    "cgst_total": 915.6,
-    "sgst_total": 915.6,
-    "tax_total": 1831.2
+    "subtotal": 66294,
+    "taxable_total": 66294,
+    "cgst_total": 1657.35,
+    "sgst_total": 1657.35,
+    "tax_total": 3314.7
   },
   "tax_rows": [
     {
-      "hsn": "999599",
-      "taxable": 6540,
-      "cgst_rate": 14.0,
-      "cgst_amt": 915.6,
-      "sgst_rate": 14.0,
-      "sgst_amt": 915.6
+      "hsn": "998361",
+      "taxable": 66294,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1657.35,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1657.35
     }
   ],
-  "amount_in_words": "INR Eight Thousand, Three Hundred And Seventy-One Only",
-  "tax_amount_in_words": "INR One Thousand, Eight Hundred And Thirty-One Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR Sixty-Nine Thousand, Six Hundred And Nine Only",
+  "tax_amount_in_words": "INR Three Thousand, Three Hundred And Fifteen Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "49310613999",
-    "branch_ifsc": "MUMBAI – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "ICICI BANK",
+    "acno": "86521951761",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 5,
     "generated_id": 193
   }
 }

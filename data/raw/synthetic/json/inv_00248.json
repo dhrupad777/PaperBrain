@@ -1,102 +1,88 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 513, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 497711",
-    "gstin": "27EBTMD9724L1Z9",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 885, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 487431",
+    "gstin": "27QQYVN7876D1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts5@nexolindustries.com",
-    "pan": "DLAXT4716Z"
+    "email": "accounts2@kanteenfoods.com",
+    "pan": "OQWAB2554V"
   },
   "buyer": {
-    "name": "SUNRISE ELECTRONICS",
-    "address": "Flat 830, Sector 46, Mumbai - 420952",
-    "gstin": "27KUTDO5702U1Z5",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 473, Sector 19, Mumbai - 401821",
+    "gstin": "27PHPBJ3795K1Z9",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-085",
-    "date": "20-Dec-24",
+    "no": "GST-016",
+    "date": "25-Sep-24",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-8467",
-    "order_date": "11-Dec-24",
+    "order_no": "PO-8720",
+    "order_date": "19-Sep-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
     "destination": "Thane",
-    "delivery_terms": ""
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "10",
-      "rate": 3333,
-      "amount": 33330
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
+      "particulars": "Software Subscription",
+      "hsn": "997331",
       "qty": "1",
-      "rate": 1450,
-      "amount": 1450
+      "rate": 4986,
+      "amount": 4986
     },
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "3",
-      "rate": 3867,
-      "amount": 11601
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
       "qty": "1",
-      "rate": 1295,
-      "amount": 1295
+      "rate": 2509,
+      "amount": 2509
     },
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "10",
-      "rate": 3429,
-      "amount": 34290
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 4977,
+      "amount": 9954
     }
   ],
   "totals": {
-    "subtotal": 81966,
-    "taxable_total": 81966,
-    "cgst_total": 0.0,
-    "sgst_total": 0.0,
-    "tax_total": 0.0
+    "subtotal": 17449,
+    "taxable_total": 17449,
+    "cgst_total": 1570.41,
+    "sgst_total": 1570.41,
+    "tax_total": 3140.82
   },
   "tax_rows": [
     {
-      "hsn": "996331",
-      "taxable": 81966,
-      "cgst_rate": 0.0,
-      "cgst_amt": 0.0,
-      "sgst_rate": 0.0,
-      "sgst_amt": 0.0
+      "hsn": "997331",
+      "taxable": 17449,
+      "cgst_rate": 9.0,
+      "cgst_amt": 1570.41,
+      "sgst_rate": 9.0,
+      "sgst_amt": 1570.41
     }
   ],
-  "amount_in_words": "INR Eighty-One Thousand, Nine Hundred And Sixty-Six Only",
-  "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Twenty Thousand, Five Hundred And Ninety Only",
+  "tax_amount_in_words": "INR Three Thousand, One Hundred And Forty-One Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "70419662891",
-    "branch_ifsc": "PUNE – ICIC0000456",
+    "acno": "50802987231",
+    "branch_ifsc": "TALOJA – ICIC0000456",
     "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 0,
+    "gst_slab": 18,
     "generated_id": 248
   }
 }

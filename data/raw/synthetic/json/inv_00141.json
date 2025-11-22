@@ -1,81 +1,109 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 939, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 421741",
-    "gstin": "27QMUUW8831Z1Z9",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 758, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 440950",
+    "gstin": "27YWIVW6277L1Z2",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts65@nexolindustries.com",
-    "pan": "AVZOA3349C"
+    "email": "accounts20@vistarealty.com",
+    "pan": "VRDPZ9482C"
   },
   "buyer": {
     "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 133, Sector 13, Mumbai - 446450",
-    "gstin": "27JMRGR7107R1Z2",
+    "address": "Flat 441, Sector 43, Mumbai - 488937",
+    "gstin": "27VKYQV6678D1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-640",
-    "date": "19-Aug-25",
+    "no": "GST-449",
+    "date": "29-Sep-24",
     "delivery_note": "",
     "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-2149",
-    "order_date": "16-Aug-25",
+    "order_no": "PO-5575",
+    "order_date": "23-Sep-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Thane",
-    "delivery_terms": "FOB"
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 542,
+      "amount": 542
+    },
+    {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "5",
-      "rate": 3372,
-      "amount": 16860
+      "qty": "1",
+      "rate": 3147,
+      "amount": 3147
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 1700,
+      "amount": 3400
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 939,
+      "amount": 9390
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 4771,
+      "amount": 4771
     },
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
-      "qty": "2",
-      "rate": 1727,
-      "amount": 3454
+      "qty": "3",
+      "rate": 3949,
+      "amount": 11847
     }
   ],
   "totals": {
-    "subtotal": 20314,
-    "taxable_total": 20314,
-    "cgst_total": 2843.96,
-    "sgst_total": 2843.96,
-    "tax_total": 5687.92
+    "subtotal": 33097,
+    "taxable_total": 33097,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "998361",
-      "taxable": 20314,
-      "cgst_rate": 14.0,
-      "cgst_amt": 2843.96,
-      "sgst_rate": 14.0,
-      "sgst_amt": 2843.96
+      "hsn": "940330",
+      "taxable": 33097,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Twenty-Six Thousand And Two Only",
-  "tax_amount_in_words": "INR Five Thousand, Six Hundred And Eighty-Eight Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Thirty-Three Thousand And Ninety-Seven Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "68554295350",
-    "branch_ifsc": "MUMBAI – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "HDFC BANK",
+    "acno": "76386336836",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 0,
     "generated_id": 141
   }
 }

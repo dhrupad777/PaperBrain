@@ -1,109 +1,95 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 82, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 479582",
-    "gstin": "27BMASL9687A1Z7",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 762, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 421943",
+    "gstin": "27LVSGK5595P1Z5",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts16@nexolindustries.com",
-    "pan": "QDJYP6433N"
+    "email": "accounts87@kanteenfoods.com",
+    "pan": "FKCJU8981B"
   },
   "buyer": {
-    "name": "SUNRISE ELECTRONICS",
-    "address": "Flat 170, Sector 20, Mumbai - 465579",
-    "gstin": "27UOTUN6480S1Z5",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 994, Sector 23, Mumbai - 462991",
+    "gstin": "27XPLWF5143N1Z9",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-859",
-    "date": "04-Feb-25",
+    "no": "PB-149",
+    "date": "07-Sep-24",
     "delivery_note": "",
     "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3740",
-    "order_date": "04-Feb-25",
+    "order_no": "PO-5475",
+    "order_date": "06-Sep-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
-    "destination": "Thane",
-    "delivery_terms": "Ex-Works"
+    "destination": "Navi Mumbai",
+    "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "2",
-      "rate": 1161,
-      "amount": 2322
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 1846,
+      "amount": 18460
     },
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
+      "particulars": "Software Subscription",
+      "hsn": "997331",
       "qty": "1",
-      "rate": 620,
-      "amount": 620
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "5",
-      "rate": 2751,
-      "amount": 13755
+      "rate": 3923,
+      "amount": 3923
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
       "qty": "2",
-      "rate": 3260,
-      "amount": 6520
+      "rate": 1807,
+      "amount": 3614
     },
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 4303,
-      "amount": 4303
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "10",
-      "rate": 4439,
-      "amount": 44390
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 593,
+      "amount": 1186
     }
   ],
   "totals": {
-    "subtotal": 71910,
-    "taxable_total": 71910,
-    "cgst_total": 10067.4,
-    "sgst_total": 10067.4,
-    "tax_total": 20134.8
+    "subtotal": 27183,
+    "taxable_total": 27183,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "853690",
-      "taxable": 71910,
-      "cgst_rate": 14.0,
-      "cgst_amt": 10067.4,
-      "sgst_rate": 14.0,
-      "sgst_amt": 10067.4
+      "hsn": "998361",
+      "taxable": 27183,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Ninety-Two Thousand And Forty-Five Only",
-  "tax_amount_in_words": "INR Twenty Thousand, One Hundred And Thirty-Five Only",
+  "amount_in_words": "INR Twenty-Seven Thousand, One Hundred And Eighty-Three Only",
+  "tax_amount_in_words": "INR Zero Only",
   "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "84666632728",
+    "acno": "64132632838",
     "branch_ifsc": "PUNE – SBIN0012984",
     "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 0,
     "generated_id": 222
   }
 }

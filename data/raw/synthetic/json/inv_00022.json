@@ -1,31 +1,31 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 271, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 481173",
-    "gstin": "27LQCKF1872Z1Z2",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 56, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 484631",
+    "gstin": "27AVCTX5037E1Z9",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts76@labstech.com",
-    "pan": "CDTGR8277S"
+    "email": "accounts61@talojamfgassn.com",
+    "pan": "QSCHK9681F"
   },
   "buyer": {
-    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
-    "address": "Flat 840, Sector 32, Mumbai - 459523",
-    "gstin": "27RTHZK6649S1Z9",
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 832, Sector 22, Mumbai - 486837",
+    "gstin": "27TUBVJ9715W1Z1",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-701",
-    "date": "25-Jul-24",
+    "no": "T-011",
+    "date": "24-Mar-25",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-9100",
-    "order_date": "15-Jul-24",
+    "order_no": "PO-9079",
+    "order_date": "17-Mar-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Email",
@@ -34,72 +34,72 @@
   },
   "items": [
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "3",
-      "rate": 1290,
-      "amount": 3870
-    },
-    {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
-      "qty": "5",
-      "rate": 3711,
-      "amount": 18555
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
       "qty": "10",
-      "rate": 3823,
-      "amount": 38230
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 3748,
-      "amount": 3748
+      "rate": 3846,
+      "amount": 38460
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
       "qty": "2",
-      "rate": 2450,
-      "amount": 4900
+      "rate": 2434,
+      "amount": 4868
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 3824,
+      "amount": 38240
     },
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
-      "qty": "10",
-      "rate": 1592,
-      "amount": 15920
+      "qty": "3",
+      "rate": 4692,
+      "amount": 14076
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 3268,
+      "amount": 3268
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 1806,
+      "amount": 5418
     }
   ],
   "totals": {
-    "subtotal": 85223,
-    "taxable_total": 85223,
-    "cgst_total": 2130.58,
-    "sgst_total": 2130.58,
-    "tax_total": 4261.15
+    "subtotal": 104330,
+    "taxable_total": 104330,
+    "cgst_total": 2608.25,
+    "sgst_total": 2608.25,
+    "tax_total": 5216.5
   },
   "tax_rows": [
     {
-      "hsn": "998312",
-      "taxable": 85223,
+      "hsn": "940330",
+      "taxable": 104330,
       "cgst_rate": 2.5,
-      "cgst_amt": 2130.58,
+      "cgst_amt": 2608.25,
       "sgst_rate": 2.5,
-      "sgst_amt": 2130.58
+      "sgst_amt": 2608.25
     }
   ],
-  "amount_in_words": "INR Eighty-Nine Thousand, Four Hundred And Eighty-Four Only",
-  "tax_amount_in_words": "INR Four Thousand, Two Hundred And Sixty-One Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR One Lakh, Nine Thousand, Five Hundred And Forty-Six Only",
+  "tax_amount_in_words": "INR Five Thousand, Two Hundred And Sixteen Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "94835854174",
-    "branch_ifsc": "TALOJA – ICIC0000456",
+    "acno": "55629291989",
+    "branch_ifsc": "PUNE – ICIC0000456",
     "swift": "ICICINBBXXX"
   },
   "_meta": {

@@ -1,95 +1,116 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 394, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 442900",
-    "gstin": "27NNPQF2444L1Z9",
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 510, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 471949",
+    "gstin": "27VTUDQ6753G1Z9",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts65@kanteenfoods.com",
-    "pan": "GCEVC8579H"
+    "email": "accounts11@labstech.com",
+    "pan": "BWJKE9049H"
   },
   "buyer": {
-    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
-    "address": "Flat 158, Sector 37, Mumbai - 469453",
-    "gstin": "27YUZPF8648W1Z7",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 158, Sector 16, Mumbai - 452693",
+    "gstin": "27EBHNW4442R1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-578",
-    "date": "11-Oct-24",
+    "no": "PB-878",
+    "date": "03-Nov-24",
     "delivery_note": "",
     "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-7435",
-    "order_date": "10-Oct-24",
+    "order_no": "PO-9288",
+    "order_date": "30-Oct-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Thane",
-    "delivery_terms": ""
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "3",
-      "rate": 1549,
-      "amount": 4647
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 1392,
+      "amount": 2784
     },
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
-      "qty": "3",
-      "rate": 3316,
-      "amount": 9948
+      "qty": "10",
+      "rate": 3494,
+      "amount": 34940
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 616,
+      "amount": 3080
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 478,
+      "amount": 478
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
       "qty": "5",
-      "rate": 1154,
-      "amount": 5770
+      "rate": 494,
+      "amount": 2470
     },
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "2",
-      "rate": 2108,
-      "amount": 4216
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 526,
+      "amount": 2630
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 759,
+      "amount": 2277
     }
   ],
   "totals": {
-    "subtotal": 24581,
-    "taxable_total": 24581,
-    "cgst_total": 614.53,
-    "sgst_total": 614.53,
-    "tax_total": 1229.05
+    "subtotal": 48659,
+    "taxable_total": 48659,
+    "cgst_total": 6812.26,
+    "sgst_total": 6812.26,
+    "tax_total": 13624.52
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 24581,
-      "cgst_rate": 2.5,
-      "cgst_amt": 614.53,
-      "sgst_rate": 2.5,
-      "sgst_amt": 614.53
+      "hsn": "853690",
+      "taxable": 48659,
+      "cgst_rate": 14.0,
+      "cgst_amt": 6812.26,
+      "sgst_rate": 14.0,
+      "sgst_amt": 6812.26
     }
   ],
-  "amount_in_words": "INR Twenty-Five Thousand, Eight Hundred And Ten Only",
-  "tax_amount_in_words": "INR One Thousand, Two Hundred And Twenty-Nine Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Sixty-Two Thousand, Two Hundred And Eighty-Four Only",
+  "tax_amount_in_words": "INR Thirteen Thousand, Six Hundred And Twenty-Five Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "28463679110",
-    "branch_ifsc": "PUNE – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "46262994286",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 28,
     "generated_id": 198
   }
 }

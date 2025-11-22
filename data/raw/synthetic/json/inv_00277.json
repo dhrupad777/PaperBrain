@@ -1,95 +1,109 @@
 {
   "seller": {
-    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
-    "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 512, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 457969",
-    "gstin": "27JCOMP8529W1Z4",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 516, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 457984",
+    "gstin": "27KNLAB7624P1Z8",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts43@talojamfgassn.com",
-    "pan": "RKFIO5403H"
+    "email": "accounts80@vistarealty.com",
+    "pan": "NSEAV6815N"
   },
   "buyer": {
     "name": "SUNRISE ELECTRONICS",
-    "address": "Flat 192, Sector 49, Mumbai - 405796",
-    "gstin": "27KIQAD6002H1Z7",
+    "address": "Flat 323, Sector 45, Mumbai - 460984",
+    "gstin": "27TPLCG5968Y1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-417",
-    "date": "27-Aug-24",
+    "no": "PB-438",
+    "date": "07-Oct-24",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-5251",
-    "order_date": "20-Aug-24",
+    "order_no": "PO-1665",
+    "order_date": "06-Oct-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Mumbai",
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
     "delivery_terms": "FOB"
   },
   "items": [
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
-      "qty": "1",
-      "rate": 3437,
-      "amount": 3437
+      "qty": "2",
+      "rate": 3305,
+      "amount": 6610
     },
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "1",
-      "rate": 3338,
-      "amount": 3338
+      "rate": 869,
+      "amount": 869
     },
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "1",
-      "rate": 3157,
-      "amount": 3157
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 3962,
+      "amount": 11886
     },
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "1",
-      "rate": 3214,
-      "amount": 3214
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 2297,
+      "amount": 11485
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 650,
+      "amount": 6500
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 3540,
+      "amount": 17700
     }
   ],
   "totals": {
-    "subtotal": 13146,
-    "taxable_total": 13146,
-    "cgst_total": 788.76,
-    "sgst_total": 788.76,
-    "tax_total": 1577.52
+    "subtotal": 55050,
+    "taxable_total": 55050,
+    "cgst_total": 4954.5,
+    "sgst_total": 4954.5,
+    "tax_total": 9909.0
   },
   "tax_rows": [
     {
       "hsn": "997331",
-      "taxable": 13146,
-      "cgst_rate": 6.0,
-      "cgst_amt": 788.76,
-      "sgst_rate": 6.0,
-      "sgst_amt": 788.76
+      "taxable": 55050,
+      "cgst_rate": 9.0,
+      "cgst_amt": 4954.5,
+      "sgst_rate": 9.0,
+      "sgst_amt": 4954.5
     }
   ],
-  "amount_in_words": "INR Fourteen Thousand, Seven Hundred And Twenty-Four Only",
-  "tax_amount_in_words": "INR One Thousand, Five Hundred And Seventy-Eight Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Sixty-Four Thousand, Nine Hundred And Fifty-Nine Only",
+  "tax_amount_in_words": "INR Nine Thousand, Nine Hundred And Nine Only",
+  "remarks": "Monthly service billing.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "94126374255",
-    "branch_ifsc": "MUMBAI – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "36125471178",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 18,
     "generated_id": 277
   }
 }

@@ -1,88 +1,116 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 937, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 498868",
-    "gstin": "27HNAEJ7422O1Z9",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 559, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 464449",
+    "gstin": "27WJOGG8378I1Z4",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts31@kanteenfoods.com",
-    "pan": "BSOMQ4815G"
+    "email": "accounts48@talojamfgassn.com",
+    "pan": "FKBFP1565X"
   },
   "buyer": {
-    "name": "OMKAR TRADERS",
-    "address": "Flat 786, Sector 27, Mumbai - 493022",
-    "gstin": "27TTBZZ3430T1Z6",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 874, Sector 12, Mumbai - 416022",
+    "gstin": "27QHZLZ7709P1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-153",
-    "date": "02-Aug-25",
+    "no": "PB-546",
+    "date": "22-Jul-25",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-4603",
-    "order_date": "27-Jul-25",
+    "order_no": "PO-9962",
+    "order_date": "14-Jul-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "Ex-Works"
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "2",
-      "rate": 3198,
-      "amount": 6396
-    },
-    {
       "particulars": "Software Subscription",
       "hsn": "997331",
-      "qty": "5",
-      "rate": 2588,
-      "amount": 12940
+      "qty": "1",
+      "rate": 1509,
+      "amount": 1509
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 4143,
+      "amount": 41430
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 3440,
+      "amount": 3440
     },
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
-      "qty": "2",
-      "rate": 4770,
-      "amount": 9540
+      "qty": "3",
+      "rate": 2071,
+      "amount": 6213
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 2888,
+      "amount": 14440
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 3835,
+      "amount": 3835
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 1645,
+      "amount": 4935
     }
   ],
   "totals": {
-    "subtotal": 28876,
-    "taxable_total": 28876,
-    "cgst_total": 2598.84,
-    "sgst_total": 2598.84,
-    "tax_total": 5197.68
+    "subtotal": 75802,
+    "taxable_total": 75802,
+    "cgst_total": 4548.12,
+    "sgst_total": 4548.12,
+    "tax_total": 9096.24
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 28876,
-      "cgst_rate": 9.0,
-      "cgst_amt": 2598.84,
-      "sgst_rate": 9.0,
-      "sgst_amt": 2598.84
+      "hsn": "997331",
+      "taxable": 75802,
+      "cgst_rate": 6.0,
+      "cgst_amt": 4548.12,
+      "sgst_rate": 6.0,
+      "sgst_amt": 4548.12
     }
   ],
-  "amount_in_words": "INR Thirty-Four Thousand And Seventy-Four Only",
-  "tax_amount_in_words": "INR Five Thousand, One Hundred And Ninety-Eight Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Eighty-Four Thousand, Eight Hundred And Ninety-Eight Only",
+  "tax_amount_in_words": "INR Nine Thousand And Ninety-Six Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "40964668363",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "ICICI BANK",
+    "acno": "31484677826",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 18,
+    "gst_slab": 12,
     "generated_id": 131
   }
 }

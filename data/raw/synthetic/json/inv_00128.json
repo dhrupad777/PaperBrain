@@ -1,88 +1,81 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 408, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 474671",
-    "gstin": "27PBIWK8803L1Z5",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 562, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 474398",
+    "gstin": "27RAUMT7572O1Z2",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts89@nexolindustries.com",
-    "pan": "PSZHJ5630C"
+    "email": "accounts54@talojamfgassn.com",
+    "pan": "PBKPC5484C"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 332, Sector 49, Mumbai - 474315",
-    "gstin": "27FLPXH3801I1Z5",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 585, Sector 37, Mumbai - 470418",
+    "gstin": "27RVPXK4600P1Z9",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-785",
-    "date": "27-Oct-25",
+    "no": "GST-273",
+    "date": "05-Aug-24",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-6711",
-    "order_date": "26-Oct-25",
+    "order_no": "PO-8780",
+    "order_date": "28-Jul-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
+    "dispatch_through": "Courier",
     "destination": "Navi Mumbai",
-    "delivery_terms": "FOB"
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "3",
-      "rate": 992,
-      "amount": 2976
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 2793,
+      "amount": 2793
     },
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
-      "qty": "10",
-      "rate": 614,
-      "amount": 6140
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "1",
-      "rate": 1747,
-      "amount": 1747
+      "qty": "5",
+      "rate": 881,
+      "amount": 4405
     }
   ],
   "totals": {
-    "subtotal": 10863,
-    "taxable_total": 10863,
-    "cgst_total": 977.67,
-    "sgst_total": 977.67,
-    "tax_total": 1955.34
+    "subtotal": 7198,
+    "taxable_total": 7198,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "999599",
-      "taxable": 10863,
-      "cgst_rate": 9.0,
-      "cgst_amt": 977.67,
-      "sgst_rate": 9.0,
-      "sgst_amt": 977.67
+      "hsn": "996331",
+      "taxable": 7198,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Twelve Thousand, Eight Hundred And Eighteen Only",
-  "tax_amount_in_words": "INR One Thousand, Nine Hundred And Fifty-Five Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR Seven Thousand, One Hundred And Ninety-Eight Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Monthly service billing.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "38821664347",
-    "branch_ifsc": "PUNE – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "HDFC BANK",
+    "acno": "55380124024",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 18,
+    "gst_slab": 0,
     "generated_id": 128
   }
 }

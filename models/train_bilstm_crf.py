@@ -48,6 +48,29 @@ def read_bio(path):
     return sentences, tags
 
 
+def downsample_O(sentences, tags, keep_o_prob=0.35):
+    """
+    Downsample O tokens to reduce class imbalance.
+    Keeps all entity tokens, but only keeps O tokens with probability keep_o_prob.
+    """
+    new_s, new_t = [], []
+    for s, t in zip(sentences, tags):
+        s2, t2 = [], []
+        for w, tag in zip(s, t):
+            if tag == "O":
+                if random.random() < keep_o_prob:
+                    s2.append(w)
+                    t2.append(tag)
+            else:
+                s2.append(w)
+                t2.append(tag)
+        # Keep only sentences that still have entities (at least one non-O tag)
+        if any(x != "O" for x in t2):
+            new_s.append(s2)
+            new_t.append(t2)
+    return new_s, new_t
+
+
 def build_vocab(sentences, min_freq=1):
     counter = Counter(w.lower() for s in sentences for w in s)
     vocab = {"<PAD>": 0, "<UNK>": 1}
@@ -80,7 +103,8 @@ class BioDataset(Dataset):
         tags  = self.tags[idx]
 
         x = [self.vocab.get(w.lower(), self.vocab["<UNK>"]) for w in words][:self.max_len]
-        y = [self.tag2id[t] for t in tags][:self.max_len]
+        # Handle missing tags gracefully (shouldn't happen if tag map built from all data)
+        y = [self.tag2id.get(t, self.tag2id.get("O", 0)) for t in tags][:self.max_len]
 
         mask = [1] * len(x)
 
@@ -120,8 +144,13 @@ def main():
     train_s, train_t = read_bio(BIO_TRAIN)
     val_s, val_t     = read_bio(BIO_VAL)
 
+    # Downsample O tokens in training to reduce class imbalance
+    train_s, train_t = downsample_O(train_s, train_t, keep_o_prob=0.35)
+    
     vocab = build_vocab(train_s)
-    tag2id, id2tag = build_tag_map(train_t)
+    # Build tag map from both train and val to ensure all tags are included
+    all_tags = train_t + val_t
+    tag2id, id2tag = build_tag_map(all_tags)
 
     train_ds = BioDataset(train_s, train_t, vocab, tag2id)
     val_ds   = BioDataset(val_s, val_t, vocab, tag2id)
@@ -134,7 +163,7 @@ def main():
 
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 
-    epochs = 8
+    epochs = 15
     for ep in range(1, epochs + 1):
         model.train()
         total_loss = 0

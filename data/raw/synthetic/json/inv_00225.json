@@ -1,92 +1,106 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 391, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 488195",
-    "gstin": "27HYHYB6146T1Z3",
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 395, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 458721",
+    "gstin": "27WPYWK8062Y1Z4",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts90@nexolindustries.com",
-    "pan": "RWECD3802U"
+    "email": "accounts99@labstech.com",
+    "pan": "PYYRG2571J"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 581, Sector 7, Mumbai - 467470",
-    "gstin": "27ZETTV8243O1Z3",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 513, Sector 49, Mumbai - 463088",
+    "gstin": "27YWPPN1528Y1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-812",
-    "date": "31-Aug-25",
+    "no": "INV-781",
+    "date": "15-Aug-24",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-6459",
-    "order_date": "23-Aug-25",
+    "order_no": "PO-5536",
+    "order_date": "11-Aug-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
-    "destination": "Thane",
-    "delivery_terms": "Ex-Works"
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "1",
-      "rate": 206,
-      "amount": 206
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "1",
-      "rate": 3182,
-      "amount": 3182
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
+      "particulars": "Software Subscription",
+      "hsn": "997331",
       "qty": "3",
-      "rate": 1349,
-      "amount": 4047
+      "rate": 4930,
+      "amount": 14790
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 507,
+      "amount": 5070
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
-      "qty": "10",
-      "rate": 1076,
-      "amount": 10760
+      "qty": "5",
+      "rate": 3693,
+      "amount": 18465
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 4289,
+      "amount": 21445
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 4173,
+      "amount": 20865
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 4122,
+      "amount": 12366
     }
   ],
   "totals": {
-    "subtotal": 18195,
-    "taxable_total": 18195,
-    "cgst_total": 1091.7,
-    "sgst_total": 1091.7,
-    "tax_total": 2183.4
+    "subtotal": 93001,
+    "taxable_total": 93001,
+    "cgst_total": 5580.06,
+    "sgst_total": 5580.06,
+    "tax_total": 11160.12
   },
   "tax_rows": [
     {
-      "hsn": "998361",
-      "taxable": 18195,
+      "hsn": "997331",
+      "taxable": 93001,
       "cgst_rate": 6.0,
-      "cgst_amt": 1091.7,
+      "cgst_amt": 5580.06,
       "sgst_rate": 6.0,
-      "sgst_amt": 1091.7
+      "sgst_amt": 5580.06
     }
   ],
-  "amount_in_words": "INR Twenty Thousand, Three Hundred And Seventy-Eight Only",
-  "tax_amount_in_words": "INR Two Thousand, One Hundred And Eighty-Three Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR One Lakh, Four Thousand, One Hundred And Sixty-One Only",
+  "tax_amount_in_words": "INR Eleven Thousand, One Hundred And Sixty Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "57996257330",
-    "branch_ifsc": "PUNE – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "81270407673",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
     "gst_slab": 12,

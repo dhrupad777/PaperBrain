@@ -2,90 +2,118 @@
   "seller": {
     "name": "NEXOL INDUSTRIES PVT LTD",
     "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 68, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 402997",
-    "gstin": "27FJJFV3748Z1Z7",
+    "addr1": "Plot 73, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 441443",
+    "gstin": "27WMBVZ9176Y1Z5",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts89@nexolindustries.com",
-    "pan": "BMKZW5053S"
+    "email": "accounts97@nexolindustries.com",
+    "pan": "TTLGP9845D"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 812, Sector 14, Mumbai - 401447",
-    "gstin": "27BOPSL5340K1Z4",
+    "name": "OMKAR TRADERS",
+    "address": "Flat 5, Sector 40, Mumbai - 492549",
+    "gstin": "27NXBHM3236I1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-594",
-    "date": "08-Oct-24",
+    "no": "PB-839",
+    "date": "28-Nov-24",
     "delivery_note": "",
     "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3374",
-    "order_date": "01-Oct-24",
+    "order_no": "PO-9190",
+    "order_date": "27-Nov-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
-    "destination": "Thane",
-    "delivery_terms": "CIF"
+    "destination": "Mumbai",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
       "qty": "10",
-      "rate": 825,
-      "amount": 8250
+      "rate": 2231,
+      "amount": 22310
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 1573,
+      "amount": 4719
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
-      "qty": "5",
-      "rate": 4184,
-      "amount": 20920
+      "qty": "10",
+      "rate": 2265,
+      "amount": 22650
     },
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "5",
-      "rate": 2469,
-      "amount": 12345
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 3267,
+      "amount": 9801
     },
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "1",
-      "rate": 621,
-      "amount": 621
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 2259,
+      "amount": 22590
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 2584,
+      "amount": 25840
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 2701,
+      "amount": 5402
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 2298,
+      "amount": 22980
     }
   ],
   "totals": {
-    "subtotal": 42136,
-    "taxable_total": 42136,
-    "cgst_total": 3792.24,
-    "sgst_total": 3792.24,
-    "tax_total": 7584.48
+    "subtotal": 136292,
+    "taxable_total": 136292,
+    "cgst_total": 12266.28,
+    "sgst_total": 12266.28,
+    "tax_total": 24532.56
   },
   "tax_rows": [
     {
       "hsn": "853690",
-      "taxable": 42136,
+      "taxable": 136292,
       "cgst_rate": 9.0,
-      "cgst_amt": 3792.24,
+      "cgst_amt": 12266.28,
       "sgst_rate": 9.0,
-      "sgst_amt": 3792.24
+      "sgst_amt": 12266.28
     }
   ],
-  "amount_in_words": "INR Forty-Nine Thousand, Seven Hundred And Twenty Only",
-  "tax_amount_in_words": "INR Seven Thousand, Five Hundred And Eighty-Four Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR One Lakh, Sixty Thousand, Eight Hundred And Twenty-Five Only",
+  "tax_amount_in_words": "INR Twenty-Four Thousand, Five Hundred And Thirty-Three Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "26790057231",
-    "branch_ifsc": "PUNE – HDFC0000123",
+    "acno": "75955307938",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {

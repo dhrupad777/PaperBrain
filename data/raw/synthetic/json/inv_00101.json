@@ -1,76 +1,83 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 275, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 425671",
-    "gstin": "27COUCH9634T1Z6",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 899, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 447767",
+    "gstin": "27BNAHV5528V1Z1",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts88@kanteenfoods.com",
-    "pan": "IURTN5170Y"
+    "email": "accounts74@vistarealty.com",
+    "pan": "CGZRN9345L"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 524, Sector 35, Mumbai - 487942",
-    "gstin": "27BGBYF4524T1Z4",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 586, Sector 37, Mumbai - 464690",
+    "gstin": "27UZFGY7428R1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-511",
-    "date": "28-Aug-24",
+    "no": "INV-750",
+    "date": "10-Jun-24",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-6435",
-    "order_date": "27-Aug-24",
+    "order_no": "PO-4247",
+    "order_date": "05-Jun-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
-    "destination": "Thane",
+    "destination": "Pune",
     "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "5",
-      "rate": 687,
-      "amount": 3435
+      "rate": 657,
+      "amount": 3285
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 997,
+      "amount": 997
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
       "qty": "2",
-      "rate": 1890,
-      "amount": 3780
+      "rate": 3518,
+      "amount": 7036
     }
   ],
   "totals": {
-    "subtotal": 7215,
-    "taxable_total": 7215,
-    "cgst_total": 432.9,
-    "sgst_total": 432.9,
-    "tax_total": 865.8
+    "subtotal": 11318,
+    "taxable_total": 11318,
+    "cgst_total": 679.08,
+    "sgst_total": 679.08,
+    "tax_total": 1358.16
   },
   "tax_rows": [
     {
-      "hsn": "998312",
-      "taxable": 7215,
+      "hsn": "996331",
+      "taxable": 11318,
       "cgst_rate": 6.0,
-      "cgst_amt": 432.9,
+      "cgst_amt": 679.08,
       "sgst_rate": 6.0,
-      "sgst_amt": 432.9
+      "sgst_amt": 679.08
     }
   ],
-  "amount_in_words": "INR Eight Thousand And Eighty-One Only",
-  "tax_amount_in_words": "INR Eight Hundred And Sixty-Six Only",
+  "amount_in_words": "INR Twelve Thousand, Six Hundred And Seventy-Six Only",
+  "tax_amount_in_words": "INR One Thousand, Three Hundred And Fifty-Eight Only",
   "remarks": "Monthly service billing.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "31442994237",
+    "acno": "19636945506",
     "branch_ifsc": "PUNE – ICIC0000456",
     "swift": "ICICINBBXXX"
   },

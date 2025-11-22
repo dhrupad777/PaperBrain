@@ -1,76 +1,118 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 142, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 414975",
-    "gstin": "27CYRHM3298N1Z6",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 365, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 413120",
+    "gstin": "27NLJOA6469K1Z2",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts72@labstech.com",
-    "pan": "AHTRA6862Z"
+    "email": "accounts69@talojamfgassn.com",
+    "pan": "ZNLTY6877P"
   },
   "buyer": {
-    "name": "SUNRISE ELECTRONICS",
-    "address": "Flat 285, Sector 24, Mumbai - 406696",
-    "gstin": "27MXMDI4194U1Z6",
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 133, Sector 4, Mumbai - 444838",
+    "gstin": "27QVCDD8127U1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-698",
-    "date": "24-May-25",
+    "no": "PB-810",
+    "date": "09-Apr-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-2237",
-    "order_date": "23-May-25",
+    "order_no": "PO-4762",
+    "order_date": "02-Apr-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "FOB"
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "1",
-      "rate": 1576,
-      "amount": 1576
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 4067,
+      "amount": 8134
     },
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "1",
-      "rate": 1783,
-      "amount": 1783
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 2431,
+      "amount": 12155
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 2691,
+      "amount": 8073
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1658,
+      "amount": 4974
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 1275,
+      "amount": 3825
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 3845,
+      "amount": 38450
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 2486,
+      "amount": 12430
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 2106,
+      "amount": 21060
     }
   ],
   "totals": {
-    "subtotal": 3359,
-    "taxable_total": 3359,
+    "subtotal": 109101,
+    "taxable_total": 109101,
     "cgst_total": 0.0,
     "sgst_total": 0.0,
     "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "996331",
-      "taxable": 3359,
+      "hsn": "997331",
+      "taxable": 109101,
       "cgst_rate": 0.0,
       "cgst_amt": 0.0,
       "sgst_rate": 0.0,
       "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Three Thousand, Three Hundred And Fifty-Nine Only",
+  "amount_in_words": "INR One Lakh, Nine Thousand, One Hundred And One Only",
   "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Goods supplied as per order.",
+  "remarks": "Lease compensation for premises.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "72686536944",
+    "acno": "39382252675",
     "branch_ifsc": "PUNE – ICIC0000456",
     "swift": "ICICINBBXXX"
   },

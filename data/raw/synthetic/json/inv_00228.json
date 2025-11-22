@@ -2,87 +2,80 @@
   "seller": {
     "name": "NEXOL INDUSTRIES PVT LTD",
     "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 813, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 452541",
-    "gstin": "27HUSNY6604Y1Z1",
+    "addr1": "Plot 974, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 436364",
+    "gstin": "27XAAQO7336R1Z2",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts58@nexolindustries.com",
-    "pan": "DWWDC9836A"
+    "email": "accounts65@nexolindustries.com",
+    "pan": "LVETC4408M"
   },
   "buyer": {
-    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
-    "address": "Flat 167, Sector 19, Mumbai - 410153",
-    "gstin": "27JJSST9056J1Z8",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 238, Sector 17, Mumbai - 440650",
+    "gstin": "27KSMPQ5479F1Z9",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-521",
-    "date": "14-Jul-24",
+    "no": "PB-533",
+    "date": "15-Sep-24",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-2174",
-    "order_date": "12-Jul-24",
+    "order_no": "PO-8491",
+    "order_date": "07-Sep-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "Ex-Works"
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
-      "qty": "2",
-      "rate": 2546,
-      "amount": 5092
+      "qty": "3",
+      "rate": 4145,
+      "amount": 12435
     },
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "1",
-      "rate": 2957,
-      "amount": 2957
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "10",
-      "rate": 4320,
-      "amount": 43200
+      "rate": 3998,
+      "amount": 3998
     }
   ],
   "totals": {
-    "subtotal": 51249,
-    "taxable_total": 51249,
-    "cgst_total": 7174.86,
-    "sgst_total": 7174.86,
-    "tax_total": 14349.72
+    "subtotal": 16433,
+    "taxable_total": 16433,
+    "cgst_total": 1478.97,
+    "sgst_total": 1478.97,
+    "tax_total": 2957.94
   },
   "tax_rows": [
     {
       "hsn": "998312",
-      "taxable": 51249,
-      "cgst_rate": 14.0,
-      "cgst_amt": 7174.86,
-      "sgst_rate": 14.0,
-      "sgst_amt": 7174.86
+      "taxable": 16433,
+      "cgst_rate": 9.0,
+      "cgst_amt": 1478.97,
+      "sgst_rate": 9.0,
+      "sgst_amt": 1478.97
     }
   ],
-  "amount_in_words": "INR Sixty-Five Thousand, Five Hundred And Ninety-Nine Only",
-  "tax_amount_in_words": "INR Fourteen Thousand, Three Hundred And Fifty Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR Nineteen Thousand, Three Hundred And Ninety-One Only",
+  "tax_amount_in_words": "INR Two Thousand, Nine Hundred And Fifty-Eight Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "32833232406",
+    "acno": "85228667154",
     "branch_ifsc": "PUNE – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 18,
     "generated_id": 228
   }
 }

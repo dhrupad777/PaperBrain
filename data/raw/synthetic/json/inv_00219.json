@@ -1,109 +1,81 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 644, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 426619",
-    "gstin": "27PGUWM3983D1Z9",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 899, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 485343",
+    "gstin": "27CHGKZ9746N1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts92@nexolindustries.com",
-    "pan": "NCISB6097V"
+    "email": "accounts11@talojamfgassn.com",
+    "pan": "EJKGZ6393H"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 736, Sector 47, Mumbai - 449757",
-    "gstin": "27FNHWK9384V1Z9",
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 565, Sector 3, Mumbai - 432055",
+    "gstin": "27NOOLP4581I1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-106",
-    "date": "04-Sep-24",
+    "no": "PB-012",
+    "date": "06-Oct-25",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3618",
-    "order_date": "25-Aug-24",
+    "order_no": "PO-2668",
+    "order_date": "28-Sep-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
+    "dispatch_through": "Email",
     "destination": "Thane",
-    "delivery_terms": ""
+    "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "1",
-      "rate": 3403,
-      "amount": 3403
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 4952,
+      "amount": 49520
     },
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "3",
-      "rate": 394,
-      "amount": 1182
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "3",
-      "rate": 1640,
-      "amount": 4920
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "1",
-      "rate": 3787,
-      "amount": 3787
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "5",
-      "rate": 2962,
-      "amount": 14810
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "1",
-      "rate": 2564,
-      "amount": 2564
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 1504,
+      "amount": 15040
     }
   ],
   "totals": {
-    "subtotal": 30666,
-    "taxable_total": 30666,
-    "cgst_total": 0.0,
-    "sgst_total": 0.0,
-    "tax_total": 0.0
+    "subtotal": 64560,
+    "taxable_total": 64560,
+    "cgst_total": 1614.0,
+    "sgst_total": 1614.0,
+    "tax_total": 3228.0
   },
   "tax_rows": [
     {
-      "hsn": "998312",
-      "taxable": 30666,
-      "cgst_rate": 0.0,
-      "cgst_amt": 0.0,
-      "sgst_rate": 0.0,
-      "sgst_amt": 0.0
+      "hsn": "853690",
+      "taxable": 64560,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1614.0,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1614.0
     }
   ],
-  "amount_in_words": "INR Thirty Thousand, Six Hundred And Sixty-Six Only",
-  "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR Sixty-Seven Thousand, Seven Hundred And Eighty-Eight Only",
+  "tax_amount_in_words": "INR Three Thousand, Two Hundred And Twenty-Eight Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "41946026809",
+    "acno": "30819369251",
     "branch_ifsc": "TALOJA – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 0,
+    "gst_slab": 5,
     "generated_id": 219
   }
 }

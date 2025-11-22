@@ -1,88 +1,88 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 503, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 425210",
-    "gstin": "27CLVCH4704C1Z7",
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 774, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 437263",
+    "gstin": "27ZLFWR5512K1Z8",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts4@labstech.com",
-    "pan": "RXOMU9359A"
+    "email": "accounts60@nexolindustries.com",
+    "pan": "IIPDD7610R"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 686, Sector 16, Mumbai - 467246",
-    "gstin": "27ZTEQD8691N1Z8",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 520, Sector 10, Mumbai - 428201",
+    "gstin": "27WGMRX2132K1Z1",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-455",
-    "date": "24-Oct-25",
+    "no": "GST-072",
+    "date": "05-Jul-24",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-7898",
-    "order_date": "24-Oct-25",
+    "order_no": "PO-6533",
+    "order_date": "01-Jul-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Email",
-    "destination": "Thane",
-    "delivery_terms": "FOB"
+    "destination": "Mumbai",
+    "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "3",
-      "rate": 3244,
-      "amount": 9732
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
+      "particulars": "Office Rent",
+      "hsn": "999599",
       "qty": "2",
-      "rate": 3456,
-      "amount": 6912
+      "rate": 3476,
+      "amount": 6952
     },
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "10",
-      "rate": 4510,
-      "amount": 45100
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 1939,
+      "amount": 5817
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "2",
+      "rate": 1070,
+      "amount": 2140
     }
   ],
   "totals": {
-    "subtotal": 61744,
-    "taxable_total": 61744,
-    "cgst_total": 1543.6,
-    "sgst_total": 1543.6,
-    "tax_total": 3087.2
+    "subtotal": 14909,
+    "taxable_total": 14909,
+    "cgst_total": 894.54,
+    "sgst_total": 894.54,
+    "tax_total": 1789.08
   },
   "tax_rows": [
     {
-      "hsn": "998312",
-      "taxable": 61744,
-      "cgst_rate": 2.5,
-      "cgst_amt": 1543.6,
-      "sgst_rate": 2.5,
-      "sgst_amt": 1543.6
+      "hsn": "999599",
+      "taxable": 14909,
+      "cgst_rate": 6.0,
+      "cgst_amt": 894.54,
+      "sgst_rate": 6.0,
+      "sgst_amt": 894.54
     }
   ],
-  "amount_in_words": "INR Sixty-Four Thousand, Eight Hundred And Thirty-One Only",
-  "tax_amount_in_words": "INR Three Thousand And Eighty-Seven Only",
+  "amount_in_words": "INR Sixteen Thousand, Six Hundred And Ninety-Eight Only",
+  "tax_amount_in_words": "INR One Thousand, Seven Hundred And Eighty-Nine Only",
   "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "19392915204",
-    "branch_ifsc": "PUNE – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "HDFC BANK",
+    "acno": "81935989876",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 12,
     "generated_id": 84
   }
 }

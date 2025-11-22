@@ -1,81 +1,102 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 474, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 451373",
-    "gstin": "27ARDLP6873G1Z7",
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 391, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 474816",
+    "gstin": "27VXYSV7310L1Z2",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts4@kanteenfoods.com",
-    "pan": "NLJKQ1606D"
+    "email": "accounts26@nexolindustries.com",
+    "pan": "YTYDA9343P"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 680, Sector 45, Mumbai - 403399",
-    "gstin": "27UOMLD4777T1Z8",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 294, Sector 28, Mumbai - 473571",
+    "gstin": "27PKMPP3502T1Z6",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-331",
-    "date": "07-Dec-24",
+    "no": "PB-104",
+    "date": "07-Mar-25",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-1754",
-    "order_date": "03-Dec-24",
+    "order_no": "PO-1182",
+    "order_date": "02-Mar-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Mumbai",
-    "delivery_terms": "CIF"
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
+    "delivery_terms": ""
   },
   "items": [
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
       "qty": "3",
-      "rate": 2358,
-      "amount": 7074
+      "rate": 3504,
+      "amount": 10512
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
       "qty": "10",
-      "rate": 2710,
-      "amount": 27100
+      "rate": 3799,
+      "amount": 37990
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 289,
+      "amount": 578
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 290,
+      "amount": 870
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 1946,
+      "amount": 19460
     }
   ],
   "totals": {
-    "subtotal": 34174,
-    "taxable_total": 34174,
-    "cgst_total": 4784.36,
-    "sgst_total": 4784.36,
-    "tax_total": 9568.72
+    "subtotal": 69410,
+    "taxable_total": 69410,
+    "cgst_total": 4164.6,
+    "sgst_total": 4164.6,
+    "tax_total": 8329.2
   },
   "tax_rows": [
     {
       "hsn": "998361",
-      "taxable": 34174,
-      "cgst_rate": 14.0,
-      "cgst_amt": 4784.36,
-      "sgst_rate": 14.0,
-      "sgst_amt": 4784.36
+      "taxable": 69410,
+      "cgst_rate": 6.0,
+      "cgst_amt": 4164.6,
+      "sgst_rate": 6.0,
+      "sgst_amt": 4164.6
     }
   ],
-  "amount_in_words": "INR Forty-Three Thousand, Seven Hundred And Forty-Three Only",
-  "tax_amount_in_words": "INR Nine Thousand, Five Hundred And Sixty-Nine Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Seventy-Seven Thousand, Seven Hundred And Thirty-Nine Only",
+  "tax_amount_in_words": "INR Eight Thousand, Three Hundred And Twenty-Nine Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "46276841212",
-    "branch_ifsc": "PUNE – ICIC0000456",
+    "acno": "93084843427",
+    "branch_ifsc": "TALOJA – ICIC0000456",
     "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 12,
     "generated_id": 201
   }
 }

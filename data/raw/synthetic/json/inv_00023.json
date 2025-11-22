@@ -2,87 +2,80 @@
   "seller": {
     "name": "VISTA REALTY SERVICES",
     "name_short": "VISTA REALTY",
-    "addr1": "Plot 312, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 470130",
-    "gstin": "27IHKKH5566V1Z1",
+    "addr1": "Plot 836, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 443761",
+    "gstin": "27PRNEF8302F1Z8",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts24@vistarealty.com",
-    "pan": "LYLVV5714T"
+    "email": "accounts25@vistarealty.com",
+    "pan": "EQCEJ4155Z"
   },
   "buyer": {
-    "name": "SUNRISE ELECTRONICS",
-    "address": "Flat 246, Sector 27, Mumbai - 463210",
-    "gstin": "27LRFSZ5361Q1Z3",
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 295, Sector 26, Mumbai - 425892",
+    "gstin": "27TLOLM3313W1Z1",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-344",
-    "date": "08-Aug-25",
+    "no": "INV-183",
+    "date": "17-Sep-24",
     "delivery_note": "",
     "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-7377",
-    "order_date": "01-Aug-25",
+    "order_no": "PO-9744",
+    "order_date": "08-Sep-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
+    "dispatch_through": "Courier",
     "destination": "Thane",
-    "delivery_terms": "CIF"
+    "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "1",
-      "rate": 655,
-      "amount": 655
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 4146,
+      "amount": 41460
     },
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "1",
-      "rate": 2849,
-      "amount": 2849
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "3",
-      "rate": 243,
-      "amount": 729
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 4755,
+      "amount": 23775
     }
   ],
   "totals": {
-    "subtotal": 4233,
-    "taxable_total": 4233,
-    "cgst_total": 253.98,
-    "sgst_total": 253.98,
-    "tax_total": 507.96
+    "subtotal": 65235,
+    "taxable_total": 65235,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "998361",
-      "taxable": 4233,
-      "cgst_rate": 6.0,
-      "cgst_amt": 253.98,
-      "sgst_rate": 6.0,
-      "sgst_amt": 253.98
+      "hsn": "999599",
+      "taxable": 65235,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Four Thousand, Seven Hundred And Forty-One Only",
-  "tax_amount_in_words": "INR Five Hundred And Eight Only",
+  "amount_in_words": "INR Sixty-Five Thousand, Two Hundred And Thirty-Five Only",
+  "tax_amount_in_words": "INR Zero Only",
   "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "51687767289",
-    "branch_ifsc": "PUNE – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "ICICI BANK",
+    "acno": "86160254688",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 0,
     "generated_id": 23
   }
 }

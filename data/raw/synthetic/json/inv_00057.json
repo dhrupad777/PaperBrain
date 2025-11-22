@@ -1,81 +1,95 @@
 {
   "seller": {
-    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
-    "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 8, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 403064",
-    "gstin": "27DURVD7581S1Z5",
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 540, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 478523",
+    "gstin": "27DUPPT1945Y1Z7",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts79@talojamfgassn.com",
-    "pan": "GRITO7435S"
+    "email": "accounts24@nexolindustries.com",
+    "pan": "GGNCV2806L"
   },
   "buyer": {
-    "name": "UNITY CONSTRUCTIONS",
-    "address": "Flat 836, Sector 50, Mumbai - 497000",
-    "gstin": "27IXLNU4389Y1Z3",
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 733, Sector 3, Mumbai - 498005",
+    "gstin": "27IAUQA5941B1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-793",
-    "date": "26-Oct-25",
+    "no": "INV-290",
+    "date": "01-May-25",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-7885",
-    "order_date": "18-Oct-25",
+    "order_no": "PO-1305",
+    "order_date": "28-Apr-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Pune",
-    "delivery_terms": "FOB"
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "2",
-      "rate": 3421,
-      "amount": 6842
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 4940,
+      "amount": 24700
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "2",
-      "rate": 3878,
-      "amount": 7756
+      "qty": "5",
+      "rate": 3610,
+      "amount": 18050
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 2170,
+      "amount": 2170
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 4565,
+      "amount": 4565
     }
   ],
   "totals": {
-    "subtotal": 14598,
-    "taxable_total": 14598,
-    "cgst_total": 1313.82,
-    "sgst_total": 1313.82,
-    "tax_total": 2627.64
+    "subtotal": 49485,
+    "taxable_total": 49485,
+    "cgst_total": 1237.12,
+    "sgst_total": 1237.12,
+    "tax_total": 2474.25
   },
   "tax_rows": [
     {
-      "hsn": "999599",
-      "taxable": 14598,
-      "cgst_rate": 9.0,
-      "cgst_amt": 1313.82,
-      "sgst_rate": 9.0,
-      "sgst_amt": 1313.82
+      "hsn": "940330",
+      "taxable": 49485,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1237.12,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1237.12
     }
   ],
-  "amount_in_words": "INR Seventeen Thousand, Two Hundred And Twenty-Six Only",
-  "tax_amount_in_words": "INR Two Thousand, Six Hundred And Twenty-Eight Only",
+  "amount_in_words": "INR Fifty-One Thousand, Nine Hundred And Fifty-Nine Only",
+  "tax_amount_in_words": "INR Two Thousand, Four Hundred And Seventy-Four Only",
   "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "78200210525",
-    "branch_ifsc": "TALOJA – ICIC0000456",
+    "acno": "20550747748",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
     "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 18,
+    "gst_slab": 5,
     "generated_id": 57
   }
 }

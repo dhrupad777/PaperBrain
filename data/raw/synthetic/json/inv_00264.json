@@ -2,80 +2,87 @@
   "seller": {
     "name": "TALOJA MANUFACTURERS' ASSOCIATION",
     "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 354, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 454476",
-    "gstin": "27TGFKH7674D1Z3",
+    "addr1": "Plot 132, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 407390",
+    "gstin": "27JWJRW4561K1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts62@talojamfgassn.com",
-    "pan": "FKSTH7279F"
+    "email": "accounts3@talojamfgassn.com",
+    "pan": "MOAQR7068L"
   },
   "buyer": {
-    "name": "OMKAR TRADERS",
-    "address": "Flat 888, Sector 1, Mumbai - 430624",
-    "gstin": "27ACPYM8604K1Z9",
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 539, Sector 44, Mumbai - 486839",
+    "gstin": "27FKYSC4772C1Z6",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-316",
-    "date": "27-Feb-25",
+    "no": "T-868",
+    "date": "04-Jan-25",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-4246",
-    "order_date": "18-Feb-25",
+    "order_no": "PO-3027",
+    "order_date": "28-Dec-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
+    "dispatch_through": "Email",
     "destination": "Pune",
     "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "2",
-      "rate": 4196,
-      "amount": 8392
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 596,
+      "amount": 596
     },
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "10",
-      "rate": 3219,
-      "amount": 32190
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 3164,
+      "amount": 9492
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 1035,
+      "amount": 3105
     }
   ],
   "totals": {
-    "subtotal": 40582,
-    "taxable_total": 40582,
-    "cgst_total": 2434.92,
-    "sgst_total": 2434.92,
-    "tax_total": 4869.84
+    "subtotal": 13193,
+    "taxable_total": 13193,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "998361",
-      "taxable": 40582,
-      "cgst_rate": 6.0,
-      "cgst_amt": 2434.92,
-      "sgst_rate": 6.0,
-      "sgst_amt": 2434.92
+      "hsn": "998312",
+      "taxable": 13193,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Forty-Five Thousand, Four Hundred And Fifty-Two Only",
-  "tax_amount_in_words": "INR Four Thousand, Eight Hundred And Seventy Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR Thirteen Thousand, One Hundred And Ninety-Three Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "89846489471",
-    "branch_ifsc": "TALOJA – SBIN0012984",
+    "acno": "34711648448",
+    "branch_ifsc": "PUNE – SBIN0012984",
     "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 0,
     "generated_id": 264
   }
 }

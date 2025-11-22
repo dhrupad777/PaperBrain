@@ -2,115 +2,80 @@
   "seller": {
     "name": "TALOJA MANUFACTURERS' ASSOCIATION",
     "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 332, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 459103",
-    "gstin": "27NYRBU9873Q1Z6",
+    "addr1": "Plot 316, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 408676",
+    "gstin": "27QBVPE1412R1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts36@talojamfgassn.com",
-    "pan": "RRDOK2891Y"
+    "email": "accounts19@talojamfgassn.com",
+    "pan": "RLHWA2113D"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 566, Sector 35, Mumbai - 418855",
-    "gstin": "27OPCFQ1381O1Z5",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 889, Sector 13, Mumbai - 435947",
+    "gstin": "27PZDTG6834Q1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-287",
-    "date": "11-Jul-24",
+    "no": "T-555",
+    "date": "29-May-24",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3010",
-    "order_date": "10-Jul-24",
+    "order_no": "PO-1792",
+    "order_date": "20-May-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Pune",
+    "dispatch_through": "Email",
+    "destination": "Thane",
     "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
+      "particulars": "Office Rent",
+      "hsn": "999599",
       "qty": "3",
-      "rate": 4002,
-      "amount": 12006
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "2",
-      "rate": 3045,
-      "amount": 6090
+      "rate": 1477,
+      "amount": 4431
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "10",
-      "rate": 1476,
-      "amount": 14760
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
       "qty": "3",
-      "rate": 2216,
-      "amount": 6648
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "3",
-      "rate": 584,
-      "amount": 1752
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "10",
-      "rate": 3503,
-      "amount": 35030
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 929,
-      "amount": 9290
+      "rate": 1333,
+      "amount": 3999
     }
   ],
   "totals": {
-    "subtotal": 85576,
-    "taxable_total": 85576,
-    "cgst_total": 7701.84,
-    "sgst_total": 7701.84,
-    "tax_total": 15403.68
+    "subtotal": 8430,
+    "taxable_total": 8430,
+    "cgst_total": 210.75,
+    "sgst_total": 210.75,
+    "tax_total": 421.5
   },
   "tax_rows": [
     {
-      "hsn": "998361",
-      "taxable": 85576,
-      "cgst_rate": 9.0,
-      "cgst_amt": 7701.84,
-      "sgst_rate": 9.0,
-      "sgst_amt": 7701.84
+      "hsn": "999599",
+      "taxable": 8430,
+      "cgst_rate": 2.5,
+      "cgst_amt": 210.75,
+      "sgst_rate": 2.5,
+      "sgst_amt": 210.75
     }
   ],
-  "amount_in_words": "INR One Lakh, Nine Hundred And Eighty Only",
-  "tax_amount_in_words": "INR Fifteen Thousand, Four Hundred And Four Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Eight Thousand, Eight Hundred And Fifty-Two Only",
+  "tax_amount_in_words": "INR Four Hundred And Twenty-Two Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "91293198206",
+    "acno": "54191637376",
     "branch_ifsc": "PUNE – SBIN0012984",
     "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 18,
+    "gst_slab": 5,
     "generated_id": 53
   }
 }

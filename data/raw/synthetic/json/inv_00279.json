@@ -1,31 +1,31 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 121, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 422727",
-    "gstin": "27YQGTO2493S1Z8",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 599, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 409805",
+    "gstin": "27GWZWZ4832S1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts46@nexolindustries.com",
-    "pan": "FFDRU3328O"
+    "email": "accounts69@kanteenfoods.com",
+    "pan": "LHXJN7461D"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 221, Sector 25, Mumbai - 480182",
-    "gstin": "27ORSXF5087A1Z3",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 27, Sector 44, Mumbai - 434704",
+    "gstin": "27MPQZC3559M1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-164",
-    "date": "16-Feb-25",
+    "no": "PB-452",
+    "date": "19-Sep-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3222",
-    "order_date": "12-Feb-25",
+    "order_no": "PO-1719",
+    "order_date": "09-Sep-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
@@ -34,69 +34,55 @@
   },
   "items": [
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
       "qty": "2",
-      "rate": 2510,
-      "amount": 5020
+      "rate": 3710,
+      "amount": 7420
     },
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
       "qty": "5",
-      "rate": 3908,
-      "amount": 19540
+      "rate": 3120,
+      "amount": 15600
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
       "qty": "2",
-      "rate": 339,
-      "amount": 678
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "1",
-      "rate": 2318,
-      "amount": 2318
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "2",
-      "rate": 448,
-      "amount": 896
+      "rate": 2525,
+      "amount": 5050
     }
   ],
   "totals": {
-    "subtotal": 28452,
-    "taxable_total": 28452,
-    "cgst_total": 3983.28,
-    "sgst_total": 3983.28,
-    "tax_total": 7966.56
+    "subtotal": 28070,
+    "taxable_total": 28070,
+    "cgst_total": 2526.3,
+    "sgst_total": 2526.3,
+    "tax_total": 5052.6
   },
   "tax_rows": [
     {
-      "hsn": "996331",
-      "taxable": 28452,
-      "cgst_rate": 14.0,
-      "cgst_amt": 3983.28,
-      "sgst_rate": 14.0,
-      "sgst_amt": 3983.28
+      "hsn": "853690",
+      "taxable": 28070,
+      "cgst_rate": 9.0,
+      "cgst_amt": 2526.3,
+      "sgst_rate": 9.0,
+      "sgst_amt": 2526.3
     }
   ],
-  "amount_in_words": "INR Thirty-Six Thousand, Four Hundred And Nineteen Only",
-  "tax_amount_in_words": "INR Seven Thousand, Nine Hundred And Sixty-Seven Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR Thirty-Three Thousand, One Hundred And Twenty-Three Only",
+  "tax_amount_in_words": "INR Five Thousand And Fifty-Three Only",
+  "remarks": "Monthly service billing.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "92014825467",
-    "branch_ifsc": "PUNE – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "ICICI BANK",
+    "acno": "21832008140",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 18,
     "generated_id": 279
   }
 }

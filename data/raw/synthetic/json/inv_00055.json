@@ -1,85 +1,78 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 81, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 418453",
-    "gstin": "27JEQEG9632F1Z4",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 639, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 438460",
+    "gstin": "27LELNS8836Y1Z4",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts42@labstech.com",
-    "pan": "TSTKZ5423P"
+    "email": "accounts99@talojamfgassn.com",
+    "pan": "MSGUU3341K"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 302, Sector 43, Mumbai - 483332",
-    "gstin": "27WVZDA9377S1Z9",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 621, Sector 42, Mumbai - 471259",
+    "gstin": "27JVAVG3608J1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-861",
-    "date": "22-Jun-24",
+    "no": "INV-005",
+    "date": "23-Sep-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-1712",
-    "order_date": "19-Jun-24",
+    "order_no": "PO-6363",
+    "order_date": "22-Sep-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
-    "destination": "Pune",
-    "delivery_terms": "Ex-Works"
+    "destination": "Thane",
+    "delivery_terms": ""
   },
   "items": [
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
-      "qty": "1",
-      "rate": 4852,
-      "amount": 4852
+      "qty": "2",
+      "rate": 4165,
+      "amount": 8330
     },
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "10",
-      "rate": 3007,
-      "amount": 30070
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "10",
-      "rate": 2056,
-      "amount": 20560
+      "rate": 4259,
+      "amount": 42590
     }
   ],
   "totals": {
-    "subtotal": 55482,
-    "taxable_total": 55482,
-    "cgst_total": 7767.48,
-    "sgst_total": 7767.48,
-    "tax_total": 15534.96
+    "subtotal": 50920,
+    "taxable_total": 50920,
+    "cgst_total": 7128.8,
+    "sgst_total": 7128.8,
+    "tax_total": 14257.6
   },
   "tax_rows": [
     {
       "hsn": "997331",
-      "taxable": 55482,
+      "taxable": 50920,
       "cgst_rate": 14.0,
-      "cgst_amt": 7767.48,
+      "cgst_amt": 7128.8,
       "sgst_rate": 14.0,
-      "sgst_amt": 7767.48
+      "sgst_amt": 7128.8
     }
   ],
-  "amount_in_words": "INR Seventy-One Thousand And Seventeen Only",
-  "tax_amount_in_words": "INR Fifteen Thousand, Five Hundred And Thirty-Five Only",
+  "amount_in_words": "INR Sixty-Five Thousand, One Hundred And Seventy-Eight Only",
+  "tax_amount_in_words": "INR Fourteen Thousand, Two Hundred And Fifty-Eight Only",
   "remarks": "Lease compensation for premises.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "25632655531",
-    "branch_ifsc": "PUNE – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "43533609389",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
     "gst_slab": 28,

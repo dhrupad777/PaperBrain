@@ -1,95 +1,81 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 633, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 406031",
-    "gstin": "27VPIMX3068W1Z7",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 749, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 486786",
+    "gstin": "27RIJTS4628Z1Z6",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts10@labstech.com",
-    "pan": "JHOYB3459W"
+    "email": "accounts15@kanteenfoods.com",
+    "pan": "UKCAU9366T"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 577, Sector 26, Mumbai - 483892",
-    "gstin": "27ITVTP7724X1Z5",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 673, Sector 46, Mumbai - 475465",
+    "gstin": "27QYZLY7333D1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-536",
-    "date": "24-Oct-25",
+    "no": "T-318",
+    "date": "24-Feb-25",
     "delivery_note": "",
     "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-9468",
-    "order_date": "15-Oct-25",
+    "order_no": "PO-8226",
+    "order_date": "14-Feb-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Pune",
-    "delivery_terms": "FOB"
+    "dispatch_through": "Email",
+    "destination": "Navi Mumbai",
+    "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "2",
-      "rate": 1608,
-      "amount": 3216
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "10",
-      "rate": 2443,
-      "amount": 24430
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "2",
-      "rate": 487,
-      "amount": 974
-    },
-    {
       "particulars": "Software Subscription",
       "hsn": "997331",
-      "qty": "3",
-      "rate": 4723,
-      "amount": 14169
+      "qty": "2",
+      "rate": 2145,
+      "amount": 4290
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 1019,
+      "amount": 10190
     }
   ],
   "totals": {
-    "subtotal": 42789,
-    "taxable_total": 42789,
-    "cgst_total": 1069.73,
-    "sgst_total": 1069.73,
-    "tax_total": 2139.45
+    "subtotal": 14480,
+    "taxable_total": 14480,
+    "cgst_total": 868.8,
+    "sgst_total": 868.8,
+    "tax_total": 1737.6
   },
   "tax_rows": [
     {
-      "hsn": "998312",
-      "taxable": 42789,
-      "cgst_rate": 2.5,
-      "cgst_amt": 1069.73,
-      "sgst_rate": 2.5,
-      "sgst_amt": 1069.73
+      "hsn": "997331",
+      "taxable": 14480,
+      "cgst_rate": 6.0,
+      "cgst_amt": 868.8,
+      "sgst_rate": 6.0,
+      "sgst_amt": 868.8
     }
   ],
-  "amount_in_words": "INR Forty-Four Thousand, Nine Hundred And Twenty-Eight Only",
-  "tax_amount_in_words": "INR Two Thousand, One Hundred And Thirty-Nine Only",
+  "amount_in_words": "INR Sixteen Thousand, Two Hundred And Eighteen Only",
+  "tax_amount_in_words": "INR One Thousand, Seven Hundred And Thirty-Eight Only",
   "remarks": "Lease compensation for premises.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "36372004410",
+    "acno": "88846053263",
     "branch_ifsc": "PUNE – SBIN0012984",
     "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 12,
     "generated_id": 110
   }
 }

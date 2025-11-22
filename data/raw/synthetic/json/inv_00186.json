@@ -1,95 +1,88 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 86, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 422276",
-    "gstin": "27IKEAN5214Z1Z1",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 911, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 406535",
+    "gstin": "27MTXBA5047J1Z6",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts31@labstech.com",
-    "pan": "BDGYT9865V"
+    "email": "accounts99@talojamfgassn.com",
+    "pan": "EZRFS7472G"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 698, Sector 11, Mumbai - 437059",
-    "gstin": "27WUHMT9505R1Z4",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 456, Sector 32, Mumbai - 479006",
+    "gstin": "27NOHYE5587N1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-515",
-    "date": "16-Jul-25",
+    "no": "GST-080",
+    "date": "12-Nov-25",
     "delivery_note": "",
     "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-8004",
-    "order_date": "09-Jul-25",
+    "order_no": "PO-3111",
+    "order_date": "08-Nov-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Thane",
+    "dispatch_through": "Courier",
+    "destination": "Pune",
     "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "3",
-      "rate": 4342,
-      "amount": 13026
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "2",
-      "rate": 3112,
-      "amount": 6224
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "5",
-      "rate": 4814,
-      "amount": 24070
-    },
-    {
       "particulars": "Software Subscription",
       "hsn": "997331",
-      "qty": "1",
-      "rate": 4065,
-      "amount": 4065
+      "qty": "2",
+      "rate": 1136,
+      "amount": 2272
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 1296,
+      "amount": 6480
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 805,
+      "amount": 2415
     }
   ],
   "totals": {
-    "subtotal": 47385,
-    "taxable_total": 47385,
-    "cgst_total": 1184.62,
-    "sgst_total": 1184.62,
-    "tax_total": 2369.25
+    "subtotal": 11167,
+    "taxable_total": 11167,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "853690",
-      "taxable": 47385,
-      "cgst_rate": 2.5,
-      "cgst_amt": 1184.62,
-      "sgst_rate": 2.5,
-      "sgst_amt": 1184.62
+      "hsn": "997331",
+      "taxable": 11167,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Forty-Nine Thousand, Seven Hundred And Fifty-Four Only",
-  "tax_amount_in_words": "INR Two Thousand, Three Hundred And Sixty-Nine Only",
+  "amount_in_words": "INR Eleven Thousand, One Hundred And Sixty-Seven Only",
+  "tax_amount_in_words": "INR Zero Only",
   "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "84717475733",
-    "branch_ifsc": "PUNE – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "ICICI BANK",
+    "acno": "80073741898",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 0,
     "generated_id": 186
   }
 }

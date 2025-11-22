@@ -2,87 +2,101 @@
   "seller": {
     "name": "TALOJA MANUFACTURERS' ASSOCIATION",
     "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 916, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 479242",
-    "gstin": "27EHUIY5492D1Z1",
+    "addr1": "Plot 830, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 444843",
+    "gstin": "27CKOSX9540I1Z5",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts9@talojamfgassn.com",
-    "pan": "VIGYN6307N"
+    "email": "accounts39@talojamfgassn.com",
+    "pan": "IAGDG1783Y"
   },
   "buyer": {
     "name": "OMKAR TRADERS",
-    "address": "Flat 696, Sector 25, Mumbai - 487570",
-    "gstin": "27EOWZR7463M1Z8",
+    "address": "Flat 891, Sector 22, Mumbai - 454991",
+    "gstin": "27JOTZJ7722N1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-744",
-    "date": "08-Sep-25",
+    "no": "T-008",
+    "date": "17-Dec-24",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-8710",
-    "order_date": "29-Aug-25",
+    "order_no": "PO-5099",
+    "order_date": "08-Dec-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "FOB"
+    "dispatch_through": "Courier",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "3",
-      "rate": 1998,
-      "amount": 5994
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 3142,
+      "amount": 6284
     },
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "3",
-      "rate": 4511,
-      "amount": 13533
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 2128,
+      "amount": 2128
     },
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 2423,
+      "amount": 2423
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 4117,
+      "amount": 12351
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "10",
-      "rate": 2980,
-      "amount": 29800
+      "rate": 4860,
+      "amount": 48600
     }
   ],
   "totals": {
-    "subtotal": 49327,
-    "taxable_total": 49327,
-    "cgst_total": 1233.18,
-    "sgst_total": 1233.18,
-    "tax_total": 2466.35
+    "subtotal": 71786,
+    "taxable_total": 71786,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "999599",
-      "taxable": 49327,
-      "cgst_rate": 2.5,
-      "cgst_amt": 1233.18,
-      "sgst_rate": 2.5,
-      "sgst_amt": 1233.18
+      "hsn": "940330",
+      "taxable": 71786,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Fifty-One Thousand, Seven Hundred And Ninety-Three Only",
-  "tax_amount_in_words": "INR Two Thousand, Four Hundred And Sixty-Six Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR Seventy-One Thousand, Seven Hundred And Eighty-Six Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Monthly service billing.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "98583913418",
+    "acno": "55932475804",
     "branch_ifsc": "TALOJA – ICIC0000456",
     "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 0,
     "generated_id": 87
   }
 }

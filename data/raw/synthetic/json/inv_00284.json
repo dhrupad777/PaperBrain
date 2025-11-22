@@ -2,122 +2,115 @@
   "seller": {
     "name": "NEXOL INDUSTRIES PVT LTD",
     "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 924, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 489656",
-    "gstin": "27IPCYX2875V1Z3",
+    "addr1": "Plot 229, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 477702",
+    "gstin": "27HETOR4890Q1Z7",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts93@nexolindustries.com",
-    "pan": "DJCFA4004X"
+    "email": "accounts53@nexolindustries.com",
+    "pan": "ALZZC9493G"
   },
   "buyer": {
-    "name": "OMKAR TRADERS",
-    "address": "Flat 727, Sector 41, Mumbai - 447377",
-    "gstin": "27EIOTP9923M1Z5",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 38, Sector 24, Mumbai - 476741",
+    "gstin": "27VBKGM9472G1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-035",
-    "date": "20-Jun-24",
+    "no": "PB-725",
+    "date": "23-Jul-24",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-1401",
-    "order_date": "16-Jun-24",
+    "order_no": "PO-9409",
+    "order_date": "22-Jul-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Mumbai",
+    "dispatch_through": "Courier",
+    "destination": "Thane",
     "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "3",
-      "rate": 3786,
-      "amount": 11358
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 3886,
+      "amount": 7772
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "2",
+      "rate": 4669,
+      "amount": 9338
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
       "qty": "5",
-      "rate": 4233,
-      "amount": 21165
+      "rate": 2575,
+      "amount": 12875
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 4144,
+      "amount": 41440
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "5",
-      "rate": 3172,
-      "amount": 15860
+      "qty": "2",
+      "rate": 2217,
+      "amount": 4434
     },
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "5",
-      "rate": 342,
-      "amount": 1710
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
+      "particulars": "Office Rent",
+      "hsn": "999599",
       "qty": "1",
-      "rate": 860,
-      "amount": 860
+      "rate": 4779,
+      "amount": 4779
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
-      "qty": "5",
-      "rate": 4789,
-      "amount": 23945
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 1814,
-      "amount": 18140
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "2",
-      "rate": 1417,
-      "amount": 2834
+      "qty": "3",
+      "rate": 2998,
+      "amount": 8994
     }
   ],
   "totals": {
-    "subtotal": 95872,
-    "taxable_total": 95872,
-    "cgst_total": 8628.48,
-    "sgst_total": 8628.48,
-    "tax_total": 17256.96
+    "subtotal": 89632,
+    "taxable_total": 89632,
+    "cgst_total": 12548.48,
+    "sgst_total": 12548.48,
+    "tax_total": 25096.96
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 95872,
-      "cgst_rate": 9.0,
-      "cgst_amt": 8628.48,
-      "sgst_rate": 9.0,
-      "sgst_amt": 8628.48
+      "hsn": "999599",
+      "taxable": 89632,
+      "cgst_rate": 14.0,
+      "cgst_amt": 12548.48,
+      "sgst_rate": 14.0,
+      "sgst_amt": 12548.48
     }
   ],
-  "amount_in_words": "INR One Lakh, Thirteen Thousand, One Hundred And Twenty-Nine Only",
-  "tax_amount_in_words": "INR Seventeen Thousand, Two Hundred And Fifty-Seven Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR One Lakh, Fourteen Thousand, Seven Hundred And Twenty-Nine Only",
+  "tax_amount_in_words": "INR Twenty-Five Thousand And Ninety-Seven Only",
+  "remarks": "Monthly service billing.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "16615667541",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "74548492185",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 18,
+    "gst_slab": 28,
     "generated_id": 284
   }
 }

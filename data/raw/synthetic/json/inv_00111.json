@@ -1,111 +1,111 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 738, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 403805",
-    "gstin": "27MSAHE2817Y1Z1",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 871, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 470905",
+    "gstin": "27RQWRD5789W1Z7",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts86@labstech.com",
-    "pan": "WHHLF9429F"
+    "email": "accounts57@kanteenfoods.com",
+    "pan": "UWTQQ7421P"
   },
   "buyer": {
-    "name": "OMKAR TRADERS",
-    "address": "Flat 695, Sector 19, Mumbai - 409992",
-    "gstin": "27BSUDV8744D1Z7",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 724, Sector 7, Mumbai - 428879",
+    "gstin": "27URYWI8948L1Z8",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-314",
-    "date": "04-Jun-24",
+    "no": "GST-847",
+    "date": "23-Sep-24",
     "delivery_note": "",
     "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-9105",
-    "order_date": "03-Jun-24",
+    "order_no": "PO-1840",
+    "order_date": "13-Sep-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "CIF"
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "3",
-      "rate": 716,
-      "amount": 2148
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "5",
-      "rate": 4748,
-      "amount": 23740
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
       "qty": "1",
-      "rate": 469,
-      "amount": 469
+      "rate": 4828,
+      "amount": 4828
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 4886,
+      "amount": 4886
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
-      "qty": "2",
-      "rate": 2883,
-      "amount": 5766
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "1",
-      "rate": 1163,
-      "amount": 1163
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
       "qty": "5",
-      "rate": 1140,
-      "amount": 5700
+      "rate": 3573,
+      "amount": 17865
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 4318,
+      "amount": 4318
     },
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
-      "qty": "3",
-      "rate": 4898,
-      "amount": 14694
+      "qty": "10",
+      "rate": 3284,
+      "amount": 32840
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 2035,
+      "amount": 10175
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 2869,
+      "amount": 14345
     }
   ],
   "totals": {
-    "subtotal": 53680,
-    "taxable_total": 53680,
-    "cgst_total": 1342.0,
-    "sgst_total": 1342.0,
-    "tax_total": 2684.0
+    "subtotal": 89257,
+    "taxable_total": 89257,
+    "cgst_total": 2231.43,
+    "sgst_total": 2231.43,
+    "tax_total": 4462.85
   },
   "tax_rows": [
     {
-      "hsn": "997331",
-      "taxable": 53680,
+      "hsn": "853690",
+      "taxable": 89257,
       "cgst_rate": 2.5,
-      "cgst_amt": 1342.0,
+      "cgst_amt": 2231.43,
       "sgst_rate": 2.5,
-      "sgst_amt": 1342.0
+      "sgst_amt": 2231.43
     }
   ],
-  "amount_in_words": "INR Fifty-Six Thousand, Three Hundred And Sixty-Four Only",
-  "tax_amount_in_words": "INR Two Thousand, Six Hundred And Eighty-Four Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR Ninety-Three Thousand, Seven Hundred And Twenty Only",
+  "tax_amount_in_words": "INR Four Thousand, Four Hundred And Sixty-Three Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "39798977269",
+    "acno": "84185027535",
     "branch_ifsc": "TALOJA – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },

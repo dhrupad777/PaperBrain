@@ -1,95 +1,95 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 145, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 456731",
-    "gstin": "27UFVQE4232V1Z8",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 593, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 483690",
+    "gstin": "27TDBFW7800U1Z4",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts25@kanteenfoods.com",
-    "pan": "EJKCZ8400F"
+    "email": "accounts88@vistarealty.com",
+    "pan": "GSOJY1872T"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 417, Sector 3, Mumbai - 429332",
-    "gstin": "27UGBDB6657X1Z4",
+    "name": "OMKAR TRADERS",
+    "address": "Flat 717, Sector 14, Mumbai - 464921",
+    "gstin": "27VRQOF3407Z1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-483",
-    "date": "04-Aug-25",
+    "no": "T-414",
+    "date": "04-Nov-24",
     "delivery_note": "",
     "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-9306",
-    "order_date": "29-Jul-25",
+    "order_no": "PO-2863",
+    "order_date": "04-Nov-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Pune",
-    "delivery_terms": "FOB"
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "5",
-      "rate": 366,
-      "amount": 1830
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "3",
-      "rate": 302,
-      "amount": 906
-    },
-    {
       "particulars": "Office Rent",
       "hsn": "999599",
-      "qty": "3",
-      "rate": 3793,
-      "amount": 11379
+      "qty": "10",
+      "rate": 1332,
+      "amount": 13320
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
+      "qty": "5",
+      "rate": 2668,
+      "amount": 13340
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "1",
-      "rate": 1610,
-      "amount": 1610
+      "rate": 4666,
+      "amount": 4666
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 3307,
+      "amount": 3307
     }
   ],
   "totals": {
-    "subtotal": 15725,
-    "taxable_total": 15725,
-    "cgst_total": 1415.25,
-    "sgst_total": 1415.25,
-    "tax_total": 2830.5
+    "subtotal": 34633,
+    "taxable_total": 34633,
+    "cgst_total": 2077.98,
+    "sgst_total": 2077.98,
+    "tax_total": 4155.96
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 15725,
-      "cgst_rate": 9.0,
-      "cgst_amt": 1415.25,
-      "sgst_rate": 9.0,
-      "sgst_amt": 1415.25
+      "hsn": "999599",
+      "taxable": 34633,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2077.98,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2077.98
     }
   ],
-  "amount_in_words": "INR Eighteen Thousand, Five Hundred And Fifty-Six Only",
-  "tax_amount_in_words": "INR Two Thousand, Eight Hundred And Thirty Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR Thirty-Eight Thousand, Seven Hundred And Eighty-Nine Only",
+  "tax_amount_in_words": "INR Four Thousand, One Hundred And Fifty-Six Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "56168591695",
-    "branch_ifsc": "PUNE – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "HDFC BANK",
+    "acno": "47883734914",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 18,
+    "gst_slab": 12,
     "generated_id": 158
   }
 }

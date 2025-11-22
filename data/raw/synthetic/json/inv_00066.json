@@ -2,108 +2,101 @@
   "seller": {
     "name": "TALOJA MANUFACTURERS' ASSOCIATION",
     "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 507, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 418175",
-    "gstin": "27YCCYG8841C1Z3",
+    "addr1": "Plot 129, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 452688",
+    "gstin": "27LXOXZ1343I1Z2",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts8@talojamfgassn.com",
-    "pan": "AAYLC3527C"
+    "email": "accounts42@talojamfgassn.com",
+    "pan": "KVMPZ7389U"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 915, Sector 15, Mumbai - 473834",
-    "gstin": "27HVAMI9249J1Z8",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 10, Sector 13, Mumbai - 449504",
+    "gstin": "27BITBE5947O1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-609",
-    "date": "04-Oct-25",
+    "no": "INV-239",
+    "date": "24-Jul-25",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-1303",
-    "order_date": "27-Sep-25",
+    "order_no": "PO-2680",
+    "order_date": "15-Jul-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
+    "dispatch_through": "Courier",
     "destination": "Navi Mumbai",
     "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "1",
-      "rate": 1793,
-      "amount": 1793
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 3747,
+      "amount": 11241
     },
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "5",
-      "rate": 1781,
-      "amount": 8905
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 4131,
+      "amount": 41310
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
-      "qty": "10",
-      "rate": 4749,
-      "amount": 47490
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
       "qty": "1",
-      "rate": 2045,
-      "amount": 2045
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "2",
-      "rate": 2533,
-      "amount": 5066
+      "rate": 2396,
+      "amount": 2396
     },
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
-      "qty": "5",
-      "rate": 3090,
-      "amount": 15450
+      "qty": "2",
+      "rate": 4633,
+      "amount": 9266
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 3751,
+      "amount": 3751
     }
   ],
   "totals": {
-    "subtotal": 80749,
-    "taxable_total": 80749,
-    "cgst_total": 11304.86,
-    "sgst_total": 11304.86,
-    "tax_total": 22609.72
+    "subtotal": 67964,
+    "taxable_total": 67964,
+    "cgst_total": 4077.84,
+    "sgst_total": 4077.84,
+    "tax_total": 8155.68
   },
   "tax_rows": [
     {
-      "hsn": "853690",
-      "taxable": 80749,
-      "cgst_rate": 14.0,
-      "cgst_amt": 11304.86,
-      "sgst_rate": 14.0,
-      "sgst_amt": 11304.86
+      "hsn": "997331",
+      "taxable": 67964,
+      "cgst_rate": 6.0,
+      "cgst_amt": 4077.84,
+      "sgst_rate": 6.0,
+      "sgst_amt": 4077.84
     }
   ],
-  "amount_in_words": "INR One Lakh, Three Thousand, Three Hundred And Fifty-Nine Only",
-  "tax_amount_in_words": "INR Twenty-Two Thousand, Six Hundred And Ten Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR Seventy-Six Thousand, One Hundred And Twenty Only",
+  "tax_amount_in_words": "INR Eight Thousand, One Hundred And Fifty-Six Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "44293489200",
-    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "acno": "82942799698",
+    "branch_ifsc": "TALOJA – ICIC0000456",
     "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 12,
     "generated_id": 66
   }
 }

@@ -1,99 +1,78 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 864, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 413039",
-    "gstin": "27AMPWD5611J1Z3",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 686, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 455555",
+    "gstin": "27FQXZJ8223O1Z1",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts72@labstech.com",
-    "pan": "YPLNT2570P"
+    "email": "accounts27@vistarealty.com",
+    "pan": "GGZQR5046N"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 252, Sector 16, Mumbai - 493726",
-    "gstin": "27CDTNA1297E1Z2",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 584, Sector 47, Mumbai - 401243",
+    "gstin": "27BVKSE6979I1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-605",
-    "date": "20-Mar-25",
+    "no": "GST-887",
+    "date": "08-Jul-24",
     "delivery_note": "",
     "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-5591",
-    "order_date": "15-Mar-25",
+    "order_no": "PO-7850",
+    "order_date": "30-Jun-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "FOB"
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": ""
   },
   "items": [
     {
       "particulars": "Office Rent",
       "hsn": "999599",
-      "qty": "1",
-      "rate": 1505,
-      "amount": 1505
+      "qty": "3",
+      "rate": 1984,
+      "amount": 5952
     },
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "2",
-      "rate": 2291,
-      "amount": 4582
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "1",
-      "rate": 1272,
-      "amount": 1272
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 3856,
-      "amount": 38560
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "1",
-      "rate": 2535,
-      "amount": 2535
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 326,
+      "amount": 1630
     }
   ],
   "totals": {
-    "subtotal": 48454,
-    "taxable_total": 48454,
-    "cgst_total": 4360.86,
-    "sgst_total": 4360.86,
-    "tax_total": 8721.72
+    "subtotal": 7582,
+    "taxable_total": 7582,
+    "cgst_total": 682.38,
+    "sgst_total": 682.38,
+    "tax_total": 1364.76
   },
   "tax_rows": [
     {
       "hsn": "999599",
-      "taxable": 48454,
+      "taxable": 7582,
       "cgst_rate": 9.0,
-      "cgst_amt": 4360.86,
+      "cgst_amt": 682.38,
       "sgst_rate": 9.0,
-      "sgst_amt": 4360.86
+      "sgst_amt": 682.38
     }
   ],
-  "amount_in_words": "INR Fifty-Seven Thousand, One Hundred And Seventy-Six Only",
-  "tax_amount_in_words": "INR Eight Thousand, Seven Hundred And Twenty-Two Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Eight Thousand, Nine Hundred And Forty-Seven Only",
+  "tax_amount_in_words": "INR One Thousand, Three Hundred And Sixty-Five Only",
+  "remarks": "Monthly service billing.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "65301027310",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "50559068795",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
     "gst_slab": 18,

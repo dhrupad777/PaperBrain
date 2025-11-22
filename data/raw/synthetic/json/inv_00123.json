@@ -1,77 +1,98 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 340, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 454425",
-    "gstin": "27ADKRF3119B1Z9",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 641, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 442267",
+    "gstin": "27QAGHE7127Z1Z8",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts76@kanteenfoods.com",
-    "pan": "HHSZK5092L"
+    "email": "accounts94@talojamfgassn.com",
+    "pan": "NYVEN9032U"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 93, Sector 28, Mumbai - 463488",
-    "gstin": "27YADHD6080E1Z4",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 159, Sector 5, Mumbai - 439744",
+    "gstin": "27UNPAC8539P1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-308",
-    "date": "26-Aug-24",
+    "no": "T-706",
+    "date": "02-Nov-24",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-6770",
-    "order_date": "16-Aug-24",
+    "order_no": "PO-7572",
+    "order_date": "02-Nov-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "Ex-Works"
+    "destination": "Pune",
+    "delivery_terms": ""
   },
   "items": [
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "2",
-      "rate": 568,
-      "amount": 1136
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 3875,
+      "amount": 3875
     },
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "1",
-      "rate": 429,
-      "amount": 429
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 3490,
+      "amount": 34900
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 1018,
+      "amount": 10180
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 443,
+      "amount": 4430
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 3931,
+      "amount": 39310
     }
   ],
   "totals": {
-    "subtotal": 1565,
-    "taxable_total": 1565,
+    "subtotal": 92695,
+    "taxable_total": 92695,
     "cgst_total": 0.0,
     "sgst_total": 0.0,
     "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "998361",
-      "taxable": 1565,
+      "hsn": "940330",
+      "taxable": 92695,
       "cgst_rate": 0.0,
       "cgst_amt": 0.0,
       "sgst_rate": 0.0,
       "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR One Thousand, Five Hundred And Sixty-Five Only",
+  "amount_in_words": "INR Ninety-Two Thousand, Six Hundred And Ninety-Five Only",
   "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Subscription renewal invoice.",
+  "remarks": "Monthly service billing.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "30702490619",
-    "branch_ifsc": "TALOJA – HDFC0000123",
+    "acno": "67085840281",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {

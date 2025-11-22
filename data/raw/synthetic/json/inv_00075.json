@@ -1,78 +1,113 @@
 {
   "seller": {
-    "name": "VISTA REALTY SERVICES",
-    "name_short": "VISTA REALTY",
-    "addr1": "Plot 472, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 487050",
-    "gstin": "27CSPVR4914P1Z7",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 227, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 455859",
+    "gstin": "27NEGDK6816R1Z1",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts76@vistarealty.com",
-    "pan": "DBKFI2337I"
+    "email": "accounts20@talojamfgassn.com",
+    "pan": "BEBLM7629Z"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 619, Sector 29, Mumbai - 408820",
-    "gstin": "27ICSKX3571X1Z4",
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 466, Sector 20, Mumbai - 431453",
+    "gstin": "27SIBDX9123G1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-127",
-    "date": "27-Jan-25",
+    "no": "GST-425",
+    "date": "24-May-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-6563",
-    "order_date": "23-Jan-25",
+    "order_no": "PO-9999",
+    "order_date": "17-May-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
-    "destination": "Mumbai",
-    "delivery_terms": "CIF"
+    "destination": "Pune",
+    "delivery_terms": ""
   },
   "items": [
     {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 4109,
+      "amount": 12327
+    },
+    {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
-      "qty": "10",
-      "rate": 3038,
-      "amount": 30380
+      "qty": "2",
+      "rate": 3605,
+      "amount": 7210
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 3387,
+      "amount": 16935
     },
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
+      "qty": "1",
+      "rate": 525,
+      "amount": 525
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 915,
+      "amount": 4575
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 1168,
+      "amount": 3504
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "2",
-      "rate": 2657,
-      "amount": 5314
+      "rate": 3358,
+      "amount": 6716
     }
   ],
   "totals": {
-    "subtotal": 35694,
-    "taxable_total": 35694,
-    "cgst_total": 892.35,
-    "sgst_total": 892.35,
-    "tax_total": 1784.7
+    "subtotal": 51792,
+    "taxable_total": 51792,
+    "cgst_total": 1294.8,
+    "sgst_total": 1294.8,
+    "tax_total": 2589.6
   },
   "tax_rows": [
     {
-      "hsn": "853690",
-      "taxable": 35694,
+      "hsn": "940330",
+      "taxable": 51792,
       "cgst_rate": 2.5,
-      "cgst_amt": 892.35,
+      "cgst_amt": 1294.8,
       "sgst_rate": 2.5,
-      "sgst_amt": 892.35
+      "sgst_amt": 1294.8
     }
   ],
-  "amount_in_words": "INR Thirty-Seven Thousand, Four Hundred And Seventy-Nine Only",
-  "tax_amount_in_words": "INR One Thousand, Seven Hundred And Eighty-Five Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR Fifty-Four Thousand, Three Hundred And Eighty-Two Only",
+  "tax_amount_in_words": "INR Two Thousand, Five Hundred And Ninety Only",
+  "remarks": "Monthly service billing.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "14209213910",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "58974142010",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
     "gst_slab": 5,

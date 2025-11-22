@@ -1,77 +1,105 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 691, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 430847",
-    "gstin": "27QNWAZ4248F1Z3",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 516, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 431278",
+    "gstin": "27KJOPK7022M1Z7",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts38@nexolindustries.com",
-    "pan": "VTGDN8909X"
+    "email": "accounts39@vistarealty.com",
+    "pan": "ZNQOK6840J"
   },
   "buyer": {
-    "name": "UNITY CONSTRUCTIONS",
-    "address": "Flat 599, Sector 45, Mumbai - 450978",
-    "gstin": "27RVYNB7813O1Z2",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 478, Sector 11, Mumbai - 477906",
+    "gstin": "27EWUMD5640I1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-121",
-    "date": "26-May-24",
+    "no": "GST-872",
+    "date": "29-Jul-24",
     "delivery_note": "",
     "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3747",
-    "order_date": "18-May-24",
+    "order_no": "PO-8996",
+    "order_date": "24-Jul-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Mumbai",
-    "delivery_terms": "Ex-Works"
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "3",
-      "rate": 3320,
-      "amount": 9960
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 2476,
+      "amount": 24760
     },
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "10",
-      "rate": 2532,
-      "amount": 25320
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 1411,
+      "amount": 7055
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "5",
+      "rate": 1033,
+      "amount": 5165
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 4187,
+      "amount": 4187
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 2770,
+      "amount": 5540
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 833,
+      "amount": 1666
     }
   ],
   "totals": {
-    "subtotal": 35280,
-    "taxable_total": 35280,
-    "cgst_total": 2116.8,
-    "sgst_total": 2116.8,
-    "tax_total": 4233.6
+    "subtotal": 48373,
+    "taxable_total": 48373,
+    "cgst_total": 2902.38,
+    "sgst_total": 2902.38,
+    "tax_total": 5804.76
   },
   "tax_rows": [
     {
-      "hsn": "853690",
-      "taxable": 35280,
+      "hsn": "940330",
+      "taxable": 48373,
       "cgst_rate": 6.0,
-      "cgst_amt": 2116.8,
+      "cgst_amt": 2902.38,
       "sgst_rate": 6.0,
-      "sgst_amt": 2116.8
+      "sgst_amt": 2902.38
     }
   ],
-  "amount_in_words": "INR Thirty-Nine Thousand, Five Hundred And Fourteen Only",
-  "tax_amount_in_words": "INR Four Thousand, Two Hundred And Thirty-Four Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Fifty-Four Thousand, One Hundred And Seventy-Eight Only",
+  "tax_amount_in_words": "INR Five Thousand, Eight Hundred And Five Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "79818712414",
-    "branch_ifsc": "PUNE – ICIC0000456",
+    "acno": "13227729975",
+    "branch_ifsc": "TALOJA – ICIC0000456",
     "swift": "ICICINBBXXX"
   },
   "_meta": {

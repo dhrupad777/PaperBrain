@@ -1,88 +1,95 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 679, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 431677",
-    "gstin": "27BJVBJ3483C1Z4",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 251, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 464800",
+    "gstin": "27AKPIQ8293I1Z5",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts53@labstech.com",
-    "pan": "PPDTA9648T"
+    "email": "accounts25@talojamfgassn.com",
+    "pan": "LGPHH4634W"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 368, Sector 33, Mumbai - 449016",
-    "gstin": "27JKSOM1048B1Z1",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 557, Sector 50, Mumbai - 409665",
+    "gstin": "27XBCAR6959T1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-780",
-    "date": "12-Feb-25",
+    "no": "GST-753",
+    "date": "25-Jun-24",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-9518",
-    "order_date": "07-Feb-25",
+    "order_no": "PO-6673",
+    "order_date": "25-Jun-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
+    "dispatch_through": "Courier",
     "destination": "Navi Mumbai",
-    "delivery_terms": "CIF"
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "1",
-      "rate": 536,
-      "amount": 536
-    },
-    {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
-      "qty": "10",
-      "rate": 1241,
-      "amount": 12410
+      "qty": "1",
+      "rate": 1916,
+      "amount": 1916
     },
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 2829,
+      "amount": 8487
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 2111,
+      "amount": 6333
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
       "qty": "2",
-      "rate": 3017,
-      "amount": 6034
+      "rate": 2526,
+      "amount": 5052
     }
   ],
   "totals": {
-    "subtotal": 18980,
-    "taxable_total": 18980,
-    "cgst_total": 474.5,
-    "sgst_total": 474.5,
-    "tax_total": 949.0
+    "subtotal": 21788,
+    "taxable_total": 21788,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "998312",
-      "taxable": 18980,
-      "cgst_rate": 2.5,
-      "cgst_amt": 474.5,
-      "sgst_rate": 2.5,
-      "sgst_amt": 474.5
+      "hsn": "940330",
+      "taxable": 21788,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Nineteen Thousand, Nine Hundred And Twenty-Nine Only",
-  "tax_amount_in_words": "INR Nine Hundred And Forty-Nine Only",
+  "amount_in_words": "INR Twenty-One Thousand, Seven Hundred And Eighty-Eight Only",
+  "tax_amount_in_words": "INR Zero Only",
   "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "66176436993",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "24427745387",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 0,
     "generated_id": 151
   }
 }

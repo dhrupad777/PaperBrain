@@ -2,80 +2,101 @@
   "seller": {
     "name": "NEXOL INDUSTRIES PVT LTD",
     "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 759, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 440469",
-    "gstin": "27BCKLN3898M1Z7",
+    "addr1": "Plot 930, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 442648",
+    "gstin": "27XTZZP6761L1Z7",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts72@nexolindustries.com",
-    "pan": "SPOJL9342Q"
+    "email": "accounts69@nexolindustries.com",
+    "pan": "GXMYI4921H"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 440, Sector 23, Mumbai - 443221",
-    "gstin": "27JMISO9836R1Z4",
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 179, Sector 36, Mumbai - 483999",
+    "gstin": "27BQWZL5757R1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-175",
-    "date": "26-Nov-24",
+    "no": "INV-886",
+    "date": "20-Sep-24",
     "delivery_note": "",
     "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-4629",
-    "order_date": "16-Nov-24",
+    "order_no": "PO-3824",
+    "order_date": "17-Sep-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Mumbai",
-    "delivery_terms": "Ex-Works"
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
+      "particulars": "Advertising Services",
+      "hsn": "998361",
       "qty": "1",
-      "rate": 1998,
-      "amount": 1998
+      "rate": 4046,
+      "amount": 4046
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 3322,
+      "amount": 3322
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "5",
+      "rate": 2790,
+      "amount": 13950
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
-      "qty": "5",
-      "rate": 1769,
-      "amount": 8845
+      "qty": "2",
+      "rate": 4466,
+      "amount": 8932
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 3186,
+      "amount": 31860
     }
   ],
   "totals": {
-    "subtotal": 10843,
-    "taxable_total": 10843,
-    "cgst_total": 1518.02,
-    "sgst_total": 1518.02,
-    "tax_total": 3036.04
+    "subtotal": 62110,
+    "taxable_total": 62110,
+    "cgst_total": 5589.9,
+    "sgst_total": 5589.9,
+    "tax_total": 11179.8
   },
   "tax_rows": [
     {
-      "hsn": "996331",
-      "taxable": 10843,
-      "cgst_rate": 14.0,
-      "cgst_amt": 1518.02,
-      "sgst_rate": 14.0,
-      "sgst_amt": 1518.02
+      "hsn": "998361",
+      "taxable": 62110,
+      "cgst_rate": 9.0,
+      "cgst_amt": 5589.9,
+      "sgst_rate": 9.0,
+      "sgst_amt": 5589.9
     }
   ],
-  "amount_in_words": "INR Thirteen Thousand, Eight Hundred And Seventy-Nine Only",
-  "tax_amount_in_words": "INR Three Thousand And Thirty-Six Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Seventy-Three Thousand, Two Hundred And Ninety Only",
+  "tax_amount_in_words": "INR Eleven Thousand, One Hundred And Eighty Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "22683336108",
-    "branch_ifsc": "PUNE – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "ICICI BANK",
+    "acno": "90279238465",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 18,
     "generated_id": 88
   }
 }

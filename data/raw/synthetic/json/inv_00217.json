@@ -1,102 +1,109 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 372, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 452697",
-    "gstin": "27GWCCJ5129L1Z6",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 155, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 498054",
+    "gstin": "27IQBQU3975J1Z6",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts96@labstech.com",
-    "pan": "LTBAW7810H"
+    "email": "accounts14@vistarealty.com",
+    "pan": "BLRFD3618G"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 958, Sector 29, Mumbai - 480179",
-    "gstin": "27ZATVI2462O1Z6",
+    "name": "OMKAR TRADERS",
+    "address": "Flat 903, Sector 16, Mumbai - 448290",
+    "gstin": "27LRWIB5957C1Z1",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-373",
-    "date": "12-Jun-24",
+    "no": "GST-256",
+    "date": "26-Jul-24",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-8607",
-    "order_date": "11-Jun-24",
+    "order_no": "PO-6258",
+    "order_date": "24-Jul-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
-    "destination": "Mumbai",
-    "delivery_terms": ""
+    "destination": "Pune",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
-      "qty": "1",
-      "rate": 1562,
-      "amount": 1562
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
       "qty": "2",
-      "rate": 4072,
-      "amount": 8144
+      "rate": 1572,
+      "amount": 3144
     },
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
       "qty": "5",
-      "rate": 304,
-      "amount": 1520
+      "rate": 1079,
+      "amount": 5395
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
-      "qty": "1",
-      "rate": 2428,
-      "amount": 2428
+      "qty": "2",
+      "rate": 446,
+      "amount": 892
     },
     {
       "particulars": "Catering Services",
       "hsn": "996331",
-      "qty": "1",
-      "rate": 1752,
-      "amount": 1752
+      "qty": "10",
+      "rate": 3062,
+      "amount": 30620
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 780,
+      "amount": 3900
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 2384,
+      "amount": 4768
     }
   ],
   "totals": {
-    "subtotal": 15406,
-    "taxable_total": 15406,
-    "cgst_total": 385.15,
-    "sgst_total": 385.15,
-    "tax_total": 770.3
+    "subtotal": 48719,
+    "taxable_total": 48719,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
       "hsn": "853690",
-      "taxable": 15406,
-      "cgst_rate": 2.5,
-      "cgst_amt": 385.15,
-      "sgst_rate": 2.5,
-      "sgst_amt": 385.15
+      "taxable": 48719,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Sixteen Thousand, One Hundred And Seventy-Six Only",
-  "tax_amount_in_words": "INR Seven Hundred And Seventy Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Forty-Eight Thousand, Seven Hundred And Nineteen Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "66039154462",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "97751070668",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 0,
     "generated_id": 217
   }
 }

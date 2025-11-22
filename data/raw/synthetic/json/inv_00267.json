@@ -1,81 +1,109 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 69, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 421618",
-    "gstin": "27DCGMJ5064S1Z9",
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 224, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 471612",
+    "gstin": "27RJCEY8367M1Z7",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts79@kanteenfoods.com",
-    "pan": "RLWVK1714S"
+    "email": "accounts11@labstech.com",
+    "pan": "XPBRI5880T"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 470, Sector 5, Mumbai - 482208",
-    "gstin": "27NUMKU6620J1Z5",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 767, Sector 10, Mumbai - 424926",
+    "gstin": "27BUXFR2094D1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-325",
-    "date": "26-Oct-24",
+    "no": "INV-101",
+    "date": "26-Jun-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-4672",
-    "order_date": "20-Oct-24",
+    "order_no": "PO-5592",
+    "order_date": "19-Jun-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Navi Mumbai",
-    "delivery_terms": ""
+    "dispatch_through": "Email",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 3703,
+      "amount": 7406
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
       "qty": "10",
-      "rate": 4035,
-      "amount": 40350
+      "rate": 3928,
+      "amount": 39280
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
-      "qty": "1",
-      "rate": 4333,
-      "amount": 4333
+      "qty": "10",
+      "rate": 4739,
+      "amount": 47390
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 4689,
+      "amount": 23445
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 907,
+      "amount": 9070
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 2945,
+      "amount": 8835
     }
   ],
   "totals": {
-    "subtotal": 44683,
-    "taxable_total": 44683,
-    "cgst_total": 1117.08,
-    "sgst_total": 1117.08,
-    "tax_total": 2234.15
+    "subtotal": 135426,
+    "taxable_total": 135426,
+    "cgst_total": 8125.56,
+    "sgst_total": 8125.56,
+    "tax_total": 16251.12
   },
   "tax_rows": [
     {
-      "hsn": "997331",
-      "taxable": 44683,
-      "cgst_rate": 2.5,
-      "cgst_amt": 1117.08,
-      "sgst_rate": 2.5,
-      "sgst_amt": 1117.08
+      "hsn": "996331",
+      "taxable": 135426,
+      "cgst_rate": 6.0,
+      "cgst_amt": 8125.56,
+      "sgst_rate": 6.0,
+      "sgst_amt": 8125.56
     }
   ],
-  "amount_in_words": "INR Forty-Six Thousand, Nine Hundred And Seventeen Only",
-  "tax_amount_in_words": "INR Two Thousand, Two Hundred And Thirty-Four Only",
+  "amount_in_words": "INR One Lakh, Fifty-One Thousand, Six Hundred And Seventy-Seven Only",
+  "tax_amount_in_words": "INR Sixteen Thousand, Two Hundred And Fifty-One Only",
   "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "ICICI BANK",
-    "acno": "62686551779",
-    "branch_ifsc": "TALOJA – ICIC0000456",
+    "acno": "43362352447",
+    "branch_ifsc": "PUNE – ICIC0000456",
     "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 12,
     "generated_id": 267
   }
 }

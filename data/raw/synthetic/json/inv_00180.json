@@ -1,116 +1,109 @@
 {
   "seller": {
-    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
-    "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 207, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 442702",
-    "gstin": "27PGMAP5304D1Z4",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 260, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 403834",
+    "gstin": "27FKGGN1299B1Z5",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts4@talojamfgassn.com",
-    "pan": "MYQPF3372N"
+    "email": "accounts30@vistarealty.com",
+    "pan": "EJCKY8639A"
   },
   "buyer": {
-    "name": "OMKAR TRADERS",
-    "address": "Flat 192, Sector 45, Mumbai - 462905",
-    "gstin": "27IKDOB9736V1Z1",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 145, Sector 28, Mumbai - 456622",
+    "gstin": "27NORIW8362G1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-318",
-    "date": "21-Nov-24",
+    "no": "INV-762",
+    "date": "18-Jul-24",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-2345",
-    "order_date": "15-Nov-24",
+    "order_no": "PO-1238",
+    "order_date": "10-Jul-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Mumbai",
-    "delivery_terms": ""
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "1",
-      "rate": 1748,
-      "amount": 1748
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "2",
+      "rate": 2361,
+      "amount": 4722
     },
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
       "qty": "5",
-      "rate": 536,
-      "amount": 2680
+      "rate": 4799,
+      "amount": 23995
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "1",
+      "rate": 3567,
+      "amount": 3567
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 806,
+      "amount": 8060
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "5",
+      "rate": 1015,
+      "amount": 5075
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
-      "qty": "2",
-      "rate": 1304,
-      "amount": 2608
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "5",
-      "rate": 3973,
-      "amount": 19865
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
       "qty": "1",
-      "rate": 2842,
-      "amount": 2842
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "2",
-      "rate": 2792,
-      "amount": 5584
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "5",
-      "rate": 1096,
-      "amount": 5480
+      "rate": 1190,
+      "amount": 1190
     }
   ],
   "totals": {
-    "subtotal": 40807,
-    "taxable_total": 40807,
-    "cgst_total": 5712.98,
-    "sgst_total": 5712.98,
-    "tax_total": 11425.96
+    "subtotal": 46609,
+    "taxable_total": 46609,
+    "cgst_total": 2796.54,
+    "sgst_total": 2796.54,
+    "tax_total": 5593.08
   },
   "tax_rows": [
     {
-      "hsn": "997331",
-      "taxable": 40807,
-      "cgst_rate": 14.0,
-      "cgst_amt": 5712.98,
-      "sgst_rate": 14.0,
-      "sgst_amt": 5712.98
+      "hsn": "940330",
+      "taxable": 46609,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2796.54,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2796.54
     }
   ],
-  "amount_in_words": "INR Fifty-Two Thousand, Two Hundred And Thirty-Three Only",
-  "tax_amount_in_words": "INR Eleven Thousand, Four Hundred And Twenty-Six Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR Fifty-Two Thousand, Two Hundred And Two Only",
+  "tax_amount_in_words": "INR Five Thousand, Five Hundred And Ninety-Three Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "30835356624",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "ICICI BANK",
+    "acno": "63538575290",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 12,
     "generated_id": 180
   }
 }

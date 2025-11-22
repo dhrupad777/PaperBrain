@@ -1,81 +1,116 @@
 {
   "seller": {
-    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
-    "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 833, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 448551",
-    "gstin": "27AZXXK3631I1Z5",
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 20, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 411317",
+    "gstin": "27BCWRZ8539T1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts75@talojamfgassn.com",
-    "pan": "JOKKJ1616F"
+    "email": "accounts42@labstech.com",
+    "pan": "KTSYJ3308C"
   },
   "buyer": {
-    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
-    "address": "Flat 92, Sector 14, Mumbai - 402971",
-    "gstin": "27QYAKL4782H1Z4",
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 517, Sector 36, Mumbai - 417411",
+    "gstin": "27OOHBI1295T1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-723",
-    "date": "24-Oct-24",
+    "no": "INV-360",
+    "date": "25-Aug-24",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-4705",
-    "order_date": "22-Oct-24",
+    "order_no": "PO-1236",
+    "order_date": "19-Aug-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
+    "dispatch_through": "Hand Delivery",
     "destination": "Mumbai",
-    "delivery_terms": "FOB"
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
+      "particulars": "Advertising Services",
+      "hsn": "998361",
       "qty": "5",
-      "rate": 313,
-      "amount": 1565
+      "rate": 4490,
+      "amount": 22450
     },
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 4223,
+      "amount": 4223
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 2110,
+      "amount": 10550
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
       "qty": "2",
-      "rate": 2979,
-      "amount": 5958
+      "rate": 971,
+      "amount": 1942
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 1351,
+      "amount": 2702
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 4626,
+      "amount": 4626
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 3355,
+      "amount": 6710
     }
   ],
   "totals": {
-    "subtotal": 7523,
-    "taxable_total": 7523,
-    "cgst_total": 451.38,
-    "sgst_total": 451.38,
-    "tax_total": 902.76
+    "subtotal": 53203,
+    "taxable_total": 53203,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "996331",
-      "taxable": 7523,
-      "cgst_rate": 6.0,
-      "cgst_amt": 451.38,
-      "sgst_rate": 6.0,
-      "sgst_amt": 451.38
+      "hsn": "998361",
+      "taxable": 53203,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Eight Thousand, Four Hundred And Twenty-Six Only",
-  "tax_amount_in_words": "INR Nine Hundred And Three Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Fifty-Three Thousand, Two Hundred And Three Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "64089040124",
-    "branch_ifsc": "TALOJA – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "ICICI BANK",
+    "acno": "35330607179",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 0,
     "generated_id": 147
   }
 }

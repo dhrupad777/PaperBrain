@@ -1,116 +1,109 @@
 {
   "seller": {
-    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
-    "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 455, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 410046",
-    "gstin": "27OTOGA1359J1Z3",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 895, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 483205",
+    "gstin": "27DFZEH9098S1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts6@talojamfgassn.com",
-    "pan": "SDBQP5254O"
+    "email": "accounts33@kanteenfoods.com",
+    "pan": "JPFLC4139Y"
   },
   "buyer": {
-    "name": "OMKAR TRADERS",
-    "address": "Flat 834, Sector 17, Mumbai - 442795",
-    "gstin": "27GSKQS6029C1Z7",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 142, Sector 22, Mumbai - 458633",
+    "gstin": "27FXNKD4940W1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-662",
-    "date": "18-Feb-25",
+    "no": "INV-815",
+    "date": "05-Jul-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-6730",
-    "order_date": "11-Feb-25",
+    "order_no": "PO-2078",
+    "order_date": "29-Jun-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
+    "dispatch_through": "Email",
     "destination": "Mumbai",
-    "delivery_terms": ""
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "1",
-      "rate": 3973,
-      "amount": 3973
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 3186,
+      "amount": 6372
     },
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "1",
-      "rate": 2463,
-      "amount": 2463
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
+      "particulars": "Office Rent",
+      "hsn": "999599",
       "qty": "10",
-      "rate": 3466,
-      "amount": 34660
+      "rate": 406,
+      "amount": 4060
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 2915,
+      "amount": 2915
     },
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
       "qty": "1",
-      "rate": 4335,
-      "amount": 4335
+      "rate": 3065,
+      "amount": 3065
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 749,
+      "amount": 2247
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
       "qty": "1",
-      "rate": 3530,
-      "amount": 3530
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "1",
-      "rate": 903,
-      "amount": 903
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "10",
-      "rate": 3048,
-      "amount": 30480
+      "rate": 959,
+      "amount": 959
     }
   ],
   "totals": {
-    "subtotal": 80344,
-    "taxable_total": 80344,
-    "cgst_total": 11248.16,
-    "sgst_total": 11248.16,
-    "tax_total": 22496.32
+    "subtotal": 19618,
+    "taxable_total": 19618,
+    "cgst_total": 1765.62,
+    "sgst_total": 1765.62,
+    "tax_total": 3531.24
   },
   "tax_rows": [
     {
-      "hsn": "996331",
-      "taxable": 80344,
-      "cgst_rate": 14.0,
-      "cgst_amt": 11248.16,
-      "sgst_rate": 14.0,
-      "sgst_amt": 11248.16
+      "hsn": "998312",
+      "taxable": 19618,
+      "cgst_rate": 9.0,
+      "cgst_amt": 1765.62,
+      "sgst_rate": 9.0,
+      "sgst_amt": 1765.62
     }
   ],
-  "amount_in_words": "INR One Lakh, Two Thousand, Eight Hundred And Forty Only",
-  "tax_amount_in_words": "INR Twenty-Two Thousand, Four Hundred And Ninety-Six Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Twenty-Three Thousand, One Hundred And Forty-Nine Only",
+  "tax_amount_in_words": "INR Three Thousand, Five Hundred And Thirty-One Only",
+  "remarks": "Monthly service billing.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "57211510587",
-    "branch_ifsc": "PUNE – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "ICICI BANK",
+    "acno": "10838201329",
+    "branch_ifsc": "MUMBAI – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 18,
     "generated_id": 216
   }
 }

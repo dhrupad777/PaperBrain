@@ -1,116 +1,109 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 984, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 415640",
-    "gstin": "27FPOAR1286H1Z9",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 949, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 415370",
+    "gstin": "27KXCYY3806N1Z8",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts21@labstech.com",
-    "pan": "NXGHM6725L"
+    "email": "accounts83@vistarealty.com",
+    "pan": "UTDHA7099Z"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 567, Sector 12, Mumbai - 448347",
-    "gstin": "27XXNJT5706D1Z7",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 395, Sector 21, Mumbai - 478397",
+    "gstin": "27VSUSC2666T1Z8",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-317",
-    "date": "27-Apr-25",
+    "no": "GST-663",
+    "date": "15-Jun-24",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-9196",
-    "order_date": "19-Apr-25",
+    "order_no": "PO-6546",
+    "order_date": "05-Jun-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
-    "destination": "Mumbai",
-    "delivery_terms": ""
+    "destination": "Thane",
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "2",
-      "rate": 1500,
-      "amount": 3000
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "5",
+      "rate": 4966,
+      "amount": 24830
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
-      "qty": "2",
-      "rate": 2870,
-      "amount": 5740
+      "qty": "10",
+      "rate": 2018,
+      "amount": 20180
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 2040,
+      "amount": 20400
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 256,
+      "amount": 2560
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
       "qty": "5",
-      "rate": 3997,
-      "amount": 19985
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 4964,
-      "amount": 4964
+      "rate": 4046,
+      "amount": 20230
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "2",
-      "rate": 676,
-      "amount": 1352
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "5",
-      "rate": 4865,
-      "amount": 24325
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "3",
-      "rate": 3629,
-      "amount": 10887
+      "qty": "10",
+      "rate": 2049,
+      "amount": 20490
     }
   ],
   "totals": {
-    "subtotal": 70253,
-    "taxable_total": 70253,
-    "cgst_total": 0.0,
-    "sgst_total": 0.0,
-    "tax_total": 0.0
+    "subtotal": 108690,
+    "taxable_total": 108690,
+    "cgst_total": 2717.25,
+    "sgst_total": 2717.25,
+    "tax_total": 5434.5
   },
   "tax_rows": [
     {
-      "hsn": "998312",
-      "taxable": 70253,
-      "cgst_rate": 0.0,
-      "cgst_amt": 0.0,
-      "sgst_rate": 0.0,
-      "sgst_amt": 0.0
+      "hsn": "997331",
+      "taxable": 108690,
+      "cgst_rate": 2.5,
+      "cgst_amt": 2717.25,
+      "sgst_rate": 2.5,
+      "sgst_amt": 2717.25
     }
   ],
-  "amount_in_words": "INR Seventy Thousand, Two Hundred And Fifty-Three Only",
-  "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR One Lakh, Fourteen Thousand, One Hundred And Twenty-Four Only",
+  "tax_amount_in_words": "INR Five Thousand, Four Hundred And Thirty-Four Only",
+  "remarks": "Monthly service billing.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "16105194878",
-    "branch_ifsc": "TALOJA – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "HDFC BANK",
+    "acno": "44351913845",
+    "branch_ifsc": "TALOJA – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 0,
+    "gst_slab": 5,
     "generated_id": 162
   }
 }

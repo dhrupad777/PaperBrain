@@ -1,123 +1,88 @@
 {
   "seller": {
-    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
-    "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 881, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 443947",
-    "gstin": "27JRLMK1428F1Z1",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 735, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 477717",
+    "gstin": "27ZFCDA8466B1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts80@talojamfgassn.com",
-    "pan": "CNIWE1081N"
+    "email": "accounts39@kanteenfoods.com",
+    "pan": "XLKWQ4505C"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 530, Sector 6, Mumbai - 468381",
-    "gstin": "27KZUWE7408J1Z9",
+    "name": "STARLIGHT CATERERS",
+    "address": "Flat 410, Sector 44, Mumbai - 403352",
+    "gstin": "27KJFMF2039F1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-447",
-    "date": "26-Sep-24",
+    "no": "PB-423",
+    "date": "25-Oct-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3837",
-    "order_date": "24-Sep-24",
+    "order_no": "PO-3595",
+    "order_date": "24-Oct-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Thane",
-    "delivery_terms": "FOB"
+    "dispatch_through": "Courier",
+    "destination": "Mumbai",
+    "delivery_terms": ""
   },
   "items": [
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
       "qty": "1",
-      "rate": 2952,
-      "amount": 2952
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "10",
-      "rate": 3014,
-      "amount": 30140
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "10",
-      "rate": 1120,
-      "amount": 11200
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "2",
-      "rate": 4840,
-      "amount": 9680
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "10",
-      "rate": 3820,
-      "amount": 38200
+      "rate": 1578,
+      "amount": 1578
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
-      "qty": "3",
-      "rate": 1317,
-      "amount": 3951
+      "qty": "5",
+      "rate": 1067,
+      "amount": 5335
     },
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "10",
-      "rate": 924,
-      "amount": 9240
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 468,
-      "amount": 4680
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 3336,
+      "amount": 3336
     }
   ],
   "totals": {
-    "subtotal": 110043,
-    "taxable_total": 110043,
-    "cgst_total": 6602.58,
-    "sgst_total": 6602.58,
-    "tax_total": 13205.16
+    "subtotal": 10249,
+    "taxable_total": 10249,
+    "cgst_total": 922.41,
+    "sgst_total": 922.41,
+    "tax_total": 1844.82
   },
   "tax_rows": [
     {
       "hsn": "997331",
-      "taxable": 110043,
-      "cgst_rate": 6.0,
-      "cgst_amt": 6602.58,
-      "sgst_rate": 6.0,
-      "sgst_amt": 6602.58
+      "taxable": 10249,
+      "cgst_rate": 9.0,
+      "cgst_amt": 922.41,
+      "sgst_rate": 9.0,
+      "sgst_amt": 922.41
     }
   ],
-  "amount_in_words": "INR One Lakh, Twenty-Three Thousand, Two Hundred And Forty-Eight Only",
-  "tax_amount_in_words": "INR Thirteen Thousand, Two Hundred And Five Only",
+  "amount_in_words": "INR Twelve Thousand And Ninety-Four Only",
+  "tax_amount_in_words": "INR One Thousand, Eight Hundred And Forty-Five Only",
   "remarks": "Goods supplied as per order.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "89326801877",
-    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "acno": "97808251308",
+    "branch_ifsc": "TALOJA – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 18,
     "generated_id": 192
   }
 }

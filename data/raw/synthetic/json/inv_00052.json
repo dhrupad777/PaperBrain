@@ -2,101 +2,101 @@
   "seller": {
     "name": "LABS TECH SOLUTIONS",
     "name_short": "LABS TECH",
-    "addr1": "Plot 341, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 479743",
-    "gstin": "27WIBXK2208L1Z6",
+    "addr1": "Plot 114, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 419804",
+    "gstin": "27WZDDD3731U1Z8",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts54@labstech.com",
-    "pan": "RFXBX8908P"
+    "email": "accounts92@labstech.com",
+    "pan": "YWXMD3262O"
   },
   "buyer": {
     "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 316, Sector 25, Mumbai - 471864",
-    "gstin": "27TKFCD3481Y1Z4",
+    "address": "Flat 673, Sector 15, Mumbai - 484678",
+    "gstin": "27XVVGA4833M1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-995",
-    "date": "11-Feb-25",
+    "no": "GST-226",
+    "date": "26-Jun-24",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-8937",
-    "order_date": "09-Feb-25",
+    "order_no": "PO-9808",
+    "order_date": "21-Jun-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
-    "destination": "Pune",
+    "destination": "Mumbai",
     "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "10",
-      "rate": 4350,
-      "amount": 43500
+      "rate": 1089,
+      "amount": 10890
     },
     {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "1",
+      "rate": 621,
+      "amount": 621
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "5",
-      "rate": 3727,
-      "amount": 18635
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "10",
-      "rate": 3131,
-      "amount": 31310
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "10",
-      "rate": 2173,
-      "amount": 21730
+      "rate": 406,
+      "amount": 2030
     },
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
-      "qty": "1",
-      "rate": 1944,
-      "amount": 1944
+      "qty": "5",
+      "rate": 3857,
+      "amount": 19285
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 749,
+      "amount": 1498
     }
   ],
   "totals": {
-    "subtotal": 117119,
-    "taxable_total": 117119,
-    "cgst_total": 7027.14,
-    "sgst_total": 7027.14,
-    "tax_total": 14054.28
+    "subtotal": 34324,
+    "taxable_total": 34324,
+    "cgst_total": 3089.16,
+    "sgst_total": 3089.16,
+    "tax_total": 6178.32
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 117119,
-      "cgst_rate": 6.0,
-      "cgst_amt": 7027.14,
-      "sgst_rate": 6.0,
-      "sgst_amt": 7027.14
+      "hsn": "996331",
+      "taxable": 34324,
+      "cgst_rate": 9.0,
+      "cgst_amt": 3089.16,
+      "sgst_rate": 9.0,
+      "sgst_amt": 3089.16
     }
   ],
-  "amount_in_words": "INR One Lakh, Thirty-One Thousand, One Hundred And Seventy-Three Only",
-  "tax_amount_in_words": "INR Fourteen Thousand And Fifty-Four Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Forty Thousand, Five Hundred And Two Only",
+  "tax_amount_in_words": "INR Six Thousand, One Hundred And Seventy-Eight Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "28260250852",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "ICICI BANK",
+    "acno": "40709575566",
+    "branch_ifsc": "TALOJA – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 18,
     "generated_id": 52
   }
 }

@@ -1,95 +1,88 @@
 {
   "seller": {
-    "name": "VISTA REALTY SERVICES",
-    "name_short": "VISTA REALTY",
-    "addr1": "Plot 868, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 453644",
-    "gstin": "27EZWAL3702E1Z5",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 73, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 404395",
+    "gstin": "27VKUDW4095P1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts4@vistarealty.com",
-    "pan": "BYMWQ1249L"
+    "email": "accounts62@talojamfgassn.com",
+    "pan": "KAHHB8139G"
   },
   "buyer": {
-    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
-    "address": "Flat 560, Sector 28, Mumbai - 441333",
-    "gstin": "27QGJPO8515B1Z7",
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 960, Sector 25, Mumbai - 423957",
+    "gstin": "27KJHOL5741E1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-370",
-    "date": "03-Nov-24",
+    "no": "PB-631",
+    "date": "08-Nov-24",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-1639",
-    "order_date": "29-Oct-24",
+    "order_no": "PO-9553",
+    "order_date": "04-Nov-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
-    "destination": "Mumbai",
-    "delivery_terms": ""
+    "destination": "Navi Mumbai",
+    "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
       "qty": "10",
-      "rate": 2415,
-      "amount": 24150
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "5",
-      "rate": 4754,
-      "amount": 23770
+      "rate": 4448,
+      "amount": 44480
     },
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
-      "qty": "5",
-      "rate": 380,
-      "amount": 1900
+      "qty": "3",
+      "rate": 2991,
+      "amount": 8973
     },
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "2",
-      "rate": 3203,
-      "amount": 6406
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 4690,
+      "amount": 4690
     }
   ],
   "totals": {
-    "subtotal": 56226,
-    "taxable_total": 56226,
-    "cgst_total": 7871.64,
-    "sgst_total": 7871.64,
-    "tax_total": 15743.28
+    "subtotal": 58143,
+    "taxable_total": 58143,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "996331",
-      "taxable": 56226,
-      "cgst_rate": 14.0,
-      "cgst_amt": 7871.64,
-      "sgst_rate": 14.0,
-      "sgst_amt": 7871.64
+      "hsn": "940330",
+      "taxable": 58143,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Seventy-One Thousand, Nine Hundred And Sixty-Nine Only",
-  "tax_amount_in_words": "INR Fifteen Thousand, Seven Hundred And Forty-Three Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR Fifty-Eight Thousand, One Hundred And Forty-Three Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Monthly service billing.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "85080804295",
-    "branch_ifsc": "TALOJA – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "HDFC BANK",
+    "acno": "45248979669",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 0,
     "generated_id": 64
   }
 }

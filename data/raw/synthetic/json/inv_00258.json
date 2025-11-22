@@ -2,115 +2,94 @@
   "seller": {
     "name": "VISTA REALTY SERVICES",
     "name_short": "VISTA REALTY",
-    "addr1": "Plot 848, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 478951",
-    "gstin": "27TBGVZ4842D1Z5",
+    "addr1": "Plot 22, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 457730",
+    "gstin": "27SQHIX6081Y1Z4",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts69@vistarealty.com",
-    "pan": "LLXWD3928E"
+    "email": "accounts37@vistarealty.com",
+    "pan": "ISGIB1319N"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 512, Sector 42, Mumbai - 491306",
-    "gstin": "27GSGDO1339F1Z6",
+    "name": "OMKAR TRADERS",
+    "address": "Flat 190, Sector 10, Mumbai - 427139",
+    "gstin": "27WGOAJ7280J1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-702",
-    "date": "07-Jan-25",
+    "no": "GST-124",
+    "date": "15-Jun-25",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3523",
-    "order_date": "06-Jan-25",
+    "order_no": "PO-7823",
+    "order_date": "14-Jun-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Mumbai",
-    "delivery_terms": "CIF"
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": ""
   },
   "items": [
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
-      "qty": "5",
-      "rate": 3048,
-      "amount": 15240
+      "qty": "1",
+      "rate": 2398,
+      "amount": 2398
     },
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "2",
-      "rate": 4139,
-      "amount": 8278
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "3",
+      "rate": 2577,
+      "amount": 7731
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 1442,
+      "amount": 4326
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
-      "qty": "2",
-      "rate": 2418,
-      "amount": 4836
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 642,
-      "amount": 642
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 2427,
-      "amount": 2427
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "2",
-      "rate": 3616,
-      "amount": 7232
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "5",
-      "rate": 994,
-      "amount": 4970
+      "qty": "3",
+      "rate": 2865,
+      "amount": 8595
     }
   ],
   "totals": {
-    "subtotal": 43625,
-    "taxable_total": 43625,
-    "cgst_total": 2617.5,
-    "sgst_total": 2617.5,
-    "tax_total": 5235.0
+    "subtotal": 23050,
+    "taxable_total": 23050,
+    "cgst_total": 2074.5,
+    "sgst_total": 2074.5,
+    "tax_total": 4149.0
   },
   "tax_rows": [
     {
       "hsn": "853690",
-      "taxable": 43625,
-      "cgst_rate": 6.0,
-      "cgst_amt": 2617.5,
-      "sgst_rate": 6.0,
-      "sgst_amt": 2617.5
+      "taxable": 23050,
+      "cgst_rate": 9.0,
+      "cgst_amt": 2074.5,
+      "sgst_rate": 9.0,
+      "sgst_amt": 2074.5
     }
   ],
-  "amount_in_words": "INR Forty-Eight Thousand, Eight Hundred And Sixty Only",
-  "tax_amount_in_words": "INR Five Thousand, Two Hundred And Thirty-Five Only",
+  "amount_in_words": "INR Twenty-Seven Thousand, One Hundred And Ninety-Nine Only",
+  "tax_amount_in_words": "INR Four Thousand, One Hundred And Forty-Nine Only",
   "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "36423837983",
-    "branch_ifsc": "TALOJA – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "13095372871",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 18,
     "generated_id": 258
   }
 }

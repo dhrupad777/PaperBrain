@@ -1,95 +1,102 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 118, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 429755",
-    "gstin": "27XCSGR9066D1Z7",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 353, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 475578",
+    "gstin": "27IUQOL6843G1Z9",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts83@kanteenfoods.com",
-    "pan": "WHSYP9178A"
+    "email": "accounts25@vistarealty.com",
+    "pan": "TODEC9419A"
   },
   "buyer": {
-    "name": "SUNRISE ELECTRONICS",
-    "address": "Flat 548, Sector 24, Mumbai - 454498",
-    "gstin": "27WCSSD8306F1Z4",
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 136, Sector 7, Mumbai - 456347",
+    "gstin": "27LGLAR6610N1Z2",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-849",
-    "date": "13-Jul-25",
+    "no": "INV-824",
+    "date": "04-Jan-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-6205",
-    "order_date": "13-Jul-25",
+    "order_no": "PO-6888",
+    "order_date": "31-Dec-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
-    "destination": "Pune",
-    "delivery_terms": "FOB"
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "3",
-      "rate": 3968,
-      "amount": 11904
-    },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
       "qty": "5",
-      "rate": 4772,
-      "amount": 23860
+      "rate": 1408,
+      "amount": 7040
     },
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "1",
-      "rate": 922,
-      "amount": 922
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 1835,
+      "amount": 5505
     },
     {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "2",
-      "rate": 1227,
-      "amount": 2454
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 2393,
+      "amount": 7179
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 3795,
+      "amount": 37950
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "3",
+      "rate": 4816,
+      "amount": 14448
     }
   ],
   "totals": {
-    "subtotal": 39140,
-    "taxable_total": 39140,
-    "cgst_total": 3522.6,
-    "sgst_total": 3522.6,
-    "tax_total": 7045.2
+    "subtotal": 72122,
+    "taxable_total": 72122,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "998312",
-      "taxable": 39140,
-      "cgst_rate": 9.0,
-      "cgst_amt": 3522.6,
-      "sgst_rate": 9.0,
-      "sgst_amt": 3522.6
+      "hsn": "999599",
+      "taxable": 72122,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Forty-Six Thousand, One Hundred And Eighty-Five Only",
-  "tax_amount_in_words": "INR Seven Thousand And Forty-Five Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Seventy-Two Thousand, One Hundred And Twenty-Two Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "87049291105",
-    "branch_ifsc": "PUNE – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "HDFC BANK",
+    "acno": "58848964969",
+    "branch_ifsc": "PUNE – HDFC0000123",
+    "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 18,
+    "gst_slab": 0,
     "generated_id": 19
   }
 }

@@ -1,112 +1,91 @@
 {
   "seller": {
-    "name": "VISTA REALTY SERVICES",
-    "name_short": "VISTA REALTY",
-    "addr1": "Plot 610, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 427734",
-    "gstin": "27TZKKH6083P1Z5",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 951, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 433585",
+    "gstin": "27OXDRD5242X1Z8",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts13@vistarealty.com",
-    "pan": "BXNVI2236E"
+    "email": "accounts13@kanteenfoods.com",
+    "pan": "OZSJE4339E"
   },
   "buyer": {
-    "name": "UNITY CONSTRUCTIONS",
-    "address": "Flat 397, Sector 12, Mumbai - 488669",
-    "gstin": "27GXVJW8642C1Z2",
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 122, Sector 3, Mumbai - 466957",
+    "gstin": "27KPSFS7038E1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-510",
-    "date": "14-Jun-25",
+    "no": "T-852",
+    "date": "13-Dec-24",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3088",
-    "order_date": "14-Jun-25",
+    "order_no": "PO-4243",
+    "order_date": "06-Dec-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Mumbai",
-    "delivery_terms": ""
+    "dispatch_through": "Courier",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "2",
-      "rate": 1395,
-      "amount": 2790
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "5",
-      "rate": 2673,
-      "amount": 13365
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "10",
-      "rate": 2202,
-      "amount": 22020
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 711,
-      "amount": 7110
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "2",
-      "rate": 933,
-      "amount": 1866
+      "rate": 3960,
+      "amount": 39600
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
-      "qty": "3",
-      "rate": 471,
-      "amount": 1413
+      "qty": "5",
+      "rate": 2699,
+      "amount": 13495
     },
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
       "qty": "3",
-      "rate": 3839,
-      "amount": 11517
+      "rate": 1980,
+      "amount": 5940
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 4945,
+      "amount": 4945
     }
   ],
   "totals": {
-    "subtotal": 60081,
-    "taxable_total": 60081,
-    "cgst_total": 8411.34,
-    "sgst_total": 8411.34,
-    "tax_total": 16822.68
+    "subtotal": 63980,
+    "taxable_total": 63980,
+    "cgst_total": 8957.2,
+    "sgst_total": 8957.2,
+    "tax_total": 17914.4
   },
   "tax_rows": [
     {
-      "hsn": "997331",
-      "taxable": 60081,
+      "hsn": "996331",
+      "taxable": 63980,
       "cgst_rate": 14.0,
-      "cgst_amt": 8411.34,
+      "cgst_amt": 8957.2,
       "sgst_rate": 14.0,
-      "sgst_amt": 8411.34
+      "sgst_amt": 8957.2
     }
   ],
-  "amount_in_words": "INR Seventy-Six Thousand, Nine Hundred And Four Only",
-  "tax_amount_in_words": "INR Sixteen Thousand, Eight Hundred And Twenty-Three Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR Eighty-One Thousand, Eight Hundred And Ninety-Four Only",
+  "tax_amount_in_words": "INR Seventeen Thousand, Nine Hundred And Fourteen Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "37484979242",
-    "branch_ifsc": "TALOJA – SBIN0012984",
+    "acno": "51048555216",
+    "branch_ifsc": "MUMBAI – SBIN0012984",
     "swift": "SBININBBXXX"
   },
   "_meta": {

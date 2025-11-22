@@ -1,123 +1,102 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 971, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 425921",
-    "gstin": "27OTRLW4075A1Z5",
+    "name": "NEXOL INDUSTRIES PVT LTD",
+    "name_short": "NEXOL INDUSTRIES",
+    "addr1": "Plot 427, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 461372",
+    "gstin": "27SAGFZ5617E1Z2",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts30@kanteenfoods.com",
-    "pan": "TACQU1987J"
+    "email": "accounts99@nexolindustries.com",
+    "pan": "TFNRJ2947Z"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 310, Sector 14, Mumbai - 490291",
-    "gstin": "27IOBRH5788E1Z1",
+    "name": "OMKAR TRADERS",
+    "address": "Flat 490, Sector 9, Mumbai - 472849",
+    "gstin": "27OAYGS9910X1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-274",
-    "date": "16-Aug-25",
+    "no": "PB-447",
+    "date": "28-Oct-25",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3084",
-    "order_date": "16-Aug-25",
+    "order_no": "PO-5931",
+    "order_date": "25-Oct-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Thane",
-    "delivery_terms": ""
+    "dispatch_through": "Hand Delivery",
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
   },
   "items": [
     {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 4604,
+      "amount": 23020
+    },
+    {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
-      "qty": "1",
-      "rate": 2625,
-      "amount": 2625
+      "qty": "3",
+      "rate": 2981,
+      "amount": 8943
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
       "qty": "1",
-      "rate": 716,
-      "amount": 716
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "5",
-      "rate": 3884,
-      "amount": 19420
+      "rate": 4672,
+      "amount": 4672
     },
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
-      "qty": "1",
-      "rate": 3773,
-      "amount": 3773
+      "qty": "2",
+      "rate": 2575,
+      "amount": 5150
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "2",
-      "rate": 4947,
-      "amount": 9894
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "2",
-      "rate": 3758,
-      "amount": 7516
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 751,
-      "amount": 751
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
       "qty": "5",
-      "rate": 1340,
-      "amount": 6700
+      "rate": 2893,
+      "amount": 14465
     }
   ],
   "totals": {
-    "subtotal": 51395,
-    "taxable_total": 51395,
-    "cgst_total": 3083.7,
-    "sgst_total": 3083.7,
-    "tax_total": 6167.4
+    "subtotal": 56250,
+    "taxable_total": 56250,
+    "cgst_total": 5062.5,
+    "sgst_total": 5062.5,
+    "tax_total": 10125.0
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 51395,
-      "cgst_rate": 6.0,
-      "cgst_amt": 3083.7,
-      "sgst_rate": 6.0,
-      "sgst_amt": 3083.7
+      "hsn": "998361",
+      "taxable": 56250,
+      "cgst_rate": 9.0,
+      "cgst_amt": 5062.5,
+      "sgst_rate": 9.0,
+      "sgst_amt": 5062.5
     }
   ],
-  "amount_in_words": "INR Fifty-Seven Thousand, Five Hundred And Sixty-Two Only",
-  "tax_amount_in_words": "INR Six Thousand, One Hundred And Sixty-Seven Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Sixty-Six Thousand, Three Hundred And Seventy-Five Only",
+  "tax_amount_in_words": "INR Ten Thousand, One Hundred And Twenty-Five Only",
+  "remarks": "Monthly service billing.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "67784381916",
+    "acno": "60802781908",
     "branch_ifsc": "TALOJA – SBIN0012984",
     "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 18,
     "generated_id": 108
   }
 }

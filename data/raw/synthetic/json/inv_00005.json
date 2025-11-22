@@ -1,95 +1,123 @@
 {
   "seller": {
-    "name": "VISTA REALTY SERVICES",
-    "name_short": "VISTA REALTY",
-    "addr1": "Plot 191, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 495691",
-    "gstin": "27YPXZB7380X1Z7",
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 887, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 486195",
+    "gstin": "27LHEUP7403V1Z6",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts80@vistarealty.com",
-    "pan": "YCKTQ6144C"
+    "email": "accounts85@labstech.com",
+    "pan": "STOIW8356H"
   },
   "buyer": {
-    "name": "SUNRISE ELECTRONICS",
-    "address": "Flat 658, Sector 45, Mumbai - 446531",
-    "gstin": "27SQQIS9744U1Z9",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 936, Sector 15, Mumbai - 418719",
+    "gstin": "27IRIOZ7418K1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-632",
-    "date": "03-Aug-25",
+    "no": "PB-453",
+    "date": "02-Jul-25",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-7610",
-    "order_date": "31-Jul-25",
+    "order_no": "PO-1714",
+    "order_date": "23-Jun-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
+    "dispatch_through": "Courier",
     "destination": "Mumbai",
-    "delivery_terms": "FOB"
+    "delivery_terms": "CIF"
   },
   "items": [
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 4356,
-      "amount": 4356
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 3247,
-      "amount": 32470
-    },
-    {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "2",
-      "rate": 1516,
-      "amount": 3032
+      "qty": "3",
+      "rate": 4839,
+      "amount": 14517
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "1",
+      "rate": 4369,
+      "amount": 4369
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 288,
+      "amount": 288
     },
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
-      "qty": "10",
-      "rate": 3122,
-      "amount": 31220
+      "qty": "1",
+      "rate": 3848,
+      "amount": 3848
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "3",
+      "rate": 1720,
+      "amount": 5160
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 3133,
+      "amount": 3133
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "3",
+      "rate": 2142,
+      "amount": 6426
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "2",
+      "rate": 2339,
+      "amount": 4678
     }
   ],
   "totals": {
-    "subtotal": 71078,
-    "taxable_total": 71078,
-    "cgst_total": 0.0,
-    "sgst_total": 0.0,
-    "tax_total": 0.0
+    "subtotal": 42419,
+    "taxable_total": 42419,
+    "cgst_total": 3817.71,
+    "sgst_total": 3817.71,
+    "tax_total": 7635.42
   },
   "tax_rows": [
     {
-      "hsn": "999599",
-      "taxable": 71078,
-      "cgst_rate": 0.0,
-      "cgst_amt": 0.0,
-      "sgst_rate": 0.0,
-      "sgst_amt": 0.0
+      "hsn": "998361",
+      "taxable": 42419,
+      "cgst_rate": 9.0,
+      "cgst_amt": 3817.71,
+      "sgst_rate": 9.0,
+      "sgst_amt": 3817.71
     }
   ],
-  "amount_in_words": "INR Seventy-One Thousand And Seventy-Eight Only",
-  "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Fifty Thousand And Fifty-Four Only",
+  "tax_amount_in_words": "INR Seven Thousand, Six Hundred And Thirty-Five Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "20707252055",
-    "branch_ifsc": "PUNE – HDFC0000123",
+    "acno": "85020220164",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 0,
+    "gst_slab": 18,
     "generated_id": 5
   }
 }

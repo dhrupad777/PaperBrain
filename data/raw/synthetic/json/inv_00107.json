@@ -1,102 +1,123 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 119, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 475410",
-    "gstin": "27VYQPY6806P1Z7",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 410, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 431288",
+    "gstin": "27DXWTB3589B1Z5",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts67@kanteenfoods.com",
-    "pan": "OIVGM9736C"
+    "email": "accounts5@vistarealty.com",
+    "pan": "CXMGP9246L"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 969, Sector 1, Mumbai - 455962",
-    "gstin": "27NZNTZ7262C1Z7",
+    "name": "OMKAR TRADERS",
+    "address": "Flat 501, Sector 5, Mumbai - 405524",
+    "gstin": "27ECJLZ6011O1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-026",
-    "date": "15-Oct-24",
+    "no": "PB-945",
+    "date": "29-Sep-25",
     "delivery_note": "",
     "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-4201",
-    "order_date": "05-Oct-24",
+    "order_no": "PO-6782",
+    "order_date": "21-Sep-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Mumbai",
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
     "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 4279,
-      "amount": 4279
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "2",
-      "rate": 3424,
-      "amount": 6848
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
       "qty": "3",
-      "rate": 717,
-      "amount": 2151
-    },
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 3890,
-      "amount": 3890
+      "rate": 3348,
+      "amount": 10044
     },
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
-      "qty": "1",
-      "rate": 4331,
-      "amount": 4331
+      "qty": "5",
+      "rate": 2417,
+      "amount": 12085
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "3",
+      "rate": 4282,
+      "amount": 12846
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "2",
+      "rate": 2547,
+      "amount": 5094
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "10",
+      "rate": 1982,
+      "amount": 19820
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "3",
+      "rate": 3719,
+      "amount": 11157
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 3042,
+      "amount": 30420
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "10",
+      "rate": 368,
+      "amount": 3680
     }
   ],
   "totals": {
-    "subtotal": 21499,
-    "taxable_total": 21499,
-    "cgst_total": 537.48,
-    "sgst_total": 537.48,
-    "tax_total": 1074.95
+    "subtotal": 105146,
+    "taxable_total": 105146,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "999599",
-      "taxable": 21499,
-      "cgst_rate": 2.5,
-      "cgst_amt": 537.48,
-      "sgst_rate": 2.5,
-      "sgst_amt": 537.48
+      "hsn": "940330",
+      "taxable": 105146,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Twenty-Two Thousand, Five Hundred And Seventy-Four Only",
-  "tax_amount_in_words": "INR One Thousand And Seventy-Five Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR One Lakh, Five Thousand, One Hundred And Forty-Six Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Lease compensation for premises.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "21536986114",
-    "branch_ifsc": "TALOJA – HDFC0000123",
+    "acno": "22373796944",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 0,
     "generated_id": 107
   }
 }

@@ -1,102 +1,123 @@
 {
   "seller": {
-    "name": "KANTEEN FOODS LLP",
-    "name_short": "KANTEEN FOODS",
-    "addr1": "Plot 107, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 471356",
-    "gstin": "27SRSUE4946L1Z3",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 75, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 481734",
+    "gstin": "27UFPJO9152X1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts75@kanteenfoods.com",
-    "pan": "PLFDB2989A"
+    "email": "accounts77@talojamfgassn.com",
+    "pan": "UKGCT8348X"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 880, Sector 50, Mumbai - 437832",
-    "gstin": "27QXNYD9330J1Z4",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 610, Sector 6, Mumbai - 435849",
+    "gstin": "27CMTGT8106E1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-476",
-    "date": "03-Dec-24",
+    "no": "INV-934",
+    "date": "04-Jun-25",
     "delivery_note": "",
     "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3430",
-    "order_date": "02-Dec-24",
+    "order_no": "PO-3867",
+    "order_date": "26-May-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Email",
-    "destination": "Thane",
+    "destination": "Mumbai",
     "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "5",
-      "rate": 4923,
-      "amount": 24615
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 2271,
+      "amount": 2271
     },
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "10",
-      "rate": 1054,
-      "amount": 10540
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "2",
-      "rate": 4464,
-      "amount": 8928
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 933,
+      "amount": 933
     },
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
       "qty": "5",
-      "rate": 4228,
-      "amount": 21140
+      "rate": 4041,
+      "amount": 20205
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "2",
+      "rate": 3763,
+      "amount": 7526
+    },
+    {
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "10",
+      "rate": 1556,
+      "amount": 15560
     },
     {
       "particulars": "Office Rent",
       "hsn": "999599",
+      "qty": "10",
+      "rate": 1284,
+      "amount": 12840
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
       "qty": "5",
-      "rate": 3684,
-      "amount": 18420
+      "rate": 2170,
+      "amount": 10850
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "1",
+      "rate": 2723,
+      "amount": 2723
     }
   ],
   "totals": {
-    "subtotal": 83643,
-    "taxable_total": 83643,
-    "cgst_total": 11710.02,
-    "sgst_total": 11710.02,
-    "tax_total": 23420.04
+    "subtotal": 72908,
+    "taxable_total": 72908,
+    "cgst_total": 4374.48,
+    "sgst_total": 4374.48,
+    "tax_total": 8748.96
   },
   "tax_rows": [
     {
-      "hsn": "853690",
-      "taxable": 83643,
-      "cgst_rate": 14.0,
-      "cgst_amt": 11710.02,
-      "sgst_rate": 14.0,
-      "sgst_amt": 11710.02
+      "hsn": "999599",
+      "taxable": 72908,
+      "cgst_rate": 6.0,
+      "cgst_amt": 4374.48,
+      "sgst_rate": 6.0,
+      "sgst_amt": 4374.48
     }
   ],
-  "amount_in_words": "INR One Lakh, Seven Thousand And Sixty-Three Only",
-  "tax_amount_in_words": "INR Twenty-Three Thousand, Four Hundred And Twenty Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Eighty-One Thousand, Six Hundred And Fifty-Seven Only",
+  "tax_amount_in_words": "INR Eight Thousand, Seven Hundred And Forty-Nine Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "37758910971",
-    "branch_ifsc": "TALOJA – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "93154823466",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 12,
     "generated_id": 237
   }
 }

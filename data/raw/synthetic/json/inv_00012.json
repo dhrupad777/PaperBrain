@@ -1,95 +1,88 @@
 {
   "seller": {
-    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
-    "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 283, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 488513",
-    "gstin": "27KJKUW1018O1Z4",
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 88, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 481761",
+    "gstin": "27MOSSI5808U1Z7",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts61@talojamfgassn.com",
-    "pan": "SBUUU9389B"
+    "email": "accounts74@labstech.com",
+    "pan": "TJHDM5882M"
   },
   "buyer": {
-    "name": "OMKAR TRADERS",
-    "address": "Flat 184, Sector 42, Mumbai - 438557",
-    "gstin": "27UQLFY4655X1Z6",
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 924, Sector 37, Mumbai - 459242",
+    "gstin": "27XHQLA1022F1Z7",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-630",
-    "date": "31-Mar-25",
+    "no": "PB-020",
+    "date": "04-Aug-24",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3320",
-    "order_date": "24-Mar-25",
+    "order_no": "PO-6797",
+    "order_date": "03-Aug-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Courier",
-    "destination": "Thane",
-    "delivery_terms": "Ex-Works"
+    "destination": "Pune",
+    "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "10",
-      "rate": 435,
-      "amount": 4350
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 3972,
+      "amount": 19860
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
       "qty": "1",
-      "rate": 250,
-      "amount": 250
+      "rate": 2676,
+      "amount": 2676
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "2",
-      "rate": 3017,
-      "amount": 6034
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "3",
-      "rate": 4220,
-      "amount": 12660
+      "qty": "5",
+      "rate": 2319,
+      "amount": 11595
     }
   ],
   "totals": {
-    "subtotal": 23294,
-    "taxable_total": 23294,
-    "cgst_total": 0.0,
-    "sgst_total": 0.0,
-    "tax_total": 0.0
+    "subtotal": 34131,
+    "taxable_total": 34131,
+    "cgst_total": 853.28,
+    "sgst_total": 853.28,
+    "tax_total": 1706.55
   },
   "tax_rows": [
     {
-      "hsn": "853690",
-      "taxable": 23294,
-      "cgst_rate": 0.0,
-      "cgst_amt": 0.0,
-      "sgst_rate": 0.0,
-      "sgst_amt": 0.0
+      "hsn": "998361",
+      "taxable": 34131,
+      "cgst_rate": 2.5,
+      "cgst_amt": 853.28,
+      "sgst_rate": 2.5,
+      "sgst_amt": 853.28
     }
   ],
-  "amount_in_words": "INR Twenty-Three Thousand, Two Hundred And Ninety-Four Only",
-  "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Monthly service billing.",
+  "amount_in_words": "INR Thirty-Five Thousand, Eight Hundred And Thirty-Eight Only",
+  "tax_amount_in_words": "INR One Thousand, Seven Hundred And Seven Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "STATE BANK OF INDIA",
-    "acno": "51819517838",
-    "branch_ifsc": "PUNE – SBIN0012984",
-    "swift": "SBININBBXXX"
+    "name": "ICICI BANK",
+    "acno": "76460585905",
+    "branch_ifsc": "PUNE – ICIC0000456",
+    "swift": "ICICINBBXXX"
   },
   "_meta": {
-    "gst_slab": 0,
+    "gst_slab": 5,
     "generated_id": 12
   }
 }

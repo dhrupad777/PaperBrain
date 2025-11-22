@@ -1,81 +1,81 @@
 {
   "seller": {
-    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
-    "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 271, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 428243",
-    "gstin": "27GMXPD3298A1Z1",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 262, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 421459",
+    "gstin": "27WKBVR6770S1Z8",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts32@talojamfgassn.com",
-    "pan": "JBDTY8057A"
+    "email": "accounts22@vistarealty.com",
+    "pan": "VMIXU3799J"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 105, Sector 47, Mumbai - 400451",
-    "gstin": "27KPJTV2157P1Z2",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 68, Sector 25, Mumbai - 446980",
+    "gstin": "27TWIWE2373V1Z3",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-240",
-    "date": "15-Jan-25",
+    "no": "T-866",
+    "date": "02-Apr-25",
     "delivery_note": "",
-    "payment_terms": "30 Days",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-1372",
-    "order_date": "05-Jan-25",
+    "order_no": "PO-1143",
+    "order_date": "02-Apr-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Hand Delivery",
-    "destination": "Mumbai",
-    "delivery_terms": "CIF"
+    "destination": "Pune",
+    "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "2",
-      "rate": 2230,
-      "amount": 4460
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 3515,
+      "amount": 35150
     },
     {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
+      "particulars": "Office Rent",
+      "hsn": "999599",
       "qty": "10",
-      "rate": 4225,
-      "amount": 42250
+      "rate": 843,
+      "amount": 8430
     }
   ],
   "totals": {
-    "subtotal": 46710,
-    "taxable_total": 46710,
-    "cgst_total": 6539.4,
-    "sgst_total": 6539.4,
-    "tax_total": 13078.8
+    "subtotal": 43580,
+    "taxable_total": 43580,
+    "cgst_total": 2614.8,
+    "sgst_total": 2614.8,
+    "tax_total": 5229.6
   },
   "tax_rows": [
     {
-      "hsn": "997331",
-      "taxable": 46710,
-      "cgst_rate": 14.0,
-      "cgst_amt": 6539.4,
-      "sgst_rate": 14.0,
-      "sgst_amt": 6539.4
+      "hsn": "999599",
+      "taxable": 43580,
+      "cgst_rate": 6.0,
+      "cgst_amt": 2614.8,
+      "sgst_rate": 6.0,
+      "sgst_amt": 2614.8
     }
   ],
-  "amount_in_words": "INR Fifty-Nine Thousand, Seven Hundred And Eighty-Nine Only",
-  "tax_amount_in_words": "INR Thirteen Thousand And Seventy-Nine Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Forty-Eight Thousand, Eight Hundred And Ten Only",
+  "tax_amount_in_words": "INR Five Thousand, Two Hundred And Thirty Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "31562513583",
-    "branch_ifsc": "MUMBAI – HDFC0000123",
+    "acno": "59154393773",
+    "branch_ifsc": "PUNE – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 28,
+    "gst_slab": 12,
     "generated_id": 32
   }
 }

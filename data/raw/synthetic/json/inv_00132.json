@@ -1,109 +1,109 @@
 {
   "seller": {
-    "name": "LABS TECH SOLUTIONS",
-    "name_short": "LABS TECH",
-    "addr1": "Plot 124, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 498941",
-    "gstin": "27AECIQ5654S1Z7",
+    "name": "TALOJA MANUFACTURERS' ASSOCIATION",
+    "name_short": "TALOJA MFG ASSN",
+    "addr1": "Plot 751, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 481577",
+    "gstin": "27PIHXE6068U1Z1",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts18@labstech.com",
-    "pan": "BGXZN2044B"
+    "email": "accounts3@talojamfgassn.com",
+    "pan": "GQGIL3929B"
   },
   "buyer": {
-    "name": "GREENFIELD LOGISTICS",
-    "address": "Flat 545, Sector 49, Mumbai - 415462",
-    "gstin": "27ZNKHL5749F1Z5",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 124, Sector 35, Mumbai - 454723",
+    "gstin": "27NVCVX4171C1Z1",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-812",
-    "date": "28-Nov-24",
+    "no": "INV-485",
+    "date": "24-Jul-24",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-8749",
-    "order_date": "21-Nov-24",
+    "order_no": "PO-2507",
+    "order_date": "21-Jul-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Pune",
-    "delivery_terms": "CIF"
+    "dispatch_through": "Hand Delivery",
+    "destination": "Thane",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
+      "particulars": "Office Rent",
+      "hsn": "999599",
       "qty": "1",
-      "rate": 2203,
-      "amount": 2203
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "5",
-      "rate": 3782,
-      "amount": 18910
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "10",
-      "rate": 2789,
-      "amount": 27890
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "10",
-      "rate": 1327,
-      "amount": 13270
+      "rate": 1464,
+      "amount": 1464
     },
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
-      "qty": "2",
-      "rate": 3692,
-      "amount": 7384
+      "qty": "10",
+      "rate": 3293,
+      "amount": 32930
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 821,
+      "amount": 4105
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "5",
+      "rate": 833,
+      "amount": 4165
     },
     {
       "particulars": "Consulting Services",
       "hsn": "998312",
       "qty": "5",
-      "rate": 2108,
-      "amount": 10540
+      "rate": 395,
+      "amount": 1975
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 3708,
+      "amount": 3708
     }
   ],
   "totals": {
-    "subtotal": 80197,
-    "taxable_total": 80197,
-    "cgst_total": 4811.82,
-    "sgst_total": 4811.82,
-    "tax_total": 9623.64
+    "subtotal": 48347,
+    "taxable_total": 48347,
+    "cgst_total": 1208.67,
+    "sgst_total": 1208.67,
+    "tax_total": 2417.35
   },
   "tax_rows": [
     {
-      "hsn": "998312",
-      "taxable": 80197,
-      "cgst_rate": 6.0,
-      "cgst_amt": 4811.82,
-      "sgst_rate": 6.0,
-      "sgst_amt": 4811.82
+      "hsn": "999599",
+      "taxable": 48347,
+      "cgst_rate": 2.5,
+      "cgst_amt": 1208.67,
+      "sgst_rate": 2.5,
+      "sgst_amt": 1208.67
     }
   ],
-  "amount_in_words": "INR Eighty-Nine Thousand, Eight Hundred And Twenty-One Only",
-  "tax_amount_in_words": "INR Nine Thousand, Six Hundred And Twenty-Four Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Fifty Thousand, Seven Hundred And Sixty-Four Only",
+  "tax_amount_in_words": "INR Two Thousand, Four Hundred And Seventeen Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "ICICI BANK",
-    "acno": "28241772148",
-    "branch_ifsc": "TALOJA – ICIC0000456",
-    "swift": "ICICINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "22578808504",
+    "branch_ifsc": "TALOJA – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 5,
     "generated_id": 132
   }
 }

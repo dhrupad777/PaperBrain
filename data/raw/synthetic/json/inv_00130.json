@@ -2,97 +2,83 @@
   "seller": {
     "name": "TALOJA MANUFACTURERS' ASSOCIATION",
     "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 907, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 468581",
-    "gstin": "27HAJRW4952O1Z4",
+    "addr1": "Plot 131, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 439484",
+    "gstin": "27ZFPVE8087L1Z4",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts99@talojamfgassn.com",
-    "pan": "OEJAR1051J"
+    "email": "accounts22@talojamfgassn.com",
+    "pan": "LKMAW2122P"
   },
   "buyer": {
-    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
-    "address": "Flat 955, Sector 9, Mumbai - 486798",
-    "gstin": "27MIHIO7243C1Z7",
+    "name": "UNITY CONSTRUCTIONS",
+    "address": "Flat 295, Sector 8, Mumbai - 421154",
+    "gstin": "27OYJYQ9954N1Z9",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "GST-733",
-    "date": "12-Aug-25",
+    "no": "GST-820",
+    "date": "05-Jul-24",
     "delivery_note": "",
-    "payment_terms": "Immediate",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-9278",
-    "order_date": "08-Aug-25",
+    "order_no": "PO-4156",
+    "order_date": "30-Jun-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Thane",
-    "delivery_terms": ""
+    "dispatch_through": "Courier",
+    "destination": "Navi Mumbai",
+    "delivery_terms": "Ex-Works"
   },
   "items": [
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "2",
-      "rate": 497,
-      "amount": 994
-    },
-    {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
-      "qty": "5",
-      "rate": 3820,
-      "amount": 19100
-    },
-    {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "1",
-      "rate": 979,
-      "amount": 979
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "1",
-      "rate": 3751,
-      "amount": 3751
-    },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
       "qty": "2",
-      "rate": 4398,
-      "amount": 8796
+      "rate": 4033,
+      "amount": 8066
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "2",
+      "rate": 2300,
+      "amount": 4600
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 2804,
+      "amount": 14020
     }
   ],
   "totals": {
-    "subtotal": 33620,
-    "taxable_total": 33620,
-    "cgst_total": 3025.8,
-    "sgst_total": 3025.8,
-    "tax_total": 6051.6
+    "subtotal": 26686,
+    "taxable_total": 26686,
+    "cgst_total": 2401.74,
+    "sgst_total": 2401.74,
+    "tax_total": 4803.48
   },
   "tax_rows": [
     {
-      "hsn": "997331",
-      "taxable": 33620,
+      "hsn": "998361",
+      "taxable": 26686,
       "cgst_rate": 9.0,
-      "cgst_amt": 3025.8,
+      "cgst_amt": 2401.74,
       "sgst_rate": 9.0,
-      "sgst_amt": 3025.8
+      "sgst_amt": 2401.74
     }
   ],
-  "amount_in_words": "INR Thirty-Nine Thousand, Six Hundred And Seventy-Two Only",
-  "tax_amount_in_words": "INR Six Thousand And Fifty-Two Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Thirty-One Thousand, Four Hundred And Eighty-Nine Only",
+  "tax_amount_in_words": "INR Four Thousand, Eight Hundred And Three Only",
+  "remarks": "Subscription renewal invoice.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "87431805939",
-    "branch_ifsc": "TALOJA – SBIN0012984",
+    "acno": "58306212444",
+    "branch_ifsc": "PUNE – SBIN0012984",
     "swift": "SBININBBXXX"
   },
   "_meta": {

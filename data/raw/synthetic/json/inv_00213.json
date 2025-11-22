@@ -1,116 +1,88 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 707, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 484490",
-    "gstin": "27PEFCF7447F1Z3",
+    "name": "LABS TECH SOLUTIONS",
+    "name_short": "LABS TECH",
+    "addr1": "Plot 771, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 406956",
+    "gstin": "27AXIRT3725K1Z5",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts37@nexolindustries.com",
-    "pan": "OFTRE9578F"
+    "email": "accounts89@labstech.com",
+    "pan": "GIYAH7398J"
   },
   "buyer": {
-    "name": "STARLIGHT CATERERS",
-    "address": "Flat 360, Sector 34, Mumbai - 452475",
-    "gstin": "27IMXON4858C1Z1",
+    "name": "BLUEWAVE RETAILS",
+    "address": "Flat 479, Sector 27, Mumbai - 400757",
+    "gstin": "27GWCWK8967E1Z1",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-244",
-    "date": "21-Jan-25",
+    "no": "PB-582",
+    "date": "07-Apr-25",
     "delivery_note": "",
-    "payment_terms": "Credit",
+    "payment_terms": "15 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-3967",
-    "order_date": "21-Jan-25",
+    "order_no": "PO-5337",
+    "order_date": "04-Apr-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Hand Delivery",
+    "dispatch_through": "Courier",
     "destination": "Thane",
-    "delivery_terms": "FOB"
+    "delivery_terms": ""
   },
   "items": [
-    {
-      "particulars": "Office Rent",
-      "hsn": "999599",
-      "qty": "1",
-      "rate": 3526,
-      "amount": 3526
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "2",
-      "rate": 697,
-      "amount": 1394
-    },
-    {
-      "particulars": "Catering Services",
-      "hsn": "996331",
-      "qty": "5",
-      "rate": 490,
-      "amount": 2450
-    },
-    {
-      "particulars": "Consulting Services",
-      "hsn": "998312",
-      "qty": "10",
-      "rate": 1311,
-      "amount": 13110
-    },
     {
       "particulars": "Furniture Purchase",
       "hsn": "940330",
       "qty": "2",
-      "rate": 4383,
-      "amount": 8766
+      "rate": 1160,
+      "amount": 2320
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "1",
+      "rate": 1288,
+      "amount": 1288
     },
     {
       "particulars": "Advertising Services",
       "hsn": "998361",
-      "qty": "3",
-      "rate": 1403,
-      "amount": 4209
-    },
-    {
-      "particulars": "Electrical Supplies",
-      "hsn": "853690",
-      "qty": "3",
-      "rate": 3238,
-      "amount": 9714
+      "qty": "2",
+      "rate": 3492,
+      "amount": 6984
     }
   ],
   "totals": {
-    "subtotal": 43169,
-    "taxable_total": 43169,
-    "cgst_total": 2590.14,
-    "sgst_total": 2590.14,
-    "tax_total": 5180.28
+    "subtotal": 10592,
+    "taxable_total": 10592,
+    "cgst_total": 264.8,
+    "sgst_total": 264.8,
+    "tax_total": 529.6
   },
   "tax_rows": [
     {
-      "hsn": "999599",
-      "taxable": 43169,
-      "cgst_rate": 6.0,
-      "cgst_amt": 2590.14,
-      "sgst_rate": 6.0,
-      "sgst_amt": 2590.14
+      "hsn": "940330",
+      "taxable": 10592,
+      "cgst_rate": 2.5,
+      "cgst_amt": 264.8,
+      "sgst_rate": 2.5,
+      "sgst_amt": 264.8
     }
   ],
-  "amount_in_words": "INR Forty-Eight Thousand, Three Hundred And Forty-Nine Only",
-  "tax_amount_in_words": "INR Five Thousand, One Hundred And Eighty Only",
-  "remarks": "Subscription renewal invoice.",
+  "amount_in_words": "INR Eleven Thousand, One Hundred And Twenty-Two Only",
+  "tax_amount_in_words": "INR Five Hundred And Thirty Only",
+  "remarks": "Goods supplied as per order.",
   "bank": {
-    "name": "HDFC BANK",
-    "acno": "78518095656",
-    "branch_ifsc": "MUMBAI – HDFC0000123",
-    "swift": "HDFCINBBXXX"
+    "name": "STATE BANK OF INDIA",
+    "acno": "39387654580",
+    "branch_ifsc": "PUNE – SBIN0012984",
+    "swift": "SBININBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 5,
     "generated_id": 213
   }
 }

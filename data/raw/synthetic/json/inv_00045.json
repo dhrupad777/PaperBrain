@@ -1,81 +1,123 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 702, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 491731",
-    "gstin": "27ESYHH1831K1Z4",
+    "name": "KANTEEN FOODS LLP",
+    "name_short": "KANTEEN FOODS",
+    "addr1": "Plot 145, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 456651",
+    "gstin": "27XWNRI2604G1Z7",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts83@nexolindustries.com",
-    "pan": "SWAXE3270R"
+    "email": "accounts41@kanteenfoods.com",
+    "pan": "FCQTP7667H"
   },
   "buyer": {
-    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
-    "address": "Flat 552, Sector 20, Mumbai - 459084",
-    "gstin": "27FIEUL6351W1Z4",
+    "name": "GREENFIELD LOGISTICS",
+    "address": "Flat 900, Sector 3, Mumbai - 436223",
+    "gstin": "27BEAIC1230X1Z8",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "PB-766",
-    "date": "06-Sep-24",
+    "no": "T-461",
+    "date": "16-Oct-24",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "30 Days",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-7271",
-    "order_date": "05-Sep-24",
+    "order_no": "PO-9181",
+    "order_date": "16-Oct-24",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Courier",
-    "destination": "Navi Mumbai",
-    "delivery_terms": "CIF"
+    "dispatch_through": "Email",
+    "destination": "Mumbai",
+    "delivery_terms": "FOB"
   },
   "items": [
     {
-      "particulars": "Software Subscription",
-      "hsn": "997331",
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 310,
+      "amount": 930
+    },
+    {
+      "particulars": "Office Rent",
+      "hsn": "999599",
+      "qty": "10",
+      "rate": 2043,
+      "amount": 20430
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 875,
+      "amount": 8750
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
       "qty": "2",
-      "rate": 1099,
-      "amount": 2198
+      "rate": 3119,
+      "amount": 6238
+    },
+    {
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
+      "qty": "10",
+      "rate": 979,
+      "amount": 9790
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "3",
+      "rate": 4836,
+      "amount": 14508
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 359,
+      "amount": 3590
     },
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
-      "qty": "10",
-      "rate": 444,
-      "amount": 4440
+      "qty": "5",
+      "rate": 1263,
+      "amount": 6315
     }
   ],
   "totals": {
-    "subtotal": 6638,
-    "taxable_total": 6638,
-    "cgst_total": 165.95,
-    "sgst_total": 165.95,
-    "tax_total": 331.9
+    "subtotal": 70551,
+    "taxable_total": 70551,
+    "cgst_total": 0.0,
+    "sgst_total": 0.0,
+    "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "997331",
-      "taxable": 6638,
-      "cgst_rate": 2.5,
-      "cgst_amt": 165.95,
-      "sgst_rate": 2.5,
-      "sgst_amt": 165.95
+      "hsn": "998361",
+      "taxable": 70551,
+      "cgst_rate": 0.0,
+      "cgst_amt": 0.0,
+      "sgst_rate": 0.0,
+      "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Six Thousand, Nine Hundred And Seventy Only",
-  "tax_amount_in_words": "INR Three Hundred And Thirty-Two Only",
-  "remarks": "Lease compensation for premises.",
+  "amount_in_words": "INR Seventy Thousand, Five Hundred And Fifty-One Only",
+  "tax_amount_in_words": "INR Zero Only",
+  "remarks": "Monthly service billing.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "68547758782",
+    "acno": "96313388073",
     "branch_ifsc": "PUNE – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 5,
+    "gst_slab": 0,
     "generated_id": 45
   }
 }

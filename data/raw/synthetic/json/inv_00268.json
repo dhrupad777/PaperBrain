@@ -1,81 +1,88 @@
 {
   "seller": {
-    "name": "NEXOL INDUSTRIES PVT LTD",
-    "name_short": "NEXOL INDUSTRIES",
-    "addr1": "Plot 551, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 402355",
-    "gstin": "27WZBCL3499V1Z5",
+    "name": "VISTA REALTY SERVICES",
+    "name_short": "VISTA REALTY",
+    "addr1": "Plot 836, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 418679",
+    "gstin": "27EWELV6396C1Z2",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts57@nexolindustries.com",
-    "pan": "HPZJU5109N"
+    "email": "accounts83@vistarealty.com",
+    "pan": "RSQSI4084R"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 145, Sector 5, Mumbai - 419790",
-    "gstin": "27DMDUE5645P1Z5",
+    "name": "SUNRISE ELECTRONICS",
+    "address": "Flat 383, Sector 30, Mumbai - 415910",
+    "gstin": "27SZGDH1240Z1Z5",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "INV-417",
-    "date": "19-May-25",
+    "no": "INV-557",
+    "date": "11-Apr-25",
     "delivery_note": "",
     "payment_terms": "Credit",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-5998",
-    "order_date": "12-May-25",
+    "order_no": "PO-4050",
+    "order_date": "10-Apr-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
-    "dispatch_through": "Email",
-    "destination": "Thane",
-    "delivery_terms": "CIF"
+    "dispatch_through": "Hand Delivery",
+    "destination": "Pune",
+    "delivery_terms": "FOB"
   },
   "items": [
     {
       "particulars": "Electrical Supplies",
       "hsn": "853690",
-      "qty": "2",
-      "rate": 4028,
-      "amount": 8056
+      "qty": "1",
+      "rate": 4422,
+      "amount": 4422
     },
     {
-      "particulars": "Office Rent",
-      "hsn": "999599",
+      "particulars": "Furniture Purchase",
+      "hsn": "940330",
       "qty": "5",
-      "rate": 4899,
-      "amount": 24495
+      "rate": 3638,
+      "amount": 18190
+    },
+    {
+      "particulars": "Consulting Services",
+      "hsn": "998312",
+      "qty": "10",
+      "rate": 1645,
+      "amount": 16450
     }
   ],
   "totals": {
-    "subtotal": 32551,
-    "taxable_total": 32551,
-    "cgst_total": 1953.06,
-    "sgst_total": 1953.06,
-    "tax_total": 3906.12
+    "subtotal": 39062,
+    "taxable_total": 39062,
+    "cgst_total": 3515.58,
+    "sgst_total": 3515.58,
+    "tax_total": 7031.16
   },
   "tax_rows": [
     {
       "hsn": "853690",
-      "taxable": 32551,
-      "cgst_rate": 6.0,
-      "cgst_amt": 1953.06,
-      "sgst_rate": 6.0,
-      "sgst_amt": 1953.06
+      "taxable": 39062,
+      "cgst_rate": 9.0,
+      "cgst_amt": 3515.58,
+      "sgst_rate": 9.0,
+      "sgst_amt": 3515.58
     }
   ],
-  "amount_in_words": "INR Thirty-Six Thousand, Four Hundred And Fifty-Seven Only",
-  "tax_amount_in_words": "INR Three Thousand, Nine Hundred And Six Only",
-  "remarks": "Goods supplied as per order.",
+  "amount_in_words": "INR Forty-Six Thousand And Ninety-Three Only",
+  "tax_amount_in_words": "INR Seven Thousand And Thirty-One Only",
+  "remarks": "Monthly service billing.",
   "bank": {
     "name": "HDFC BANK",
-    "acno": "35244017036",
-    "branch_ifsc": "PUNE – HDFC0000123",
+    "acno": "33490147537",
+    "branch_ifsc": "MUMBAI – HDFC0000123",
     "swift": "HDFCINBBXXX"
   },
   "_meta": {
-    "gst_slab": 12,
+    "gst_slab": 18,
     "generated_id": 268
   }
 }

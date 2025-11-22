@@ -2,90 +2,111 @@
   "seller": {
     "name": "TALOJA MANUFACTURERS' ASSOCIATION",
     "name_short": "TALOJA MFG ASSN",
-    "addr1": "Plot 651, MIDC Area",
-    "addr2": "Taloja, Navi Mumbai - 473218",
-    "gstin": "27LAAYI9469X1Z8",
+    "addr1": "Plot 886, MIDC Area",
+    "addr2": "Taloja, Navi Mumbai - 496106",
+    "gstin": "27DYBXA7641Z1Z3",
     "state_name": "Maharashtra",
     "state_code": "27",
-    "email": "accounts97@talojamfgassn.com",
-    "pan": "VSVHK8172X"
+    "email": "accounts16@talojamfgassn.com",
+    "pan": "QEEXN5245P"
   },
   "buyer": {
-    "name": "BLUEWAVE RETAILS",
-    "address": "Flat 679, Sector 2, Mumbai - 484510",
-    "gstin": "27NMFAN6167J1Z7",
+    "name": "SHREE SIDDHI VINAYAK ENTERPRISES",
+    "address": "Flat 373, Sector 18, Mumbai - 448026",
+    "gstin": "27BMUHQ5441M1Z4",
     "state_name": "Maharashtra",
     "state_code": "27"
   },
   "invoice": {
-    "no": "T-485",
-    "date": "17-Sep-24",
+    "no": "INV-658",
+    "date": "25-Aug-25",
     "delivery_note": "",
-    "payment_terms": "15 Days",
+    "payment_terms": "Immediate",
     "supplier_ref": "",
     "other_ref": "",
-    "order_no": "PO-6487",
-    "order_date": "15-Sep-24",
+    "order_no": "PO-2380",
+    "order_date": "17-Aug-25",
     "dispatch_doc": "",
     "delivery_note_date": "",
     "dispatch_through": "Email",
     "destination": "Navi Mumbai",
-    "delivery_terms": ""
+    "delivery_terms": "Ex-Works"
   },
   "items": [
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
-      "qty": "5",
-      "rate": 1998,
-      "amount": 9990
-    },
-    {
-      "particulars": "Advertising Services",
-      "hsn": "998361",
-      "qty": "3",
-      "rate": 4787,
-      "amount": 14361
+      "particulars": "Software Subscription",
+      "hsn": "997331",
+      "qty": "1",
+      "rate": 4139,
+      "amount": 4139
     },
     {
       "particulars": "Software Subscription",
       "hsn": "997331",
       "qty": "5",
-      "rate": 840,
-      "amount": 4200
+      "rate": 404,
+      "amount": 2020
     },
     {
-      "particulars": "Furniture Purchase",
-      "hsn": "940330",
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "1",
+      "rate": 2017,
+      "amount": 2017
+    },
+    {
+      "particulars": "Electrical Supplies",
+      "hsn": "853690",
+      "qty": "5",
+      "rate": 2677,
+      "amount": 13385
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
+      "qty": "10",
+      "rate": 2155,
+      "amount": 21550
+    },
+    {
+      "particulars": "Advertising Services",
+      "hsn": "998361",
+      "qty": "5",
+      "rate": 1704,
+      "amount": 8520
+    },
+    {
+      "particulars": "Catering Services",
+      "hsn": "996331",
       "qty": "3",
-      "rate": 4425,
-      "amount": 13275
+      "rate": 3600,
+      "amount": 10800
     }
   ],
   "totals": {
-    "subtotal": 41826,
-    "taxable_total": 41826,
+    "subtotal": 62431,
+    "taxable_total": 62431,
     "cgst_total": 0.0,
     "sgst_total": 0.0,
     "tax_total": 0.0
   },
   "tax_rows": [
     {
-      "hsn": "940330",
-      "taxable": 41826,
+      "hsn": "997331",
+      "taxable": 62431,
       "cgst_rate": 0.0,
       "cgst_amt": 0.0,
       "sgst_rate": 0.0,
       "sgst_amt": 0.0
     }
   ],
-  "amount_in_words": "INR Forty-One Thousand, Eight Hundred And Twenty-Six Only",
+  "amount_in_words": "INR Sixty-Two Thousand, Four Hundred And Thirty-One Only",
   "tax_amount_in_words": "INR Zero Only",
-  "remarks": "Goods supplied as per order.",
+  "remarks": "Monthly service billing.",
   "bank": {
     "name": "STATE BANK OF INDIA",
-    "acno": "71373519502",
-    "branch_ifsc": "TALOJA – SBIN0012984",
+    "acno": "73591540732",
+    "branch_ifsc": "PUNE – SBIN0012984",
     "swift": "SBININBBXXX"
   },
   "_meta": {
