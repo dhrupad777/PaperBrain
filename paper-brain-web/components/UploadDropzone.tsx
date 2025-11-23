@@ -23,7 +23,7 @@ export default function UploadDropzone({ onDone }: { onDone: (data: any) => void
   }
 
   return (
-    <div className="border-2 border-dashed rounded-xl p-8 text-center">
+    <div className="border-2 border-dashed border-slate-300 rounded-xl p-8 text-center bg-slate-50">
       <input
         type="file"
         accept="image/*,application/pdf"
@@ -32,10 +32,10 @@ export default function UploadDropzone({ onDone }: { onDone: (data: any) => void
         id="fileInput"
       />
       <label htmlFor="fileInput" className="cursor-pointer">
-        <div className="text-lg font-semibold">Upload Invoice</div>
-        <div className="text-sm opacity-70 mt-1">PNG/JPG/PDF supported</div>
+        <div className="text-lg font-semibold text-slate-900">Upload Invoice</div>
+        <div className="text-sm text-slate-700 mt-1">PNG/JPG/PDF supported</div>
       </label>
-      {loading && <div className="mt-4 text-sm">Analyzing…</div>}
+      {loading && <div className="mt-4 text-sm text-slate-700">Analyzing…</div>}
     </div>
   );
 }

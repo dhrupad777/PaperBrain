@@ -1,58 +1,36 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
 import UploadDropzone from '@/components/UploadDropzone';
+import ResultCards from '@/components/ResultCards';
 
 export default function UploadPage() {
-  const router = useRouter();
-  const [uploading, setUploading] = useState(false);
-
-  const handleUpload = async (file: File) => {
-    setUploading(true);
-    try {
-      const formData = new FormData();
-      formData.append('file', file);
-
-      const uploadRes = await fetch('/api/upload', {
-        method: 'POST',
-        body: formData,
-      });
-
-      if (!uploadRes.ok) {
-        throw new Error('Upload failed');
-      }
-
-      const { id } = await uploadRes.json();
-
-      // Trigger analysis
-      const analyzeRes = await fetch('/api/analyze', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ fileId: id }),
-      });
-
-      if (!analyzeRes.ok) {
-        throw new Error('Analysis failed');
-      }
-
-      const result = await analyzeRes.json();
-
-      // Navigate to results page
-      router.push(`/results/${id}`);
-    } catch (error) {
-      console.error('Upload error:', error);
-      alert('Failed to upload and analyze invoice');
-    } finally {
-      setUploading(false);
-    }
-  };
+  const [data, setData] = useState<any>(null);
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Upload Invoice</h1>
-      <UploadDropzone onUpload={handleUpload} uploading={uploading} />
-    </div>
+    <main className="min-h-screen bg-white text-slate-900 p-6">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-2xl font-bold">Upload Invoice Photo</h1>
+        <p className="text-sm text-slate-700 mt-1 mb-6">
+          Upload an invoice image to extract fields, detect anomalies, and forecast spend.
+        </p>
+
+        <div className="mt-6">
+          <UploadDropzone onDone={setData} />
+        </div>
+
+        {data?.result && <ResultCards result={data.result} />}
+
+        {data?.result?.ocr_text && (
+          <section className="mt-6 rounded-xl bg-white p-4 border border-slate-200 shadow">
+            <h2 className="font-semibold mb-2 text-slate-900">OCR Debug</h2>
+            <pre className="text-xs whitespace-pre-wrap max-h-64 overflow-auto text-slate-700 bg-slate-50 p-3 rounded border">
+              {data.result.ocr_text}
+            </pre>
+          </section>
+        )}
+      </div>
+    </main>
   );
 }
 

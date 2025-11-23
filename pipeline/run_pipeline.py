@@ -1,48 +1,19 @@
 import json
 from pathlib import Path
 import sys
-import re
 
 # Add project root to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-import pytesseract
-from PIL import Image
 import torch
 
 from models.infer_autoencoder import anomaly_score
-from models.bilstm_crf import BiLSTMCRF
+from models.infer_bilstm_crf import load_bilstm_extractor
+from pipeline.ocr_gcp import ocr_tokens_gcp
+from pipeline.ocr import ocr_tokens  # keep Tesseract fallback
 
 # CNN preprocessing (optional - for future CNN classifier integration)
 # from pipeline.preprocess_cnn import load_image_tensor
-
-BILSTM_CKPT = Path("models/checkpoints/bilstm_crf.pt")
-
-# Try to set Tesseract path for Windows
-import os
-if os.name == 'nt':  # Windows
-    tesseract_paths = [
-        r'C:\Program Files\Tesseract-OCR\tesseract.exe',
-        r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe',
-    ]
-    for path in tesseract_paths:
-        if os.path.exists(path):
-            pytesseract.pytesseract.tesseract_cmd = path
-            break
-
-def load_bilstm_extractor():
-    ckpt = torch.load(BILSTM_CKPT, map_location="cpu")
-    vocab, tag2id, id2tag = ckpt["vocab"], ckpt["tag2id"], ckpt["id2tag"]
-    max_len = ckpt["max_len"]
-
-    model = BiLSTMCRF(len(vocab), len(tag2id))
-    model.load_state_dict(ckpt["model_state"])
-    model.eval()
-    return model, vocab, id2tag, max_len
-
-def ocr_tokens(png_path):
-    text = pytesseract.image_to_string(Image.open(png_path).convert("RGB"))
-    return re.findall(r"[A-Za-z0-9₹.,/%\-]+", text)
 
 def extract_with_bilstm(tokens, model, vocab, id2tag, max_len):
     x = [vocab.get(t.lower(), vocab["<UNK>"]) for t in tokens][:max_len]
@@ -79,12 +50,24 @@ def extract_with_bilstm(tokens, model, vocab, id2tag, max_len):
 def run_pipeline(png_path: str, json_gt_path: str=None):
     png_path = Path(png_path)
 
-    # 1) OCR
-    tokens = ocr_tokens(png_path)
+    # ---- OCR (GCP primary, Tesseract fallback) ----
+    # Pass original image path directly to GCP - no preprocessing before OCR
+    # GCP Vision handles its own image enhancement
+    try:
+        text, tokens = ocr_tokens_gcp(str(png_path))
+        print("✅ GCP Vision OCR used")
+    except Exception as e:
+        print("⚠️ GCP OCR failed, fallback to Tesseract:", e)
+        text, tokens = ocr_tokens(str(png_path))
 
     # 2) BiLSTM-CRF extraction
     model, vocab, id2tag, max_len = load_bilstm_extractor()
     fields, tags = extract_with_bilstm(tokens, model, vocab, id2tag, max_len)
+
+    # 2.5) Fallback extraction if ANN returns empty
+    if not fields:
+        from pipeline.extract import fallback_extract
+        fields = fallback_extract(text)
 
     # 3) Anomaly score (if GT json provided)
     anomaly = None
@@ -98,11 +81,17 @@ def run_pipeline(png_path: str, json_gt_path: str=None):
             "threshold": thr
         }
 
+    # 4) Forecast (mocked for prototype)
+    forecast_next_total = 1250.00  # Mock value or implement simple logic
+
     return {
+        "ocr_text": text,
+        "ocr_tokens_preview": tokens[:200],
         "tokens": tokens,
         "tags": tags,
         "extracted_fields": fields,
-        "anomaly": anomaly
+        "anomaly": anomaly,
+        "forecast_next_total": forecast_next_total
     }
 
 # Alias for server.py compatibility

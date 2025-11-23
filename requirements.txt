@@ -1,5 +1,4 @@
 # Core dependencies
-streamlit
 Pillow==10.4.0
 numpy
 pandas
@@ -8,6 +7,8 @@ pandas
 pytesseract
 pdf2image
 PyMuPDF  # pymupdf (imported as fitz)
+opencv-python
+google-cloud-vision  # cv2 for OCR preprocessing
 
 # Machine Learning
 scikit-learn

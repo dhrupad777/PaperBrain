@@ -1,7 +1,8 @@
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
-import shutil, uuid, json
+import uuid, json, io
 from pathlib import Path
+from PIL import Image
 
 from pipeline.run_pipeline import run_on_invoice
 
@@ -20,12 +21,16 @@ TMP_DIR.mkdir(parents=True, exist_ok=True)
 
 @app.post("/analyze")
 async def analyze_invoice(file: UploadFile = File(...)):
-    # save upload
     file_id = str(uuid.uuid4())
-    png_path = TMP_DIR / f"{file_id}.png"
 
-    with png_path.open("wb") as buffer:
-        shutil.copyfileobj(file.file, buffer)
+    # Read bytes
+    content = await file.read()
+
+    # Convert JPG/PDF/etc to PNG for OCR pipeline
+    img = Image.open(io.BytesIO(content)).convert("RGB")
+
+    png_path = TMP_DIR / f"{file_id}.png"
+    img.save(png_path)
 
     # for prototype, we also need JSON if anomaly uses GT
     # if not present, anomaly will be skipped in pipeline (you already coded that)
