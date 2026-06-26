@@ -1,0 +1,4 @@
+id,tag_number,model_number,manufacturer,functional_area,base_emissions_co2_ppm
+PUMP-101,P-101,XR-900,FlowServe,Cooling,45
+VALVE-020,V-20,V-LOK-2,Swagelok,Cooling,0
+BOILER-04,B-04,BLR-MAX,Thermax,Power-Gen,320

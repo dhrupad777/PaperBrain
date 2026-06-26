@@ -1,0 +1,33 @@
+# Secrets and Keys
+Service account Key/
+*service-account*.json
+paper-brain-*.json
+*.pem
+.env*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+build/
+.pnp
+.pnp.*
+.yarn/*
+
+# Logs and PIDs
+*.log
+*.pid
+uvicorn_err.txt
+uvicorn_out.txt
+
+# OS
+.DS_Store
+Thumbs.db
